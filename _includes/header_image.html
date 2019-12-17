@@ -1,0 +1,23 @@
+{% assign roundels = "papers, health, payment" | split: ", " %}
+
+<div class="header-image">
+    <div class="container">
+        <div class="header-image__wrapper">
+            <div class="header-image__left">
+                <div class="header-image__image-wrapper"><img src="/images/logo-color.png" alt="{{site.title}}" /></div>
+                <div class="header-image__content">
+                    {{include.content | markdownify}}
+                </div>
+            </div>
+            <div class="header-image__right">
+                {% for roundel in roundels %}
+                    {% include roundel.html title=roundel %}
+                {% endfor %}
+            </div>
+            <div class="header-image__footer">
+                <p>Check out our online tools</p>
+                <span class="fas fa-chevron-down"></span>
+            </div>
+        </div>
+    </div>
+</div>

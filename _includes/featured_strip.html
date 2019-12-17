@@ -1,0 +1,17 @@
+{% assign seen_on = "mirror, mail, msn, telegraph" | split: ", " %}
+
+<div class="featured-strip">
+    <div class="container">
+        <div class="featured-strip__wrapper">
+            <div class="featured-strip__title">
+                <h3>As seen on:</h3>
+            </div>
+            <div class="featured-strip__list">
+                {% for item in seen_on %}
+                {% capture image_src%} /images/{{item}}.png {% endcapture %}
+                <img src="{{image_src | trim}}" alt="{{item | capitalize}}" />
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
