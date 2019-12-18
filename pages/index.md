@@ -21,7 +21,7 @@ select_strip_objects:
     title: Claims 
     link: /claims
 strip_1_content: >- 
-    ## Easily access your requirements
+    ## Access your requirements easily
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 

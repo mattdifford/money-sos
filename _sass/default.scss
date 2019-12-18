@@ -145,8 +145,8 @@ html {
   &__col {
     flex: 0 1 25%;
     padding: 0 25px;
-    &:first-child{
-      padding-left:0;
+    &:first-child {
+      padding-left: 0;
     }
   }
   &__nav-link {
@@ -188,7 +188,7 @@ html {
     color: #707070;
     font-size: 26px;
     transition: all 0.2s ease-in-out 0s;
-    &:hover{
+    &:hover {
       color: $colour_primary;
     }
     &.bg {
@@ -197,7 +197,7 @@ html {
       padding: 5px;
       color: $colour_grey;
       font-size: 16px;
-      &:hover{
+      &:hover {
         background: $colour_primary;
       }
     }

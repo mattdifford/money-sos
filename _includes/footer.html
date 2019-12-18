@@ -2,7 +2,7 @@
     <div class="container">
         <div class="footer__wrapper">
             <div class="footer__col">
-                <img class="footer__logo" src="/images/logo-color.png">
+                <img class="footer__logo" src="/images/logo-color.png" alt={{site.title}}>
                 <p class="footer__logo-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             {% for item in site.data.footer_navigation.items %}
@@ -35,9 +35,9 @@
                 </nav>
             </div>
             <div class="footer__col">
-                <a class="footer__social" href="{{site.facebook_url}}"><span class="fab fa-facebook"></span></a>
-                <a class="footer__social" href="{{site.twitter_url}}"><span class="fab fa-twitter bg"></span></a class="footer__social">
-                <a class="footer__social" href="{{site.instagram_url}}"><span class="fab fa-instagram bg"></span></a class="footer__social">
+                <a class="footer__social" title="Facebook" href="{{site.facebook_url}}"><span class="fab fa-facebook"></span></a>
+                <a class="footer__social" title="Twitter" href="{{site.twitter_url}}"><span class="fab fa-twitter bg"></span></a class="footer__social">
+                <a class="footer__social" title="Instagram" href="{{site.instagram_url}}"><span class="fab fa-instagram bg"></span></a class="footer__social">
             </div>
         </div>
     </div>

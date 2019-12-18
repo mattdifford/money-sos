@@ -4,11 +4,11 @@
         <div class="select-strip__list">
             {% for object in include.objects %}
               <a class="select-strip__item block scrollwatch" href="{{object.link}}">
-                <div class="block__image-wrapper"><img class="block__image" src="{{object.image}}" /></div>
+                <div class="block__image-wrapper"><img class="block__image" src="{{object.image}}" alt="{{object.title}}"/></div>
                 <h4 class="block__title">{{object.title}}</h4>
              </a>
             {%endfor%}
         </div>
-        <div class="select-strip__arrow"><a href="#why_use" class="down-icon__wrapper"><span class="fas fa-chevron-down down-icon"></span></a></div>
+        <div class="select-strip__arrow"><a href="#why_use" title="View more" class="down-icon__wrapper"><span class="fas fa-chevron-down down-icon"></span></a></div>
     </div>
 </div>
