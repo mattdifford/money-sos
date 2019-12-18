@@ -1,0 +1,50 @@
+@import "vars";
+
+.image-strip {
+  background-color: $colour_grey;
+  background-image: url("/images/strip-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 100px 0 40px;
+  position: relative;
+  overflow: hidden;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  &__content {
+    flex: 0 1 50%;
+    padding: 50px 0;
+    h2 {
+      color: $colour_secondary;
+      font-size: 58px;
+      margin-top: 0;
+      line-height: 1.2;
+    }
+    a {
+      @include button();
+      margin-top: 25px;
+    }
+  }
+  &--image {
+    &-right {
+      .image-strip {
+        &__image {
+          order: 2;
+          flex: 0 1 50%;
+        }
+      }
+    }
+    &-left {
+      .image-strip {
+        &__image {
+          position: absolute;
+          left: 0;
+          top: 50px;
+          max-width: 40%;
+        }
+      }
+    }
+  }
+}

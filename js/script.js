@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     var elements = document.querySelectorAll('.scrollwatch');
     var config = {
         threshold: 0.01
@@ -24,4 +24,20 @@ $(document).ready(function(){
     function handleScrolledIntoView(target) {
         target.classList.add('scrolled');
     }
+
+    $('a').on("click", function () {
+        if ($(this).attr("href").charAt(0) === '#') {
+            $("html,body").animate({ scrollTop: $($(this).attr("href")).offset().top - 100 }, 750);
+        }
+    });
+    $('.featured-strip__list').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        infinite: true,
+        variableWidth: true
+    })
 });

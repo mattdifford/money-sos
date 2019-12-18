@@ -1,0 +1,41 @@
+{% if include.full == true %}
+<div class="why-use why-use__full" id="why_use">
+    <div class="container">
+        <div class="why-use__wrapper">
+            <h2 class="why-use__title">Why use {{site.title}}</h2>
+            <p class="why-use__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus vitae libero ac imperdiet.
+                Pellentesque ut ex purus. Sed ac neque nec urna iaculis mollis. Nullam tincidunt eros sed nisi elementum
+                imperdiet. Morbi vehicula sem at dictum finibus. In commodo, ex eu consequat volutpat, nisi velit
+                ultricies
+                neque, et dapibus nisi est et augue. Ut imperdiet vestibulum gravida.</p>
+            <p class="why-use__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed purus enim, fermentum quis molestie ac,
+                convallis id sapien. Etiam dignissim aliquet consectetur. Aliquam nec vestibulum ipsum. Mauris lectus
+                erat,
+                scelerisque vel tortor id, rhoncus fermentum dui. Etiam vestibulum mattis neque, nec rhoncus purus porta
+                quis. Sed laoreet nisi leo, quis semper libero egestas sodales.</p class="why-use__text">
+            <div class="why-use__item-list">
+                <div class="why-use__item scrollwatch">
+                    <img src="/images/trophy.png" />
+                    <p>Sed purus enim, fermentum quis molestie ac</p>
+                </div>
+                <div class="why-use__item scrollwatch">
+                    <img src="/images/tickbox.png" />
+                    <p>Sed purus enim, fermentum quis molestie ac</p>
+                </div>
+                <div class="why-use__item scrollwatch">
+                    <img src="/images/bank.png" />
+                    <p>Sed purus enim, fermentum quis molestie ac</p>
+                </div>
+                <div class="why-use__item scrollwatch">
+                    <img src="/images/phone.png" />
+                    <p>Sed purus enim, fermentum quis molestie ac</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% else %}
+<div class="why-use why-use__small">
+
+</div>
+{% endif %}

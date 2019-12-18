@@ -1,0 +1,48 @@
+@import "vars.scss";
+
+.featured-strip {
+  position: relative;
+  top: -88px;
+  background: $colour_primary;
+  &__wrapper {
+    display: flex;
+  }
+  &__title {
+    background: $colour_secondary;
+    color: #fff;
+    padding-right: 50px;
+    position: relative;
+    flex: 1 0 auto;
+    &:before {
+      content: "";
+      position: absolute;
+      right: 100%;
+      width: 500px;
+      height: 100%;
+      background: $colour_secondary;
+    }
+    &:after {
+      content: "";
+      display: block;
+      height: 75%;
+      background: #fff;
+      width: 1px;
+      position: absolute;
+      top: 12.5%;
+      right: 25px;
+    }
+  }
+  &__list {
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .slick-track {
+      display: flex;
+      align-items: center;
+    }
+    img {
+      margin: 0 25px;
+    }
+  }
+}

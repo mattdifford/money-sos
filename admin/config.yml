@@ -25,3 +25,19 @@ collections: # A list of collections the CMS should be able to edit
         - {label: "Image", name: "image", widget: "image"}
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Link", name: "link", widget: "string"}
+  - name: "config"
+    label: "Config"
+    editor:
+    preview: false
+    files:
+      - label: "Footer navigation"
+        name: "navigation"
+        file: "_data/footer_navigation.yml"
+        fields:
+          - label: "Footer Navigation Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Link, name: link, widget: string}
+              - {label: Is header?, name: header, widget: boolean}

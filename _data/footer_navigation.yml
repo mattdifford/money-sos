@@ -1,0 +1,37 @@
+items:
+  - name: About us
+    link: /about
+    header: true
+  - name: Our story
+    link: /about/story
+    header: false
+  - name: Why choose QuoteSOS?
+    link: /about/why
+    header: false
+  - name: Our culture & ethos
+    link: /about/culture
+    header: false
+  - name: How we help
+    link: /how-we-help
+    header: true
+  - name: Our simple process
+    link: /our-process
+    header: false
+  - name: Claims & care
+    link: /claims-care
+    header: false
+  - name: Wills & trusts
+    link: /wills-trusts
+    header: false
+  - name: Types of cover
+    link: /types
+    header: true
+  - name: Life insurance
+    link: /life-insurance
+    header: false
+  - name: Critical illness cover
+    link: /critical-illness
+    header: false
+  - name: Family income benefit
+    link: /family-income-benefit
+    header: false

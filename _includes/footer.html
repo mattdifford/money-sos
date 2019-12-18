@@ -1,0 +1,44 @@
+<footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__col">
+                <img class="footer__logo" src="/images/logo-color.png">
+                <p class="footer__logo-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            {% for item in site.data.footer_navigation.items %}
+            {% if forloop.first == true %}
+            <div class="footer__col">
+                {% elsif item.header == true and forloop.first == false%}
+            </div>
+            <div class="footer__col">
+                {%endif%}
+                <a href="{{ site.baseurl }}{{ item.link }}"
+                    {%if item.header ==true%}class="footer__nav-link footer__nav-link--header" {%else%}
+                    class="footer__nav-link" {%endif%}>
+                    {{ item.name }}
+                </a>
+                {% if forloop.last == true %}
+            </div>
+            {%endif%}
+            {% endfor %}
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__col">
+                <p>Copyright &copy; MoneySOS {{ "now" | date: "%Y"}}</p>
+            </div>
+            <div class="footer__col">
+                <nav class="footer__small-nav">
+                    <a class="footer__small-nav-link" href="/privacy">Privacy notice & cookies</a>
+                    <a class="footer__small-nav-link" href="/accessiblity">Accessiblity</a>
+                    <a class="footer__small-nav-link" href="/terms-conditions">Terms & conditions</a>
+                    <a class="footer__small-nav-link" href="/modern-slavery-statement">Modern Slavery Statement</a>
+                </nav>
+            </div>
+            <div class="footer__col">
+                <a class="footer__social" href="{{site.facebook_url}}"><span class="fab fa-facebook"></span></a>
+                <a class="footer__social" href="{{site.twitter_url}}"><span class="fab fa-twitter bg"></span></a class="footer__social">
+                <a class="footer__social" href="{{site.instagram_url}}"><span class="fab fa-instagram bg"></span></a class="footer__social">
+            </div>
+        </div>
+    </div>
+</footer>

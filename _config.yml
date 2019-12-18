@@ -34,10 +34,9 @@ sass:
   sass_dir: _sass
 
 # social links
-twitter_username: CHANGE ME
-facebook_username: CHANGE ME
-instagram_username: CHANGE ME
-youtube_username: CHANGE ME
+twitter_url: www.twitter.com 
+facebook_url: www.facebook.com
+instagram_url: www.instagram.com
 
 # Mastodon instances
 # mastodon:

@@ -1,0 +1,24 @@
+$colour_primary: #3c52b1;
+$colour_secondary: #5677ff;
+$colour_tertiary: #e2e8ff;
+$colour_action: #00e69b;
+$colour_black: #111111;
+$colour_grey: #f5f5f5;
+$font_primary: objektiv-mk2, sans-serif;
+
+@mixin button($alt: false) {
+  background: $colour_action;
+  padding: 10px 50px;
+  color: $colour_black;
+  display: inline-block;
+  transition: all 0.2s ease-in-out 0s;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  &:hover {
+    @if $alt {
+      background: $colour_primary;
+    } @else {
+      background: $colour_secondary;
+    }
+    color: #fff;
+  }
+}

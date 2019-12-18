@@ -1,9 +1,9 @@
-<script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js"></script>
+<!-- <script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js" async></script> -->
 <script src="{{ "/js/jquery.min.js" | relative_url }}"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="{{ "/js/modernizr.min.js" | relative_url }}"></script>
 <script src="{{ "/js/anime.min.js" | relative_url }}"></script>
 <script src="{{ "/js/script.js" | relative_url }}"></script>
-<!-- <script src="{{ "/js/lazysizes.min.js" | relative_url }}"></script> -->
 
 <script type="text/javascript">
     var fonts = document.createElement('link');
@@ -12,4 +12,12 @@
     fonts.type = 'text/css';
     var defer = document.getElementsByTagName('link')[0];
     defer.parentNode.insertBefore(fonts, defer);
+
+    var slick = document.createElement('link');
+    slick.rel = 'stylesheet';
+    slick.href = '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css';
+    slick.type = 'text/css';
+    var defer_slick = document.getElementsByTagName('link')[0];
+    defer_slick.parentNode.insertBefore(slick, defer);
+
 </script>
