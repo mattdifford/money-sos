@@ -37,6 +37,11 @@
     </div>
 </div>
 {% else %}
+{% if include.button_text %}
+{%assign button_text = include.button_text%}
+{%else%}
+{%assign button_text = "Select your required tool"%}
+{%endif%}
 <div class="why-use why-use__small" id="why_use">
     <div class="container">
         <div class="why-use__wrapper">
@@ -47,7 +52,7 @@
                 erat,
                 scelerisque vel tortor id, rhoncus fermentum dui. Etiam vestibulum mattis neque, nec rhoncus purus porta
                 quis. Sed laoreet nisi leo, quis semper libero.</p>
-            <a href="#select_strip" class="button button--blue">Select your required tool</a>
+            <a href="#select_strip" class="button button--blue">{{button_text}}</a>
         </div>
     </div>
 </div>
