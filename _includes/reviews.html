@@ -1,0 +1,29 @@
+{% assign reviews = site.data.reviews.items | where: "category", include.category %}
+
+
+{% if reviews.size > 0 %}
+{% if include.link_text %}
+{% assign link_text = include.link_text %}
+{% else %}
+{% assign link_text = "Select your required tool" %}
+{%endif %}
+<div class="reviews-strip" id="reviews_strip">
+    <div class="container">
+        <h3 class="reviews-strip__title">Don't just take our word for it&hellip;</h3>
+        <div class="reviews-strip__list">
+            {% for review in reviews %}
+            <div class="reviews-strip__item">
+                <div class="reviews-strip__image-wrapper">
+                    <img alt="{{review.name}}" src="{{review.image}}" class="reviews-strip__image" />
+                </div>
+                <div class="reviews-strip__content">
+                    <div class="reviews-strip__text">{{review.text | markdownify }}</div>
+                    <h4 class="reviews-strip__name">{{review.name }}</h4>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <a href="#select_strip" class="button button--grey" title="{{link_text}}">{{link_text}}</a>
+    </div>
+</div>
+{% endif %}

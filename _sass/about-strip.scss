@@ -1,0 +1,31 @@
+.about-strip {
+  padding: 75px 0;
+  h3,
+  h2 {
+    line-height: 1;
+    font-size: 70px;
+    color: $colour_secondary;
+    margin-top: 0;
+    position: relative;
+    padding-bottom: 50px;
+    &:after {
+      content: "";
+      display: block;
+      width: 75%;
+      height: 5px;
+      background: $colour_secondary;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  &__wrapper {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .down-icon__wrapper {
+    margin-top: 25px;
+  }
+}

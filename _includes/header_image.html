@@ -1,23 +1,44 @@
+{% if include.roundels %}
+{% assign roundels = include.roundels | split: ", " %}
+{%else%}
 {% assign roundels = "papers, health, payment" | split: ", " %}
+{%endif%}
 
-<div class="header-image">
+
+<div class="header-image header-image--{{include.layout}}">
     <div class="container">
         <div class="header-image__wrapper">
+            {% if include.layout == "cta" %}
+            <div class="header-image__panel">
+                <div class="header-image__panel-left">
+                    {{include.content | markdownify}}
+                </div>
+                <div class="header-image__panel-right">
+                    {% capture image_src%}/images/upload/banner-{{include.page | slugify 'latin'}}.jpg{% endcapture%}
+                    <img alt="{{include.page}}" src="{{image_src}}"/>
+                    <a href="{{include.url}}/form" class="button">Checking tool</a>
+                </div>
+            </div>
+            {%else %}
             <div class="header-image__left">
+                {%if include.layout == "home" %}
                 <div class="header-image__image-wrapper"><img src="/images/logo-color.png" alt="{{site.title}}" /></div>
+                {% endif %}
                 <div class="header-image__content">
                     {{include.content | markdownify}}
                 </div>
             </div>
             <div class="header-image__right">
                 {% for roundel in roundels %}
-                    {% include roundel.html title=roundel %}
+                {% include roundel.html title=roundel index=forloop.index%}
                 {% endfor %}
             </div>
             <div class="header-image__footer">
                 <p>Check out our online tools</p>
-                <a href="#select_strip" title="Check out our online tools" class="down-icon__wrapper"><span class="fas fa-chevron-down down-icon"></span></a>
+                <a href="#select_strip" title="Check out our online tools" class="down-icon__wrapper"><span
+                        class="fas fa-chevron-down down-icon"></span></a>
             </div>
+            {%endif%}
         </div>
     </div>
 </div>

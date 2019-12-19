@@ -1,12 +1,11 @@
-@import "vars.scss";
-
 .select-strip {
   padding-bottom: 75px;
   background: url("/images/strip-bg.png") no-repeat right bottom;
+  text-align: center;
   &__title {
-    text-align: center;
+    display: inline-block;
     color: $colour_secondary;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
     margin-bottom: 80px;
     position: relative;
     &:after {
@@ -14,13 +13,29 @@
       display: block;
       height: 5px;
       width: 345px;
-      max-width: 100%;
       background: $colour_secondary;
       position: absolute;
       bottom: 0;
       left: 50%;
       transform: translateX(-50%);
     }
+    &.claims {
+      &:before {
+        content: "";
+        background: url("/images/papers.png") no-repeat;
+        position: absolute;
+        right: 100%;
+        margin-left: -25px;
+        height: 100px;
+        width: 100px;
+        background-size: contain;
+        top: -25px;
+      }
+    }
+  }
+  &__subtitle {
+    color: $colour_secondary;
+    margin-top: -40px;
   }
   &__list {
     display: flex;

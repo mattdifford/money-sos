@@ -16,6 +16,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "hidden"}
       - {label: "Header Content", name: "header_content", widget: "markdown", required: false}
+      - {label: "Header Icons", name: "header_icons", widget: "string", required: false}
       - {label: "Select strip title", name: "select_strip_title", widget: "string", required: false}
       - label: "Select Strip Objects"
         name: "select_strip_objects"
@@ -27,7 +28,6 @@ collections: # A list of collections the CMS should be able to edit
         - {label: "Link", name: "link", widget: "string"}
   - name: "config"
     label: "Config"
-    editor:
     preview: false
     files:
       - label: "Footer navigation"
@@ -41,3 +41,15 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Name, name: name, widget: string}
               - {label: Link, name: link, widget: string}
               - {label: Is header?, name: header, widget: boolean}
+      - label: "Reviews"
+        name: "reviews"
+        file: "_data/reviews.yml"
+        fields:
+          - label: "Reviews"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Text, name: text, widget: markdown}
+              - {label: Image, name: image, widget: image}
+              - {label: Category, name: category, widget: string}

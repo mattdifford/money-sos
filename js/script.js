@@ -39,5 +39,14 @@ $(document).ready(function () {
         autoplaySpeed: 2000,
         infinite: true,
         variableWidth: true
+    });
+
+    $('.reviews-strip__list').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: true,
+        prevArrow: '<span class="fas fa-angle-left slick-prev"></span>',
+        nextArrow: '<span class="fas fa-angle-right slick-next"></span>'
     })
 });

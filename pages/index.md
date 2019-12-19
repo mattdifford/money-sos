@@ -1,9 +1,11 @@
 ---
 layout: home
+title: Home
 description: Page Description
 permalink: /
 header_content: >- 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+header_icons: papers, health, payment
 select_strip_objects:
   - image: /images/upload/house.png
     title: Mortgages
@@ -21,7 +23,7 @@ select_strip_objects:
     title: Claims 
     link: /claims
 strip_1_content: >- 
-    ## Access your requirements easily
+    ## Access your requirements easily 
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 

@@ -1,4 +1,4 @@
-<div class="roundel scrollwatch {{include.title}}">
-    {% capture image_src%} /images/{{include.title}}.png {% endcapture %}
+<div class="roundel scrollwatch {{include.title}} roundel--{{include.index}}">
+    {% capture image_src%} /images/upload/{{include.title}}.png {% endcapture %}
     <img src="{{image_src |strip}}" alt="{{include.title |captitalize}}"/>
 </div>

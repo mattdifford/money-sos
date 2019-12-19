@@ -4,7 +4,7 @@
 
 <body>
     {% include header.html %}
-    {% include header_image.html content=page.header_content %}
+    {% include header_image.html content=page.header_content layout="home" roundels=page.header_icons %}
     {% include featured_strip.html %}
     {% include select_strip.html title="Please select" objects=page.select_strip_objects%}
     {% include why-use.html full=true %}

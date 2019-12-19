@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+{% include head.html layout=page.layout %}
+
+<body>
+    {% include header.html %}
+    {% include header_image.html content=page.header_content layout="default" roundels=page.header_icons %}
+    {% include featured_strip.html %}
+    {% include select_strip.html title="Claims" objects=page.select_strip_objects%}
+    {% include reviews.html category=page.title %}
+    {% include why-use.html full=false %}
+    {% include footer.html %}
+    {% include foot.html %}
+</body>
+
+</html>
