@@ -15,6 +15,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Layout", name: "layout", widget: "string", default: "page"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Reference", name: "reference", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Header Content", name: "header_content", widget: "markdown", required: false}
       - {label: "Header Icons", name: "header_icons", widget: "string", required: false}
@@ -27,6 +28,8 @@ collections: # A list of collections the CMS should be able to edit
         - {label: "Image", name: "image", widget: "image"}
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Link", name: "link", widget: "string"}
+      - {label: "Strip 1 Content", name: "strip_1_content", widget: "markdown", required: false}
+      - {label: "Strip 2 Content", name: "strip_2_content", widget: "markdown", required: false}
   - name: "config"
     label: "Config"
     preview: false
