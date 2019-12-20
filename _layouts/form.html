@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+{% include head.html layout=page.layout %}
+
+<body>
+    {% include header.html %}
+    {% include header_image.html layout="form" content=page.header_content page=page.reference%}
+    {% include featured_strip.html %}
+    {% include faqs.html title=page.title reference=page.reference %}
+    {% include footer.html %}
+    {% include foot.html %}
+</body>
+
+</html>

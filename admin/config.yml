@@ -12,9 +12,10 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Layout", name: "layout", widget: "string", default: "page"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Permalink", name: "permalink", widget: "hidden"}
+      - {label: "Reference", name: "reference", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Header Content", name: "header_content", widget: "markdown", required: false}
       - {label: "Header Icons", name: "header_icons", widget: "string", required: false}
       - {label: "Select strip title", name: "select_strip_title", widget: "string", required: false}
@@ -52,4 +53,15 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Name, name: name, widget: string}
               - {label: Text, name: text, widget: markdown}
               - {label: Image, name: image, widget: image}
+              - {label: Category, name: category, widget: string}
+      - label: "FAQs"
+        name: "faqs"
+        file: "_data/faqs.yml"
+        fields:
+          - label: "FAQs"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: Question, name: question, widget: string}
+              - {label: Answer, name: answer, widget: markdown}
               - {label: Category, name: category, widget: string}

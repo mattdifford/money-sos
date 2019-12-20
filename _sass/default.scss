@@ -23,6 +23,7 @@ html {
   left: 0;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 .down-icon {
   color: $colour_secondary;
@@ -63,7 +64,7 @@ html {
   border-top: 34px solid $colour_primary;
   padding: 65px 0 40px;
   &__bottom {
-    border-top: 1px solid #707070;
+    border-top: 1px solid $colour_dark_grey;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -115,7 +116,7 @@ html {
     display: flex;
     &-link {
       color: $colour_black;
-      border-left: 1px solid #707070;
+      border-left: 1px solid $colour_dark_grey;
       padding: 0 15px;
       transition: all 0.2s ease-in-out 0s;
       &:hover {
@@ -131,14 +132,14 @@ html {
     vertical-align: middle;
   }
   .fab {
-    color: #707070;
+    color: $colour_dark_grey;
     font-size: 26px;
     transition: all 0.2s ease-in-out 0s;
     &:hover {
       color: $colour_primary;
     }
     &.bg {
-      background: #707070;
+      background: $colour_dark_grey;
       border-radius: 50%;
       padding: 5px;
       color: $colour_grey;

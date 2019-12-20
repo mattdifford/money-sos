@@ -48,5 +48,9 @@ $(document).ready(function () {
         arrows: true,
         prevArrow: '<span class="fas fa-angle-left slick-prev"></span>',
         nextArrow: '<span class="fas fa-angle-right slick-next"></span>'
-    })
+    });
+
+    $('.faqs-strip__question').on("click", function(){
+        $(this).next('.faqs-strip__answer').toggleClass('active');
+    });
 });

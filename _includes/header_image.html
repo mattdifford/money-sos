@@ -21,7 +21,17 @@
                 </div>
             </div>
             <a href="#about_strip" title="Check out our online tools" class="down-icon__wrapper"><span
-                class="fas fa-chevron-down down-icon"></span></a>
+                    class="fas fa-chevron-down down-icon"></span></a>
+
+            {% elsif include.layout == 'form' %}
+            {% capture image_src%}/images/upload/banner-{{include.page | slugify 'latin'}}.jpg{% endcapture%}
+            <div class="header-image__bg" style="background-image: url('{{image_src}}')"></div>
+            <div class="header-image__left">
+                {{include.content |markdownify}}
+            </div>
+            <div class="header-image__right">
+                {%include form.html reference=include.page %}
+            </div>
             {%else %}
             <div class="header-image__left">
                 {%if include.layout == "home" %}
