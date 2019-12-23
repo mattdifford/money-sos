@@ -1,14 +1,14 @@
 items:
-  - category: Flight compensation form
-    fields:
+  - form_fields:
       - helptext: Make a selection below
         name: What happened to your flight?
+        required: true
+        type: radio
         options:
           - name: Delayed
           - name: Cancelled
           - name: Missed Connection
           - name: Denied boarding
-        required: true
-        type: radio
-    submit_text: Find a claim
     title: Flight Compensation
+    category: Flight compensation form
+    submit_text: Find a claim
