@@ -68,3 +68,21 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Question, name: question, widget: string}
               - {label: Answer, name: answer, widget: markdown}
               - {label: Category, name: category, widget: string}
+      - label: "Forms"
+        name: "forms"
+        file: "_data/forms.yml"
+        fields:
+          - label: "Forms"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Submit text, name: submit_text, widget: string}
+              - {label: Category, name: category, widget: string}
+              - label: Fields
+                name: fields
+                widget: list
+                fields:
+                  - {label: Name, name: name, widget: string}
+                  - {label: Type, name: type, widget: string}
+                  - {label: Required?, name: required, widget: boolean}
