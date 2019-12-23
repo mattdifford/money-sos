@@ -1,2 +1,5 @@
 items:
-  
+  - category: Flight compensation form
+    fields: []
+    submit_text: Find a claim
+    title: Flight Compensation
