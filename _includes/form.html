@@ -2,6 +2,7 @@
 {% if form_data %}
 {% assign form = form_data[0] %}
 <form class="form">
+    {{form.pre_text | markdownify}}
     {% for field in form.form_fields %}
     {% if forloop.first == true %}
     <fieldset class="form__fieldset">

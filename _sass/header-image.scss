@@ -48,6 +48,9 @@
           }
         }
       }
+      &__right {
+        padding-left: 40px;
+      }
     }
     li {
       @include list_style;
