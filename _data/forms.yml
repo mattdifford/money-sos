@@ -3,6 +3,11 @@ items:
     fields:
       - helptext: Make a selection below
         name: What happened to your flight?
+        options:
+          - name: Delayed
+          - name: Cancelled
+          - name: Missed Connection
+          - name: Denied boarding
         required: true
         type: radio
     submit_text: Find a claim
