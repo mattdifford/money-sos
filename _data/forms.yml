@@ -1,5 +1,9 @@
 items:
   - category: Flight compensation form
-    fields: []
+    fields:
+      - helptext: Make a selection below
+        name: What happened to your flight?
+        required: true
+        type: radio
     submit_text: Find a claim
     title: Flight Compensation
