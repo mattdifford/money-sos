@@ -13,9 +13,9 @@ items:
       - helptext: Make a selection below
         name: How long was your flight delayed?
         options:
-          - name: Not delayed/Less than 3 hours
           - name: Over 3 hours
           - name: Didn't arrive
+          - name: Not delayed/Less than 3 hours
         required: false
         type: radio
     pre_text: >-

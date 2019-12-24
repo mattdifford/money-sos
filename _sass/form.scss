@@ -2,6 +2,8 @@
   background: #fff;
   padding: 50px;
   box-shadow: -14px 15px 8px 0px rgba(0, 0, 0, 0.16);
+  display: flex;
+  flex-wrap: wrap;
   h3 {
     color: $colour_secondary;
     font-size: 30px;
@@ -16,6 +18,10 @@
     }
   }
   &__field {
+    margin-bottom: 25px;
+  }
+  &__fieldset-count {
+    order: -1;
   }
 }
 
@@ -42,12 +48,15 @@
     }
     &-label {
       background: darken($colour_grey, 5%);
-      padding: 10px;
+      padding: 10px 15px;
       font-size: 16px;
       font-weight: 400;
       display: flex;
       align-items: center;
+      height: 100%;
+      transition: all 0.2s ease-in-out 0s;
       &:before {
+        transition: all 0.2s ease-in-out 0s;
         content: "";
         display: inline-block;
         width: 30px;
@@ -55,7 +64,12 @@
         border-radius: 50%;
         background: #fff;
         margin-right: 10px;
-        color: $colour_action;
+        color: #fff;
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+        font-size: 18px;
+        content: "\f00c";
+        flex: 0 0 30px;
       }
     }
     &-input {
@@ -68,13 +82,10 @@
           color: #fff;
           font-weight: 700;
           &:before {
-            font-family: "Font Awesome 5 Pro";
-            font-weight: 900;
-            font-size: 18px;
-            content: "\f00c";
             display: inline-flex;
             align-items: center;
             justify-content: center;
+            color: $colour_action;
           }
         }
       }
