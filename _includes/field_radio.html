@@ -1,1 +1,12 @@
-field_Radio
+<label for="{{include.slug}}" class="field__label">{{include.name}}</label>
+{% if include.helptext %}
+<p class="field__helptext">{{include.helptext}}</p>
+{% endif %}
+<div class="field__radios">
+    {% for option in include.options %}
+    {% capture radio_id %}{{include.slug}}_{{option.name}}{%endcapture%}
+    <div class="field__radio-item"><input type="radio" name="{{include.slug}}" value="{{option.name}}" id="{{radio_id}}"
+            class="field__radio-input"><label class="field__radio-label" for="{{radio_id}}">{{option.name}}</label>
+    </div>
+    {% endfor %}
+</div>

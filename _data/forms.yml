@@ -1,6 +1,6 @@
 items:
   - category: Flight compensation form
-    fields:
+    form_fields:
       - helptext: Make a selection below
         name: What happened to your flight?
         options:

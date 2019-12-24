@@ -81,7 +81,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Category, name: category, widget: string}
               - {label: Pre text, name: pre_text, widget: markdown}
               - label: Fields
-                name: fields
+                name: form_fields
                 widget: list
                 fields:
                   - {label: Name, name: name, widget: string}

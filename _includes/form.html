@@ -1,6 +1,7 @@
 {% assign form_data = site.data.forms.items | where: "category", include.reference %}
 {% if form_data %}
 {% assign form = form_data[0] %}
+{{form_data.pre_text}}
 <form class="form">
     {{form.pre_text | markdownify}}
     {% for field in form.form_fields %}
@@ -13,7 +14,11 @@
         <div class="form__field">
             {% capture field_include %}field_{{field.type}}.html{% endcapture %}
             {% assign field_slug = field.name | slugify 'latin' %}
-            {% include {{field_include |trim}} %}
+            {% if field.type == 'radio' %}
+                {% include {{field_include |trim}} name=field.name slug=field_slug type=field.type options=field.options helptext=field.helptext %}
+            {% else %}
+                {% include {{field_include |trim}} name=field.name slug=field_slug type=field.type helptext=field.helptext %}
+            {% endif %}
         </div>
         {% endfor %}
 </form>
