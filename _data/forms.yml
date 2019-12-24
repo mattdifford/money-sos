@@ -1,6 +1,5 @@
 items:
   - category: Flight compensation form
-    title: Flight Compensation
     fields:
       - helptext: Make a selection below
         name: What happened to your flight?
@@ -11,4 +10,11 @@ items:
           - name: Denied boarding
         required: true
         type: radio
+    pre_text: >-
+      ### Get a **free** & instant decision below
+
+
+      Answer a series of simple questions below to see if you  can claim the
+      compensation you deserve after your delay!
     submit_text: Find a claim
+    title: Flight Compensation
