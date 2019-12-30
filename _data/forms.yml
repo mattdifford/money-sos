@@ -1,6 +1,6 @@
 items:
   - category: Flight compensation form
-    form_fields:
+    fields:
       - helptext: Make a selection below
         name: What happened to your flight?
         options:
@@ -13,11 +13,19 @@ items:
       - helptext: Make a selection below
         name: How long was your flight delayed?
         options:
+          - name: Not delayed/Less than 3 hours
           - name: Over 3 hours
           - name: Didn't arrive
-          - name: Not delayed/Less than 3 hours
         required: false
         type: radio
+      - helptext: Airline details fieldset
+        name: Airline details fieldset
+        required: false
+        type: fieldset
+      - helptext: 'This is important, so do you best to remember'
+        name: Which airline did you travel with?
+        required: true
+        type: string
     pre_text: >-
       ### Get a **free** & instant decision below
 
