@@ -1,6 +1,6 @@
 items:
   - category: Flight compensation form
-    form_fields:
+    fields:
       - helptext: Make a selection below
         name: What happened to your flight?
         options:
@@ -24,9 +24,40 @@ items:
         type: fieldset
       - helptext: 'This is important, so do you best to remember'
         name: Which airline did you travel with?
-        placeholder: e.g. British Airways
         required: true
         type: string
+      - helptext: Date fieldset
+        name: Date fieldset
+        required: false
+        type: fieldset
+      - helptext: Please select an accurate date of your delayed flight
+        name: What date was the flight?
+        required: true
+        type: date
+      - helptext: Flight details
+        name: Flight details
+        required: false
+        type: fieldset
+      - helptext: Start typing the airport name
+        name: Departure Airport
+        options:
+          - name: airports
+        required: true
+        type: data
+      - helptext: Start typing the airport name
+        name: Arrival Airport
+        options:
+          - name: airports
+        required: true
+        type: data
+      - helptext: ' helptext'
+        name: Flight number
+        required: false
+        type: string_short
+      - helptext: helptext
+        name: Booking reference
+        required: false
+        type: string_short
     pre_text: >-
       ### Get a **free** & instant decision below
 
