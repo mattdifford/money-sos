@@ -4,7 +4,9 @@ $colour_tertiary: #e2e8ff;
 $colour_action: #00e69b;
 $colour_black: #111111;
 $colour_grey: #f5f5f5;
-$colour_dark_grey: #5C5C5C;
+$colour_dark_grey: #5c5c5c;
+$colour_border_grey: #5F5F5F;
+$colour_error: #cc0000;
 $font_primary: objektiv-mk2, sans-serif;
 
 @mixin button($alt: false) {

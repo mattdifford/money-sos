@@ -19,9 +19,73 @@
   }
   &__field {
     margin-bottom: 25px;
+    width: 100%;
+  }
+  &__fieldset {
+    display: none;
+    width: 100%;
+    &.active {
+      display: block;
+    }
   }
   &__fieldset-count {
     order: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    span {
+      background: $colour_grey;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      position: relative;
+      margin: 0 10px;
+      &:before {
+        content: "";
+        display: block;
+        height: 5px;
+        width: 20px;
+        position: absolute;
+        right: 100%;
+        top: 50%;
+        margin-top: -2.5px;
+        background: $colour_grey;
+      }
+      &:first-child {
+        &:before {
+          display: none;
+        }
+      }
+      &.active {
+        background: $colour_action;
+        color: #fff;
+        &:before {
+          background: $colour_action;
+        }
+      }
+    }
+  }
+  &__proceed {
+    display: flex;
+    justify-content: flex-end;
+    button {
+      background: $colour_action;
+      border: none;
+      color: #fff;
+      font-weight: 600;
+      font-size: 21px;
+      padding: 10px 50px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out 0s;
+      &:hover {
+        background: $colour_secondary;
+      }
+    }
   }
 }
 
@@ -30,6 +94,13 @@
     color: $colour_secondary;
     font-weight: 400;
     font-size: 22px;
+  }
+  &__input {
+    width: 100%;
+    border: 1px solid $colour_border_grey;
+    padding: 10px;
+    font-family: $font_primary;
+    font-size: 16px;
   }
   &__helptext {
     margin: 0 0 15px;
@@ -40,6 +111,9 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 -10px;
+    .parsley-errors-list {
+      order: -1;
+    }
   }
   &__radio {
     &-item {
@@ -70,25 +144,37 @@
         font-size: 18px;
         content: "\f00c";
         flex: 0 0 30px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
       }
     }
     &-input {
       position: absolute;
-      left: -9999px;
-      top: -9999px;
+      visibility: hidden;
       &:checked {
         + .field__radio-label {
           background: $colour_action;
           color: #fff;
           font-weight: 700;
           &:before {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
             color: $colour_action;
           }
         }
       }
+    }
+  }
+}
+
+.parsley-errors-list {
+  width: 100%;
+  .parsley-required {
+    background: $colour_error;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+    &:before {
+      display: none;
     }
   }
 }

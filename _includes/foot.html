@@ -4,7 +4,25 @@
 <script src="{{ "/js/modernizr.min.js" | relative_url }}"></script>
 <script src="{{ "/js/anime.min.js" | relative_url }}"></script>
 <script src="{{ "/js/script.js" | relative_url }}"></script>
+{% if include.layout && include.layout == 'form' %}
+<script src="{{ "/js/parsley.min.js" | relative_url }}" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // when you click on next
+        $('.form__proceed-button').on('click', function () {
+            var parent_fieldset = $(this).parents('fieldset');
+            var group = parent_fieldset.attr('data-parsley-group');
 
+            if ($('.form').parsley().validate(group)) {
+                parent_fieldset.hide();
+                parent_fieldset.next().show();
+                var index = parent_fieldset.attr("data-index");
+                $('.form__fieldset-count').find('span[data-index="' + (parseInt(index) + 1) + '"]').addClass('active');
+            }
+        });
+    });
+</script>
+{% endif %}
 <script type="text/javascript">
     var fonts = document.createElement('link');
     fonts.rel = 'stylesheet';
@@ -21,3 +39,4 @@
     defer_slick.parentNode.insertBefore(slick, defer);
 
 </script>
+<script src="https://kit.fontawesome.com/c4e3547ea2.js" crossorigin="anonymous" defer></script>

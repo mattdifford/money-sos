@@ -87,6 +87,7 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Name, name: name, widget: string}
                   - {label: Helptext, name: helptext, widget: string}
                   - {label: Type, name: type, widget: string}
+                  - {label: Placeholder, name: placeholder, widget: string}
                   - label: Options
                     name: options
                     widget: list

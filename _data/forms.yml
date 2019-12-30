@@ -1,6 +1,6 @@
 items:
   - category: Flight compensation form
-    fields:
+    form_fields:
       - helptext: Make a selection below
         name: What happened to your flight?
         options:
@@ -24,6 +24,7 @@ items:
         type: fieldset
       - helptext: 'This is important, so do you best to remember'
         name: Which airline did you travel with?
+        placeholder: e.g. British Airways
         required: true
         type: string
     pre_text: >-

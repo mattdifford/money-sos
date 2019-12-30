@@ -3,34 +3,42 @@
 {% assign form = form_data[0] %}
 {{form_data.pre_text}}
 {% assign fieldset_count = 1%}
-<form class="form">
+<form class="form" data-parsley-trigger="input">
     {{form.pre_text | markdownify}}
     {% for field in form.form_fields %}
     {% if forloop.first == true %}
-    <fieldset class="form__fieldset">
+    <fieldset class="form__fieldset active" data-parsley-group="first" data-index="{{forloop.index}}">
         {% elsif field.type == 'fieldset' %}
         {% assign fieldset_count = fieldset_count | plus: 1%}
-        <div class="form__proceed"><button>Step {{fieldset_count | plus: 1}}</button></div>
+        <div class="form__proceed"><button type="button" class="form__proceed-button">Step {{fieldset_count}}</button>
+        </div>
     </fieldset>
-    <fieldset class="form__fieldset">
+    <fieldset class="form__fieldset" data-parsley-group="{{field.name}}" data-index="{{forloop.index}}">
         {% endif %}
+        {% if field.type != 'fieldset' %}
         <div class="form__field">
             {% capture field_include %}field_{{field.type}}.html{% endcapture %}
             {% assign field_slug = field.name | slugify 'latin' %}
             {% if field.type == 'radio' %}
-            {% include {{field_include |trim}} name=field.name slug=field_slug type=field.type options=field.options helptext=field.helptext %}
+            {% include {{field_include |trim}} name=field.name slug=field_slug type=field.type options=field.options helptext=field.helptext required=field.required%}
             {% else %}
-            {% include {{field_include |trim}} name=field.name slug=field_slug type=field.type helptext=field.helptext %}
+            {% include {{field_include |trim}} name=field.name slug=field_slug type=field.type helptext=field.helptext required=field.required placeholder=field.placeholder%}
             {% endif %}
         </div>
-        {% if forloop.last == true %}
-            </fieldset>
         {%endif %}
+        {% if forloop.last == true %}
+    </fieldset>
+    {%endif %}
     {% endfor %}
     <div class="form__fieldset-count">
         {% for i in (1..{{fieldset_count}}) %}
-        <span>{{i}}</span>
-        {% endfor %}
+        {% if i == 1%}
+        <span class="active" data-index={{i}}>
+            {%else%}
+            <span data-index={{i}}>
+                {% endif %}
+                {{i}}</span data-index={{i}}>
+            {% endfor %}
     </div>
 </form>
 {% endif %}
