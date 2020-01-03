@@ -42,11 +42,13 @@ fieldset {
 .down-icon {
   color: $colour_secondary;
   border: 6px solid $colour_secondary;
-  padding: 10px;
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  line-height: 38px;
+  display: inline-block;
   transition: all 0.2s ease-in-out 0s;
+  text-align: center;
   &__wrapper {
     display: inline-block;
   }

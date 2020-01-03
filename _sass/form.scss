@@ -83,7 +83,8 @@
       }
     }
   }
-  &__proceed, &__submit {
+  &__proceed,
+  &__submit {
     display: flex;
     justify-content: flex-end;
     button {
@@ -114,9 +115,10 @@
     padding: 10px;
     font-family: $font_primary;
     font-size: 16px;
+    margin-top: 15px;
   }
   &__helptext {
-    margin: 0 0 15px;
+    margin: 0;
     font-size: 15px;
     font-weight: 300;
   }
@@ -213,6 +215,64 @@
     }
     &:first-child {
       border-top: none;
+    }
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+.modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  padding: 100px;
+  background: #fff;
+  text-align: center;
+  max-width: 85%;
+  max-height: 85%;
+  display: none;
+  &__title {
+    color: $colour_dark_grey;
+    font-size: 49px;
+    font-weight: 600;
+  }
+  &__spinner {
+    animation: spin 2s linear infinite;
+  }
+  + .modal-shroud {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: none;
+  }
+  h3,
+  h4 {
+    color: $colour_secondary;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 50px;
+    margin-top: 0;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  .button {
+    margin: 0 15px;
+  }
+  &--active {
+    display: block;
+    + .modal-shroud {
+      display: block;
     }
   }
 }
