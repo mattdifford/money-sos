@@ -1,4 +1,4 @@
-{% assign seen_on = "mirror, mail, msn, telegraph" | split: ", " %}
+{%- assign seen_on = "mirror, mail, msn, telegraph" | split: ", " -%}
 
 <div class="featured-strip">
     <div class="container">
@@ -7,11 +7,11 @@
                 <h3>As seen on:</h3>
             </div>
             <div class="featured-strip__list">
-                {% for item in seen_on %}
-                {% capture image_src%}/images/{{item}}.png{% endcapture %}
-                {%capture image_alt%}"{{item |capitalize}}"{%endcapture%}
-                {%include picture.html url=image_src alt=image_alt type="png"%}
-                {% endfor %}
+                {%- for item in seen_on -%}
+                {%- capture image_src-%}/images/{{item}}.png{%- endcapture -%}
+                {%- capture image_alt-%}"{{-item |capitalize-}}"{%-endcapture-%}
+                {%-include picture.html url=image_src alt=image_alt type="png"-%}
+                {%- endfor -%}
             </div>
         </div>
     </div>

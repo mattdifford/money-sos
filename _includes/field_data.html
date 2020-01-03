@@ -1,11 +1,11 @@
 <label for={{include.slug}} class="field__label">{{include.name}}</label>
-{% if include.helptext %}
-<p class="field__helptext">{{include.helptext}}</p>
-{% endif %}
-<input type="text" name={{include.slug}} required="{{input.required}}" class="field__input"
-    placeholder="{{include.placeholder}}" id="{{include.slug}}">
-{%capture data_name%}"/public/{{include.options[0].name}}.json"{%endcapture%}
-{%capture id%}"#{{include.slug}}"{%endcapture%}
+{%- if include.helptext -%}
+<p class="field__helptext">{{- include.helptext -}}</p>
+{%- endif -%}
+<input type="text" name={{- include.slug- }} required="{{- input.required -}}" class="field__input"
+    placeholder="{{- include.placeholder -}}" id="{{- include.slug -}}">
+{%-capture data_name-%}"/public/{{- include.options[0].name -}}.json"{%-endcapture-%}
+{%-capture id-%}"#{{- include.slug -}}"{%-endcapture-%}
 <script>
     $.get({{data_name}}, function(data){
         $({{id}}).typeahead({ source:data });

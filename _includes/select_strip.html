@@ -1,19 +1,19 @@
 <div class="select-strip" id="select_strip">
     <div class="container">
-        <h2 class="select-strip__title {{include.title | slugify: "latin"}}">{{include.title}}</h2>
-        {% if include.title != 'Please select'%}
+        <h2 class="select-strip__title {{include.title | slugify: "latin"}}">{{-include.title-}}</h2>
+        {%- if include.title != 'Please select'-%}
         <h4 class="select-strip__subtitle">Select what you require below</h4 class="select-strip__subtitle">
-        {%endif%}
+        {%-endif-%}
         <div class="select-strip__list">
-            {% for object in include.objects %}
-            <a class="select-strip__item block scrollwatch" href="{{object.link}}">
+            {%- for object in include.objects -%}
+            <a class="select-strip__item block scrollwatch" href="{{-object.link-}}">
                 <div class="block__image-wrapper">
-                    {%assign image_type = object.image | slice: -3, 3%}
-                    {%include picture.html type=image_type url=object.image alt=object.title  class="block__image"%}
+                    {%-assign image_type = object.image | slice: -3, 3-%}
+                    {%-include picture.html type=image_type url=object.image alt=object.title  class="block__image"-%}
                 </div>
-                <h4 class="block__title">{{object.title}}</h4>
+                <h4 class="block__title">{{-object.title-}}</h4>
             </a>
-            {%endfor%}
+            {%-endfor-%}
         </div>
         <div class="select-strip__arrow"><a href="#why_use" title="View more" class="down-icon__wrapper"><span
                     class="icon-chevron-down down-icon"></span></a></div>

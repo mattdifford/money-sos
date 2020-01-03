@@ -1,5 +1,5 @@
 <div class="roundel scrollwatch {{include.title}} roundel--{{include.index}}">
-    {% capture image_src%}/images/upload/{{include.title}}.png{% endcapture %}
-    {%assign image_alt = include.title |captitalize%}
-    {%include picture.html type="png" url=image_src alt=image_alt%}
+    {%- capture image_src-%}/images/upload/{{include.title}}.png{%- endcapture -%}
+    {%-assign image_alt = include.title |captitalize-%}
+    {%-include picture.html type="png" url=image_src alt=image_alt-%}
 </div>

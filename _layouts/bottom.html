@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-{% include head.html layout=page.layout %}
+{%- include head.html layout=page.layout -%}
 
 <body>
-    {% include header.html %}
-    {% include header_image.html layout="cta" content=page.header_content page=page.title url=page.permalink%}
-    {% include featured_strip.html %}
-    {% include about.html  content=page.strip_1_content %}
-    {% include reviews.html category=page.title link_text="Checking tool" %}
-    {% include why-use.html full=false button_text="Checking tool"%}
-    {% include footer.html %}
-    {% include foot.html %}
+    {%- include header.html -%}
+    {%- include header_image.html layout="cta" content=page.header_content page=page.title url=page.permalink-%}
+    {%- include featured_strip.html -%}
+    {%- include about.html  content=page.strip_1_content -%}
+    {%- include reviews.html category=page.title link_text="Checking tool" -%}
+    {%- include why-use.html full=false button_text="Checking tool"-%}
+    {%- include footer.html -%}
+    {%- include foot.html -%}
 </body>
 
 </html>

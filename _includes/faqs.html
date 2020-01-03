@@ -1,23 +1,23 @@
-{% assign faqs = site.data.faqs.items | where: "category", include.reference %}
-{% if !faqs %}
-{% assign faqs = site.data.faqs.items | where: "category", include.title %}
-{%endif%}
+{%- assign faqs = site.data.faqs.items | where: "category", include.reference -%}
+{%- if !faqs -%}
+{%- assign faqs = site.data.faqs.items | where: "category", include.title -%}
+{%- endif -%}
 
 
-{%if faqs %}
+{%- if faqs -%}
 <div class="faqs-strip">
     <div class="container">
         <div class="faqs-strip__wrapper">
             <h3 class="faqs-strip__title">Frequently asked questions</h3>
             <div class="faqs-strip__list">
-                {% for faq in faqs %}
+                {%- for faq in faqs -%}
                 <div class="faqs-strip__item">
-                    <h3 class="faqs-strip__question" data-index="{{forloop.index}}">{{faq.question}}</h3>
-                    <div class="faqs-strip__answer">{{faq.answer |markdownify}}</div>
+                    <h3 class="faqs-strip__question" data-index="{{forloop.index}}">{{-faq.question-}}</h3>
+                    <div class="faqs-strip__answer">{{-faq.answer |markdownify-}}</div>
                 </div>
-                {% endfor %}
+                {%- endfor -%}
             </div>
         </div>
     </div>
 </div>
-{%endif%}
+{%-endif-%}

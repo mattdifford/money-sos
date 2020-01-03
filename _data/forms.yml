@@ -13,10 +13,11 @@ items:
       - helptext: Make a selection below
         name: How long was your flight delayed?
         options:
-          - name: Not delayed/Less than 3 hours
+          - name: Not delayed
+          - name: Less than 3 hours
           - name: Over 3 hours
           - name: Didn't arrive
-        required: false
+        required: true
         type: radio
       - helptext: Airline details fieldset
         name: Airline details fieldset

@@ -38,10 +38,7 @@ $font_primary: objektiv-mk2, sans-serif;
     margin: 10px 0;
   }
   &:before {
-    font-family: "Font Awesome 5 Pro";
-    font-weight: 900;
-    font-size: 18px;
-    content: "\f00c";
+    @include check-icon();
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -51,12 +48,24 @@ $font_primary: objektiv-mk2, sans-serif;
     background: $colour_action;
     border-radius: 50%;
     margin-right: 10px;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
     color: #fff;
   }
+}
+
+@mixin check-icon() {
+  content: "\f00c";
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 $xxs: (

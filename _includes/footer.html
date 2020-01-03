@@ -2,29 +2,29 @@
     <div class="container">
         <div class="footer__wrapper">
             <div class="footer__col footer__col--logo">
-                {% include picture.html inc_class="footer__logo" type="png" url="/images/logo-color.png" alt=site.title %}
+                {%- include picture.html class="footer__logo" type="png" url="/images/logo-color.png" alt=site.title -%}
                 <p class="footer__logo-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            {% for item in site.data.footer_navigation.items %}
-                {% if forloop.first == true %}
+            {%- for item in site.data.footer_navigation.items -%}
+                {%- if forloop.first == true -%}
                     <div class="footer__col">
-                {% elsif item.header == true and forloop.first == false %}
+                {%- elsif item.header == true and forloop.first == false -%}
                     </div>
                     <div class="footer__col">
-                {% endif %}
-                    <a href="{{site.baseurl}}{{item.link}}"
-                    {%if item.header ==true%}class="footer__nav-link footer__nav-link--header" {%else%}
-                    class="footer__nav-link" {%endif%}>
-                    {{ item.name }}
+                {%- endif -%}
+                    <a href="{{-site.baseurl-}}{{-item.link-}}"
+                    {%-if item.header ==true-%}class="footer__nav-link footer__nav-link--header" {%-else-%}
+                    class="footer__nav-link" {%-endif-%}>
+                    {{- item.name -}}
                     </a>
-                {% if forloop.last == true %}
+                {%- if forloop.last == true -%}
                     </div>
-                {%endif%}
-            {% endfor %}
+                {%-endif-%}
+            {%- endfor -%}
         </div>
         <div class="footer__bottom">
             <div class="footer__col footer__col--copyright">
-                <p>Copyright &copy; MoneySOS {{ "now" | date: "%Y"}}</p>
+                <p>Copyright &copy; MoneySOS {{- "now" | date: "%Y"-}}</p>
             </div>
             <div class="footer__col footer__col--nav">
                 <nav class="footer__small-nav">
@@ -35,9 +35,9 @@
                 </nav>
             </div>
             <div class="footer__col footer__col--social">
-                <a class="footer__social" title="Facebook" href="{{site.facebook_url}}"><span class="icon-facebook"></span></a>
-                <a class="footer__social" title="Twitter" href="{{site.twitter_url}}"><span class="icon-twitter bg"></span></a class="footer__social">
-                <a class="footer__social" title="Instagram" href="{{site.instagram_url}}"><span class="icon-instagram bg"></span></a class="footer__social">
+                <a class="footer__social" title="Facebook" href="{{-site.facebook_url-}}"><span class="icon-facebook"></span></a>
+                <a class="footer__social" title="Twitter" href="{{-site.twitter_url-}}"><span class="icon-twitter bg"></span></a class="footer__social">
+                <a class="footer__social" title="Instagram" href="{{-site.instagram_url-}}"><span class="icon-instagram bg"></span></a class="footer__social">
             </div>
         </div>
     </div>

@@ -4,7 +4,7 @@
 <script src="{{ "/js/modernizr.min.js" | relative_url }}"></script>
 <script src="{{ "/js/anime.min.js" | relative_url }}"></script>
 <script src="{{ "/js/script.js" | relative_url }}"></script>
-{% if include.layout && include.layout == 'form' %}
+{%- if include.layout && include.layout == 'form' -%}
 <script src="{{ "/js/parsley.min.js" | relative_url }}" type="text/javascript"></script>
 <script type="text/javascript">
     $(document).ready(function () {
@@ -12,7 +12,7 @@
         $('.form__proceed-button').on('click', function () {
             var parent_fieldset = $(this).parents('fieldset');
             var group_name = parent_fieldset.attr('data-parsley-group');
-            $('.form').parsley().whenValidate({
+            $('.form').parsley().whenValid({
                 group: group_name
             }).done(function () {
                 parent_fieldset.hide();
@@ -23,7 +23,7 @@
         });
     });
 </script>
-{% endif %}
+{%- endif -%}
 <script type="text/javascript">
     var fonts = document.createElement('link');
     fonts.rel = 'stylesheet';

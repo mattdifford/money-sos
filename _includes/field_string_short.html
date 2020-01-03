@@ -1,6 +1,6 @@
-<label for={{include.slug}} class="field__label">{{include.name}}</label>
-{% if include.helptext %}
-<p class="field__helptext">{{include.helptext}}</p>
-{% endif %}
-<input type="text" name={{include.slug}} required="{{input.required}}" class="field__input"
-    placeholder="{{include.placeholder}}" maxlength="8">
+<label for={{-include.slug-}} class="field__label">{{-include.name-}}</label>
+{%- if include.helptext -%}
+<p class="field__helptext">{{-include.helptext-}}</p>
+{%- endif -%}
+<input type="text" name={{-include.slug-}} required="{{-input.required-}}" class="field__input"
+    placeholder="{{-include.placeholder-}}" maxlength="8">
