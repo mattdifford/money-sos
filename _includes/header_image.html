@@ -17,7 +17,7 @@
                     </div>
                     <div class="header-image__panel-right">
                         {% capture image_src%}/images/upload/banner-{{include.page | slugify 'latin'}}.jpg{% endcapture%}
-                        <img alt="{{include.page}}" src="{{image_src}}" />
+                        {% include picture.html alt=include.page url=image_src type="jpg"%}
                         <a href="{{include.url}}/form" class="button">Checking tool</a>
                     </div>
                 </div>
@@ -36,7 +36,8 @@
                 {%else %}
                 <div class="header-image__left">
                     {%if include.layout == "home" %}
-                    <div class="header-image__image-wrapper"><img src="/images/logo-color.png" alt="{{site.title}}" />
+                    <div class="header-image__image-wrapper">
+                        {% include picture.html url="/images/logo-color.png" alt=site.title type="png"%}
                     </div>
                     {% endif %}
                     <div class="header-image__content">

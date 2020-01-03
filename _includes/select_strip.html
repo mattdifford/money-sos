@@ -7,8 +7,10 @@
         <div class="select-strip__list">
             {% for object in include.objects %}
             <a class="select-strip__item block scrollwatch" href="{{object.link}}">
-                <div class="block__image-wrapper"><img class="block__image" src="{{object.image}}"
-                        alt="{{object.title}}" /></div>
+                <div class="block__image-wrapper">
+                    {%assign image_type = object.image | slice: -3, 3%}
+                    {%include picture.html type=image_type url=object.image alt=object.title  class="block__image"%}
+                </div>
                 <h4 class="block__title">{{object.title}}</h4>
             </a>
             {%endfor%}

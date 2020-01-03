@@ -8,8 +8,9 @@
             </div>
             <div class="featured-strip__list">
                 {% for item in seen_on %}
-                {% capture image_src%} /images/{{item}}.png {% endcapture %}
-                <img src="{{image_src | trim}}" alt="{{item | capitalize}}" />
+                {% capture image_src%}/images/{{item}}.png{% endcapture %}
+                {%capture image_alt%}"{{item |capitalize}}"{%endcapture%}
+                {%include picture.html url=image_src alt=image_alt type="png"%}
                 {% endfor %}
             </div>
         </div>

@@ -14,7 +14,8 @@
             {% for review in reviews %}
             <div class="reviews-strip__item">
                 <div class="reviews-strip__image-wrapper">
-                    <img alt="{{review.name}}" src="{{review.image}}" class="reviews-strip__image" />
+                    {%assign image_type = review.image | slice: -3, 3%}
+                    {%include picture.html type=image_type url=review.image  alt=review.name class="reviews-strip__image"%}
                 </div>
                 <div class="reviews-strip__content">
                     <div class="reviews-strip__text">{{review.text | markdownify }}</div>
