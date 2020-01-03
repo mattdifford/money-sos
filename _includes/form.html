@@ -3,17 +3,27 @@
 {% assign form = form_data[0] %}
 {{form_data.pre_text}}
 {% assign fieldset_count = 1%}
-<form class="form" data-parsley-trigger="input">
+{% assign included_data = false %}
+{% assign included_date = false %}
+<form class="form">
     {{form.pre_text | markdownify}}
-    {% for field in form.form_fields %}
+    {% for field in form.fields %}
+    {% if field.type == 'data' && !included_data %}
+        <script src="{{ "/js/bootstrap3-typeahead.min.js" | relative_url }}"></script>
+        {% assign included_data = true %}
+    {%endif%}
+    {% if field.type == 'date' && !included_date %}
+        <script src="{{ "/js/field_date.js" | relative_url }}"></script>
+        {% assign included_date = true %}
+    {%endif%}
     {% if forloop.first == true %}
-    <fieldset class="form__fieldset active" data-parsley-group="first" data-index="{{forloop.index}}">
+    <fieldset class="form__fieldset active" data-parsley-group="first" data-index="{{fieldset_count}}">
         {% elsif field.type == 'fieldset' %}
         {% assign fieldset_count = fieldset_count | plus: 1%}
         <div class="form__proceed"><button type="button" class="form__proceed-button">Step {{fieldset_count}}</button>
         </div>
     </fieldset>
-    <fieldset class="form__fieldset" data-parsley-group="{{field.name}}" data-index="{{forloop.index}}">
+    <fieldset class="form__fieldset" data-parsley-group="{{field.name}}" data-index="{{fieldset_count}}">
         {% endif %}
         {% if field.type != 'fieldset' %}
         <div class="form__field">
@@ -22,7 +32,7 @@
             {% if field.type == 'radio' %}
             {% include {{field_include |trim}} name=field.name slug=field_slug type=field.type options=field.options helptext=field.helptext required=field.required%}
             {% else %}
-            {% include {{field_include |trim}} name=field.name slug=field_slug type=field.type helptext=field.helptext required=field.required placeholder=field.placeholder%}
+            {% include {{field_include |trim}} name=field.name slug=field_slug type=field.type helptext=field.helptext required=field.required placeholder=field.placeholder options=field.options%}
             {% endif %}
         </div>
         {%endif %}

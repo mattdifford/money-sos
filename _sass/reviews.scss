@@ -1,5 +1,5 @@
 .reviews-strip {
-  padding: 40px 0 80px;;
+  padding: 40px 0 80px;
   background: $colour_secondary;
   border-top: 34px solid $colour_tertiary;
   text-align: center;
@@ -8,12 +8,25 @@
     text-align: center;
     font-size: 70px;
     display: inline-block;
-    width: 45%;
     margin: 0 0 25px;
+    @include in_size($lg) {
+      width: 45%;
+    }
+    @include in_size($xs) {
+      font-size: 40px;
+      line-height: 1;
+    }
   }
   &__list {
     padding: 0 200px;
     margin-bottom: 50px;
+    @include in_size($sm) {
+      padding: 0 130px;
+    }
+    @include in_size($xs) {
+      padding: 0;
+      margin-bottom: 75px;
+    }
   }
   .slick-arrow {
     position: absolute;
@@ -37,6 +50,26 @@
       width: 25px;
       height: 25px;
     }
+    @include in_size($xs) {
+      top: auto;
+      transform: none;
+      bottom: -45px;
+      font-size: 18px;
+      padding: 5px;
+      border-width: 3px;
+      &.slick-next {
+        left: 51%;
+        right: auto;
+      }
+      &.slick-prev {
+        right: 51%;
+        left: auto;
+      }
+      &:before {
+        width: 18px;
+        height: 18px;
+      }
+    }
   }
   .slick-prev {
     left: 50px;
@@ -54,6 +87,10 @@
     flex: 1;
     padding-left: 50px;
     color: #fff;
+    @include in_size($mobile) {
+      flex: 1 1 100%;
+      padding-left: 0;
+    }
   }
   &__image {
     &-wrapper {
@@ -64,6 +101,13 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
+      @include in_size($mobile) {
+        margin: 0 auto;
+      }
+      @include in_size($xs) {
+        width: 125px;
+        height: 125px;
+      }
     }
   }
 }

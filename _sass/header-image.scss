@@ -13,6 +13,11 @@
   }
   &--home {
     background: url("/images/header-image.png") no-repeat 150% bottom;
+    .header-image {
+      &__containment {
+        position: absolute;
+      }
+    }
   }
   &--cta {
     .down-icon__wrapper {
@@ -47,13 +52,28 @@
             display: block;
           }
         }
+        li {
+          @include list_style;
+        }
       }
       &__right {
         padding: 50px 0 50px 75px;
       }
     }
-    li {
-      @include list_style;
+    
+  }
+  &--home,
+  &--default {
+    @include in_size($mobile) {
+      .header-image {
+        &__left {
+          padding: 0;
+          text-align: center;
+        }
+        &__right {
+          display: none;
+        }
+      }
     }
   }
   &__title {
@@ -61,8 +81,13 @@
     color: $colour_secondary;
     text-align: center;
     font-size: 70px;
-    max-width: 50%;
     line-height: 1;
+    @include in_size($lg) {
+      max-width: 50%;
+    }
+    @include in_size($xs) {
+      font-size: 40px;
+    }
   }
   &__bg {
     position: absolute;
@@ -70,6 +95,11 @@
     top: 0;
     height: 100%;
     width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include in_size($xs) {
+      width: 100%;
+    }
   }
   .container {
     height: 100%;
@@ -83,6 +113,7 @@
     align-items: center;
     justify-content: space-between;
     box-shadow: -14px 15px 8px 0px rgba(0, 0, 0, 0.16);
+
     &-right {
       position: relative;
     }
@@ -102,6 +133,14 @@
     li {
       @include list_style;
     }
+
+    @include in_size($xs) {
+      padding: 25px;
+      flex-wrap: wrap;
+      h3 {
+        font-size: 35px;
+      }
+    }
   }
   &__content {
     h1 {
@@ -118,6 +157,13 @@
         position: absolute;
         left: 0;
         bottom: 0;
+      }
+      @include in_size($xs) {
+        font-size: 50px;
+        line-height: 1;
+        &:after {
+          bottom: -15px;
+        }
       }
     }
   }
@@ -139,6 +185,9 @@
   }
   &__image-wrapper {
     margin-bottom: 50px;
+    @include in_size($xs) {
+      margin-bottom: 10px;
+    }
   }
   &__footer {
     flex: 1 1 100%;
@@ -167,6 +216,52 @@
       top: 62%;
       left: 100px;
       transition-delay: 0.4s;
+    }
+  }
+  @include in_size($sm) {
+    &--default,
+    &--home {
+      background-position: right bottom;
+    }
+  }
+  @include in_size($xs) {
+    min-height: 0;
+    &--default,
+    &--home {
+      .header-image {
+        &__containment {
+          padding: 125px 0 0;
+        }
+      }
+    }
+    &--home {
+      .header-image {
+        &__containment {
+          position: static;
+        }
+      }
+    }
+    &--form {
+      .header-image {
+        &__left,
+        &__right {
+          padding: 0;
+          flex: 1 0 100%;
+        }
+        &__left {
+          h1 {
+            font-size: 30px;
+            text-align: center;
+            &:after {
+              width: 80%;
+              margin: 20px auto 0;
+            }
+          }
+          ul {
+            display: none;
+          }
+        }
+      }
     }
   }
 }

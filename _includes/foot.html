@@ -1,5 +1,5 @@
 <script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js" async></script>
-<script src="{{ "/js/jquery.min.js" | relative_url }}"></script>
+
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="{{ "/js/modernizr.min.js" | relative_url }}"></script>
 <script src="{{ "/js/anime.min.js" | relative_url }}"></script>
@@ -11,14 +11,15 @@
         // when you click on next
         $('.form__proceed-button').on('click', function () {
             var parent_fieldset = $(this).parents('fieldset');
-            var group = parent_fieldset.attr('data-parsley-group');
-
-            if ($('.form').parsley().validate(group)) {
+            var group_name = parent_fieldset.attr('data-parsley-group');
+            $('.form').parsley().whenValidate({
+                group: group_name
+            }).done(function () {
                 parent_fieldset.hide();
                 parent_fieldset.next().show();
                 var index = parent_fieldset.attr("data-index");
                 $('.form__fieldset-count').find('span[data-index="' + (parseInt(index) + 1) + '"]').addClass('active');
-            }
+            });
         });
     });
 </script>
@@ -36,7 +37,14 @@
     slick.href = '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css';
     slick.type = 'text/css';
     var defer_slick = document.getElementsByTagName('link')[0];
-    defer_slick.parentNode.insertBefore(slick, defer);
+    defer_slick.parentNode.insertBefore(slick, defer_slick);
+
+    var select = document.createElement('link');
+    select.rel = 'stylesheet';
+    select.href = 'https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/css/select2.min.css';
+    select.type = 'text/css';
+    var defer_select = document.getElementsByTagName('link')[0];
+    defer_select.parentNode.insertBefore(slick, defer);
 
 </script>
 <script src="https://kit.fontawesome.com/c4e3547ea2.js" crossorigin="anonymous" defer></script>

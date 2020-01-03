@@ -2,12 +2,33 @@
   padding-bottom: 75px;
   background: url("/images/strip-bg.png") no-repeat right bottom;
   text-align: center;
+  @include in_size($xs) {
+    padding-top: 50px;
+  }
   &__title {
     display: inline-block;
     color: $colour_secondary;
     padding-bottom: 60px;
     margin-bottom: 80px;
     position: relative;
+    @include in_size($xs) {
+      padding-bottom: 30px;
+      margin-bottom: 40px;
+    }
+    &:before {
+      position: absolute;
+      right: 100%;
+      margin-left: -25px;
+      height: 100px;
+      width: 100px;
+      background-size: contain;
+      top: -25px;
+      background-repeat: no-repeat;
+      @include in_size($xs) {
+        width: 75px;
+        height: 75px;
+      }
+    }
     &:after {
       content: "";
       display: block;
@@ -18,29 +39,52 @@
       bottom: 0;
       left: 50%;
       transform: translateX(-50%);
+      @include in_size($xs) {
+        width: 220px;
+      }
     }
     &.claims {
       &:before {
         content: "";
-        background: url("/images/papers.png") no-repeat;
-        position: absolute;
-        right: 100%;
-        margin-left: -25px;
-        height: 100px;
-        width: 100px;
-        background-size: contain;
-        top: -25px;
+        background-image: url("/images/papers.png");
       }
     }
   }
   &__subtitle {
     color: $colour_secondary;
     margin-top: -40px;
+    @include in_size($xs) {
+      margin-top: -10px;
+    }
   }
   &__list {
     display: flex;
     justify-content: space-between;
     margin-bottom: 120px;
+    @include in_size($xs) {
+      margin-bottom: 50px;
+    }
+    @include in_size($md-only) {
+      flex-wrap: wrap;
+      .block {
+        flex: 1 0 30%;
+        margin-bottom: 30px;
+      }
+    }
+    @include in_size($sm-only) {
+      flex-wrap: wrap;
+      .block {
+        flex: 1 0 30%;
+        margin-bottom: 30px;
+      }
+    }
+    @include in_size($xs) {
+      flex-wrap: wrap;
+      .block {
+        flex: 1 0 100%;
+        margin: 0 0 15px;
+      }
+    }
   }
   &__arrow {
     text-align: center;

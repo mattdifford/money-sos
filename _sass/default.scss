@@ -15,6 +15,9 @@ html {
   font-family: $font_primary;
   font-weight: 300;
   font-size: 22px;
+  @include in_size($xs) {
+    font-size: 18px;
+  }
 }
 
 fieldset {
@@ -30,6 +33,9 @@ fieldset {
   top: 0;
   width: 100%;
   z-index: 1;
+  @include in_size($xs) {
+    padding: 25px 20px;
+  }
 }
 .down-icon {
   color: $colour_secondary;
@@ -59,9 +65,17 @@ fieldset {
   transform: translateY(10px);
   transition: all 0.5s ease-in-out 0s;
   opacity: 0;
+  img {
+    max-height: 100%;
+  }
   &.scrolled {
     transform: translateY(0);
     opacity: 1;
+  }
+  @include in_size($md-only) {
+    width: 150px;
+    height: 150px;
+    padding: 25px;
   }
 }
 
@@ -76,6 +90,9 @@ fieldset {
     margin-top: 20px;
     padding-top: 20px;
     font-size: 16px;
+    @include in_size($xs) {
+      flex-wrap: wrap;
+    }
     p {
       margin: 0;
     }
@@ -88,18 +105,49 @@ fieldset {
   }
   &__logo {
     filter: grayscale(100%);
+    width: 315px;
+    max-width: 100%;
     &-text {
       font-size: 16px;
+      @include in_size($xs) {
+        margin-top: 0;
+      }
     }
   }
   &__wrapper {
     display: flex;
+    @include in_size($xs) {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
   }
   &__col {
     flex: 0 1 25%;
     padding: 0 25px;
-    &:first-child {
+    &--logo {
       padding-left: 0;
+    }
+    @include in_size($xs) {
+      flex: 0 1 31%;
+      padding: 0;
+      &--logo {
+        flex: 0 1 100%;
+        padding: 0 0 25px;
+      }
+      &--nav {
+        flex: 1 0 100%;
+        order: 2;
+      }
+      &--social {
+        text-align: right;
+      }
+    }
+    @include in_size($xxs) {
+      flex: 0 1 100%;
+      margin-bottom: 15px;
+      &--social {
+        text-align: left;
+      }
     }
   }
   &__nav-link {
@@ -120,11 +168,27 @@ fieldset {
   }
   &__small-nav {
     display: flex;
+    @include in_size($xs) {
+      flex-wrap: wrap;
+      margin-top: 25px;
+    }
+    @include in_size($xxs) {
+      margin-top: 0;
+    }
     &-link {
       color: $colour_black;
       border-left: 1px solid $colour_dark_grey;
       padding: 0 15px;
       transition: all 0.2s ease-in-out 0s;
+      @include in_size($xs) {
+        flex: 0 1 50%;
+        border: none;
+        padding: 10px 0 0;
+      }
+
+      @include in_size($xxs) {
+        flex: 0 1 100%;
+      }
       &:hover {
         color: $colour_primary;
       }

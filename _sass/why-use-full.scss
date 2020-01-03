@@ -2,16 +2,29 @@
   background: $colour_secondary;
   border-top: 34px solid $colour_tertiary;
   padding: 50px 0 100px;
+  @include in_size($xs) {
+    padding: 30px 0 25px;
+  }
   &__wrapper {
     padding: 0 150px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    @include in_size($md-only) {
+      padding: 0 80px;
+    }
+    @include in_size($mobile) {
+      padding: 0;
+    }
   }
   &__title {
     color: #fff;
     text-align: center;
     flex: 1 1 100%;
+    margin-top: 0;
+    @include in_size($xs) {
+      font-size: 42px;
+    }
   }
   &__text {
     flex: 0 1 50%;
@@ -28,7 +41,15 @@
         height: 100%;
         width: 5px;
         background: #fff;
+        @include in_size($xs) {
+          display: none;
+        }
       }
+    }
+    @include in_size($xs) {
+      flex: 1 0 100%;
+      padding: 10px 0;
+      margin: 0;
     }
   }
   &__item {
@@ -40,8 +61,8 @@
     transition: all 0.4s ease-in-out 0.5s;
     opacity: 0;
     transform: translateY(10px);
-    &.scrolled{
-      opacity:1;
+    &.scrolled {
+      opacity: 1;
       transform: translateY(0);
     }
     img {
@@ -51,6 +72,17 @@
       display: flex;
       justify-content: space-between;
       margin-top: 75px;
+    }
+    @include in_size($xs) {
+      flex: 1 0 50%;
+      margin: 0;
+      padding: 0 15px;
+      &-list {
+        flex-wrap: wrap;
+      }
+    }
+    @include in_size($xxs) {
+      flex: 1 0 100%;
     }
   }
 }

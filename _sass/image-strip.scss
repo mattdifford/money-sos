@@ -6,6 +6,12 @@
   padding: 100px 0 40px;
   position: relative;
   overflow: hidden;
+  @include in_size($xs) {
+    padding: 30px 0 25px;
+  }
+  @include in_size($sm-only) {
+    padding: 50px 0 30px;
+  }
   &__wrapper {
     display: flex;
     align-items: center;
@@ -14,15 +20,29 @@
   &__content {
     flex: 0 1 50%;
     padding: 50px 0;
+    @include in_size($xs) {
+      flex: 1 0 100%;
+    }
+    @include in_size($sm) {
+      padding: 0;
+    }
     h2 {
       color: $colour_secondary;
       font-size: 58px;
       margin-top: 0;
       line-height: 1.2;
+      @include in_size($xs) {
+        font-size: 42px;
+      }
     }
     a {
       @include button();
       margin-top: 25px;
+    }
+  }
+  &__image {
+    @include in_size($xs) {
+      display: none;
     }
   }
   &--image {

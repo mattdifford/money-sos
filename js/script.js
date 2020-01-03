@@ -38,7 +38,27 @@ $(document).ready(function () {
         autoplay: true,
         autoplaySpeed: 2000,
         infinite: true,
-        variableWidth: true
+        variableWidth: true,
+        responsive: [
+            {
+              breakpoint: 1460,
+              settings: {
+                slidesToShow: 3,
+              }
+            },
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 2,
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+              }
+            }
+          ]
     });
 
     $('.reviews-strip__list').slick({

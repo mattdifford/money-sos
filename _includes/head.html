@@ -5,7 +5,7 @@
   {% seo %}
   <link rel="stylesheet" href="/assets/css/bootstrap.css">
   <link rel="stylesheet" href="/assets/css/default.css">
-  
+
   {% capture layout_css %}/assets/css/{{include.layout}}.css{%endcapture%}
   <link rel="stylesheet" href="{{layout_css}}">
   {% feed_meta %}
@@ -21,4 +21,5 @@
   <meta name="application-name" content="{{site.title}}">
   <meta name="msapplication-TileColor" content="#242038">
   <meta name="theme-color" content="#242038">
+  <script src="{{ "/js/jquery.min.js" | relative_url }}"></script>
 </head>

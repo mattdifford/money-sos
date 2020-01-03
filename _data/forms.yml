@@ -50,12 +50,10 @@ items:
           - name: airports
         required: true
         type: data
-      - helptext: ' helptext'
-        name: Flight number
+      - name: Flight number
         required: false
         type: string_short
-      - helptext: helptext
-        name: Booking reference
+      - name: Booking reference
         required: false
         type: string_short
     pre_text: >-

@@ -4,6 +4,9 @@
   box-shadow: -14px 15px 8px 0px rgba(0, 0, 0, 0.16);
   display: flex;
   flex-wrap: wrap;
+  @include in_size($xs) {
+    padding: 20px;
+  }
   h3 {
     color: $colour_secondary;
     font-size: 30px;
@@ -16,10 +19,19 @@
     + p {
       font-size: 20px;
     }
+    @include in_size($xs) {
+      h3 {
+        text-align: center;
+        + p {
+          text-align: center;
+        }
+      }
+    }
   }
   &__field {
     margin-bottom: 25px;
     width: 100%;
+    position: relative;
   }
   &__fieldset {
     display: none;
@@ -34,6 +46,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-bottom: 20px;
     span {
       background: $colour_grey;
       height: 35px;
@@ -164,6 +177,12 @@
       }
     }
   }
+  &__error {
+    background: $colour_error;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+  }
 }
 
 .parsley-errors-list {
@@ -173,8 +192,31 @@
     color: #fff;
     font-size: 16px;
     padding: 5px;
+    margin: 0;
     &:before {
       display: none;
+    }
+  }
+}
+
+.typeahead.dropdown-menu {
+  list-style: none;
+  padding: 0 10px;
+  border: 1px solid $colour_border_grey;
+  border-top: none;
+  background: #fff;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  li {
+    padding: 10px 0;
+    border-top: 1px solid $colour_border_grey;
+    font-size: 16px;
+    a {
+      color: $colour_dark_grey;
+    }
+    &:first-child {
+      border-top: none;
     }
   }
 }

@@ -1,11 +1,20 @@
 .faqs-strip {
+  @include in_size($xs) {
+    padding: 30px 0;
+  }
   &__title {
     font-size: 70px;
     line-height: 1.2;
     text-align: center;
     color: $colour_dark_grey;
-    max-width: 44%;
     margin: 0 auto 25px;
+    @include in_size($lg) {
+      max-width: 44%;
+    }
+    @include in_size($xs) {
+      font-size: 40px;
+      line-height: 1;
+    }
   }
   &__list {
     margin-bottom: 50px;
@@ -31,6 +40,13 @@
       line-height: 34px;
       margin-right: 30px;
     }
+    @include in_size($xs) {
+      flex-wrap: wrap;
+      padding-bottom: 25px;
+      &:before {
+        margin-bottom: 20px;
+      }
+    }
   }
   &__answer {
     max-height: 0;
@@ -41,6 +57,9 @@
     padding: 0 95px;
     font-weight: 400;
     color: $colour_dark_grey;
+    @include in_size($xs) {
+      padding: 0 15px;
+    }
     *:first-child {
       padding-top: 15px;
     }
@@ -52,6 +71,9 @@
     }
     &.active {
       max-height: 200px;
+      @include in_size($xs) {
+        max-height: 400px;
+      }
     }
   }
 }

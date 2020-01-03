@@ -1,0 +1,6994 @@
+- id: AAA
+  name: Anaa Airport
+- id: AAE
+  name: El Mellah Airport
+- id: AAL
+  name: Aalborg Airport
+- id: AAM
+  name: Mala Mala
+- id: AAN
+  name: Al Ain Airport
+- id: AAQ
+  name: Olkhovka Airport
+- id: AAR
+  name: Tirstrup Airport
+- id: AAT
+  name: Altay Airport
+- id: AAX
+  name: Romeu Zuma Airport
+- id: AAY
+  name: Al Gaidah Airport
+- id: ABA
+  name: Abakan
+- id: ABC
+  name: Los Llanos
+- id: ABE
+  name: Lehigh Valley International Airport
+- id: ABI
+  name: Abilene Regional Airport
+- id: ABJ
+  name: Abidjan Port Bouet Airport
+- id: ABK
+  name: Kabri Dar
+- id: ABL
+  name: Ambler Airport
+- id: ABM
+  name: Bamaga Airport
+- id: ABQ
+  name: Albuquerque International Airport
+- id: ABR
+  name: Aberdeen Regional Airport
+- id: ABS
+  name: Abu Simbel Airport
+- id: ABT
+  name: Al Baha Airport
+- id: ABV
+  name: Abuja International Airport
+- id: ABX
+  name: Albury Airport
+- id: ABY
+  name: Southwest Georgia Regional Airport
+- id: ABZ
+  name: Aberdeen Dyce International Airport
+- id: ACA
+  name: General Juan N Alvarez International Airport
+- id: ACC
+  name: Kotoka International Airport
+- id: ACE
+  name: Arrecife Airport
+- id: ACH
+  name: Altenrhein Airport
+- id: ACI
+  name: The Blaye Airport
+- id: ACK
+  name: Nantucket Memorial Airport
+- id: ACP
+  name: Sahand Airport
+- id: ACT
+  name: Waco Regional Airport
+- id: ACV
+  name: Arcata Airport
+- id: ACX
+  name: Xingyi
+- id: ACY
+  name: Atlantic City International Airport
+- id: ACZ
+  name: Zabol AP
+- id: ADA
+  name: Sakirpasa Airport
+- id: ADB
+  name: Gaziemir Airport
+- id: ADD
+  name: Bole International Airport
+- id: ADE
+  name: Aden International Airport
+- id: ADF
+  name: Adiyaman Airport
+- id: ADJ
+  name: Al Matar Airport
+- id: ADK
+  name: Adak Airport
+- id: ADL
+  name: Adelaide International Airport
+- id: ADQ
+  name: Kodiak Airport
+- id: ADU
+  name: Ardabil Airport
+- id: ADX
+  name: Leuchars Airport
+- id: ADZ
+  name: Sesquicentenario Airport
+- id: AEH
+  name: Abeche Airport
+- id: AEP
+  name: Aeroparque Jorge Newbery
+- id: AER
+  name: Adler Airport
+- id: AES
+  name: Vigra Airport
+- id: AET
+  name: Allakaket Airport
+- id: AEX
+  name: Alexandria International Airport
+- id: AEY
+  name: Akureyri Airport
+- id: AFA
+  name: San Rafael Airport
+- id: AFL
+  name: Alta Floresta Airport
+- id: AFS
+  name: Zarafshan Airport
+- id: AFT
+  name: Afutara Aerodrome
+- id: AFZ
+  name: Sabzevar Airport
+- id: AGA
+  name: Almassira Airport
+- id: AGF
+  name: La Garenne Airport
+- id: AGH
+  name: Angelholm Airport
+- id: AGL
+  name: Wanigela
+- id: AGM
+  name: Angmagssalik Airport
+- id: AGN
+  name: Angoon Airport
+- id: AGP
+  name: Malaga Airport
+- id: AGR
+  name: Agra Airport
+- id: AGS
+  name: Bush Field Airport
+- id: AGT
+  name: Alejo Garcia Airport
+- id: AGU
+  name: Aguascalientes Airport
+- id: AGV
+  name: Acarigua
+- id: AGX
+  name: Agatti Island Airport
+- id: AHB
+  name: Abha Airport
+- id: AHE
+  name: Ahe Airport
+- id: AHO
+  name: Alghero Airport
+- id: AHS
+  name: Ahuas Airport
+- id: AHU
+  name: Cote du Rif Airport
+- id: AIA
+  name: Alliance Municipal Airport
+- id: AIN
+  name: Wainwright Airport
+- id: AIT
+  name: Aitutaki Airport
+- id: AIU
+  name: Atiu Island
+- id: AJA
+  name: Campo Dell Oro Airport
+- id: AJF
+  name: Al Jouf Airport
+- id: AJI
+  name: Agri Airport
+- id: AJL
+  name: Aizwal Airport
+- id: AJN
+  name: Comoros
+- id: AJR
+  name: Arvidsjaur Airport
+- id: AJU
+  name: Santa Maria Airport
+- id: AKA
+  name: Ankang Airport
+- id: AKB
+  name: Atka Airport
+- id: AKF
+  name: Kufra Airport
+- id: AKI
+  name: Akiak Airport
+- id: AKJ
+  name: Asahikawa Airport
+- id: AKK
+  name: Akhiok Airport
+- id: AKL
+  name: Auckland International Airport
+- id: AKN
+  name: King Salmon Airport
+- id: AKP
+  name: Anaktuvuk Pass Airport
+- id: AKS
+  name: Kroonstad Airport
+- id: AKU
+  name: Aksu Airport
+- id: AKV
+  name: Akulivik Airport
+- id: AKX
+  name: Aktyubinsk Airport
+- id: AKY
+  name: Sittwe Airport
+- id: ALA
+  name: Alma Ata Airport
+- id: ALB
+  name: Albany International Airport
+- id: ALC
+  name: Alicante Airport
+- id: ALF
+  name: Alta Airport
+- id: ALG
+  name: Houari Boumediene Airport
+- id: ALH
+  name: Albany Airport
+- id: ALM
+  name: Alamogordo White Sands Regional Airport
+- id: ALO
+  name: Waterloo Municipal Airport
+- id: ALP
+  name: Aleppo International Airport
+- id: ALS
+  name: San Luis Valley Regional Airport
+- id: ALW
+  name: Walla Walla Regional Airport
+- id: ALY
+  name: An-Nuzhah Airport
+- id: ALZ
+  name: Alitak Seaplane Base
+- id: AMA
+  name: Amarillo International Airport
+- id: AMD
+  name: Sardar Vallabhbhai Patel International Airport
+- id: AMH
+  name: Ethiopia
+- id: AMI
+  name: Selaparang
+- id: AMM
+  name: Queen Alia International Airport
+- id: AMQ
+  name: Pattimura Airport
+- id: AMS
+  name: Schiphol Airport
+- id: AMV
+  name: Amderma Airport
+- id: AMY
+  name: Ambatomainty
+- id: ANC
+  name: Anchorage International Airport
+- id: ANE
+  name: Aéroport d'Angers-Marcé
+- id: ANF
+  name: Cerro Moreno International Airport
+- id: ANG
+  name: Brie Champniers Airport
+- id: ANI
+  name: Aniak Airport
+- id: ANM
+  name: Madagascar
+- id: ANR
+  name: Deurne Airport
+- id: ANU
+  name: V C Bird International Airport
+- id: ANV
+  name: Anvik Airport
+- id: ANX
+  name: Andoya Airport
+- id: AOC
+  name: Altenburg Nobitz
+- id: AOE
+  name: Anadolu University Airport
+- id: AOI
+  name: Falconara Airport
+- id: AOJ
+  name: Aomori Airport
+- id: AOK
+  name: Karpathos Airport
+- id: AOO
+  name: Altoona-Blair County Airport
+- id: AOR
+  name: Sultan Abdul Halim Airport
+- id: AOS
+  name: Amook Bay Seaplane Base
+- id: APA
+  name: Centennial Airport
+- id: APF
+  name: Naples Municipal Airport
+- id: APK
+  name: French Polynesia
+- id: APL
+  name: Nampula Airport
+- id: APN
+  name: Alpena County Regional Airport
+- id: APO
+  name: Apartado Airport
+- id: APW
+  name: Faleolo Airport
+- id: AQG
+  name: Anqing Airport
+- id: AQI
+  name: Hafr Al Batin Airport
+- id: AQJ
+  name: Aqaba International Airport
+- id: AQP
+  name: Rodriguez Ballon Airport
+- id: ARC
+  name: Arctic Village Airport
+- id: ARD
+  name: Alor Island
+- id: ARH
+  name: Arkhangelsk Airport
+- id: ARI
+  name: Chacalluta Airport
+- id: ARK
+  name: Arusha Airport
+- id: ARM
+  name: Armidale Airport
+- id: ARN
+  name: Arlanda Airport
+- id: ART
+  name: Watertown International Airport
+- id: ARU
+  name: Aracatuba Airport
+- id: ARV
+  name: Lakelan-Noble F. Lee Memerial Field Airport
+- id: ARW
+  name: Ceala Airport
+- id: ASA
+  name: Assab
+- id: ASB
+  name: Ashkhabad Northwest Airport
+- id: ASD
+  name: Andros Town Airport
+- id: ASE
+  name: Aspen Pitkin County Airport-Sardy Field
+- id: ASF
+  name: Astrakhan Southeast Airport
+- id: ASI
+  name: Wideawake Fld
+- id: ASJ
+  name: Amami Airport
+- id: ASM
+  name: Yohannes Iv International Airport
+- id: ASO
+  name: Ethiopia
+- id: ASP
+  name: Alice Springs Airport
+- id: ASR
+  name: Erkilet Airport
+- id: ASU
+  name: Silvio Pettirossi International Airport
+- id: ASV
+  name: Amboseli
+- id: ASW
+  name: Aswan Airport
+- id: ATB
+  name: Atbara
+- id: ATC
+  name: Arthur's Town Airport
+- id: ATD
+  name: Atoifi
+- id: ATH
+  name: Eleftherios Venizelos International Airport
+- id: ATK
+  name: Atqasuk Airport
+- id: ATL
+  name: Hartsfield-Jackson Atlanta International Airport
+- id: ATM
+  name: Altamira Airport
+- id: ATQ
+  name: Raja Sansi Airport
+- id: ATR
+  name: Atar Airport
+- id: ATT
+  name: Atmautluak Airport
+- id: ATW
+  name: Outagamie County Airport
+- id: ATY
+  name: Watertown Municipal Airport
+- id: ATZ
+  name: Asyut Airport
+- id: AUA
+  name: Reina Beatrix International Airport
+- id: AUC
+  name: Santiago Perez Airport
+- id: AUG
+  name: Augusta State Airport
+- id: AUH
+  name: Abu Dhabi International Airport
+- id: AUK
+  name: Alakanuk Airport
+- id: AUQ
+  name: Atuona Airport
+- id: AUR
+  name: Aurillac Airport
+- id: AUS
+  name: Austin-Bergstrom International Airport
+- id: AUX
+  name: Araguaina Airport
+- id: AUY
+  name: Vanuatu
+- id: AVL
+  name: Asheville Regional Airport
+- id: AVN
+  name: Avignon-Caumont Airport
+- id: AVP
+  name: Wilkes Barre Scranton International Airport
+- id: AVU
+  name: Avu Avu
+- id: AVV
+  name: Avalon Airport
+- id: AWB
+  name: Awaba
+- id: AWD
+  name: Aniwa Airport
+- id: AWZ
+  name: Ahvaz Airport
+- id: AXA
+  name: Wallblake Airport
+- id: AXD
+  name: Alexandroupolis Airport
+- id: AXM
+  name: El Eden Airport
+- id: AXP
+  name: Spring Point Airport
+- id: AXR
+  name: French Polynesia
+- id: AXT
+  name: Akita Airport
+- id: AXU
+  name: Axum
+- id: AYQ
+  name: Ayers Rock Airport
+- id: AYT
+  name: Antalya Airport
+- id: AZA
+  name: Phoenix-Mesa Gateway Airport
+- id: AZD
+  name: Yazd Airport
+- id: AZN
+  name: Andizhan Airport
+- id: AZO
+  name: Kalamazoo-Battle Creek International Airport
+- id: AZR
+  name: Touat Airport
+- id: AZS
+  name: Samana El Catey International Airport
+- id: BAG
+  name: Baguio Airport
+- id: BAH
+  name: Bahrain International Airport
+- id: BAL
+  name: Batman Airport
+- id: BAQ
+  name: Ernesto Cortissoz Airport
+- id: BAS
+  name: Balalae
+- id: BAU
+  name: Bauru Airport
+- id: BAV
+  name: Baotou Airport
+- id: BAX
+  name: Barnaui West Airport
+- id: BAY
+  name: Baia Mare
+- id: BBA
+  name: Balmaceda Airport
+- id: BBI
+  name: Bhubaneswar Airport
+- id: BBK
+  name: Kasane Airport
+- id: BBN
+  name: Bario Airport
+- id: BBO
+  name: Berbera Airport
+- id: BBS
+  name: Blackbushe Airport
+- id: BBU
+  name: Aeroportul National Bucuresti-Baneasa
+- id: BCA
+  name: Baracoa Airport
+- id: BCD
+  name: Bacolod Airport
+- id: BCI
+  name: Barcaldine Aerodrome
+- id: BCL
+  name: Barra Colorado Airport
+- id: BCM
+  name: Luizi Calugara Airport
+- id: BCN
+  name: Barcelona International Airport
+- id: BDA
+  name: Bermuda International Airport
+- id: BDB
+  name: Bundaberg Airport
+- id: BDD
+  name: Badu Island Airport
+- id: BDH
+  name: Bandar Lengeh Airport
+- id: BDJ
+  name: Syamsuddin Noor Airport
+- id: BDL
+  name: Bradley International Airport
+- id: BDO
+  name: Husein Sastranegara Airport
+- id: BDP
+  name: Bhadrapur
+- id: BDQ
+  name: Vadodara Airport
+- id: BDR
+  name: Igor I Sikorsky Memorial Airport
+- id: BDS
+  name: Casale Airport
+- id: BDU
+  name: Bardufoss Airport
+- id: BEB
+  name: Benbecula Airport
+- id: BEG
+  name: Surcin Airport
+- id: BEL
+  name: Val de Caes International Airport
+- id: BEN
+  name: Benina Intl
+- id: BES
+  name: Guipavas Airport
+- id: BET
+  name: Bethel Airport
+- id: BEU
+  name: Bedourie Aerodrome
+- id: BEW
+  name: Beira Airport
+- id: BEY
+  name: Beirut International Airport
+- id: BFD
+  name: Bradford Regional Airport
+- id: BFE
+  name: Bielefeld
+- id: BFF
+  name: William B Heilig Field Airport
+- id: BFI
+  name: King County International Airport-Boeing Field
+- id: BFL
+  name: Kern County-Meadows Field Airport
+- id: BFN
+  name: J B M Hertzog Airport
+- id: BFS
+  name: Aldergrove Airport
+- id: BFV
+  name: Buri Ram
+- id: BGA
+  name: Palonegro Airport
+- id: BGF
+  name: Bangui M Poko Airport
+- id: BGI
+  name: Grantley Adams International Airport
+- id: BGM
+  name: Greater Binghamton Edwin A Link Field Airport
+- id: BGO
+  name: Bergen Flesland Airport
+- id: BGR
+  name: Bangor International Airport
+- id: BGW
+  name: Al Muthana Airport
+- id: BGY
+  name: Orio Al Serio Airport
+- id: BHB
+  name: Hancock County-Bar Harbor Airport
+- id: BHD
+  name: George Best Belfast City Airport
+- id: BHE
+  name: Woodbourne Airport
+- id: BHG
+  name: Brus Laguna Airport
+- id: BHH
+  name: Bisha Airport
+- id: BHI
+  name: Bahia Blanca Cte Espora Naval Air Base
+- id: BHJ
+  name: Bhuj Airport
+- id: BHK
+  name: Bukhara Airport
+- id: BHM
+  name: Birmingham International Airport
+- id: BHO
+  name: Bairagarh Airport
+- id: BHQ
+  name: Broken Hill Airport
+- id: BHR
+  name: Bharatpur
+- id: BHS
+  name: Bathurst Airport
+- id: BHU
+  name: Bhavnagar Airport
+- id: BHV
+  name: Bahawalpur Airport
+- id: BHX
+  name: Birmingham International Airport
+- id: BHY
+  name: Beihai
+- id: BIA
+  name: Poretta Airport
+- id: BID
+  name: Block Island State Airport
+- id: BII
+  name: Enyu Airfield
+- id: BIK
+  name: Frans Kaisiepo Airport
+- id: BIL
+  name: Logan International Airport
+- id: BIM
+  name: South Bimini Airport
+- id: BIO
+  name: Bilbao Airport
+- id: BIQ
+  name: Anglet Airport
+- id: BIR
+  name: Biratnagar Airport
+- id: BIS
+  name: Bismarck Municipal Airport
+- id: BJA
+  name: Soummam Airport
+- id: BJB
+  name: Bojnord
+- id: BJF
+  name: Batsfjord Airport
+- id: BJI
+  name: Bemidji-Beltrami County Airport
+- id: BJL
+  name: Yundum International Airport
+- id: BJM
+  name: Bujumbura Airport
+- id: BJR
+  name: Ethiopia
+- id: BJV
+  name: Milas Airport
+- id: BJW
+  name: Bajawa Airport
+- id: BJX
+  name: Silao Airport
+- id: BJZ
+  name: Talavera la Real Airport
+- id: BKA
+  name: Bykovo Airport
+- id: BKC
+  name: Buckland Airport
+- id: BKI
+  name: Kota Kinabalu Airport
+- id: BKK
+  name: Bangkok International Airport
+- id: BKL
+  name: Burke Lakefront Airport
+- id: BKM
+  name: Malaysia
+- id: BKO
+  name: Bamako Senou Airport
+- id: BKQ
+  name: Blackall Aerodrome
+- id: BKS
+  name: Padangkemiling Airport
+- id: BKW
+  name: Raleigh County Memorial Airport
+- id: BKY
+  name: Bukavu Kavumu Airport
+- id: BLA
+  name: Jose Antonio Anzoategui Airport
+- id: BLE
+  name: Dala Airport
+- id: BLI
+  name: Bellingham International Airport
+- id: BLJ
+  name: Algeria
+- id: BLK
+  name: Blackpool Airport
+- id: BLL
+  name: Billund Airport
+- id: BLQ
+  name: Bologna Airport
+- id: BLR
+  name: HAL Bangalore International Airport
+- id: BLT
+  name: Blackwater Aerodrome
+- id: BLV
+  name: Belleville
+- id: BLZ
+  name: Chileka International Airport
+- id: BMA
+  name: Bromma Airport
+- id: BME
+  name: Broome International Airport
+- id: BMI
+  name: Bloomington Normal Airport
+- id: BMK
+  name: Borkum Airport
+- id: BMO
+  name: Bhamo Airport
+- id: BMU
+  name: Mohammad Salahuddin Airport
+- id: BMV
+  name: Ban Me Thaut
+- id: BMW
+  name: Algeria
+- id: BMY
+  name: Belep Island
+- id: BNA
+  name: Nashville International Airport
+- id: BND
+  name: Bandar Abbass International Airport
+- id: BNE
+  name: Brisbane International Airport
+- id: BNI
+  name: Benin Airport
+- id: BNJ
+  name: Hangelar
+- id: BNK
+  name: Ballina Airport
+- id: BNN
+  name: Bronnoy Airport
+- id: BNS
+  name: Barinas Airport
+- id: BNX
+  name: Banja Luka Airport
+- id: BNY
+  name: Bellona Airport
+- id: BOB
+  name: Motu-Mute Airport
+- id: BOC
+  name: Bocas del Toro Airport
+- id: BOD
+  name: Bordeaux Airport
+- id: BOG
+  name: Eldorado International Airport
+- id: BOH
+  name: Bournemouth International Airport
+- id: BOI
+  name: Boise Air Terminal
+- id: BOJ
+  name: Bourgas Airport
+- id: BOM
+  name: Chhatrapati Shivaji International Airport
+- id: BON
+  name: Flamingo Airport
+- id: BOO
+  name: Bodo Airport
+- id: BOS
+  name: Gen E L Logan International Airport
+- id: BOW
+  name: Bartow Municipal Airport
+- id: BOY
+  name: Bobo Dioulasso Airport
+- id: BPN
+  name: Sepinggan Airport
+- id: BPS
+  name: Porto Seguro Airport
+- id: BPT
+  name: Jefferson County Airport
+- id: BPX
+  name: Bangda Airport
+- id: BPY
+  name: Besalampy Airport
+- id: BQK
+  name: Glynco Jetport Airport
+- id: BQL
+  name: Boulia Aerodrome
+- id: BQN
+  name: Rafael Hernandez Airport
+- id: BQS
+  name: Blagoveshchensk Northwest Airport
+- id: BRA
+  name: Barreiras Airport
+- id: BRC
+  name: San Carlos de Bariloche Airport
+- id: BRD
+  name: Brainerd-Crow Wing County Regional Airport
+- id: BRE
+  name: Bremen Airport
+- id: BRI
+  name: Palese Macchie Airport
+- id: BRK
+  name: Bourke Airport
+- id: BRL
+  name: Burlington Municipal Airport
+- id: BRM
+  name: Barquisimeto Airport
+- id: BRN
+  name: Bern Belp Airport
+- id: BRO
+  name: Brownsville-South Padre Island International Air
+- id: BRQ
+  name: Turany Airport
+- id: BRR
+  name: North Bay Airport
+- id: BRS
+  name: Bristol International Airport
+- id: BRU
+  name: Brussels Airport
+- id: BRV
+  name: Bremerhaven Airport
+- id: BRW
+  name: Wiley Post Will Rogers Memorial Airport
+- id: BSA
+  name: Somalia
+- id: BSB
+  name: Juscelino Kubitschek International Airport
+- id: BSC
+  name: Jose Celestino Mutis Airport
+- id: BSD
+  name: Baoshan Airport
+- id: BSG
+  name: Bata Airport
+- id: BSK
+  name: Biskra Airport
+- id: BSL
+  name: Euroairport Basel-Mulhouse-Freiburg
+- id: BSO
+  name: Basco Airport
+- id: BSR
+  name: Basrah International Airport
+- id: BSX
+  name: Bassein
+- id: BTH
+  name: Hang Nadim Airport
+- id: BTI
+  name: Barter Island Airport
+- id: BTJ
+  name: Blangbintang Airport
+- id: BTK
+  name: Bratsk
+- id: BTL
+  name: W K Kellogg Airport
+- id: BTM
+  name: Bert Mooney Airport
+- id: BTR
+  name: Baton Rouge Metropolitan Airport
+- id: BTS
+  name: Bratislava Airport
+- id: BTT
+  name: Bettles Airport
+- id: BTU
+  name: Bintulu Airport
+- id: BTV
+  name: Burlington International Airport
+- id: BTZ
+  name: Bursa Airport
+- id: BUA
+  name: Buka
+- id: BUC
+  name: Burketown Aerodrome
+- id: BUD
+  name: Ferihegy Airport
+- id: BUF
+  name: Greater Buffalo International Airport
+- id: BUL
+  name: Bulolo
+- id: BUN
+  name: Buenaventura Airport
+- id: BUO
+  name: Burao
+- id: BUQ
+  name: Bulawayo Airport
+- id: BUR
+  name: Burbank Glendale Pasadena Airport
+- id: BUS
+  name: Batumi
+- id: BUX
+  name: Bunia Airport
+- id: BUZ
+  name: Bushehr Airport
+- id: BVA
+  name: Beauvais-Tille Airport
+- id: BVB
+  name: Boa Vista International Airport
+- id: BVC
+  name: Boa Vista Airport
+- id: BVE
+  name: La Roche Airport
+- id: BVG
+  name: Berlevag Airport
+- id: BVH
+  name: Brigadeiro Camarao Airport
+- id: BVI
+  name: Birdsville Airport
+- id: BWA
+  name: Bhairawa Airport
+- id: BWE
+  name: Braunschweig Airport
+- id: BWF
+  name: Walney Island Airport
+- id: BWI
+  name: Baltimore-Washington International Thurgood Mars
+- id: BWK
+  name: Bol
+- id: BWN
+  name: Brunei International Airport
+- id: BWT
+  name: Burnie Wynyard Airport
+- id: BWW
+  name: Santa Clara Airport
+- id: BXU
+  name: Butuan Airport
+- id: BYM
+  name: Bayamo Airport
+- id: BZE
+  name: Philip S W Goldson International Airport
+- id: BZG
+  name: Szwederowo Airport
+- id: BZK
+  name: Briansk
+- id: BZN
+  name: Gallatin Field Airport
+- id: BZO
+  name: Bolzano Airport
+- id: BZR
+  name: Vias Airport
+- id: BZV
+  name: Brazzaville Maya Maya Airport
+- id: CAB
+  name: Cabinda Airport
+- id: CAC
+  name: Cascavel Airport
+- id: CAE
+  name: Columbia Metropolitan Airport
+- id: CAG
+  name: Elmas Airport
+- id: CAH
+  name: Camo
+- id: CAI
+  name: Cairo International Airport
+- id: CAK
+  name: Akron Canton Regional Airport
+- id: CAL
+  name: Campbeltown Airport
+- id: CAN
+  name: Baiyun Airport
+- id: CAP
+  name: Cap Haitien Airport
+- id: CAX
+  name: Carlisle Airport
+- id: CAY
+  name: Rochambeau
+- id: CAZ
+  name: Cobar Airport
+- id: CBB
+  name: Jorge Wilsterman Airport
+- id: CBG
+  name: Cambridge Airport
+- id: CBH
+  name: Bechar Airport
+- id: CBO
+  name: Cotabato Airport
+- id: CBQ
+  name: Calabar Airport
+- id: CBR
+  name: Canberra International Airport
+- id: CBT
+  name: Angola
+- id: CCC
+  name: Cuba
+- id: CCF
+  name: Salvaza Airport
+- id: CCJ
+  name: Kozhikode Airport
+- id: CCK
+  name: Cocos Airport
+- id: CCM
+  name: Criciuma Airport
+- id: CCP
+  name: Carriel Sur International Airport
+- id: CCS
+  name: Simon Bolivar International Airport
+- id: CCU
+  name: Netaji Subhash Chandra Bose International Airpor
+- id: CCV
+  name: Vanuatu
+- id: CCZ
+  name: Chub Cay Airport
+- id: CDB
+  name: Cold Bay Airport
+- id: CDC
+  name: Cedar City Municipal Airport
+- id: CDG
+  name: Charles de Gaulle International Airport
+- id: CDR
+  name: Chadron Municipal Airport
+- id: CDV
+  name: Merle K Mudhole Smith Airport
+- id: CDW
+  name: Essex County Airport
+- id: CEB
+  name: Lahug Airport
+- id: CEC
+  name: Jack Mcnamara Field Airport
+- id: CED
+  name: Ceduna Airport
+- id: CEE
+  name: Cherepovets Airport
+- id: CEG
+  name: Hawarden Airport
+- id: CEI
+  name: Chiang Rai Airport
+- id: CEK
+  name: Chelyabinsk Balandino Airport
+- id: CEM
+  name: Central Airport
+- id: CEN
+  name: Ciudad Obregon Airport
+- id: CEZ
+  name: Cortez-Montezuma County Airport
+- id: CFC
+  name: Cacador Airport
+- id: CFE
+  name: Aulnat Airport
+- id: CFK
+  name: Abou Bakr Belkaid
+- id: CFN
+  name: Carrickfin Airport
+- id: CFR
+  name: Carpiquet Airport
+- id: CFS
+  name: Coffs Harbour Airport
+- id: CFU
+  name: Kerkira Airport
+- id: CGA
+  name: Craig Seaplane Base
+- id: CGB
+  name: Marechal Rondon International Airport
+- id: CGD
+  name: Changde Airport
+- id: CGH
+  name: Congonhas International Airport
+- id: CGI
+  name: Cape Girardeau Municipal Airport
+- id: CGK
+  name: Jakarta International Airport
+- id: CGM
+  name: Philippines
+- id: CGN
+  name: Cologne Bonn Airport
+- id: CGO
+  name: Zhengzhou Airport
+- id: CGP
+  name: Chittagong Airport
+- id: CGQ
+  name: Dafang Shen Airport
+- id: CGR
+  name: Campo Grande International Airport
+- id: CGY
+  name: Cagayan de Oro Airport
+- id: CHA
+  name: Chattanooga Metropolitan Airport
+- id: CHC
+  name: Christchurch International Airport
+- id: CHO
+  name: Charlottesville Albemarle Airport
+- id: CHQ
+  name: Souda Airport
+- id: CHT
+  name: Karewa
+- id: CHU
+  name: Chuathbaluk
+- id: CHY
+  name: Choiseul Bay
+- id: CIA
+  name: Ciampino Airport
+- id: CIC
+  name: Chico Municipal Airport
+- id: CID
+  name: Cedar Rapids Municipal Airport
+- id: CIF
+  name: Chifeng
+- id: CIH
+  name: Changzhi
+- id: CIJ
+  name: E. Beltram Airport
+- id: CIK
+  name: Chalkyitsik Airport
+- id: CIU
+  name: Chippewa County International Airport
+- id: CIW
+  name: Canouan Airport
+- id: CIX
+  name: Cap J A Quinones Gonzales Airport
+- id: CJA
+  name: Maj Gen Fap A R Iglesias Airport
+- id: CJB
+  name: Peelamedu Airport
+- id: CJC
+  name: El Loa Airport
+- id: CJL
+  name: Chitral Airport
+- id: CJS
+  name: Ciudad Juarez International Airport
+- id: CJU
+  name: Cheju International Airport
+- id: CKB
+  name: Benedum Airport
+- id: CKD
+  name: Crooked Creek Airport
+- id: CKG
+  name: Chongqing Jiangbei International
+- id: CKH
+  name: Russia
+- id: CKS
+  name: Carajas Airport
+- id: CKX
+  name: Chicken Airport
+- id: CKY
+  name: Conakry Airport
+- id: CKZ
+  name: Abydus
+- id: CLD
+  name: Mcclellan Palomar Airport
+- id: CLE
+  name: Hopkins International Airport
+- id: CLJ
+  name: Someseni Airport
+- id: CLL
+  name: Easterwood Field Airport
+- id: CLM
+  name: William R Fairchild International Airport
+- id: CLO
+  name: Alfonso Bonilla Aragon International Airport
+- id: CLP
+  name: Clarks Point Airport
+- id: CLQ
+  name: Colima Airport
+- id: CLT
+  name: Douglas International Airport
+- id: CLY
+  name: Ste Catherine Airport
+- id: CMA
+  name: Cunnamulla
+- id: CMB
+  name: Katunayake International Airport
+- id: CME
+  name: Ciudad del Carmen Airport
+- id: CMF
+  name: Aix les Bains Airport
+- id: CMG
+  name: Corumba International Airport
+- id: CMH
+  name: Port Columbus International Airport
+- id: CMI
+  name: University of Illinois-Willard Airport
+- id: CMN
+  name: Mohamed V Airport
+- id: CMU
+  name: Chimbu Airport
+- id: CMW
+  name: Ignacio Agramonte Airport
+- id: CMX
+  name: Houghton County Memorial Airport
+- id: CNB
+  name: Coonamble Airport
+- id: CNC
+  name: Australia
+- id: CND
+  name: Constanta Mihail Kogalniceanu Airport
+- id: CNF
+  name: Tancredo Neves International Airport
+- id: CNJ
+  name: Cloncurry Aerodrome
+- id: CNM
+  name: Cavern City Air Terminal Airport
+- id: CNP
+  name: Neerlerit Inaat
+- id: CNQ
+  name: Corrientes Airport
+- id: CNS
+  name: Cairns International Airport
+- id: CNX
+  name: Chiang Mai International Airport
+- id: CNY
+  name: Canyonlands Field Airport
+- id: COD
+  name: Yellowstone Regional Airport
+- id: COK
+  name: Kochi Airport
+- id: COL
+  name: Coll Island Airport
+- id: COO
+  name: Cotonou Cadjehon Airport
+- id: COQ
+  name: Choybalsan Northeast Airport
+- id: COR
+  name: 'Ingeniero Ambrosio L.V. Taravella International '
+- id: COS
+  name: City of Colorado Springs Municipal Airport
+- id: COU
+  name: Columbia Regional Airport
+- id: CPC
+  name: Chapelco Airport
+- id: CPD
+  name: Coober Pedy Aerodrome
+- id: CPE
+  name: Ignacio Alberto Acuna Ongay Airport
+- id: CPH
+  name: Copenhagen Airport
+- id: CPO
+  name: Chamonate Airport
+- id: CPQ
+  name: Campinas International Airport
+- id: CPR
+  name: Natrona County International Airport
+- id: CPT
+  name: D F Malan Airport
+- id: CPV
+  name: Presidente Joao Suassuna Airport
+- id: CPX
+  name: Culebra Airport
+- id: CQD
+  name: Shahre-Kord
+- id: CRA
+  name: Craiova Airport
+- id: CRD
+  name: General Enrique Mosconi Airport
+- id: CRI
+  name: Colonel Hill Airport
+- id: CRL
+  name: Gosselies Airport
+- id: CRM
+  name: Catarman Airport
+- id: CRP
+  name: Corpus Christi International Airport
+- id: CRW
+  name: Yeager Airport
+- id: CSA
+  name: Isle Of Colonsay
+- id: CSG
+  name: Columbus Metropolitan Airport
+- id: CSH
+  name: Solovky
+- id: CSK
+  name: Cap Skiring Airport
+- id: CSX
+  name: Huanghua Airport
+- id: CSY
+  name: Russia
+- id: CTA
+  name: Catania Fontanarossa Airport
+- id: CTC
+  name: Catamarca Airport
+- id: CTG
+  name: Rafael Nunez Airport
+- id: CTL
+  name: Charleville Aerodrome
+- id: CTM
+  name: Chetumal International Airport
+- id: CTS
+  name: New Chitose Airport
+- id: CTU
+  name: Chengdushuang Liu Airport
+- id: CUC
+  name: Camilo Daza Airport
+- id: CUE
+  name: Mariscal Lamar Airport
+- id: CUF
+  name: Levaldigi Airport
+- id: CUK
+  name: Belize
+- id: CUL
+  name: Culiacan Airport
+- id: CUM
+  name: Antonio Jose de Sucre Airport
+- id: CUN
+  name: Cancun Airport
+- id: CUP
+  name: Gen Jose Francisco Bermudez Airport
+- id: CUR
+  name: Hato Airport
+- id: CUU
+  name: General R F Villalobos International Airport
+- id: CUZ
+  name: Velazco Astete Airport
+- id: CVG
+  name: Greater Cincinnati International Airport
+- id: CVM
+  name: Ciudad Victoria Airport
+- id: CVN
+  name: Clovis Municipal Airport
+- id: CVQ
+  name: Carnarvon Airport
+- id: CVT
+  name: Coventry Airport
+- id: CVU
+  name: Corvo Island Airport
+- id: CWA
+  name: Central Wisconsin Airport
+- id: CWB
+  name: Afonso Pena International Airport
+- id: CWC
+  name: Chernovtsy Airport
+- id: CWL
+  name: Cardiff International Airport
+- id: CXB
+  name: Coxs Bazar Airport
+- id: CXH
+  name: Coal Harbour Airport
+- id: CXI
+  name: Christmas Island Airport
+- id: CXJ
+  name: Campo dos Bugres Airport
+- id: CXR
+  name: Nha-Trang Airport
+- id: CYB
+  name: Gerrard Smith Airport
+- id: CYF
+  name: Chefornak Airport
+- id: CYI
+  name: Chaiyi Airport
+- id: CYO
+  name: Cayo Largo del sur Airport
+- id: CYP
+  name: Calbayog Airport
+- id: CYS
+  name: Cheyenne Airport
+- id: CYU
+  name: Cuyo
+- id: CYX
+  name: Cherskiy
+- id: CYZ
+  name: Cauayan Airport
+- id: CZE
+  name: Jose Leonardo Chirinos Airport
+- id: CZH
+  name: Corozal Airport
+- id: CZL
+  name: Ain El Bey Airport
+- id: CZM
+  name: Cozumel International Airport
+- id: CZN
+  name: Chisana Airport
+- id: CZS
+  name: Cruzeiro do Sul International Airport
+- id: CZU
+  name: Las Brujas Airport
+- id: CZX
+  name: Changzhou Airport
+- id: DAB
+  name: Daytona Beach International Airport
+- id: DAC
+  name: Zia International Airport Dhaka
+- id: DAD
+  name: Da Nang Airport
+- id: DAL
+  name: Dallas Love Field Airport
+- id: DAM
+  name: Damascus International Airport
+- id: DAR
+  name: Dar Es Salaam Airport
+- id: DAU
+  name: Daru Airport
+- id: DAX
+  name: Daxian Airport
+- id: DAY
+  name: James M Cox Dayton International Airport
+- id: DBA
+  name: Pakistan
+- id: DBO
+  name: Dubbo Airport
+- id: DBQ
+  name: Dubuque Regional Airport
+- id: DBV
+  name: Dubrovnik Airport
+- id: DCA
+  name: Washington National Airport
+- id: DCF
+  name: Cane Field Airport
+- id: DCM
+  name: Mazamet Airport
+- id: DDC
+  name: Dodge City Regional Airport
+- id: DDG
+  name: Dandong Airport
+- id: DEC
+  name: Decatur Airport
+- id: DED
+  name: Dehra Dun
+- id: DEF
+  name: Dezful Airport
+- id: DEL
+  name: Indira Gandhi International Airport
+- id: DEN
+  name: Denver International Airport
+- id: DEZ
+  name: Deir Zzor Airport
+- id: DFW
+  name: Fort Worth International Airport
+- id: DGA
+  name: Dangriga Airport
+- id: DGE
+  name: Mudgee Aerodrome
+- id: DGM
+  name: Dongguan
+- id: DGO
+  name: Durango Airport
+- id: DGT
+  name: Dumaguete Airport
+- id: DHM
+  name: Gaggal Airport
+- id: DHN
+  name: Dothan Airport
+- id: DIB
+  name: Mohanbari Airport
+- id: DIE
+  name: Antsiranana Arrachart Airport
+- id: DIG
+  name: Diqing
+- id: DIK
+  name: Dickinson Municipal Airport
+- id: DIL
+  name: Comoro
+- id: DIN
+  name: Dien Bien
+- id: DIR
+  name: Aba Tenna Dejazmatch Yilma Airport
+- id: DIS
+  name: Loubomo
+- id: DIU
+  name: Diu Airport
+- id: DIY
+  name: Diyarbakir Airport
+- id: DJB
+  name: Sultan Taha Airport
+- id: DJE
+  name: Zarzis Airport
+- id: DJG
+  name: Tiska Airport
+- id: DJJ
+  name: Sentani Airport
+- id: DKR
+  name: Dakar Yoff Airport
+- id: DLA
+  name: Douala Airport
+- id: DLC
+  name: Chou Shui Tzu Airport
+- id: DLG
+  name: Dillingham Municipal Airport
+- id: DLH
+  name: Duluth International Airport
+- id: DLI
+  name: Lien Khuong Airport
+- id: DLM
+  name: Dalaman Airport
+- id: DLU
+  name: Dali
+- id: DLY
+  name: Vanuatu
+- id: DLZ
+  name: Dalanzadgad
+- id: DMD
+  name: Doomadgee
+- id: DME
+  name: Domodedovo Airport
+- id: DMK
+  name: Don Mueang
+- id: DMM
+  name: King Fahd International Airport
+- id: DMU
+  name: Dimapur Airport
+- id: DND
+  name: Dundee Airport
+- id: DNH
+  name: Dunhuang
+- id: DNK
+  name: Voloskoye Airport
+- id: DNR
+  name: Pleurtuit Airport
+- id: DNZ
+  name: Cardak Airport
+- id: DOG
+  name: Dongola Airport
+- id: DOH
+  name: Doha International Airport
+- id: DOK
+  name: Donetsk Airport
+- id: DOM
+  name: Melville Hall Airport
+- id: DOP
+  name: Nepal
+- id: DOU
+  name: Dourados Airport
+- id: DPL
+  name: Dipolog Airport
+- id: DPO
+  name: Devonport Airport
+- id: DPS
+  name: Bali International Airport
+- id: DRG
+  name: Deering Airport
+- id: DRO
+  name: Durango la Plata County Airport
+- id: DRS
+  name: Ottendorf Okrilla Highway Strip Airport
+- id: DRT
+  name: Del Rio International Airport
+- id: DRW
+  name: Darwin International Airport
+- id: DSA
+  name: Sheffield Airport
+- id: DSM
+  name: Des Moines International Airport
+- id: DSN
+  name: Dongsheng Airport
+- id: DTM
+  name: Dortmund Airport
+- id: DTW
+  name: Detroit Metropolitan Wayne County Airport
+- id: DUB
+  name: Dublin Airport
+- id: DUD
+  name: Dunedin Airport
+- id: DUE
+  name: Dundo Airport
+- id: DUJ
+  name: Du Bois Jefferson County Airport
+- id: DUR
+  name: Louis Botha Airport
+- id: DUS
+  name: Dusseldorf International Airport
+- id: DUT
+  name: Unalaska Airport
+- id: DVL
+  name: Devils Lake Municipal Airport
+- id: DVO
+  name: Francisco Bangoy International Airport
+- id: DWB
+  name: Soalala
+- id: DWD
+  name: Saudi Arabia
+- id: DXB
+  name: Dubai International Airport
+- id: DYG
+  name: Dayong
+- id: DYR
+  name: Anadyr-Ugolnyye Kopi Airport
+- id: DYU
+  name: Tajikistan
+- id: DZA
+  name: Dzaoudzi Pamanzi Airport
+- id: DZN
+  name: Dzhezkazgan South Airport
+- id: EAA
+  name: Eagle Airport
+- id: EAE
+  name: Vanuatu
+- id: EAL
+  name: Elenak
+- id: EAM
+  name: Nejran Airport
+- id: EAR
+  name: Kearney Municipal Airport
+- id: EAS
+  name: San Sebastian Airport
+- id: EAT
+  name: Pangborn Memorial Airport
+- id: EAU
+  name: Eau Claire County Airport
+- id: EBA
+  name: Marina de Campo Airport
+- id: EBB
+  name: Entebbe International Airport
+- id: EBD
+  name: El Obeid Airport
+- id: EBJ
+  name: Esbjerg Airport
+- id: EBL
+  name: Erbil
+- id: ECN
+  name: Ercan Airport
+- id: EDA
+  name: Edna Bay Seaplane Base
+- id: EDI
+  name: Edinburgh International Airport
+- id: EDL
+  name: Eldoret Airport
+- id: EDO
+  name: Edremit-Korfez Airport
+- id: EDR
+  name: Edward River
+- id: EEK
+  name: Eek Airport
+- id: EFL
+  name: Kefallinia Airport
+- id: EGC
+  name: Bergerac-Roumaniere Airport
+- id: EGE
+  name: Eagle County Regional Airport
+- id: EGO
+  name: Belgorod North Airport
+- id: EGS
+  name: Egilsstadir Airport
+- id: EGV
+  name: Eagle River Union Airport
+- id: EGX
+  name: Egegik Airport
+- id: EIB
+  name: Haina Airport
+- id: EIE
+  name: Russia
+- id: EIN
+  name: Eindhoven Airport
+- id: EIS
+  name: Beef Island-Roadtown Airport
+- id: EJA
+  name: Yariguies Airport
+- id: EJH
+  name: Wejh Airport
+- id: EKO
+  name: Elko Municipal Airport-J C Harris Field
+- id: ELC
+  name: Elcho Island Airport
+- id: ELG
+  name: El Golea Airport
+- id: ELH
+  name: North Eleuthera Airport
+- id: ELI
+  name: Elim Airport
+- id: ELM
+  name: Elmira Corning Regional Airport
+- id: ELP
+  name: El Paso International Airport
+- id: ELQ
+  name: Gassim Airport
+- id: ELS
+  name: Ben Schoeman Airport
+- id: ELU
+  name: Guemar Airport
+- id: ELV
+  name: Elfin Cove Airport
+- id: ELY
+  name: Yelland Field Airport
+- id: EMA
+  name: East Midlands International Airport
+- id: EMD
+  name: Emerald Aerodrome
+- id: EME
+  name: Emden Airport
+- id: EMK
+  name: Emmonak Airport
+- id: ENA
+  name: Kenai Municipal Airport
+- id: ENE
+  name: Ende Airport
+- id: ENF
+  name: Enontekio Airport
+- id: ENH
+  name: Enshi Airport
+- id: ENS
+  name: Enschede Twente
+- id: ENU
+  name: Enugu Airport
+- id: ENW
+  name: Kenosha Regional Airport
+- id: ENY
+  name: Yan'an
+- id: EOH
+  name: Olaya Herrera Airport
+- id: EOZ
+  name: Elorza Airport
+- id: EPR
+  name: Esperance Aerodrome
+- id: EQS
+  name: Esquel Airport
+- id: ERC
+  name: Erzincan Airport
+- id: ERF
+  name: Erfurt Airport
+- id: ERH
+  name: Er Rachidia Airport
+- id: ERI
+  name: Erie International Airport
+- id: ERM
+  name: Comandante Kraemer Airport
+- id: ERS
+  name: Eros Airport
+- id: ERZ
+  name: Erzurum Airport
+- id: ESB
+  name: Esenboga Airport
+- id: ESC
+  name: Delta County Airport
+- id: ESD
+  name: Orcas Island Airport
+- id: ESM
+  name: General Rivadeneira Airport
+- id: ESR
+  name: El Salvador Bajo Airport
+- id: ESS
+  name: Essen-Mulheim Airport
+- id: ESU
+  name: Morocco
+- id: ETH
+  name: J Hozman Airport
+- id: ETZ
+  name: Lorraine Airport
+- id: EUA
+  name: Eua Island
+- id: EUG
+  name: Mahlon Sweet Field Airport
+- id: EUM
+  name: Wasbek Airport
+- id: EUN
+  name: Hassan I
+- id: EUX
+  name: St. Eustatius Airport
+- id: EVE
+  name: Evenes Airport
+- id: EVG
+  name: Sveg Airport
+- id: EVN
+  name: Yerevan-Parakar Airport
+- id: EVV
+  name: Evansville Regional Airport
+- id: EWB
+  name: New Bedford Municipal Airport
+- id: EWD
+  name: Wildman Lake
+- id: EWN
+  name: Craven County Regional Airport
+- id: EWR
+  name: Newark International Airport
+- id: EXT
+  name: Exeter Airport
+- id: EYP
+  name: El Yopal Airport
+- id: EYW
+  name: Key West International Airport
+- id: EZE
+  name: Ministro Pistarini International Airport
+- id: EZS
+  name: Elazig Airport
+- id: FAB
+  name: Farnborough Airport
+- id: FAE
+  name: Vagar Airport
+- id: FAI
+  name: Fairbanks International Airport
+- id: FAO
+  name: Faro Airport
+- id: FAR
+  name: Hector International Airport
+- id: FAT
+  name: Fresno Yosemite International Airport
+- id: FAV
+  name: French Polynesia
+- id: FAY
+  name: Fayetteville Regional Airport
+- id: FBM
+  name: Lubumbashi Luano International Airport
+- id: FCA
+  name: Glacier Park International Airport
+- id: FCN
+  name: Nordholz
+- id: FCO
+  name: Leonardo da Vinci International Airport
+- id: FDE
+  name: Bringeland Airport
+- id: FDF
+  name: Le Lamentin Airport
+- id: FDH
+  name: Friedrichshafen Airport
+- id: FEG
+  name: Fergana
+- id: FEN
+  name: Fernando de Noronha Airport
+- id: FEZ
+  name: Saiss Airport
+- id: FGU
+  name: French Polynesia
+- id: FHZ
+  name: French Polynesia
+- id: FIH
+  name: Kinshasa N Djili International Airport
+- id: FJR
+  name: Fujairah Airport
+- id: FKB
+  name: Baden-Airpark
+- id: FKI
+  name: Kisangani Bangoka International Airport
+- id: FKL
+  name: Chess Lamberton Airport
+- id: FKQ
+  name: Indonesia
+- id: FKS
+  name: Fukushima Airport
+- id: FLA
+  name: Gustavo Artunduaga Paredes Airport
+- id: FLG
+  name: Flagstaff Pulliam Airport
+- id: FLL
+  name: Fort Lauderdale Hollywood International Airport
+- id: FLN
+  name: Hercilio Luz International Airport
+- id: FLO
+  name: Florence Regional Airport
+- id: FLR
+  name: Florence Airport
+- id: FLW
+  name: Flores Airport
+- id: FMA
+  name: Formosa Airport
+- id: FMM
+  name: Memmingen-Allgäu Airport
+- id: FMN
+  name: Four Corners Regional Airport
+- id: FMO
+  name: Munster-Osnabruck International Airport
+- id: FMY
+  name: Page Field Airport
+- id: FNA
+  name: Freetown Lungi Airport
+- id: FNC
+  name: Funchal Airport
+- id: FNI
+  name: Garons Airport
+- id: FNJ
+  name: Sunan Airport
+- id: FNL
+  name: Fort Collins Loveland Municipal Airport
+- id: FNT
+  name: Bishop International Airport
+- id: FOC
+  name: Fuzhou Airport
+- id: FOD
+  name: Fort Dodge Regional Airport
+- id: FOG
+  name: Gino Lisa Airport
+- id: FOR
+  name: Pinto Martins International Airport
+- id: FPO
+  name: Freeport International Airport
+- id: FRA
+  name: Frankfurt International Airport
+- id: FRC
+  name: Franca Airport
+- id: FRD
+  name: Friday Harbor Airport
+- id: FRE
+  name: Fera Island
+- id: FRL
+  name: Forli Airport
+- id: FRO
+  name: Flora Airport
+- id: FRS
+  name: Santa Elena Airport
+- id: FRU
+  name: Vasilyevka Airport
+- id: FRW
+  name: Francistown Airport
+- id: FSC
+  name: Sud Corse Airport
+- id: FSD
+  name: Sioux Falls Regional Airport
+- id: FSM
+  name: Smith Field Airport
+- id: FSP
+  name: St Pierre Airport
+- id: FTA
+  name: Futuna
+- id: FTE
+  name: El Calafate International Airport
+- id: FTU
+  name: Tolagnaro Airport
+- id: FUE
+  name: Puerto del Rosario Airport
+- id: FUJ
+  name: Fukue Airport
+- id: FUK
+  name: Fukuoka Airport
+- id: FUN
+  name: Funafuti International Airport
+- id: FUT
+  name: Futuna Island
+- id: FWA
+  name: Fort Wayne Municipal Airport-Baer Field
+- id: FWM
+  name: Fort William Heliport
+- id: FYU
+  name: Fort Yukon Airport
+- id: FZO
+  name: Filton Airport
+- id: GAE
+  name: Gabes Airport
+- id: GAF
+  name: Gafsa
+- id: GAJ
+  name: Yamagata Airport
+- id: GAL
+  name: Galena Airport
+- id: GAM
+  name: Gambell Airport
+- id: GAN
+  name: Gan Island Airport
+- id: GAO
+  name: Cuba
+- id: GAU
+  name: Borjhar
+- id: GAX
+  name: Gamba
+- id: GAY
+  name: Gaya Airport
+- id: GBD
+  name: Great Bend Municipal Airport
+- id: GBE
+  name: Sir Seretse Khama International Airport
+- id: GBJ
+  name: Marie Galante Airport
+- id: GBT
+  name: Iran
+- id: GCC
+  name: Gillette Campbell County Airport
+- id: GCI
+  name: Guernsey Airport
+- id: GCK
+  name: Garden City Regional Airport
+- id: GCM
+  name: Owen Roberts International Airport
+- id: GDE
+  name: Ididole
+- id: GDL
+  name: Don Miguel Hidalgo International Airport
+- id: GDN
+  name: Rebiechowo Airport
+- id: GDO
+  name: Vare Maria Airport
+- id: GDQ
+  name: Gondar Airport
+- id: GDT
+  name: Grand Turk International Airport
+- id: GDX
+  name: Magadan Northwest Airport
+- id: GEA
+  name: Magenta Airport
+- id: GEG
+  name: Spokane International Airport
+- id: GEL
+  name: Santo Angelo Airport
+- id: GEO
+  name: Timehri International Airport
+- id: GER
+  name: Nueva Gerona Airport
+- id: GES
+  name: General Santos Airport
+- id: GET
+  name: Geraldton Airport
+- id: GEV
+  name: Lappland Airport
+- id: GFF
+  name: Griffith Airport
+- id: GFK
+  name: Grand Forks Mark Andrews International Airport
+- id: GFN
+  name: Grafton Airport
+- id: GGG
+  name: Gregg County Airport
+- id: GGT
+  name: Exuma International Airport
+- id: GHA
+  name: Noumerate Airport
+- id: GHB
+  name: Governors Harbour Airport
+- id: GHT
+  name: Ghat Airport
+- id: GIB
+  name: Gibraltar Airport
+- id: GIC
+  name: Boigu Island Airport
+- id: GIG
+  name: Rio de Janeiro-Antonio Carlos Jobim Internationa
+- id: GIL
+  name: Gilgit Airport
+- id: GIS
+  name: Gisborne Airport
+- id: GIZ
+  name: Gizan Airport
+- id: GJA
+  name: Guanaja Airport
+- id: GJL
+  name: Taher Airport
+- id: GJT
+  name: Walker Field Airport
+- id: GKA
+  name: Goroka Airport
+- id: GLA
+  name: Glasgow International Airport
+- id: GLF
+  name: Golfito Airport
+- id: GLH
+  name: Mid Delta Regional Airport
+- id: GLK
+  name: Galcaio Airport
+- id: GLN
+  name: Guelmim
+- id: GLO
+  name: Gloucestershire Airport
+- id: GLT
+  name: Gladstone Airport
+- id: GLV
+  name: Golovin
+- id: GMA
+  name: Gemena Airport
+- id: GMP
+  name: Gimpo International Airport
+- id: GMR
+  name: Gambier Is
+- id: GMZ
+  name: La Gomera Airport
+- id: GNB
+  name: St Geoirs Airport
+- id: GND
+  name: Point Salines International Airport
+- id: GNU
+  name: Alaska
+- id: GNV
+  name: Gainesville Regional Airport
+- id: GOA
+  name: Genoa Cristoforo Colombo Airport
+- id: GOH
+  name: Godthaab Airport
+- id: GOI
+  name: Dabolim Airport
+- id: GOJ
+  name: Strigino Airport
+- id: GOM
+  name: Goma International Airport
+- id: GOP
+  name: Gorakhpur
+- id: GOQ
+  name: Golmud Airport
+- id: GOT
+  name: Gothenburg Airport
+- id: GOU
+  name: Garoua Airport
+- id: GOV
+  name: Gove Aerodrome
+- id: GPA
+  name: Araxos Airport
+- id: GPI
+  name: Guapi Airport
+- id: GPS
+  name: Seymour Airport
+- id: GPT
+  name: Gulfport Biloxi Regional Airport
+- id: GRB
+  name: Austin Straubel International Airport
+- id: GRJ
+  name: P W Botha Airport
+- id: GRO
+  name: Gerona Airport
+- id: GRQ
+  name: Groningen Eelde
+- id: GRR
+  name: Gerald R. Ford International Airport
+- id: GRU
+  name: Governador Andre Franco Montoro International Ai
+- id: GRV
+  name: Groznyy Airport
+- id: GRW
+  name: Graciosa Airport
+- id: GRX
+  name: Granada Airport
+- id: GRY
+  name: Grimsey Airport
+- id: GRZ
+  name: Graz Airport
+- id: GSE
+  name: Save Airport
+- id: GSO
+  name: Triad International Airport
+- id: GSP
+  name: Greenville Spartanburg International Airport
+- id: GST
+  name: Gustavus Airport
+- id: GSY
+  name: Binbrook Airport
+- id: GTA
+  name: Solomon Islands
+- id: GTE
+  name: Groote Eylandt Airport
+- id: GTF
+  name: Great Falls International Airport
+- id: GTO
+  name: Jalaluddin Airport
+- id: GTR
+  name: Golden Triangle Regional Airport
+- id: GTS
+  name: Australia
+- id: GUA
+  name: La Aurora Airport
+- id: GUC
+  name: Gunnison County Airport
+- id: GUM
+  name: Antonio B Won Pat International Airport
+- id: GUR
+  name: Gurney Airport
+- id: GUW
+  name: Guryev Airport
+- id: GVA
+  name: Geneva Airport
+- id: GVR
+  name: Governador Valadares Airport
+- id: GWD
+  name: Gwadar Airport
+- id: GWL
+  name: Gwalior Airport
+- id: GWT
+  name: Westerland Airport
+- id: GWY
+  name: Carnmore Airport
+- id: GXF
+  name: Sayun Airport
+- id: GXG
+  name: Negage Airport
+- id: GYA
+  name: Guayaramerin Airport
+- id: GYD
+  name: Azerbaijan
+- id: GYE
+  name: Simon Bolivar International Airport
+- id: GYL
+  name: Argyle Airport
+- id: GYM
+  name: General Jose Maria Yanez in Airport
+- id: GYN
+  name: Santa Genoveva Airport
+- id: GZO
+  name: Nusatupe Airport
+- id: GZT
+  name: Gaziantep Airport
+- id: HAA
+  name: Hasvik Airport
+- id: HAC
+  name: Hachijojima Airport
+- id: HAD
+  name: Halmstad Airport
+- id: HAE
+  name: Havasupai
+- id: HAH
+  name: Moroni Hahaia Airport
+- id: HAJ
+  name: Hannover International Airport
+- id: HAK
+  name: Haikou Airport
+- id: HAM
+  name: Hamburg Airport
+- id: HAN
+  name: Noi Bai Airport
+- id: HAQ
+  name: Hanimadu
+- id: HAS
+  name: Hail Airport
+- id: HAU
+  name: Haugesund Karmoy Airport
+- id: HAV
+  name: Jose Marti International Airport
+- id: HBA
+  name: Hobart International Airport
+- id: HBE
+  name: Borg El Arab International Airport
+- id: HBT
+  name: Saudi Arabia
+- id: HBX
+  name: India
+- id: HCN
+  name: Hengchun Airport
+- id: HCR
+  name: Alaska
+- id: HDB
+  name: Heidelberg Airport
+- id: HDD
+  name: Hyderabad Airport
+- id: HDF
+  name: Heringsdorf
+- id: HDM
+  name: Hamadan Airport
+- id: HDN
+  name: Yampa Valley Airport
+- id: HDS
+  name: Hoedspruit Afs Airport
+- id: HDY
+  name: Hat Yai International Airport
+- id: HEA
+  name: Herat Airport
+- id: HEH
+  name: Heho Airport
+- id: HEI
+  name: Heide-Busum Airport
+- id: HEK
+  name: Heihe Airport
+- id: HEL
+  name: Helsinki Vantaa Airport
+- id: HER
+  name: Iraklion Airport
+- id: HET
+  name: Huhehaote Airport
+- id: HFA
+  name: U Michaeli Airport
+- id: HFE
+  name: Hefei-Luogang Airport
+- id: HFS
+  name: Hagfors Airport
+- id: HFT
+  name: Hammerfest Airport
+- id: HGA
+  name: Hargeisa Airport
+- id: HGD
+  name: Hughenden Aerodrome
+- id: HGH
+  name: Jianoiao Airport
+- id: HGL
+  name: Germany
+- id: HGN
+  name: Mae Hongson Airport
+- id: HGU
+  name: Mount Hagen Airport
+- id: HHH
+  name: Hilton Head Airport
+- id: HHN
+  name: Frankfurt-Hahn Airport
+- id: HHQ
+  name: Hua Hin Airport
+- id: HHZ
+  name: French Polynesia
+- id: HIB
+  name: Chisholm Hibbing Airport
+- id: HID
+  name: Horn Island
+- id: HIJ
+  name: Hiroshima Airport
+- id: HIN
+  name: Sacheon Airport
+- id: HIR
+  name: Henderson Airport
+- id: HIS
+  name: Hayman Island Airport
+- id: HJJ
+  name: Zhi Jiang
+- id: HJR
+  name: Khajuraho Airport
+- id: HKB
+  name: Healy Lake Airport
+- id: HKD
+  name: Hakodate Airport
+- id: HKG
+  name: Hong Kong International Airport
+- id: HKK
+  name: Hokitika Airport
+- id: HKN
+  name: Hoskins Airport
+- id: HKT
+  name: Phuket International Airport
+- id: HLA
+  name: Lanseria Airport
+- id: HLD
+  name: Hailar
+- id: HLH
+  name: Ulanhot Airport
+- id: HLN
+  name: Helena Regional Airport
+- id: HLZ
+  name: Hamilton Airport
+- id: HMA
+  name: Khanty-Nansiysk
+- id: HME
+  name: Oued Irara Airport
+- id: HMO
+  name: Gen Ignacio P Garcia International Airport
+- id: HMV
+  name: Sweden
+- id: HNA
+  name: Hanamaki Airport
+- id: HND
+  name: Tokyo International Airport
+- id: HNH
+  name: Hoonah Airport
+- id: HNL
+  name: Honolulu International Airport
+- id: HNM
+  name: Hana Airport
+- id: HNS
+  name: Haines Airport
+- id: HOB
+  name: Lea County Regional Airport
+- id: HOD
+  name: Hodeidah Airport
+- id: HOE
+  name: Houeisay
+- id: HOF
+  name: Saudi Arabia
+- id: HOG
+  name: Holguin Airport
+- id: HOH
+  name: Hohenems Airport
+- id: HOI
+  name: Hao Airport
+- id: HOM
+  name: Homer Airport
+- id: HON
+  name: Howes
+- id: HOQ
+  name: Hof-Plauen Airport
+- id: HOR
+  name: Horta Airport
+- id: HOU
+  name: William P Hobby Airport
+- id: HOV
+  name: Hovden Airport
+- id: HPA
+  name: Salote Pilolevu Airport
+- id: HPB
+  name: Hooper Bay Airport
+- id: HPH
+  name: Hai Phong Cat Bi Airport
+- id: HPN
+  name: Westchester County Airport
+- id: HRB
+  name: Harbin Yangjiagang Airport
+- id: HRE
+  name: Harare International Airport
+- id: HRG
+  name: Hurghada Airport
+- id: HRK
+  name: Kharkov Airport
+- id: HRL
+  name: Grande Valley International Airport
+- id: HRT
+  name: Linton-On-Ouse
+- id: HSG
+  name: Saga Airport
+- id: HSL
+  name: Alaska
+- id: HSN
+  name: Zhoushan Airport
+- id: HSV
+  name: Huntsville International Airport
+- id: HTA
+  name: Chita Airport
+- id: HTG
+  name: Hatanga Airport
+- id: HTI
+  name: Hamilton Island Airport
+- id: HTN
+  name: Hotan
+- id: HTS
+  name: Tri State Walker Long Field Airport
+- id: HUH
+  name: Huahine Airport
+- id: HUI
+  name: Hue-Phu Bai Airport
+- id: HUN
+  name: Hwmlien Airport
+- id: HUQ
+  name: Hon Airport
+- id: HUS
+  name: Hughes
+- id: HUV
+  name: Hudiksvall Airport
+- id: HUX
+  name: Bahias de Huatulco International Airport
+- id: HUY
+  name: Humberside International Airport
+- id: HUZ
+  name: Huizhou
+- id: HVA
+  name: Analalava Airport
+- id: HVB
+  name: Hervey Bay Airport
+- id: HVD
+  name: Mongolia
+- id: HVG
+  name: Valan Airport
+- id: HVN
+  name: Tweed New Haven Airport
+- id: HVR
+  name: Havre City-County Airport
+- id: HYA
+  name: Barnstable Boardman Polando Airport
+- id: HYD
+  name: Begumpet Airport
+- id: HYG
+  name: Alaska
+- id: HYL
+  name: SPB
+- id: HYS
+  name: Hays Municipal Airport
+- id: HZG
+  name: Hanzhong Airport
+- id: HZH
+  name: Liping
+- id: IAA
+  name: Russia
+- id: IAD
+  name: Dulles International Airport
+- id: IAG
+  name: Niagara Falls International Airport
+- id: IAH
+  name: George Bush Intercontinental Airport
+- id: IAM
+  name: In Amenas Airport
+- id: IAN
+  name: Kiana
+- id: IAS
+  name: Iasi North Airport
+- id: IBA
+  name: Ibadan Airport
+- id: IBE
+  name: Perales Airport
+- id: IBZ
+  name: Ibiza Airport
+- id: ICI
+  name: Cicia Airport
+- id: ICN
+  name: New Incheon International Airport
+- id: ICT
+  name: Wichita Mid-Continent Airport
+- id: IDA
+  name: Fanning Field Airport
+- id: IDR
+  name: Devi Ahilyabai Holkar International Airport
+- id: IEG
+  name: Babimost Airport
+- id: IEV
+  name: Zhulyany Airport
+- id: IFJ
+  name: Isafjordur Airport
+- id: IFN
+  name: Esfahan International Airport
+- id: IFO
+  name: Ivano-Frankovsk Airport
+- id: IFP
+  name: Laughlin-Bullhead International Airport
+- id: IGA
+  name: Great Inagua Airport
+- id: IGG
+  name: Igiugig
+- id: IGM
+  name: Kingman Airport
+- id: IGR
+  name: Cataratas del Iguazu Airport
+- id: IGS
+  name: Ingolstadt-Manching
+- id: IGU
+  name: Cataratas International Airport
+- id: IHR
+  name: Iran
+- id: IIL
+  name: Iran
+- id: IJK
+  name: Russia
+- id: IKA
+  name: Imam Khomeini International Airport
+- id: IKS
+  name: Tiksi Airport
+- id: IKT
+  name: Irkutsk Southeast Airport
+- id: ILI
+  name: Iliamna Airport
+- id: ILM
+  name: Wilmington International Airport
+- id: ILN
+  name: Airborne Airpark
+- id: ILO
+  name: Iloilo Airport
+- id: ILP
+  name: Moue Airport
+- id: ILR
+  name: Ilorin Airport
+- id: ILY
+  name: Islay Airport
+- id: ILZ
+  name: Kotesovo Airport
+- id: IMF
+  name: Imphal Airport
+- id: IMK
+  name: Nepal
+- id: IMP
+  name: Prefeito Renato Moreira Airport
+- id: IMT
+  name: Ford Airport
+- id: INC
+  name: Yinchuan Airport
+- id: IND
+  name: Indianapolis International Airport
+- id: INH
+  name: Inhambane Airport
+- id: INI
+  name: Nis Airport
+- id: INL
+  name: Falls International Airport
+- id: INN
+  name: Innsbruck Airport
+- id: INT
+  name: Smith Reynolds Airport
+- id: INU
+  name: Nauru International Airport
+- id: INV
+  name: Inverness Airport
+- id: INZ
+  name: In Salah Airport
+- id: IOA
+  name: Ioannina Airport
+- id: IOM
+  name: Ronaldsway Airport
+- id: ION
+  name: Impfondo Airport
+- id: IOS
+  name: Jorge Amado Airport
+- id: IPC
+  name: Mataveri International Airport
+- id: IPH
+  name: Ipoh Airport
+- id: IPI
+  name: San Luis Airport
+- id: IPL
+  name: Imperial County Airport
+- id: IPN
+  name: Usiminas Airport
+- id: IPT
+  name: Williamsport-Lycoming County Airport
+- id: IQM
+  name: Qiemo
+- id: IQQ
+  name: Diego Aracena International Airport
+- id: IQT
+  name: Cnl Fap Fran Seca Vignetta Airport
+- id: IRA
+  name: Kirakira
+- id: IRC
+  name: Circle
+- id: IRJ
+  name: Capitan Vicente A Almonacid Airport
+- id: ISA
+  name: Mount Isa Airport
+- id: ISB
+  name: Islamabad International Airport
+- id: ISC
+  name: Saint Mary's Airport
+- id: ISG
+  name: Ishigaki Airport
+- id: ISN
+  name: Sloulin Field International Airport
+- id: ISO
+  name: Kinston Jetport Stallings Airport
+- id: ISP
+  name: Long Island Macarthur Airport
+- id: IST
+  name: Ataturk Hava Limani Airport
+- id: ITH
+  name: Tompkins County Airport
+- id: ITM
+  name: Osaka International Airport
+- id: ITO
+  name: Hilo International Airport
+- id: IUE
+  name: Niue
+- id: IVC
+  name: Invercargill Airport
+- id: IVL
+  name: Ivalo Airport
+- id: IVR
+  name: Inverell Airport
+- id: IWD
+  name: Gogebic-Iron County Airport
+- id: IWJ
+  name: Iwami Airport
+- id: IXA
+  name: Agartala Airport
+- id: IXB
+  name: Bagdogra Airport
+- id: IXC
+  name: Chandigarh Airport
+- id: IXD
+  name: Bamrauli Airport
+- id: IXE
+  name: Mangalore Airport
+- id: IXG
+  name: Belgaum Airport
+- id: IXI
+  name: India
+- id: IXJ
+  name: Jammu Airport
+- id: IXL
+  name: Leh Airport
+- id: IXM
+  name: Madurai Airport
+- id: IXR
+  name: Birsa Munda Airport
+- id: IXS
+  name: Kumbhirgram Airport
+- id: IXU
+  name: Aurangabad Airport
+- id: IXW
+  name: Sonari Airport
+- id: IXY
+  name: Kandla Airport
+- id: IXZ
+  name: Vir Savarkar Airport
+- id: IYK
+  name: Inyokern Airport
+- id: IZO
+  name: Izumo Airport
+- id: JAC
+  name: Jackson Hole Airport
+- id: JAI
+  name: Sanganer Airport
+- id: JAL
+  name: Jalapa Airport
+- id: JAN
+  name: Jackson International Airport
+- id: JAV
+  name: Ilulissat Airport
+- id: JAX
+  name: Jacksonville International Airport
+- id: JCB
+  name: Joacaba Airport
+- id: JCH
+  name: Christianshab Airport
+- id: JCK
+  name: Julia Creek Aerodrome
+- id: JCU
+  name: Ceuta Heliport
+- id: JDF
+  name: Francisco de Assis Airport
+- id: JDH
+  name: Jodhpur Airport
+- id: JDO
+  name: Cariri Regional Airport
+- id: JDZ
+  name: Jingde Town
+- id: JED
+  name: King Abdul Aziz International Airport
+- id: JEF
+  name: Jefferson City Memorial Airport
+- id: JEG
+  name: Auisiait Airport
+- id: JEJ
+  name: Jeh
+- id: JER
+  name: Jersey Airport
+- id: JFK
+  name: John F Kennedy International Airport
+- id: JFR
+  name: Paamiut
+- id: JGA
+  name: Jamnagar Airport
+- id: JGC
+  name: Grand Canyon Heliport
+- id: JGN
+  name: Jiayuguan Airport
+- id: JGO
+  name: Godhavn Airport
+- id: JGS
+  name: Ji An Jing Gang Shan
+- id: JHB
+  name: Sultan Ismail Airport
+- id: JHG
+  name: Gasa
+- id: JHM
+  name: Kapalua West Maui Airport
+- id: JHS
+  name: Holsteinsborg Airport
+- id: JHW
+  name: Chautauqua County-Jamestown Airport
+- id: JIB
+  name: Djibouti Ambouli Airport
+- id: JIJ
+  name: Jijiga
+- id: JIK
+  name: Ikaria Island Airport
+- id: JJN
+  name: Jinjiang
+- id: JJU
+  name: Julianehab Heliport
+- id: JKG
+  name: Jonkoping Airport
+- id: JKH
+  name: Chios Airport
+- id: JKL
+  name: Julian Carroll Airport
+- id: JLD
+  name: Landskrona Heliport
+- id: JLN
+  name: Joplin Regional Airport
+- id: JLR
+  name: Jabalpur Airport
+- id: JMK
+  name: Mikonos Airport
+- id: JMS
+  name: Jamestown Municipal Airport
+- id: JMU
+  name: Jiamusi
+- id: JNB
+  name: OR Tambo International Airport
+- id: JNN
+  name: Nanortalik Airport
+- id: JNS
+  name: Narsaq Heliport
+- id: JNU
+  name: Juneau International Airport
+- id: JNX
+  name: Naxos Airport
+- id: JNZ
+  name: Jinzhou
+- id: JOE
+  name: Joensuu Airport
+- id: JOG
+  name: Adisucipto Airport
+- id: JOI
+  name: Lauro Carneiro de Loyola Airport
+- id: JOL
+  name: Jolo Airport
+- id: JPA
+  name: Presidente Castro Pinto International Airport
+- id: JPR
+  name: Ji Parana Airport
+- id: JQA
+  name: Greenland
+- id: JRB
+  name: Downtown Manhattan Heliport
+- id: JRH
+  name: Jorhat Airport
+- id: JRO
+  name: Kilimanjaro International Airport
+- id: JSA
+  name: Jaisalmer Airport
+- id: JSH
+  name: Sitia Airport
+- id: JSI
+  name: Skiathos Airport
+- id: JSR
+  name: Jessore Airport
+- id: JST
+  name: Johnstown Cambria County Airport
+- id: JSU
+  name: Maniitsoq Heliport
+- id: JSY
+  name: Syros Island Airport
+- id: JTR
+  name: Santorini Airport
+- id: JTY
+  name: Astypalaia Island Airport
+- id: JUB
+  name: Juba Airport
+- id: JUJ
+  name: Jujuy Airport
+- id: JUL
+  name: Juliaca Airport
+- id: JUV
+  name: Upernavik Heliport
+- id: JUZ
+  name: Juzhou
+- id: JVA
+  name: Toliara
+- id: JYR
+  name: Jiroft
+- id: JYV
+  name: Jyvaskyla Airport
+- id: JZH
+  name: Jiu Zhai Huang Long
+- id: KAB
+  name: Kariba Airport
+- id: KAC
+  name: Kamishly Airport
+- id: KAD
+  name: Kaduna Airport
+- id: KAJ
+  name: Kajaani Airport
+- id: KAL
+  name: Kaltag
+- id: KAN
+  name: Kano Mallam Aminu International Airport
+- id: KAO
+  name: Kuusamo Airport
+- id: KAT
+  name: Kaitaia Aerodrome
+- id: KAW
+  name: Kawthaung Airport
+- id: KAX
+  name: Kalbarri
+- id: KBC
+  name: Birch Creek Airport
+- id: KBL
+  name: Kabul International Airport
+- id: KBP
+  name: Borispol Airport
+- id: KBR
+  name: Sultan Ismail Petra Airport
+- id: KBV
+  name: Thailand
+- id: KCA
+  name: Kuqa
+- id: KCC
+  name: Alaska
+- id: KCF
+  name: Pakistan
+- id: KCG
+  name: Chignik Fisheries Airport
+- id: KCH
+  name: Kuching Airport
+- id: KCL
+  name: Chignik Lagoon Airport
+- id: KCM
+  name: Kahramanmaras Airport
+- id: KCQ
+  name: Chignik Lake Airport
+- id: KCZ
+  name: Kochi Airport
+- id: KDH
+  name: Kandahar International Airport
+- id: KDI
+  name: Wolter Monginsidi Airport
+- id: KDL
+  name: Kardla East Airport
+- id: KDM
+  name: Kaadedhdhoo
+- id: KDO
+  name: Kudadu
+- id: KDU
+  name: Skardu Airport
+- id: KDV
+  name: Kandavu Airport
+- id: KEB
+  name: Nanwalek
+- id: KEF
+  name: Keflavik International
+- id: KEJ
+  name: Kemerovo Airport
+- id: KEK
+  name: Ekwok
+- id: KEM
+  name: Kemi Airport
+- id: KER
+  name: Kerman Airport
+- id: KET
+  name: Kengtung Airport
+- id: KFA
+  name: Kiffa Airport
+- id: KGA
+  name: Kananga Airport
+- id: KGC
+  name: Kingscote Airport
+- id: KGD
+  name: Kaliningradskaya Oblast
+- id: KGE
+  name: Kagau
+- id: KGF
+  name: Karaganda Airport
+- id: KGI
+  name: Kalgoorlie Bolder Airport
+- id: KGK
+  name: Koliganek Airport
+- id: KGL
+  name: Kigali Airport
+- id: KGP
+  name: Kogalym International
+- id: KGS
+  name: Kos Airport
+- id: KGX
+  name: Alaska
+- id: KHG
+  name: Kashi Airport
+- id: KHH
+  name: Kaohsiung International Airport
+- id: KHI
+  name: Karachi Civil Airport
+- id: KHN
+  name: Nanchang New Airport
+- id: KHS
+  name: Khasab Airport
+- id: KHV
+  name: Khabarovsk Northeast Airport
+- id: KHY
+  name: Iran
+- id: KHZ
+  name: French Polynesia
+- id: KID
+  name: Kristianstad Airport
+- id: KIF
+  name: Kingfisher Lake Airport
+- id: KIH
+  name: Kish Island Airport
+- id: KIJ
+  name: Niigata Airport
+- id: KIK
+  name: Kirkuk Airport
+- id: KIM
+  name: B J Vorster Airport
+- id: KIN
+  name: Norman Manley
+- id: KIR
+  name: Kerry County Airport
+- id: KIS
+  name: Kisumu Airport
+- id: KIT
+  name: Kithira Airport
+- id: KIV
+  name: Kishinev Southeast Airport
+- id: KIX
+  name: Kansai International Airport
+- id: KJA
+  name: Yelovaya Airport
+- id: KKA
+  name: Koyuk
+- id: KKB
+  name: Kitoi Seaplane Base
+- id: KKC
+  name: Khon Kaen Airport
+- id: KKD
+  name: Northern
+- id: KKE
+  name: Bay of Islands Airport
+- id: KKH
+  name: Alaska
+- id: KKI
+  name: Akiachak
+- id: KKJ
+  name: New Kitakyushu Airport
+- id: KKN
+  name: Kirkenes Hoybuktmoen Airport
+- id: KKR
+  name: French Polynesia
+- id: KKU
+  name: Ekuk Airport
+- id: KLG
+  name: Kalskag
+- id: KLH
+  name: Kolhapur Airport
+- id: KLL
+  name: Levelock
+- id: KLN
+  name: Larsen Bay
+- id: KLO
+  name: Kalib0 Airport
+- id: KLR
+  name: Kalmar Airport
+- id: KLU
+  name: Klagenfurt Airport
+- id: KLV
+  name: Karlovy Vary Airport
+- id: KLW
+  name: Klawock Seaplane Base
+- id: KLX
+  name: Kalamata Airport
+- id: KMA
+  name: Kerema Airport
+- id: KMC
+  name: King Khalid Military
+- id: KME
+  name: Kamembe Airport
+- id: KMG
+  name: Wuchia Pa Airport
+- id: KMI
+  name: Miyazaki Airport
+- id: KMJ
+  name: Kumamoto Airport
+- id: KMO
+  name: Manokotak
+- id: KMQ
+  name: Komatsu Airport
+- id: KMS
+  name: Kumasi Airport
+- id: KMV
+  name: Kalemyo Airport
+- id: KMY
+  name: Moser Bay
+- id: KND
+  name: Kindu Airport
+- id: KNG
+  name: West Irian Jaya
+- id: KNH
+  name: Kinmen County
+- id: KNS
+  name: King Island Airport
+- id: KNU
+  name: Kanpur Airport
+- id: KNW
+  name: New Stuyahok
+- id: KNX
+  name: Kununurra Airport
+- id: KOA
+  name: Kailua-Kona International Airport
+- id: KOE
+  name: El Tari Airport
+- id: KOI
+  name: Kirkwall Airport
+- id: KOJ
+  name: Kagoshima Airport
+- id: KOK
+  name: Kruunupyy Airport
+- id: KOP
+  name: Nakhon Phanom Airport
+- id: KOT
+  name: Kotlik
+- id: KOW
+  name: Ganzhou Airport
+- id: KOY
+  name: Olga Bay
+- id: KOZ
+  name: Alaska
+- id: KPB
+  name: Point Baker Seaplane Base
+- id: KPN
+  name: Kipnuk
+- id: KPO
+  name: Pohang Airport
+- id: KPR
+  name: Port Williams
+- id: KPV
+  name: Alaska
+- id: KPY
+  name: Alaska
+- id: KQA
+  name: Akutan Airport
+- id: KRF
+  name: Kramfors Airport
+- id: KRI
+  name: Papua New Guinea
+- id: KRK
+  name: Balice Airport
+- id: KRL
+  name: Korla
+- id: KRN
+  name: Kiruna Airport
+- id: KRP
+  name: Karup Airport
+- id: KRR
+  name: Krasnodar-Pashovskiy Airport
+- id: KRS
+  name: Kristiansand Airport
+- id: KRT
+  name: Khartoum Airport
+- id: KRY
+  name: Karamay Airport
+- id: KSA
+  name: Kosrae Island Airport
+- id: KSC
+  name: Barca Airport
+- id: KSD
+  name: Karlstad Airport
+- id: KSF
+  name: Kassel Calden Airport
+- id: KSH
+  name: Bakhtaran Airport
+- id: KSJ
+  name: Kasos Airport
+- id: KSL
+  name: Kassala Airport
+- id: KSM
+  name: Alaska
+- id: KSN
+  name: Kustanay Airport
+- id: KSO
+  name: Kastoria Airport
+- id: KSQ
+  name: Karshi South Airport
+- id: KSU
+  name: Kristiansund Kvernberget Airport
+- id: KSY
+  name: Kars (abandoned) Airport
+- id: KSZ
+  name: Kotlas Southeast Airport
+- id: KTA
+  name: Karratha Airport
+- id: KTB
+  name: Alaska
+- id: KTE
+  name: Kerteh Airport
+- id: KTM
+  name: Tribhuvan International Airport
+- id: KTN
+  name: Ketchikan International Airport
+- id: KTT
+  name: Kittila Airport
+- id: KTW
+  name: Zendek Airport
+- id: KUA
+  name: Kuantan Airport
+- id: KUF
+  name: Kurumoch Airport
+- id: KUG
+  name: Australia
+- id: KUH
+  name: Kushiro Airport
+- id: KUK
+  name: Kasigluk
+- id: KUL
+  name: Kuala Lumpur International Airport
+- id: KUN
+  name: Karmilava Airport
+- id: KUO
+  name: Kuopio Airport
+- id: KUS
+  name: Kulusuk Airport
+- id: KUT
+  name: Kopitnari
+- id: KUU
+  name: Bhuntar Airport
+- id: KVA
+  name: Chrisoupolis Airport
+- id: KVB
+  name: Skovde Airport
+- id: KVD
+  name: Elisavetpol
+- id: KVG
+  name: Kavieng Airport
+- id: KVK
+  name: Kirovsk Airport
+- id: KVL
+  name: Kivalina
+- id: KVR
+  name: Carpiquet Airport
+- id: KWA
+  name: Bucholz Army Air Field
+- id: KWE
+  name: Guizhou
+- id: KWI
+  name: Kuwait International Airport
+- id: KWJ
+  name: Gwangju Airport
+- id: KWK
+  name: Kwigillingok
+- id: KWL
+  name: Li Chia Tsun Airport
+- id: KWM
+  name: Kowanyama
+- id: KWN
+  name: Quinhagak
+- id: KWP
+  name: Village Seaplane Base-West Point
+- id: KWT
+  name: Kwethluk Airport
+- id: KWZ
+  name: Kolwezi Airport
+- id: KXA
+  name: Kasaan SPB
+- id: KXF
+  name: Koro Island
+- id: KXK
+  name: Komsomolsk South Airport
+- id: KXU
+  name: Katiu
+- id: KYA
+  name: Konya Airport
+- id: KYK
+  name: Karluk Airport
+- id: KYP
+  name: Kyaukpyu Airport
+- id: KYS
+  name: Kayes Airport
+- id: KYU
+  name: Koyukuk
+- id: KYZ
+  name: Tyva
+- id: KZB
+  name: Zachar Bay
+- id: KZI
+  name: Kozani Airport
+- id: KZN
+  name: Kirbi Airport
+- id: KZO
+  name: Kzyl Orda Airport
+- id: KZS
+  name: Kastelorizo Airport
+- id: LAD
+  name: Luanda 4 de Fevereiro Airport
+- id: LAE
+  name: Nadzab Airport
+- id: LAI
+  name: Servel Airport
+- id: LAJ
+  name: Lajes Airport
+- id: LAK
+  name: Aklavik Airport
+- id: LAN
+  name: Lansing Capital City Airport
+- id: LAO
+  name: Laoag International Airport
+- id: LAP
+  name: General Manuel Marquez de Leon International Air
+- id: LAQ
+  name: Al Bayda'
+- id: LAR
+  name: General Brees Field
+- id: LAS
+  name: Mccarran International Airport
+- id: LAU
+  name: Lamu Airport
+- id: LAW
+  name: Lawton Municipal Airport
+- id: LAX
+  name: Los Angeles International Airport
+- id: LBA
+  name: Leeds Bradford Airport
+- id: LBB
+  name: Lubbock International Airport
+- id: LBC
+  name: Lubeck Airport
+- id: LBD
+  name: Khujand
+- id: LBE
+  name: Westmoreland County Airport
+- id: LBF
+  name: Lee Bird Field Airport
+- id: LBJ
+  name: Mutiara Airport
+- id: LBL
+  name: Liberal Municipal Airport
+- id: LBS
+  name: Northern
+- id: LBU
+  name: Labuan Airport
+- id: LBV
+  name: Libreville Leon M Ba Airport
+- id: LCA
+  name: Larnaca Airport
+- id: LCE
+  name: Goloson International Airport
+- id: LCG
+  name: La Coruna Airport
+- id: LCH
+  name: Lake Charles Regional Airport
+- id: LCJ
+  name: Lodz Lublinek
+- id: LCK
+  name: Rickenbacker International Airport
+- id: LCR
+  name: La Chorrera Airport
+- id: LCY
+  name: London City Airport
+- id: LDB
+  name: Londrina Airport
+- id: LDE
+  name: Ossun Airport
+- id: LDG
+  name: Leshukonskoye Airport
+- id: LDH
+  name: Lord Howe Island Airport
+- id: LDN
+  name: Lamidanda Airport
+- id: LDU
+  name: Lahad Datu Airport
+- id: LDV
+  name: Landivisiau Airport
+- id: LDY
+  name: City of Derry Airport
+- id: LEA
+  name: Learmonth Airport
+- id: LEB
+  name: Lebanon Municipal Airport
+- id: LED
+  name: Pulkuvo 2 Airport
+- id: LEI
+  name: Almeria Airport
+- id: LEJ
+  name: Leipzig-Halle Airport
+- id: LEN
+  name: Aeropuero de Bajio
+- id: LER
+  name: Leinster Airport
+- id: LET
+  name: Gen. A.V. Cobo
+- id: LEX
+  name: Blue Grass Field
+- id: LFM
+  name: Lamerd
+- id: LFT
+  name: Lafayette Regional Airport
+- id: LFW
+  name: Lome Tokoin Airport
+- id: LGA
+  name: LaGuardia Airport
+- id: LGB
+  name: Long Beach Daugherty Field Airport
+- id: LGG
+  name: Bierset Airport
+- id: LGI
+  name: Deadmans Cay Airport
+- id: LGK
+  name: Langkawi International Airport
+- id: LGL
+  name: Long Lellang
+- id: LGP
+  name: Legazpi Airport
+- id: LGQ
+  name: Lago Agrio Airport
+- id: LGW
+  name: London Gatwick Airport
+- id: LHE
+  name: Lahore Airport
+- id: LHG
+  name: New South Wales
+- id: LHR
+  name: London Heathrow Airport
+- id: LHW
+  name: Lanzhou Airport
+- id: LIF
+  name: Loyalty Islands Airport
+- id: LIG
+  name: Bellegarde Airport
+- id: LIH
+  name: Lihue Airport
+- id: LIL
+  name: Lesquin Airport
+- id: LIM
+  name: Jorge Chavez Airport
+- id: LIN
+  name: Linate Airport
+- id: LIO
+  name: Limon International Airport
+- id: LIR
+  name: Tomas Guardia International Airport
+- id: LIS
+  name: Lisbon Airport
+- id: LIT
+  name: Adams Field Airport
+- id: LIW
+  name: Loikaw Airport
+- id: LJG
+  name: Lijiang
+- id: LJU
+  name: Ljubljana Airport
+- id: LKA
+  name: Larantuka
+- id: LKB
+  name: Lakemba Island
+- id: LKE
+  name: Lake Union Seaplane Base
+- id: LKG
+  name: Lokichoggio Airport
+- id: LKH
+  name: Long Akah
+- id: LKL
+  name: Banak Airport
+- id: LKN
+  name: Leknes Airport
+- id: LKO
+  name: Amausi International Airport
+- id: LLA
+  name: Kallax Airport
+- id: LLF
+  name: Lingling Airport
+- id: LLI
+  name: Ethiopia
+- id: LLU
+  name: Alluitsup Paa Airport
+- id: LLW
+  name: Kamuzu International Airport
+- id: LMA
+  name: Lake Minchumina
+- id: LMC
+  name: Lamacarena Airport
+- id: LMM
+  name: Los Mochis Airport
+- id: LMN
+  name: Sarawak
+- id: LMP
+  name: Lampedusa Airport
+- id: LMT
+  name: Klamath Falls International Airport
+- id: LMY
+  name: Western
+- id: LNB
+  name: Lamen Bay Airport
+- id: LNE
+  name: Lonorore Airport
+- id: LNJ
+  name: Yunnan
+- id: LNK
+  name: Lincoln Municipal Airport
+- id: LNO
+  name: Leonora Aerodrome
+- id: LNV
+  name: Gerrit Denys Island
+- id: LNY
+  name: Lanai Airport
+- id: LNZ
+  name: Linz Airport
+- id: LOH
+  name: Loja Airport
+- id: LOS
+  name: Lagos Murtala Muhammed Airport
+- id: LOU
+  name: Bowman Field Airport
+- id: LOV
+  name: Monclova Airport
+- id: LPA
+  name: Las Palmas Airport
+- id: LPB
+  name: El Alto International Airport
+- id: LPD
+  name: La Pedrera Airport
+- id: LPI
+  name: Saab Airport
+- id: LPK
+  name: Russia
+- id: LPL
+  name: Liverpool John Lennon Airport
+- id: LPM
+  name: Lamap Airport
+- id: LPP
+  name: Lappeenranta Airport
+- id: LPQ
+  name: Louangphrabang Airport
+- id: LPS
+  name: Lopez Island Airport
+- id: LPT
+  name: Lampang Airport
+- id: LPX
+  name: Liepaja East Airport
+- id: LPY
+  name: Loudes Airport
+- id: LQM
+  name: Puerto Leguizamo Airport
+- id: LRD
+  name: Laredo International Airport
+- id: LRE
+  name: Longreach Aerodrome
+- id: LRH
+  name: Laleu Airport
+- id: LRM
+  name: La Romana Airport
+- id: LRR
+  name: Lar
+- id: LRS
+  name: Leros Airport
+- id: LRT
+  name: Lann Bihoue Airport
+- id: LSA
+  name: Papua New Guinea
+- id: LSC
+  name: La Florida Airport
+- id: LSE
+  name: La Crosse Municipal Airport
+- id: LSH
+  name: Lashio Airport
+- id: LSI
+  name: Sumburgh Airport
+- id: LSP
+  name: Josefa Camejo Airport
+- id: LSS
+  name: Terre-De-Haut Airport
+- id: LST
+  name: Launceston Airport
+- id: LSY
+  name: Lismore Airport
+- id: LTD
+  name: Ghadames
+- id: LTI
+  name: Altay
+- id: LTK
+  name: Latakia Airport
+- id: LTN
+  name: London Luton Airport
+- id: LTO
+  name: Loreto Airport
+- id: LTT
+  name: La Mole Airport
+- id: LUA
+  name: Lukla Airport
+- id: LUD
+  name: Luderitz Airport
+- id: LUG
+  name: Lugano Airport
+- id: LUM
+  name: Mangshi
+- id: LUN
+  name: Lusaka International Airport
+- id: LUO
+  name: Luena
+- id: LUP
+  name: Kalaupapa Airport
+- id: LUQ
+  name: San Luis Airport
+- id: LUV
+  name: Indonesia
+- id: LUX
+  name: Luxembourg Airport
+- id: LVI
+  name: Livingstone Airport
+- id: LVO
+  name: Laverton Aerodrome
+- id: LWB
+  name: Greenbrier Valley Airport
+- id: LWE
+  name: Indonesia
+- id: LWN
+  name: Gyumri Airport
+- id: LWO
+  name: Sknilov Airport
+- id: LWS
+  name: Lewiston Nez Perce County Airport
+- id: LWT
+  name: Lewistown Municipal Airport
+- id: LWY
+  name: Lawas
+- id: LXA
+  name: Lhasa
+- id: LXG
+  name: Luang Namtha
+- id: LXR
+  name: Luxor Airport
+- id: LXS
+  name: Limnos Airport
+- id: LYA
+  name: Luoyang Airport
+- id: LYB
+  name: Boddenfield Airport
+- id: LYC
+  name: Lycksele Airport
+- id: LYG
+  name: Lianyungang
+- id: LYH
+  name: Lynchburg Regional Airport
+- id: LYI
+  name: Linyi
+- id: LYP
+  name: Faisalabad Airport
+- id: LYR
+  name: Svalbard Longyear Airport
+- id: LYS
+  name: Lyon Airport
+- id: LZC
+  name: Lazaro Cardenas Airport
+- id: LZH
+  name: Liuzhou Airport
+- id: LZN
+  name: Nankan
+- id: LZO
+  name: Luzhou Airport
+- id: MAA
+  name: Chennai International Airport
+- id: MAB
+  name: Maraba Airport
+- id: MAD
+  name: Barajas Airport
+- id: MAF
+  name: Midland International Airport
+- id: MAG
+  name: Madang Airport
+- id: MAH
+  name: Menorca Airport
+- id: MAJ
+  name: Marshall Islands International Airport
+- id: MAK
+  name: Malakal Airport
+- id: MAM
+  name: General Sevando Canales Airport
+- id: MAN
+  name: Manchester International Airport
+- id: MAO
+  name: Eduardo Gomes International Airport
+- id: MAR
+  name: La Chinita International Airport
+- id: MAS
+  name: Manus Island Airport
+- id: MAU
+  name: Society Islands Airport
+- id: MAZ
+  name: Eugenio Maria de Hostos Airport
+- id: MBA
+  name: Moi International Airport
+- id: MBD
+  name: Mmabatho International Airport
+- id: MBE
+  name: Okhotsk-Monbetsu Airport
+- id: MBH
+  name: Maryborough Airport
+- id: MBJ
+  name: Sangster International Airport
+- id: MBL
+  name: Manistee County-Blacker Airport
+- id: MBS
+  name: MBS International Airport
+- id: MBT
+  name: Masbate Airport
+- id: MBU
+  name: Mbambanakira
+- id: MCE
+  name: Merced Municipal Airport-Macready Field
+- id: MCG
+  name: Mcgrath Airport
+- id: MCI
+  name: Kansas City International Airport
+- id: MCK
+  name: Mccook Municipal Airport
+- id: MCM
+  name: Monte Carlo Heliport
+- id: MCN
+  name: Middle Georgia Regional Airport
+- id: MCO
+  name: Orlando International Airport
+- id: MCP
+  name: Macapa International Airport
+- id: MCT
+  name: Seeb International Airport
+- id: MCW
+  name: Mason City Municipal Airport
+- id: MCX
+  name: Makhachkala-Uytash Airport
+- id: MCY
+  name: Maroochydore Aerodrome
+- id: MCZ
+  name: Zumbi dos Palmares International Airport
+- id: MDC
+  name: Sam Ratulangi Airport
+- id: MDE
+  name: Jose Maria Cordova Airport
+- id: MDG
+  name: Mudanjiang
+- id: MDK
+  name: Mbandaka Airport
+- id: MDL
+  name: Mandalay Airport
+- id: MDQ
+  name: Mar del Plata Airport
+- id: MDS
+  name: Middle Caicos Airport
+- id: MDT
+  name: Harrisburg International Airport
+- id: MDU
+  name: Papua New Guinea
+- id: MDW
+  name: Chicago Midway International Airport
+- id: MDZ
+  name: El Plumerillo Airport
+- id: MEA
+  name: Macae Airport
+- id: MEC
+  name: Eloy Alfaro Airport
+- id: MED
+  name: Madinah International Airport
+- id: MEE
+  name: Loyalty Islands Airport
+- id: MEG
+  name: Malanje Airport
+- id: MEH
+  name: Mehamn Airport
+- id: MEI
+  name: Key Field Airport
+- id: MEL
+  name: Melbourne International Airport
+- id: MEM
+  name: Memphis International Airport
+- id: MES
+  name: Polonia Airport
+- id: MEX
+  name: Lic Benito Juarez International Airport
+- id: MFE
+  name: Miller International Airport
+- id: MFJ
+  name: Moala Airport
+- id: MFK
+  name: Taiwan
+- id: MFM
+  name: Macau Airport
+- id: MFR
+  name: Rogue Valley International-Medford Airport
+- id: MFU
+  name: Mfuwe Airport
+- id: MGA
+  name: Augusto Cesar Sandino International Airport
+- id: MGB
+  name: Mount Gambier Airport
+- id: MGF
+  name: Maringa Domestic Airport
+- id: MGH
+  name: Margate Airport
+- id: MGM
+  name: Montgomery Regional Airport
+- id: MGQ
+  name: Mogadishu Airport
+- id: MGS
+  name: Mangaia
+- id: MGT
+  name: Northern Territory
+- id: MGW
+  name: Morgantown Municipal Airport-Hart Field
+- id: MGZ
+  name: Mergui Airport
+- id: MHD
+  name: Mashhad Airport
+- id: MHG
+  name: Mannheim City Airport
+- id: MHH
+  name: Marsh Harbour Airport
+- id: MHK
+  name: Manhattan Municipal Airport
+- id: MHP
+  name: Minsk International 1
+- id: MHQ
+  name: Mariehamn Airport
+- id: MHT
+  name: Manchester-Boston Regional Airport
+- id: MIA
+  name: Miami International Airport
+- id: MID
+  name: Lic M Crecencio Rejon International Airport
+- id: MIG
+  name: Mian Yang
+- id: MII
+  name: Dr Gastao Vidigal Airport
+- id: MIM
+  name: Merimbula Aerodrome
+- id: MIR
+  name: Habib Bourguiba International Airport
+- id: MIS
+  name: Saint Aignan Island
+- id: MJA
+  name: Toliara
+- id: MJD
+  name: Moenjodaro Airport
+- id: MJF
+  name: Kjaerstad Airport
+- id: MJI
+  name: Libya
+- id: MJK
+  name: Shark Bay Airport
+- id: MJL
+  name: Ngounie
+- id: MJM
+  name: Mbuji Mayi Airport
+- id: MJN
+  name: Mahajanga Amborovy Airport
+- id: MJT
+  name: Mitilini Airport
+- id: MJV
+  name: Murcia San Javier Airport
+- id: MJZ
+  name: Mirnyy
+- id: MKC
+  name: Kansas City Downtown Airport
+- id: MKE
+  name: General Mitchell International Airport
+- id: MKG
+  name: Muskegon County Airport
+- id: MKK
+  name: Molokai Airport
+- id: MKM
+  name: Sarawak
+- id: MKP
+  name: Makemo Airport
+- id: MKQ
+  name: Mopah Airport
+- id: MKR
+  name: Meekatharra Airport
+- id: MKU
+  name: Makokou Airport
+- id: MKW
+  name: Rendani Airport
+- id: MKY
+  name: Mackay Airport
+- id: MLA
+  name: Luqa Airport
+- id: MLB
+  name: Melbourne International Airport
+- id: MLE
+  name: Male International Airport
+- id: MLG
+  name: Malang
+- id: MLH
+  name: Bale Mulhouse Airport
+- id: MLI
+  name: Quad City Airport
+- id: MLL
+  name: Marshall
+- id: MLM
+  name: General Francisco J Mujica Airport
+- id: MLN
+  name: Melilla Airport
+- id: MLO
+  name: Milos Island Airport
+- id: MLU
+  name: Monroe Regional Airport
+- id: MLW
+  name: Monrovia Spriggs Payne Airport
+- id: MLX
+  name: Erhac Airport
+- id: MLY
+  name: Manley Hot Springs
+- id: MMB
+  name: Memanbetsu Airport
+- id: MME
+  name: Durham Tees Valley Airport
+- id: MMG
+  name: Western Australia
+- id: MMH
+  name: Mammoth June Lakes Airport
+- id: MMK
+  name: Murmashi Airport
+- id: MMO
+  name: Maio Airport
+- id: MMX
+  name: Sturup Airport
+- id: MMY
+  name: Miyako Airport
+- id: MNF
+  name: Mana Island Airstrip
+- id: MNG
+  name: Maningrida Airport
+- id: MNJ
+  name: Mananjary Airport
+- id: MNL
+  name: Ninoy Aquino International Airport
+- id: MNT
+  name: Minto
+- id: MNU
+  name: Moulmein Airport
+- id: MOB
+  name: Mobile Regional Airport
+- id: MOC
+  name: Montes Claros Airport
+- id: MOD
+  name: Modesto City County Airport-Harry Sham Field
+- id: MOF
+  name: Wai Oti Airport
+- id: MOL
+  name: Aro Airport
+- id: MOQ
+  name: Morondava Airport
+- id: MOT
+  name: Minot International Airport
+- id: MOU
+  name: Mountain Village
+- id: MOV
+  name: Moranbah Airport
+- id: MOZ
+  name: Society Islands Airport
+- id: MPA
+  name: Mpacha Airport
+- id: MPH
+  name: Malay
+- id: MPL
+  name: Frejorgues Airport
+- id: MPM
+  name: Maputo Airport
+- id: MPN
+  name: Mount Pleasant Airport
+- id: MQF
+  name: Magnitogorsk
+- id: MQL
+  name: Mildura Airport
+- id: MQM
+  name: Mardin
+- id: MQN
+  name: Rossvoll Airport
+- id: MQP
+  name: Nelspruit Airport
+- id: MQT
+  name: Sawyer International Airport
+- id: MRA
+  name: Misurata Airport
+- id: MRD
+  name: Alberto Carnevalli Airport
+- id: MRE
+  name: Mara Serena Airport
+- id: MRS
+  name: Marignane Airport
+- id: MRU
+  name: Plaisance International Airport
+- id: MRV
+  name: Mineral'nyye Vody
+- id: MRY
+  name: Monterey Peninsula Airport
+- id: MRZ
+  name: Moree Airport
+- id: MSA
+  name: Muskrat Dam
+- id: MSE
+  name: Kent International Airport
+- id: MSJ
+  name: Misawa Airport
+- id: MSL
+  name: Muscle Shoals Regional Airport
+- id: MSN
+  name: Dane County Regional Airport-Truax Field
+- id: MSO
+  name: Missoula International Airport
+- id: MSP
+  name: Minneapolis St Paul International Airport
+- id: MSQ
+  name: Velikiydvor Airport
+- id: MSR
+  name: Mus Airport
+- id: MSS
+  name: Massena International Airport
+- id: MST
+  name: Maastricht Airport
+- id: MSU
+  name: Maseru Moshoeshoe Airport
+- id: MSW
+  name: Massawa
+- id: MSY
+  name: New Orleans International Airport
+- id: MSZ
+  name: Namibe
+- id: MTJ
+  name: Montrose Regional Airport
+- id: MTM
+  name: Metlakatla Sea Plane Base
+- id: MTR
+  name: Los Garzones Airport
+- id: MTS
+  name: Matsapa International Airport
+- id: MTT
+  name: Minatitlan Airport
+- id: MTV
+  name: Mota Lava
+- id: MTY
+  name: Gen Mariano Escobedo International Airport
+- id: MUA
+  name: Munda Airport
+- id: MUB
+  name: Maun Airport
+- id: MUC
+  name: Franz-Josef-Strauss Airport
+- id: MUE
+  name: Waimea Kohala Airport
+- id: MUH
+  name: Mersa Matruh Airport
+- id: MUK
+  name: Mauke Island
+- id: MUN
+  name: Maturin Airport
+- id: MUR
+  name: Marudi Airport
+- id: MUX
+  name: Multan Airport
+- id: MUZ
+  name: Mara
+- id: MVB
+  name: Franceville Mvengue Airport
+- id: MVD
+  name: Carrasco International Airport
+- id: MVP
+  name: Mitu Airport
+- id: MVR
+  name: Maroua Salak Airport
+- id: MVS
+  name: Aeroporto Max Feffer
+- id: MVT
+  name: French Polynesia
+- id: MVY
+  name: Marthas Vineyard Airport
+- id: MWA
+  name: Williamson County Regional Airport
+- id: MWF
+  name: Vanuatu
+- id: MWN
+  name: Mwadui
+- id: MWQ
+  name: Magwe
+- id: MWZ
+  name: Mwanza Airport
+- id: MXH
+  name: Papua New Guinea
+- id: MXL
+  name: Gen Rodolfo Sanchez T International Airport
+- id: MXM
+  name: Morombe Airport
+- id: MXN
+  name: Ploujean Airport
+- id: MXP
+  name: Malpensa International Airport
+- id: MXV
+  name: Moron Airport
+- id: MXX
+  name: Siljan Airport
+- id: MXZ
+  name: Meixian
+- id: MYA
+  name: Moruya Aerodrome
+- id: MYD
+  name: Malindi Airport
+- id: MYE
+  name: Miyakejima Airport
+- id: MYG
+  name: Miltary & Civil Airport
+- id: MYI
+  name: Murray Island
+- id: MYJ
+  name: Matsuyama Airport
+- id: MYL
+  name: Mccall Airport
+- id: MYT
+  name: Myitkyina Airport
+- id: MYU
+  name: Mekoryuk
+- id: MYW
+  name: Mtwara Airport
+- id: MYY
+  name: Miri Airport
+- id: MZG
+  name: Magong Airport
+- id: MZI
+  name: Mopti Barbe Airport
+- id: MZL
+  name: La Nubia Airport
+- id: MZO
+  name: Manzanillo Airport
+- id: MZR
+  name: Mazar I Sharif Airport
+- id: MZT
+  name: General Rafael Buelna International Airport
+- id: MZV
+  name: Mulu Airport
+- id: NAA
+  name: Narrabri Airport
+- id: NAC
+  name: Naracoorte Airport
+- id: NAG
+  name: Sonegaon Airport
+- id: NAN
+  name: Nadi International Airport
+- id: NAO
+  name: Nanchong Airport
+- id: NAP
+  name: Naples International Airport
+- id: NAQ
+  name: Qaanaaq
+- id: NAS
+  name: Nassau International Airport
+- id: NAT
+  name: Augusto Severo International Airport
+- id: NAU
+  name: Napuka Island
+- id: NAW
+  name: Narathiwat Airport
+- id: NBO
+  name: Jomo Kenyatta International Airport
+- id: NBX
+  name: Nabire Airport
+- id: NCA
+  name: North Caicos Airport
+- id: NCE
+  name: Nice-Cote d'Azur Airport
+- id: NCL
+  name: Newcastle International Airport
+- id: NCN
+  name: Chenega
+- id: NCY
+  name: Meythet Airport
+- id: NDB
+  name: Nouadhibou Airport
+- id: NDG
+  name: Qiqihar
+- id: NDJ
+  name: Ndjamena Airport
+- id: NDR
+  name: Nador Airport
+- id: NEV
+  name: Newcastle Airport
+- id: NFO
+  name: Niuafo'ou Airport
+- id: NGB
+  name: Ningbo Airport
+- id: NGE
+  name: Ngaoundere Airport
+- id: NGI
+  name: Ngau Island
+- id: NGO
+  name: Chubu International Airport
+- id: NGS
+  name: Nagasaki Airport
+- id: NHA
+  name: Nha-Trang Airport
+- id: NHV
+  name: Marquesas Islands Airport
+- id: NIB
+  name: Nikolai
+- id: NIM
+  name: Niamey Airport
+- id: NIU
+  name: Honolulu International Airport
+- id: NJC
+  name: Nizhnevartovsk Northwest Airport
+- id: NKC
+  name: Nouakchott Airport
+- id: NKG
+  name: Nanjing Lukou International Airport
+- id: NKI
+  name: Naukiti Airport
+- id: NLA
+  name: Ndola Airport
+- id: NLD
+  name: Quetzalcoatl International Airport
+- id: NLF
+  name: Darnley Island Airport
+- id: NLK
+  name: Norfolk Island Airport
+- id: NLV
+  name: Nikolaev Airport
+- id: NMA
+  name: Namangan Airport
+- id: NME
+  name: Nightmute Airport
+- id: NNB
+  name: Makira
+- id: NNG
+  name: Nanning-Wuyu Airport
+- id: NNT
+  name: Nan Airport
+- id: NNY
+  name: Nanyang
+- id: NOB
+  name: Nosara Beach Airport
+- id: NOC
+  name: Connaught Airport
+- id: NOS
+  name: Nosy Be Fascene Airport
+- id: NOU
+  name: La Tontouta Airport
+- id: NOV
+  name: Huambo Airport
+- id: NOZ
+  name: Kemerovskaya Oblast
+- id: NPE
+  name: Hawkes Bay Airport
+- id: NPL
+  name: New Plymouth Airport
+- id: NQN
+  name: Neuquen Airport
+- id: NQU
+  name: Nuqui Airport
+- id: NQY
+  name: St Mawgan Airport
+- id: NRK
+  name: Kungsangen Airport
+- id: NRN
+  name: Airport Weeze
+- id: NRT
+  name: Narita International Airport
+- id: NSK
+  name: Norilsk Alykel Airport
+- id: NSN
+  name: Nelson Airport
+- id: NST
+  name: Nakhon Si Thammarat Airport
+- id: NTE
+  name: Chateau Bougon Airport
+- id: NTG
+  name: Nantong Airport
+- id: NTL
+  name: Williamtown Airport
+- id: NTN
+  name: Normanton
+- id: NTQ
+  name: Noto Airport
+- id: NTT
+  name: Niuatoputapu Airport
+- id: NUE
+  name: Nurnberg Airport
+- id: NUI
+  name: Nuiqsut
+- id: NUK
+  name: Nukutavake
+- id: NUL
+  name: Nulato Airport
+- id: NUP
+  name: Alaska
+- id: NUX
+  name: Urengoy Airport
+- id: NVA
+  name: Neiva Lamarguita Airport
+- id: NVI
+  name: Navoi Airport
+- id: NVK
+  name: Framnes Airport
+- id: NVT
+  name: Ministro Victor Konder International Airport
+- id: NWI
+  name: Norwich Airport
+- id: NYK
+  name: Nanyuki Airport
+- id: NYM
+  name: Nadym Airport
+- id: NYO
+  name: Skavsta Airport
+- id: NYU
+  name: Nyaung U Airport
+- id: NZH
+  name: Manzhouli
+- id: OAG
+  name: Springhill Airport
+- id: OAJ
+  name: Albert J Ellis Airport
+- id: OAK
+  name: Oakland International Airport
+- id: OAM
+  name: Oamaru Airport
+- id: OAX
+  name: Xoxocotlan Airport
+- id: OBN
+  name: Oban Connel Airport
+- id: OBO
+  name: Obihiro Airport
+- id: OBU
+  name: Kobuk Airport
+- id: OBX
+  name: Obo
+- id: OCC
+  name: Coca Airport
+- id: ODN
+  name: Sarawak
+- id: ODS
+  name: Odessa Central Airport
+- id: ODW
+  name: Oak Harbor Airpark
+- id: ODY
+  name: Oudomxay
+- id: OER
+  name: Ornskoldsvik Airport
+- id: OFI
+  name: Ouango Fitini
+- id: OGG
+  name: Kahului Airport
+- id: OGN
+  name: Yonaguni Airport
+- id: OGS
+  name: Ogdensburg International Airport
+- id: OGX
+  name: Ain Beida
+- id: OGZ
+  name: Ordzhonikidze North Airport
+- id: OHD
+  name: Ohrid Airport
+- id: OHE
+  name: Hamburg Airport
+- id: OHO
+  name: Okhotsk Airport
+- id: OIM
+  name: Oshima Airport
+- id: OIT
+  name: Oita Airport
+- id: OKA
+  name: Shimojishima Airport
+- id: OKC
+  name: Will Rogers World Airport
+- id: OKD
+  name: Okadama Airport
+- id: OKJ
+  name: Okayama Airport
+- id: OKY
+  name: Oakey Aerodrome
+- id: OLA
+  name: Orland Airport
+- id: OLB
+  name: Olbia Costa Smeralda Airport
+- id: OLF
+  name: L. M. Clayton Airport
+- id: OLH
+  name: Alaska
+- id: OLJ
+  name: Malampa
+- id: OLP
+  name: Olympic Dam Aerodrome
+- id: OMA
+  name: Eppley Airfield
+- id: OMB
+  name: Omboué
+- id: OMC
+  name: Ormoc Airport
+- id: OMD
+  name: Oranjemund Airport
+- id: OME
+  name: Nome Airport
+- id: OMH
+  name: Uromiyeh Airport
+- id: OMO
+  name: Mostar Airport
+- id: OMR
+  name: Oradea Airport
+- id: OMS
+  name: Omsk Southwest Airport
+- id: OND
+  name: Ondangwa Airport
+- id: ONG
+  name: Mornington Island Airport
+- id: ONJ
+  name: Odate-Noshiro Airport
+- id: ONL
+  name: The Oneill Municipal Airport
+- id: ONT
+  name: Ontario International Airport
+- id: OOK
+  name: Toksook Bay
+- id: OOL
+  name: Gold Coast (Coolangatta)
+- id: OPF
+  name: Opa Locka Airport
+- id: OPO
+  name: Porto Airport
+- id: OPS
+  name: Sinop Airport
+- id: OPU
+  name: Balimo
+- id: ORB
+  name: Orebro Airport
+- id: ORD
+  name: Chicago O'Hare International Airport
+- id: ORF
+  name: Norfolk International Airport
+- id: ORH
+  name: Worcester Municipal Airport
+- id: ORJ
+  name: Orinduik Airport
+- id: ORK
+  name: Cork Airport
+- id: ORN
+  name: Es Senia Airport
+- id: ORV
+  name: Curtis Memorial
+- id: ORY
+  name: Paris Orly Airport
+- id: OSD
+  name: Ostersunds Airport
+- id: OSI
+  name: Osijek Airport
+- id: OSK
+  name: Oskarshamn Airport
+- id: OSL
+  name: Oslo Gardermoen Airport
+- id: OSM
+  name: Mosul Airport
+- id: OSR
+  name: Mosnov Airport
+- id: OSS
+  name: Osh Airport
+- id: OST
+  name: Oostende Airport
+- id: OSW
+  name: Orsk
+- id: OSY
+  name: Namsos Airport
+- id: OSZ
+  name: Koszalin Airport
+- id: OTH
+  name: North Bend Municipal Airport
+- id: OTP
+  name: Otopeni Airport
+- id: OTR
+  name: Coto 47 Airport
+- id: OTZ
+  name: Ralph Wien Memorial Airport
+- id: OUA
+  name: Ouagadougou Airport
+- id: OUD
+  name: Angads Airport
+- id: OUE
+  name: Ouesso Airport
+- id: OUL
+  name: Oulu Airport
+- id: OUZ
+  name: Mauritania
+- id: OVB
+  name: Tolmachevo Airport
+- id: OVD
+  name: Asturias Airport
+- id: OVS
+  name: Boscobel Airport
+- id: OXB
+  name: Bissau Oswaldo Vieira Airport
+- id: OXF
+  name: Oxford Airport
+- id: OXR
+  name: Oxnard Airport
+- id: OYE
+  name: Oyem Airport
+- id: OYG
+  name: Moyo
+- id: OZC
+  name: Ozamis-Mindanao Island Airport
+- id: OZH
+  name: Zaporozhye East Airport
+- id: OZZ
+  name: Ouarzazate Airport
+- id: PAD
+  name: Paderborn-Lippstadt Airport
+- id: PAH
+  name: Barkley Regional Airport
+- id: PAI
+  name: Pailin Airport
+- id: PAS
+  name: Paros Island Airport
+- id: PAT
+  name: Lok Nayak Jaiprakash Airport
+- id: PAZ
+  name: Tajin Airport
+- id: PBC
+  name: Puebla Airport
+- id: PBD
+  name: Porbandar Airport
+- id: PBH
+  name: Paro Airport
+- id: PBI
+  name: Palm Beach International Airport
+- id: PBJ
+  name: Malampa
+- id: PBM
+  name: Zandery Airport
+- id: PBO
+  name: Paraburdoo Airport
+- id: PBP
+  name: Punta Islita Airport
+- id: PBU
+  name: Putao Airport
+- id: PCE
+  name: Painter Creek
+- id: PCL
+  name: Pucallpa Airport
+- id: PCR
+  name: Puerto Carreno Airport
+- id: PDA
+  name: Puerto Inirida Airport
+- id: PDB
+  name: Pedro Bay
+- id: PDG
+  name: Tabing Airport
+- id: PDL
+  name: Ponta Delgada Airport
+- id: PDP
+  name: Maldonado Airport
+- id: PDS
+  name: Piedras Negras International Airport
+- id: PDT
+  name: Eastern Oregon Regional Airport
+- id: PDX
+  name: Portland International Airport
+- id: PEC
+  name: Pelican Sea Plane Base
+- id: PED
+  name: Pardubice
+- id: PEE
+  name: Bolshesavino Airport
+- id: PEG
+  name: Perugia Airport
+- id: PEI
+  name: Matecana Airport
+- id: PEK
+  name: Beijing Capital Airport
+- id: PEM
+  name: Padre Aldamiz Airport
+- id: PEN
+  name: Penang International Airport
+- id: PER
+  name: Perth International Airport
+- id: PES
+  name: Petrozavodsk Northwest Airport
+- id: PET
+  name: Pelotas Airport
+- id: PEU
+  name: Puerto Lempira Airport
+- id: PEW
+  name: Peshawar Airport
+- id: PEX
+  name: Pechora Southwest Airport
+- id: PEZ
+  name: Penza
+- id: PFB
+  name: Lauro Kurtz Airport
+- id: PFN
+  name: Panama City Bay County Airport
+- id: PFO
+  name: Paphos International Airport
+- id: PGA
+  name: Page Municipal Airport
+- id: PGF
+  name: Rivesaltes Airport
+- id: PGK
+  name: Pangkalpinang Airport
+- id: PGM
+  name: Port Graham
+- id: PGU
+  name: Page Municipal Airport
+- id: PGV
+  name: Pitt Greenville Airport
+- id: PGX
+  name: Bassillac Airport
+- id: PHC
+  name: Port Harcourt International Airport
+- id: PHE
+  name: Port Hedland Airport
+- id: PHF
+  name: Newport News-Williamsburg International Airport
+- id: PHG
+  name: Port Harcourt City
+- id: PHL
+  name: Philadelphia International Airport
+- id: PHO
+  name: Point Hope Airport
+- id: PHS
+  name: Phitsanulok Airport
+- id: PHW
+  name: Hendrik Van Eck Airport
+- id: PHX
+  name: Sky Harbor International Airport
+- id: PIA
+  name: Greater Peoria Regional Airport
+- id: PIB
+  name: Pine Belt Regional Airport
+- id: PIE
+  name: St. Petersburg-Clearwater International Airport
+- id: PIF
+  name: Pingdong Airport
+- id: PIH
+  name: Pocatello Municipal Airport
+- id: PIK
+  name: Glasgow Prestwick International Airport
+- id: PIN
+  name: Parintins Airport
+- id: PIP
+  name: Pilot Point Airport
+- id: PIR
+  name: Pierre Municipal Airport
+- id: PIS
+  name: Biard Airport
+- id: PIT
+  name: Pittsburgh International Airport
+- id: PIU
+  name: Capitan Concha Airport
+- id: PIX
+  name: Pico Airport
+- id: PIZ
+  name: Dew Station
+- id: PJA
+  name: Sweden
+- id: PJG
+  name: Panjgur Airport
+- id: PJM
+  name: Puerto Jimenez Airport
+- id: PKA
+  name: Alaska
+- id: PKB
+  name: Wood County Airport-Gill Robb Wilson Field
+- id: PKC
+  name: Petropavlovsk Yelizovo Airport
+- id: PKE
+  name: Parkes Airport
+- id: PKG
+  name: Pangkor Airport
+- id: PKK
+  name: Pakokku
+- id: PKP
+  name: French Polynesia
+- id: PKR
+  name: Pokhara Airport
+- id: PKU
+  name: Simpang Tiga Airport
+- id: PKY
+  name: Tjilik Riwut Airport
+- id: PKZ
+  name: Pakse Airport
+- id: PLD
+  name: Playa Samara Airport
+- id: PLH
+  name: Roborough Airport
+- id: PLJ
+  name: Belize
+- id: PLM
+  name: Sultan Mahmud Badaruddin Ii Airport
+- id: PLN
+  name: Pellston Regional Airport
+- id: PLO
+  name: Port Lincoln Airport
+- id: PLQ
+  name: Palanga International
+- id: PLS
+  name: Providenciales Airport
+- id: PLU
+  name: Pampulha Airport
+- id: PLW
+  name: Mutiara Airport
+- id: PLZ
+  name: H F Verwoerd Airport
+- id: PMA
+  name: Pemba Airport
+- id: PMC
+  name: El Tepual International Airport
+- id: PMD
+  name: Air Force Plant Nr 42 Palmdale
+- id: PME
+  name: Portsmouth Airport
+- id: PMF
+  name: Parma Airport
+- id: PMI
+  name: Palma de Mallorca Airport
+- id: PMO
+  name: Palermo Airport
+- id: PMR
+  name: Palmerston North Airport
+- id: PMV
+  name: Del Caribe International Airport
+- id: PMW
+  name: Palmas Airport
+- id: PMY
+  name: El Tehuelche Airport
+- id: PMZ
+  name: Palmar Sur Airport
+- id: PNA
+  name: Pamplona Airport
+- id: PND
+  name: Punta Gorda Airport
+- id: PNH
+  name: Pochentong Airport
+- id: PNI
+  name: Pohnpei International Airport
+- id: PNK
+  name: Supadio Airport
+- id: PNL
+  name: Pantelleria Airport
+- id: PNP
+  name: Girua Airport
+- id: PNQ
+  name: Pune Airport
+- id: PNR
+  name: Pointe Noire Airport
+- id: PNS
+  name: Pensacola Regional Airport
+- id: PNZ
+  name: Senador Nilo Coelho Airport
+- id: POA
+  name: Salgado Filho International Airport
+- id: POG
+  name: Port Gentil Airport
+- id: POL
+  name: Pemba Airport
+- id: POM
+  name: Port Moresby International Airport
+- id: POP
+  name: Puerto Plata International Airport
+- id: POR
+  name: Pori Airport
+- id: POS
+  name: Piarco Airport
+- id: POZ
+  name: Lawica Airport
+- id: PPB
+  name: Presidente Prudente Airport
+- id: PPE
+  name: Punta Penasco Airport
+- id: PPG
+  name: Pago Pago International Airport
+- id: PPK
+  name: Petropavlovsk
+- id: PPL
+  name: Nepal
+- id: PPN
+  name: Guillermo Leon Valencia Airport
+- id: PPP
+  name: Proserpine Aerodrome
+- id: PPS
+  name: Puerto Princesa International Airport
+- id: PPT
+  name: Tahiti Faaa Airport
+- id: PPV
+  name: Alaska
+- id: PQC
+  name: Duong Dong Airport
+- id: PQI
+  name: Northern Maine Regional Airport
+- id: PQQ
+  name: Port Macquarie Airport
+- id: PQS
+  name: Pilot Station
+- id: PRC
+  name: Ernest A Love Field Airport
+- id: PRG
+  name: Prague Ruzyne Airport
+- id: PRI
+  name: Praslin Airport
+- id: PRN
+  name: Pristina Airport
+- id: PSA
+  name: Pisa Airport
+- id: PSC
+  name: Tri Cities Airport
+- id: PSE
+  name: Mercedita Airport
+- id: PSG
+  name: Petersburg James A Johnson Airport
+- id: PSO
+  name: Antonio Narino Airport
+- id: PSP
+  name: Palm Springs International Airport
+- id: PSR
+  name: Pescara Airport
+- id: PSS
+  name: Posadas Airport
+- id: PSZ
+  name: Salvador Ogaya Gutierrez Airport
+- id: PTA
+  name: Port Alsworth
+- id: PTF
+  name: Malololailai Airport
+- id: PTG
+  name: Pietersburg Municipal Airport
+- id: PTH
+  name: Port Heiden Airport
+- id: PTP
+  name: Le Raizet Airport
+- id: PTU
+  name: Platinum
+- id: PTY
+  name: Tocumen International Airport
+- id: PUB
+  name: Pueblo Memorial Airport
+- id: PUF
+  name: Pont Long Uzein Airport
+- id: PUJ
+  name: Punta Cana Airport
+- id: PUQ
+  name: Carlos Ibanez de Campo International Airport
+- id: PUS
+  name: Kimhae International Airport
+- id: PUU
+  name: Puerto Asis Airport
+- id: PUW
+  name: Pullman-Moscow Regional Airport
+- id: PUY
+  name: Pula Airport
+- id: PVA
+  name: Providencia Island Airport
+- id: PVC
+  name: Provincetown Municipal Airport
+- id: PVD
+  name: Theodore Francis Green State Airport
+- id: PVG
+  name: Pudong International Airport
+- id: PVH
+  name: Governador Jorge Teixeira de Oliveira Internatio
+- id: PVK
+  name: Preveza Airport
+- id: PVR
+  name: Lic Gustavo Diaz Ordaz International Airport
+- id: PWE
+  name: Under Construction Pevek Airport
+- id: PWK
+  name: Pal Waukee Airport
+- id: PWM
+  name: Jetport International Airport
+- id: PWQ
+  name: Pavlodar South Airport
+- id: PXM
+  name: Puerto Escondido Airport
+- id: PXO
+  name: Porto Santo Airport
+- id: PXU
+  name: Pleiku Area Airport
+- id: PYH
+  name: Puerto Ayacucho Airport
+- id: PYJ
+  name: Russia
+- id: PZB
+  name: Pietermaritzburg Airport
+- id: PZE
+  name: Penzance Heliport
+- id: PZI
+  name: Pan Zhi Hua Bao AnYing
+- id: PZO
+  name: Puerto Ordaz Airport
+- id: PZU
+  name: Port Sudan International Airport
+- id: QBC
+  name: Bella Coola Airport
+- id: QDH
+  name: Ashford International Rail Station
+- id: QJY
+  name: Cheju International Airport
+- id: QOW
+  name: Owerri
+- id: QQD
+  name: Dover Rail Station
+- id: QRO
+  name: Queretaro Airport
+- id: QRW
+  name: Delta
+- id: QSF
+  name: Setif
+- id: QWB
+  name: Afonso Pena International Airport
+- id: QXB
+  name: Aix Les Milles Airport
+- id: RAB
+  name: Rabaul Airport
+- id: RAE
+  name: Arar Airport
+- id: RAH
+  name: Rafha Airport
+- id: RAI
+  name: Francisco Mendes Airport
+- id: RAJ
+  name: Rajkot Airport
+- id: RAK
+  name: Menara Airport
+- id: RAO
+  name: Leite Lopes Airport
+- id: RAP
+  name: Rapid City Regional Airport
+- id: RAR
+  name: Rarotonga International Airport
+- id: RAS
+  name: Rasht Airport
+- id: RBA
+  name: Sale Airport
+- id: RBH
+  name: Brooks Lodge
+- id: RBQ
+  name: Rurrenabaque Airport
+- id: RBR
+  name: Presidente Medici International Airport
+- id: RBV
+  name: Ramata
+- id: RBX
+  name: Roundup Airport
+- id: RBY
+  name: Ruby Airport
+- id: RCB
+  name: Richards Bay Airport
+- id: RCE
+  name: Roche Harbor Airport
+- id: RCH
+  name: Almirante Padilla Airport
+- id: RCM
+  name: Richmond Aerodrome
+- id: RDB
+  name: Red Dog
+- id: RDD
+  name: Redding Municipal Airport
+- id: RDM
+  name: Roberts Field Airport
+- id: RDN
+  name: Malaysia
+- id: RDU
+  name: Durham International Airport
+- id: RDV
+  name: Red Devil
+- id: RDZ
+  name: Marcillac Airport
+- id: REA
+  name: Reao
+- id: REC
+  name: Gilberto Freyre International Airport
+- id: REG
+  name: Reggio Calabria Airport
+- id: REL
+  name: Trelew Almirante Zar Airport
+- id: REN
+  name: Orenburg East Airport
+- id: REP
+  name: Siem Reap Airport
+- id: RES
+  name: Resistencia Airport
+- id: REU
+  name: Reus Airport
+- id: REX
+  name: Reynosa International Airport
+- id: RFD
+  name: Greater Rockford Airport
+- id: RFP
+  name: Raiatea Island Airport
+- id: RGA
+  name: Rio Grande Airport
+- id: RGI
+  name: Rangiroa Airport
+- id: RGL
+  name: Rio Gallegos Airport
+- id: RGN
+  name: Mingaladon Airport
+- id: RHI
+  name: Rhinelander-Oneida County Airport
+- id: RHO
+  name: Paradisi Airport
+- id: RIA
+  name: Santa Maria Airport
+- id: RIB
+  name: Gen. Buech Airport
+- id: RIC
+  name: Richmond International Airport
+- id: RIG
+  name: Rio Grande Airport
+- id: RIS
+  name: Rishiri Airport
+- id: RIW
+  name: Riverton Regional Airport
+- id: RIX
+  name: Riga Airport
+- id: RIY
+  name: Riyan Airport
+- id: RJA
+  name: Rajahmundry Airport
+- id: RJK
+  name: Rijeka Krk Airport
+- id: RJL
+  name: Agoncillo
+- id: RJN
+  name: Kerman
+- id: RKD
+  name: Knox County Regional Airport
+- id: RKS
+  name: Rock Springs-Sweetwater County Airport
+- id: RKT
+  name: Ras Al Khaimah International Airport
+- id: RKV
+  name: Reykjavik Airport
+- id: RMA
+  name: Roma Aerodrome
+- id: RMF
+  name: Marsa Alam International
+- id: RMI
+  name: Rimini Airport
+- id: RMP
+  name: Rampart
+- id: RMQ
+  name: Taiwan
+- id: RMT
+  name: Remada Airport
+- id: RNA
+  name: Ulawa Airport
+- id: RNB
+  name: Ronneby Airport
+- id: RNL
+  name: Rennell
+- id: RNN
+  name: Bornholm Airport
+- id: RNO
+  name: Reno-Tahoe International Airport
+- id: RNP
+  name: Rongelap Island
+- id: RNS
+  name: St Jacques Airport
+- id: ROA
+  name: Roanoke Regional Airport-Woodrum Field
+- id: ROB
+  name: Roberts International Airport
+- id: ROC
+  name: Greater Rochester International Airport
+- id: ROI
+  name: Mueang Poi Et
+- id: ROK
+  name: Rockhampton Airport
+- id: ROO
+  name: Rondonopolis Airport
+- id: ROP
+  name: Rota International Airport
+- id: ROR
+  name: Koror Airport
+- id: ROS
+  name: Rosario Airport
+- id: ROT
+  name: Rotorua Airport
+- id: ROV
+  name: Rostov East Airport
+- id: ROW
+  name: Roswell Industrial Air Center
+- id: RPR
+  name: Raipur Airport
+- id: RRG
+  name: Mauritius
+- id: RRS
+  name: Roeros Airport
+- id: RSA
+  name: Santa Rosa Airport
+- id: RSD
+  name: Rock Sound Airport
+- id: RSH
+  name: Russian
+- id: RSJ
+  name: Rosario Seaplane Base
+- id: RST
+  name: Rochester International Airport
+- id: RSU
+  name: Yeosu Airport
+- id: RSW
+  name: Southwest Florida International Airport
+- id: RTA
+  name: Rotuma
+- id: RTB
+  name: Roatan Island Airport
+- id: RTG
+  name: Satartacik Airport
+- id: RTM
+  name: Rotterdam Airport
+- id: RTW
+  name: Saratov Airport
+- id: RUH
+  name: King Khalid International Airport
+- id: RUK
+  name: Nepal
+- id: RUM
+  name: Rumjatar Airport
+- id: RUN
+  name: Saint Denis Gillot Airport
+- id: RUT
+  name: Rutland State Airport
+- id: RVE
+  name: Saravena El Eden Airport
+- id: RVK
+  name: Ryumsjoen Airport
+- id: RVN
+  name: Rovaniemi Airport
+- id: RVT
+  name: Western Australia
+- id: RVV
+  name: Raivavae Airport
+- id: RXS
+  name: Roxas Airport
+- id: RYG
+  name: Moss Airport
+- id: RYK
+  name: Rahim Yar Khan
+- id: RZE
+  name: Jasionka Airport
+- id: RZP
+  name: Philippines
+- id: RZR
+  name: Ramsar Airport
+- id: SAB
+  name: Yrausquin Airport
+- id: SAH
+  name: Sanaa International Airport
+- id: SAL
+  name: El Salvador International Airport
+- id: SAN
+  name: San Diego International Airport
+- id: SAP
+  name: La Mesa International Airport
+- id: SAQ
+  name: San Andros Municipal Airport
+- id: SAT
+  name: San Antonio International Airport
+- id: SAV
+  name: Savannah International Airport
+- id: SAW
+  name: Istanbul Sabiha Gokcen Airport
+- id: SBA
+  name: Santa Barbara Municipal Airport
+- id: SBH
+  name: Gustavia Airport
+- id: SBL
+  name: Santa Ana de Yacuma Airport
+- id: SBN
+  name: South Bend Regional Airport
+- id: SBP
+  name: San Luis Obispo County Airport
+- id: SBR
+  name: Saibai Island
+- id: SBW
+  name: Sibu Airport
+- id: SBY
+  name: Salisbury-Wicomico County Regional Airport
+- id: SBZ
+  name: Turnisor Airport
+- id: SCC
+  name: Deadhorse Airport
+- id: SCE
+  name: University Park Airport
+- id: SCK
+  name: Stockton Metropolitan Airport
+- id: SCL
+  name: Arturo Merino Benitez International Airport
+- id: SCM
+  name: Scammon Bay
+- id: SCN
+  name: Saarbrucken Airport
+- id: SCO
+  name: Aktau
+- id: SCQ
+  name: Santiago Airport
+- id: SCU
+  name: Antonio Maceo Airport
+- id: SCV
+  name: Suceava Salcea Airport
+- id: SCW
+  name: Russia
+- id: SCX
+  name: Salina Cruz
+- id: SCY
+  name: San Cristobal Airport
+- id: SCZ
+  name: Santa Cruz Is
+- id: SDD
+  name: Lubango Airport
+- id: SDE
+  name: Santiago del Estero Airport
+- id: SDF
+  name: Louisville International Airport
+- id: SDG
+  name: Sanandaj Airport
+- id: SDJ
+  name: Sendai Airport
+- id: SDK
+  name: Sandakan Airport
+- id: SDL
+  name: Sundsvall Harnosand Airport
+- id: SDN
+  name: Sandane Airport
+- id: SDP
+  name: Sand Point Airport
+- id: SDQ
+  name: De Las Americas International Airport
+- id: SDR
+  name: Santander Airport
+- id: SDT
+  name: Saidu Sharif Airport
+- id: SDU
+  name: Santos Dumont Airport
+- id: SDV
+  name: Sde Dov Airport
+- id: SDY
+  name: Sidney Richland Municipal Airport
+- id: SEA
+  name: Tacoma International Airport
+- id: SEB
+  name: Sebha Airport
+- id: SEN
+  name: Southend Airport
+- id: SEZ
+  name: Seychelles International Airport
+- id: SFA
+  name: El Maou Airport
+- id: SFB
+  name: Orlando Sanford International Airport
+- id: SFD
+  name: San Fernando de Apure Airport
+- id: SFE
+  name: San Fernando Airport
+- id: SFG
+  name: Grand Case-Esperance Airport
+- id: SFJ
+  name: Kangerlussuaq
+- id: SFN
+  name: Sauce Viejo Airport
+- id: SFO
+  name: San Francisco International Airport
+- id: SFT
+  name: Skelleftea Airport
+- id: SGC
+  name: Surgut North Airport
+- id: SGD
+  name: Sonderborg Airport
+- id: SGF
+  name: Springfield Regional Airport
+- id: SGN
+  name: Tan Son Nhut Airport
+- id: SGO
+  name: St George
+- id: SGU
+  name: St George Municipal Airport
+- id: SGX
+  name: Ruvuma
+- id: SGY
+  name: Skagway Airport
+- id: SHA
+  name: Hongqiao Airport
+- id: SHB
+  name: Nakashibetsu Airport
+- id: SHD
+  name: Shenandoah Valley Regional Airport
+- id: SHE
+  name: Dongta Airport
+- id: SHG
+  name: Shungnak Airport
+- id: SHH
+  name: Shishmaref
+- id: SHJ
+  name: Sharjah International Airport
+- id: SHM
+  name: Nanki-Shirahama Airport
+- id: SHP
+  name: Qinhuangdao
+- id: SHR
+  name: Sheridan County Airport
+- id: SHV
+  name: Shreveport Regional Airport
+- id: SHW
+  name: Sharurah Airport
+- id: SHX
+  name: Shageluk
+- id: SHY
+  name: Shinyanga
+- id: SIA
+  name: Xiguan Airport
+- id: SID
+  name: Amilcar Cabral International Airport
+- id: SIF
+  name: Simara Airport
+- id: SIG
+  name: Isla Grande Airport
+- id: SIN
+  name: Singapore Changi Airport
+- id: SIP
+  name: Simferopol North Airport
+- id: SIT
+  name: Sitka Airport
+- id: SJC
+  name: Norman Y Mineta San Jose International Airport
+- id: SJD
+  name: Los Cabos International Airport
+- id: SJE
+  name: San Jose del Guaviaro Airport
+- id: SJI
+  name: San Jose Airport
+- id: SJJ
+  name: Sarajevo Airport
+- id: SJK
+  name: Sao Jose dos Campos Airport
+- id: SJO
+  name: Juan Santamaria International Airport
+- id: SJP
+  name: Sao Jose do Rio Preto Airport
+- id: SJT
+  name: Mathis Field Airport
+- id: SJU
+  name: Luis Munoz Marin Airport
+- id: SJW
+  name: Shijiazhuang
+- id: SJY
+  name: Ilmajoki Airport
+- id: SJZ
+  name: Sao Jorge Airport
+- id: SKB
+  name: Golden Rock Airport
+- id: SKC
+  name: Papua New Guinea
+- id: SKD
+  name: Samarqand
+- id: SKE
+  name: Geiterygen Airport
+- id: SKG
+  name: Thessaloniki Airport
+- id: SKH
+  name: Surkhet
+- id: SKK
+  name: Shaktoolik
+- id: SKN
+  name: Stokmarknes Airport
+- id: SKO
+  name: Sadiq Abubakar Iii Airport
+- id: SKP
+  name: Petrovec
+- id: SKT
+  name: Sialkot
+- id: SKU
+  name: Skiros Airport
+- id: SKZ
+  name: Sukkur Airport
+- id: SLA
+  name: Salta Airport
+- id: SLC
+  name: Salt Lake City International Airport
+- id: SLE
+  name: Mcnary Field Airport
+- id: SLH
+  name: Torba
+- id: SLK
+  name: Adirondack Regional Airport
+- id: SLL
+  name: Salalah Airport
+- id: SLM
+  name: Salamanca Airport
+- id: SLN
+  name: Salina Municipal Airport
+- id: SLP
+  name: San Luis Potosi Airport
+- id: SLQ
+  name: Sleetmute Airport
+- id: SLU
+  name: Vigie Airport
+- id: SLV
+  name: Simla Airport
+- id: SLW
+  name: Plan de Guadalupe Airport
+- id: SLX
+  name: Salt Cay Airport
+- id: SLY
+  name: Russia
+- id: SLZ
+  name: Marechal Cunha Machado International Airport
+- id: SMA
+  name: Santa Maria Airport
+- id: SMF
+  name: Sacramento International Airport
+- id: SMI
+  name: Samos Airport
+- id: SMK
+  name: Alaska
+- id: SML
+  name: Stella Maris Airport
+- id: SMN
+  name: Lemhi County Airport
+- id: SMR
+  name: Simon Bolivar Airport
+- id: SMS
+  name: Sainte Marie Airport
+- id: SMX
+  name: Santa Maria Public Airport
+- id: SNA
+  name: John Wayne Airport
+- id: SNC
+  name: General Ulpiano Paez Airport
+- id: SNE
+  name: Preguica Airport
+- id: SNN
+  name: Shannon Airport
+- id: SNO
+  name: Sakon Nakhon Airport
+- id: SNP
+  name: Saint Paul Island
+- id: SNR
+  name: Montoir Airport
+- id: SNU
+  name: Santa Clara Airport
+- id: SNW
+  name: Myanmar
+- id: SOB
+  name: Sarmellek Airport
+- id: SOC
+  name: Adi Sumarmo Wiryokusumo Airport
+- id: SOF
+  name: Vrazhdebna Airport
+- id: SOG
+  name: Haukasen Airport
+- id: SOJ
+  name: Sorkjosen Airport
+- id: SOM
+  name: San Tome Airport
+- id: SON
+  name: Santo Pekoa International Airport
+- id: SOO
+  name: Soderhamn Airport
+- id: SOQ
+  name: Jefman Airport
+- id: SOU
+  name: Southampton International Airport
+- id: SOW
+  name: Show Low Municipal Airport
+- id: SPB
+  name: St Thomas Seaplane Base
+- id: SPC
+  name: Santa Cruz de la Palma Airport
+- id: SPD
+  name: Saidpur Airport
+- id: SPI
+  name: Capital Airport
+- id: SPL
+  name: Santa Maria Airport
+- id: SPN
+  name: Saipan International Airport
+- id: SPP
+  name: Menongue East Airport
+- id: SPR
+  name: San Pedro Airport
+- id: SPU
+  name: Split Airport
+- id: SQO
+  name: Sweden
+- id: SRA
+  name: Santa Rosa Airport
+- id: SRE
+  name: Juana Azurduy de Padilla Airport
+- id: SRG
+  name: Achmad Yani Airport
+- id: SRJ
+  name: Capitan G Q Guardia
+- id: SRP
+  name: Sorstukken Airport
+- id: SRQ
+  name: Sarasota Bradenton Airport
+- id: SRV
+  name: Alaska
+- id: SRX
+  name: Surt
+- id: SRZ
+  name: El Trompillo Airport
+- id: SSA
+  name: Deputado Luis Eduardo Magalhaes International Ai
+- id: SSB
+  name: Christiansted Harbor Seaplane Base
+- id: SSG
+  name: Malabo Airport
+- id: SSH
+  name: Ras Nasrani Airport
+- id: SSJ
+  name: Stokka Airport
+- id: SSR
+  name: Vanuatu
+- id: SSY
+  name: Mbanza Congo Airport
+- id: STC
+  name: St Cloud Regional Airport
+- id: STD
+  name: Mayor Buenaventura Vivas Airport
+- id: STG
+  name: Alaska
+- id: STI
+  name: Cibao International Airport
+- id: STL
+  name: Lambert St Louis International Airport
+- id: STM
+  name: Santarem International Airport
+- id: STN
+  name: London Stansted International Airport
+- id: STR
+  name: Stuttgart Airport
+- id: STS
+  name: Sonoma County Airport
+- id: STT
+  name: Cyril E King International Airport
+- id: STV
+  name: Surat Airport
+- id: STW
+  name: Mikhaylovskoye Airport
+- id: STX
+  name: Henry E Rohlson International Airport
+- id: SUB
+  name: Juanda Airport
+- id: SUF
+  name: Lamezia Terme Airport
+- id: SUG
+  name: Surigao Airport
+- id: SUJ
+  name: Satu Mare Airport
+- id: SUN
+  name: Friedman Memorial Airport
+- id: SUR
+  name: Summer Beaver
+- id: SUV
+  name: Nausori International Airport
+- id: SUX
+  name: Sioux Gateway Airport
+- id: SVA
+  name: Alaska
+- id: SVB
+  name: Sambava
+- id: SVC
+  name: Silver City-Grant County Airport
+- id: SVD
+  name: E T Joshua Airport
+- id: SVG
+  name: Stavanger Sola Airport
+- id: SVI
+  name: San Vicente del Caguan Airport
+- id: SVJ
+  name: Helle Airport
+- id: SVL
+  name: Savonlinna Airport
+- id: SVO
+  name: Sheremtyevo Airport
+- id: SVQ
+  name: Sevilla Airport
+- id: SVS
+  name: Stevens Village
+- id: SVU
+  name: Savusavu Airport
+- id: SVX
+  name: Koltsovo Airport
+- id: SVZ
+  name: San Antonio del Tachira Airport
+- id: SWA
+  name: Shantou Northeast Airport
+- id: SWF
+  name: Stewart International Airport
+- id: SWJ
+  name: South West Bay Airport
+- id: SWK
+  name: Segrate Airport
+- id: SWO
+  name: Stillwater Municipal Airport
+- id: SWQ
+  name: Brang Bidji Airport
+- id: SWS
+  name: Swansea Airport
+- id: SXB
+  name: Entzheim Airport
+- id: SXF
+  name: Berlin-Schonefeld International Airport
+- id: SXL
+  name: Sligo Airport
+- id: SXM
+  name: Prinses Juliana International Airport
+- id: SXP
+  name: Sheldon SPB
+- id: SXR
+  name: Srinagar Airport
+- id: SYB
+  name: Seal Bay Airport
+- id: SYD
+  name: Kingsford Smith Airport
+- id: SYM
+  name: Simao
+- id: SYO
+  name: Shonai
+- id: SYR
+  name: Hancock International Airport
+- id: SYU
+  name: Australia
+- id: SYX
+  name: Sanya
+- id: SYY
+  name: Stornoway Airport
+- id: SYZ
+  name: Shiraz International Airport
+- id: SZA
+  name: Soyo Airport
+- id: SZB
+  name: Sultan Abdul Aziz Shah Airport
+- id: SZD
+  name: Sheffield City Airport
+- id: SZF
+  name: Çarşamba
+- id: SZG
+  name: Salzburg Airport
+- id: SZV
+  name: China
+- id: SZX
+  name: Shenzhen Airport
+- id: SZZ
+  name: Golenow Airport
+- id: TAB
+  name: Crown Point Airport
+- id: TAC
+  name: Daniel Z Romualdez Airport
+- id: TAE
+  name: Daegu International Airport
+- id: TAG
+  name: Tagbilaran Airport
+- id: TAH
+  name: Tanna Airport
+- id: TAI
+  name: Taiz Ganed Airport
+- id: TAK
+  name: Japan
+- id: TAL
+  name: Ralph Calhoun
+- id: TAM
+  name: Gen Francisco J Mina International Airport
+- id: TAO
+  name: Liuting Airport
+- id: TAP
+  name: Tapachula International Airport
+- id: TAS
+  name: Tashkent South Airport
+- id: TAT
+  name: Poprad Tatry Airport
+- id: TBB
+  name: Tuy Hoa Airport
+- id: TBG
+  name: Western
+- id: TBH
+  name: Romblon Airport
+- id: TBI
+  name: The Bight Airport
+- id: TBJ
+  name: Tabarka Airport
+- id: TBN
+  name: Waynesville Regional Airport At Forney Field
+- id: TBP
+  name: Pedro Canga Airport
+- id: TBS
+  name: Tbilisi-Noyo Alekseyevka Airport
+- id: TBU
+  name: Fua'amotu International Airport
+- id: TBZ
+  name: Tabriz Airport
+- id: TCB
+  name: Treasure Cay Airport
+- id: TCE
+  name: Cataloi Airport
+- id: TCO
+  name: La Florida Airport
+- id: TCP
+  name: Taba
+- id: TCQ
+  name: Cor Fap Carlos C Santa Rosa Airport
+- id: TCT
+  name: Takotna
+- id: TDD
+  name: Jorge Henrich Arauz Airport
+- id: TDX
+  name: Mueang Trat
+- id: TEB
+  name: Teterboro Airport
+- id: TEE
+  name: Tebessa Airport
+- id: TEK
+  name: Tatitlek Seaplane Base
+- id: TEN
+  name: Tongren
+- id: TER
+  name: Lajes Airport
+- id: TET
+  name: Tete Chingozi Airport
+- id: TEX
+  name: Telluride Regional Airport
+- id: TFN
+  name: Norte-Los Rodeos Airport
+- id: TFS
+  name: Sur-Reina Sofia Airport
+- id: TGC
+  name: Gibson County Airport
+- id: TGD
+  name: Titograd Airport
+- id: TGG
+  name: Sultan Mahmud Airport
+- id: TGH
+  name: Tongoa Airport
+- id: TGJ
+  name: Loyaute
+- id: TGM
+  name: Vidrasau Airport
+- id: TGO
+  name: Tongliao
+- id: TGR
+  name: Touggourt Airport
+- id: TGU
+  name: Toncontin International Airport
+- id: TGZ
+  name: Tuxtla Gutierrez Airport
+- id: THE
+  name: Senador Petronio Portella Airport
+- id: THF
+  name: Tempelhof Central Airport
+- id: THL
+  name: Tachilek Airport
+- id: THN
+  name: Trollhattan Vanersborg Airport
+- id: THO
+  name: Thorshofn Airport
+- id: THR
+  name: Mehrabad International Airport
+- id: THS
+  name: Sukhothai Airport
+- id: THU
+  name: Pituffik
+- id: TIA
+  name: Tirane Rinas Airport
+- id: TIF
+  name: Taif Airport
+- id: TIH
+  name: French Polynesia
+- id: TIJ
+  name: General Abelardo L Rodriguez International Airpo
+- id: TIM
+  name: Tembagapura Airport
+- id: TIP
+  name: International
+- id: TIQ
+  name: Tinian
+- id: TIR
+  name: Tirupathi Airport
+- id: TIS
+  name: Thursday Island Airport
+- id: TIU
+  name: Richard Pearse Airport
+- id: TIV
+  name: Tivat Airport
+- id: TIZ
+  name: Tari Airport
+- id: TJA
+  name: Capitan Oriel Lea Plaza Airport
+- id: TJM
+  name: Tyumen Northwest Airport
+- id: TJN
+  name: French Polynesia
+- id: TJQ
+  name: Bulutumbang Airport
+- id: TKE
+  name: Tenakee Springs
+- id: TKG
+  name: Branti Airport
+- id: TKK
+  name: Truk International Airport
+- id: TKN
+  name: Tokunoshima Airport
+- id: TKP
+  name: French Polynesia
+- id: TKQ
+  name: Tanzania
+- id: TKS
+  name: Tokushima Airport
+- id: TKU
+  name: Turku Airport
+- id: TKV
+  name: French Polynesia
+- id: TKX
+  name: Takaroa
+- id: TLA
+  name: Teller
+- id: TLC
+  name: Jose Maria Morelos Y Pavon Airport
+- id: TLE
+  name: Toliara Airport
+- id: TLH
+  name: Tallahassee Regional Airport
+- id: TLL
+  name: Ulemiste Airport
+- id: TLM
+  name: Zenata Airport
+- id: TLN
+  name: Le Palyvestre Airport
+- id: TLS
+  name: Blagnac Airport
+- id: TLT
+  name: Tuluksak
+- id: TLV
+  name: Ben Gurion Airport
+- id: TMC
+  name: Tambolaka Airport
+- id: TME
+  name: Tame Airport
+- id: TMJ
+  name: Termez Airport
+- id: TML
+  name: Tamale Airport
+- id: TMM
+  name: Toamasina Airport
+- id: TMP
+  name: Tampere Pirkkala Airport
+- id: TMR
+  name: Tamanrasset Airport
+- id: TMS
+  name: Sao Tome Salazar Airport
+- id: TMT
+  name: Trombetas
+- id: TMU
+  name: Tambor Airport
+- id: TMW
+  name: Tamworth Airport
+- id: TMX
+  name: Adrar
+- id: TNA
+  name: Shandong
+- id: TNG
+  name: Boukhalf Airport
+- id: TNJ
+  name: Kijang Airport
+- id: TNK
+  name: Tununak Airport
+- id: TNN
+  name: Tainan Airport
+- id: TNO
+  name: Tamarindo Airport
+- id: TNR
+  name: Antananarivo Ivato Airport
+- id: TNZ
+  name: Hovsgol
+- id: TOD
+  name: Tioman Airport
+- id: TOE
+  name: Nefta Airport
+- id: TOG
+  name: Togiak Village
+- id: TOH
+  name: Vanuatu
+- id: TOL
+  name: Toledo Express Airport
+- id: TOM
+  name: Tombouctou Airport
+- id: TOS
+  name: Tromso Langnes Airport
+- id: TOY
+  name: Toyama Airport
+- id: TPA
+  name: Tampa International Airport
+- id: TPE
+  name: Taiwan Taoyuan International Airport
+- id: TPJ
+  name: Taplejung Suketar
+- id: TPP
+  name: Tarapoto Airport
+- id: TPQ
+  name: Tepic Airport
+- id: TPS
+  name: Trapani Birgi Airport
+- id: TRC
+  name: Torreon International Airport
+- id: TRD
+  name: Trondheim Vaernes Airport
+- id: TRE
+  name: Tiree Aerodrome
+- id: TRF
+  name: Torp Airport
+- id: TRG
+  name: Tauranga Airport
+- id: TRI
+  name: Tri-Cities Regional Airport
+- id: TRK
+  name: Tarakan Airport
+- id: TRN
+  name: Turin International Airport
+- id: TRO
+  name: Taree Airport
+- id: TRS
+  name: Ronchi Dei Legionari Airport
+- id: TRU
+  name: Cap C Martinez de Pinillos Airport
+- id: TRV
+  name: Thiruvananthapuram Airport
+- id: TRW
+  name: Bonriki International Airport
+- id: TSA
+  name: Taipei Songshan Airport
+- id: TSE
+  name: Tselinograd South Airport
+- id: TSF
+  name: Treviso Airport
+- id: TSJ
+  name: Tsushima Airport
+- id: TSL
+  name: Tamuin Airport
+- id: TSN
+  name: Zhangguizhuang Airport
+- id: TSR
+  name: Timisoara Northeast Airport
+- id: TSS
+  name: East 34th Street Heliport
+- id: TST
+  name: Trang Airport
+- id: TSV
+  name: Townsville Airport
+- id: TTA
+  name: Tan-Tan
+- id: TTE
+  name: Babullah Airport
+- id: TTJ
+  name: Tottori Airport
+- id: TTQ
+  name: Tortuquero Airport
+- id: TTT
+  name: Taitung Airport
+- id: TTU
+  name: Sania Ramel Airport
+- id: TUA
+  name: El Rosal Teniente Guerrero Airport
+- id: TUC
+  name: Teniente Benjamin Matienzo Airport
+- id: TUD
+  name: Tambacounda Airport
+- id: TUF
+  name: St Symphorien Airport
+- id: TUG
+  name: Tuguegarao Airport
+- id: TUI
+  name: Turaif Airport
+- id: TUK
+  name: Turbat Airport
+- id: TUL
+  name: Tulsa International Airport
+- id: TUN
+  name: Aeroport Tunis
+- id: TUO
+  name: Taupo Aerodrome
+- id: TUP
+  name: Tupelo Municipal-C D Lemons Airport
+- id: TUR
+  name: Tucurui Airport
+- id: TUS
+  name: Tucson International Airport
+- id: TUU
+  name: Tabuk Airport
+- id: TVC
+  name: Cherry Capital Airport
+- id: TVF
+  name: Thief River Falls Regional Airport
+- id: TVU
+  name: Taveuni Airport
+- id: TWA
+  name: Twin Hills
+- id: TWB
+  name: Toowoomba Airport
+- id: TWF
+  name: Twin Falls-Sun Valley Regional Airport
+- id: TWT
+  name: Tawitawi
+- id: TWU
+  name: Tawau Airport
+- id: TXK
+  name: Texarkana Regional Airport
+- id: TXL
+  name: Berlin-Tegel International Airport
+- id: TXN
+  name: Tunxi Airport
+- id: TYF
+  name: Fryklanda Airport
+- id: TYN
+  name: Taiyuan Wusu Airport
+- id: TYR
+  name: Tyler Pounds Field Airport
+- id: TYS
+  name: Mcghee Tyson Airport
+- id: TZA
+  name: Belize City Municipal Airport
+- id: TZN
+  name: South Andros Airport
+- id: TZX
+  name: Trabzon Air Base
+- id: UAH
+  name: French Polynesia
+- id: UAK
+  name: Narsarsuaq Airport
+- id: UAP
+  name: French Polynesia
+- id: UAQ
+  name: San Juan Airport
+- id: UAS
+  name: Samburu Airport
+- id: UBA
+  name: Uberaba
+- id: UBJ
+  name: Yamaguchi-Ube Airport
+- id: UBP
+  name: Ubon Airport
+- id: UCT
+  name: Ust Ukhta Airport
+- id: UDI
+  name: Coronel Aviador Cesar Bombonato Airport
+- id: UDJ
+  name: Uzhgorod Airport
+- id: UDR
+  name: Udaipur Airport
+- id: UEL
+  name: Quelimane Airport
+- id: UEO
+  name: Kumejima Airport
+- id: UET
+  name: Quetta Airport
+- id: UFA
+  name: Ufa South Airport
+- id: UGB
+  name: Ugashik Bay Airport
+- id: UGC
+  name: Urganch
+- id: UGI
+  name: Uganik Airport
+- id: UIB
+  name: El Carano Airport
+- id: UIH
+  name: Vietnam
+- id: UII
+  name: Utila Airport
+- id: UIN
+  name: Quincy Municipal Airport-Baldwin Field
+- id: UIO
+  name: Mariscal Sucre International Airport
+- id: UIP
+  name: Pluguffan Airport
+- id: UKB
+  name: Kobe Airport
+- id: ULB
+  name: Ulei Airport
+- id: ULN
+  name: Ulaanbaatar Southwest Airport
+- id: ULO
+  name: Ulaangom
+- id: ULP
+  name: Quilpie Aerodrome
+- id: ULU
+  name: Gulu Airport
+- id: ULY
+  name: Ulyanovsk Northeast Airport
+- id: UMD
+  name: Uummannaq Airport
+- id: UME
+  name: Umea Airport
+- id: UNK
+  name: Unalakleet
+- id: UNN
+  name: Ranong Airport
+- id: UPB
+  name: Playa Baracoa
+- id: UPG
+  name: Hasanuddin Airport
+- id: URA
+  name: Podstepnyy Airport
+- id: URC
+  name: Diwopu Airport
+- id: URE
+  name: Kuressarre Airport
+- id: URG
+  name: Rubem Berta International Airport
+- id: URJ
+  name: Uraj
+- id: URO
+  name: Boos Airport
+- id: URT
+  name: Surat Thani Airport
+- id: URY
+  name: Guriat Airport
+- id: USH
+  name: Ushuaia Airport
+- id: USM
+  name: Koh Samui Airport
+- id: USN
+  name: Ulsan Airport
+- id: USU
+  name: Busuanga Airport
+- id: UTH
+  name: Udon Airport
+- id: UTN
+  name: Pierre Van Ryneveld Airport
+- id: UTP
+  name: Rayong Airport
+- id: UTT
+  name: K D Matanzima Airport
+- id: UUD
+  name: Ulan Ude-Mukhino Airport
+- id: UUN
+  name: Baruun Urt Airport
+- id: UUS
+  name: Yuzhno Sakhalinsk South Airport
+- id: UVE
+  name: Ouloup Airport
+- id: UVF
+  name: Hewanorra International Airport
+- id: UWE
+  name: Metropolitan Area
+- id: UYL
+  name: Janub Darfur
+- id: UYN
+  name: Yulin Airport
+- id: VAA
+  name: Vaasa Airport
+- id: VAK
+  name: Chevak Airport
+- id: VAN
+  name: Van Airport
+- id: VAO
+  name: Suavanao Airstrip
+- id: VAR
+  name: Topoli Airport
+- id: VAS
+  name: Sivas Airport
+- id: VAV
+  name: Lupepau'u Airport
+- id: VAW
+  name: Vardoe Airport
+- id: VBM
+  name: Alaska
+- id: VBS
+  name: Brescia Montichiari
+- id: VBY
+  name: Visby Airport
+- id: VCE
+  name: Marco Polo International Airport
+- id: VCL
+  name: Chulai
+- id: VCP
+  name: Viracopos International Airport
+- id: VCS
+  name: Vietnam
+- id: VCT
+  name: Victoria Regional Airport
+- id: VDA
+  name: Ovda Airport
+- id: VDB
+  name: Fagernes Leirin Airport
+- id: VDC
+  name: Vitoria da Conquista Airport
+- id: VDE
+  name: Valverde Airport
+- id: VDM
+  name: Gobernador Castello Airport
+- id: VDS
+  name: Vadso Airport
+- id: VDZ
+  name: Valdez Airport
+- id: VEE
+  name: Venetie
+- id: VEL
+  name: Vernal Airport
+- id: VER
+  name: General Heriberto Jara International Airport
+- id: VEY
+  name: Vestmannaeyjar Airport
+- id: VFA
+  name: Victoria Falls Airport
+- id: VGA
+  name: Vijaywada Airport
+- id: VGO
+  name: Vigo Airport
+- id: VGZ
+  name: Villagarzon Airport
+- id: VHC
+  name: Saurimo Airport
+- id: VHM
+  name: Vilhelmina Airport
+- id: VHZ
+  name: French Polynesia
+- id: VIE
+  name: Vienna Schwechat International Airport
+- id: VII
+  name: Vinh
+- id: VIJ
+  name: Virgin Gorda Airport
+- id: VIL
+  name: Dakhla Airport
+- id: VIS
+  name: Visalia Municipal Airport
+- id: VIT
+  name: Vitoria Airport
+- id: VIX
+  name: Goiabeiras Airport
+- id: VKG
+  name: Kien Giang Airport
+- id: VKO
+  name: Ynukovo Airport
+- id: VKT
+  name: Vorkuta Airport
+- id: VLC
+  name: Valencia Airport
+- id: VLD
+  name: Valdosta Regional Airport
+- id: VLI
+  name: Port Vila Bauerfield Airport
+- id: VLL
+  name: Valladolid Airport
+- id: VLN
+  name: Zim Valencia Airport
+- id: VLS
+  name: Vanuatu
+- id: VLV
+  name: Dr Antonio Nicolas Briceno Airport
+- id: VLY
+  name: Wales
+- id: VNO
+  name: Vilnius Airport
+- id: VNS
+  name: Varanasi Airport
+- id: VNX
+  name: Vilanculos Airport
+- id: VOG
+  name: Gumrak Airport
+- id: VOL
+  name: Nea Anchialos Airport
+- id: VOZ
+  name: Voronezh-Chertovitskoye Airport
+- id: VPE
+  name: Ondjiva
+- id: VPN
+  name: Vopnafjordur Airport
+- id: VPS
+  name: Eglin Air Force Base
+- id: VPY
+  name: Chimoio Airport
+- id: VQS
+  name: Aeropuerto Antonio Rivera Rodríguez
+- id: VRA
+  name: Varadero Airport
+- id: VRC
+  name: Virac Airport
+- id: VRK
+  name: Varkaus Airport
+- id: VRN
+  name: Verona Airport
+- id: VRY
+  name: Vaeroy Airport
+- id: VSA
+  name: Villahermosa Airport
+- id: VSG
+  name: Lugansk Airport
+- id: VST
+  name: Hasslo Airport
+- id: VTE
+  name: Vientiane Airport
+- id: VTU
+  name: Las Tunas Airport
+- id: VTZ
+  name: Vishakapatnam Airport
+- id: VUP
+  name: Alfonso Lopez Airport
+- id: VVC
+  name: Vanguardia Airport
+- id: VVI
+  name: Viru Viru International Airport
+- id: VVO
+  name: Artem North Airport
+- id: VVZ
+  name: Illizi
+- id: VXC
+  name: Lichinga Airport
+- id: VXE
+  name: San Pedro Airport
+- id: VXO
+  name: Kronoberg Airport
+- id: WAA
+  name: Wales
+- id: WAE
+  name: Saudi Arabia
+- id: WAG
+  name: Wanganui Airport
+- id: WAQ
+  name: Mahajanga
+- id: WAT
+  name: Waterford Airport
+- id: WAW
+  name: Okecie International Airport
+- id: WBB
+  name: Stebbins
+- id: WBQ
+  name: Alaska
+- id: WDH
+  name: Windhoek Airport
+- id: WEF
+  name: Shandong
+- id: WEH
+  name: Shandong
+- id: WEI
+  name: Weipa Aerodrome
+- id: WGA
+  name: Wagga Wagga Airport
+- id: WGE
+  name: Walgett Airport
+- id: WGP
+  name: Mau Hau Airport
+- id: WHF
+  name: Wadi Halfa'
+- id: WHK
+  name: Whakatane Airport
+- id: WIC
+  name: Wick Airport
+- id: WIL
+  name: Nairobi Wilson Airport
+- id: WIN
+  name: Winton Aerodrome
+- id: WJA
+  name: Woja
+- id: WJU
+  name: Wonju Airport
+- id: WKA
+  name: Wanaka Airport
+- id: WKJ
+  name: Wakkanai Airport
+- id: WKK
+  name: Aleknagik
+- id: WLG
+  name: Wellington International Airport
+- id: WLH
+  name: Vanuatu
+- id: WLK
+  name: Alaska
+- id: WLS
+  name: Wallis Island
+- id: WMK
+  name: Meyers Chuck
+- id: WMN
+  name: Maroantsetra Airport
+- id: WMO
+  name: White Mountain
+- id: WMR
+  name: Mananara
+- id: WNA
+  name: Napaskiak
+- id: WNN
+  name: Wunnummin Lake Airport
+- id: WNP
+  name: Naga Airport
+- id: WNR
+  name: Windorah Airport
+- id: WNS
+  name: Nawabshah Airport
+- id: WNZ
+  name: Wenzhou Airport
+- id: WPM
+  name: Wipim
+- id: WRE
+  name: Whangarei Airport
+- id: WRG
+  name: Wrangell Airport
+- id: WRL
+  name: Worland Municipal Airport
+- id: WRO
+  name: Strachowice Airport
+- id: WSN
+  name: Naknek
+- id: WST
+  name: Westerly State Airport
+- id: WSX
+  name: United States
+- id: WSZ
+  name: Westport Airport
+- id: WTK
+  name: Alaska
+- id: WTL
+  name: Tuntutuliak
+- id: WTS
+  name: Antananarivo
+- id: WUA
+  name: Wu Hai
+- id: WUH
+  name: Wuchang Nanhu Airport
+- id: WUS
+  name: Wuyishan
+- id: WUX
+  name: Wuxi
+- id: WVB
+  name: Rooikop
+- id: WWK
+  name: Wewak International Airport
+- id: WWP
+  name: Alaska
+- id: WWT
+  name: Alaska
+- id: WXN
+  name: Wanxian
+- id: WYA
+  name: Whyalla Airport
+- id: WYS
+  name: Yellowstone Airport
+- id: XAP
+  name: Chapeco Airport
+- id: XBE
+  name: Bearskin Lake Airport
+- id: XBJ
+  name: Birjand Airport
+- id: XBR
+  name: Brockville Airport
+- id: XCH
+  name: Christmas Island Airport
+- id: XCM
+  name: Chatham Airport
+- id: XCR
+  name: Europort Vatry
+- id: XET
+  name: London City Airport
+- id: XFN
+  name: Xiangfan
+- id: XFW
+  name: Finkenwerder Airport
+- id: XGR
+  name: Kangiqsualujjuaq Airport
+- id: XIC
+  name: Xichang North Airport
+- id: XIL
+  name: Xilinhot Airport
+- id: XIT
+  name: London City Airport
+- id: XIY
+  name: Hsien Yang Airport
+- id: XKH
+  name: Xieng Khouang
+- id: XKS
+  name: Kasabonika Airport
+- id: XLB
+  name: Lac Brochet
+- id: XLS
+  name: Saint Louis Airport
+- id: XMH
+  name: Manihi Airport
+- id: XMN
+  name: Xiamen Airport
+- id: XMS
+  name: Macas Airport
+- id: XMY
+  name: Yam Island
+- id: XNA
+  name: Northwest Arkansas Regional Airport
+- id: XNB
+  name: Sinop Airport
+- id: XNN
+  name: Xining Airport
+- id: XNY
+  name: York
+- id: XQE
+  name: United Kingdom
+- id: XQP
+  name: Quepos Managua Airport
+- id: XQU
+  name: Qualicum Beach Airport
+- id: XRY
+  name: Jerez Airport
+- id: XSC
+  name: South Caicos Airport
+- id: XSI
+  name: South Indian Lake Airport
+- id: XSP
+  name: Seletar Airport
+- id: XTG
+  name: Thargomindah Aerodrome
+- id: XTL
+  name: Tadoule Lake Airport
+- id: XUZ
+  name: Jiangsu
+- id: XVG
+  name: Longville Municipal Airport
+- id: XWZ
+  name: Sweden
+- id: XXA
+  name: Sweden
+- id: XXK
+  name: Katrineholm
+- id: XXN
+  name: Riyadh Air Base
+- id: XXT
+  name: Sophia Antipolis Heliport
+- id: XYA
+  name: Yandina
+- id: XYI
+  name: Sweden
+- id: XZM
+  name: Macau Ferry
+- id: XZV
+  name: TGV Station
+- id: YAA
+  name: Anahim Lake Airport
+- id: YAC
+  name: Cat Lake Airport
+- id: YAG
+  name: Fort Frances Municipal Airport
+- id: YAK
+  name: Yakutat Airport
+- id: YAM
+  name: Sault Ste Marie Airport
+- id: YAO
+  name: Yaounde Airport
+- id: YAP
+  name: Yap International Airport
+- id: YAT
+  name: Attawapiskat Airport
+- id: YAX
+  name: Angling Lake Airport
+- id: YAY
+  name: St Anthony Airport
+- id: YAZ
+  name: Tofino Airport
+- id: YBB
+  name: Pelly Bay Townsite Airport
+- id: YBC
+  name: Baie Comeau Airport
+- id: YBG
+  name: Bagotville Airport
+- id: YBI
+  name: Black Tickle Airport
+- id: YBK
+  name: Baker Lake Airport
+- id: YBL
+  name: Campbell River Airport
+- id: YBP
+  name: Yibin
+- id: YBR
+  name: Brandon Airport
+- id: YBT
+  name: Brochet
+- id: YBV
+  name: Berens River Airport
+- id: YBX
+  name: Lourdes-De-Blanc-Sablon Airport
+- id: YCB
+  name: Cambridge Bay Airport
+- id: YCC
+  name: Cornwall Regional Airport
+- id: YCD
+  name: Nanaimo Airport
+- id: YCG
+  name: Castlegar Airport
+- id: YCK
+  name: Colville Lake Airport
+- id: YCO
+  name: Coppermine Airport
+- id: YCR
+  name: Cross Lake Airport
+- id: YCS
+  name: Chesterfield Inlet Airport
+- id: YCU
+  name: Cullaton Lake Airport
+- id: YCY
+  name: Clyde River Airport
+- id: YDA
+  name: Dawson Airport
+- id: YDF
+  name: Deer Lake Airport
+- id: YDP
+  name: Nain Airport
+- id: YDQ
+  name: Dawson Creek Airport
+- id: YEG
+  name: Edmonton International Airport
+- id: YEK
+  name: Arviat Airport
+- id: YER
+  name: Fort Severn Airport
+- id: YEV
+  name: Inuvik Airport
+- id: YFA
+  name: Fort Albany Airport
+- id: YFB
+  name: Iqaluit Airport
+- id: YFC
+  name: Fredericton Airport
+- id: YFH
+  name: Fort Hope Airport
+- id: YFJ
+  name: Snare Lake
+- id: YFO
+  name: Flin Flon Airport
+- id: YFS
+  name: Fort Simpson Airport
+- id: YFX
+  name: Fox Harbour Aerodrome
+- id: YGB
+  name: Gillies Bay Airport
+- id: YGG
+  name: Ganges Harbor Airport
+- id: YGH
+  name: Fort Good Hope Airport
+- id: YGJ
+  name: Yonago Airport
+- id: YGK
+  name: Kingston Airport
+- id: YGL
+  name: La Grande Riviere Airport
+- id: YGO
+  name: Gods Lake Narrows Airport
+- id: YGP
+  name: Gaspe Airport
+- id: YGR
+  name: Iles de la Madeleine Airport
+- id: YGT
+  name: Igloolik Airport
+- id: YGV
+  name: Harve-St-Pierre Airport
+- id: YGW
+  name: Kuujjuarapik Airport
+- id: YGZ
+  name: Grise Fiord Airport
+- id: YHA
+  name: Port Hope Simpson Aerodrome
+- id: YHD
+  name: Dryden Regional Airport
+- id: YHG
+  name: Charlottetown Airport
+- id: YHI
+  name: Holman Airport
+- id: YHK
+  name: Gjoa Haven Airport
+- id: YHM
+  name: Hamilton Airport
+- id: YHO
+  name: Hopedale Airport
+- id: YHP
+  name: Poplar Hill Airport
+- id: YHR
+  name: Harrington Harbour Airport
+- id: YHS
+  name: Sechelt Water Aerodrome
+- id: YHU
+  name: Montreal St Hubert Airport
+- id: YHY
+  name: Hay River Airport
+- id: YHZ
+  name: Halifax International Airport
+- id: YIF
+  name: Pakuashipi Airport
+- id: YIH
+  name: China
+- id: YIK
+  name: Ivujivik Airport
+- id: YIN
+  name: Yining
+- id: YIO
+  name: Pond Inlet Airport
+- id: YIP
+  name: Willow Run Airport
+- id: YIV
+  name: Island Lake-Garden Hill Airport
+- id: YJT
+  name: Stephenville International Airport
+- id: YKA
+  name: Kamloops Airport
+- id: YKF
+  name: Kitchener Airport
+- id: YKG
+  name: Kangirsuk Airport
+- id: YKL
+  name: Schefferville Airport
+- id: YKM
+  name: Yakima Air Terminal
+- id: YKQ
+  name: Waskaganish Airport
+- id: YKS
+  name: Yakutsk Airport
+- id: YKT
+  name: Klemtu Water Aerodrome
+- id: YKU
+  name: Chisasibi Aerodrome
+- id: YLC
+  name: Lake Harbour Airport
+- id: YLE
+  name: Lac la Martre Aerodrome
+- id: YLH
+  name: Lansdowne House Airport
+- id: YLL
+  name: Lloydminster Airport
+- id: YLW
+  name: Kelowna International Airport
+- id: YMH
+  name: Mary's Harbour Airport
+- id: YMM
+  name: Fort Mcmurray Airport
+- id: YMN
+  name: Makkovik Airport
+- id: YMO
+  name: Moosonee Airport
+- id: YMT
+  name: Aéroport de Chapais-Chibougamau
+- id: YMX
+  name: Mirabel International Airport
+- id: YNA
+  name: Natashquan Airport
+- id: YNB
+  name: Yenbo Airport
+- id: YNC
+  name: Wemindji Airport
+- id: YND
+  name: Ottawa Gatineau Airport
+- id: YNE
+  name: Norway House Airport
+- id: YNG
+  name: Youngstown-Warren Regional Airport
+- id: YNJ
+  name: Yanji
+- id: YNO
+  name: North Spirit Lake Airport
+- id: YNS
+  name: Nemiscau Airport
+- id: YNT
+  name: Yantai Airport
+- id: YNY
+  name: Yang Yang International Airport
+- id: YOC
+  name: Old Crow Airport
+- id: YOG
+  name: Ogoki Aerodrome
+- id: YOH
+  name: Oxford House Airport
+- id: YOJ
+  name: High Level Airport
+- id: YOO
+  name: Oshawa Airport
+- id: YOP
+  name: Rainbow Lake Airport
+- id: YOW
+  name: Ottawa International Airport
+- id: YPB
+  name: Port Alberni Airport
+- id: YPC
+  name: Paulatuk Airport
+- id: YPE
+  name: Peace River Airport
+- id: YPH
+  name: Inukjuak Airport
+- id: YPJ
+  name: Aupaluk Airport
+- id: YPL
+  name: Pickle Lake Airport
+- id: YPM
+  name: Pikangikum Airport
+- id: YPO
+  name: Peawanuck Airport
+- id: YPR
+  name: Prince Rupert Airport
+- id: YPW
+  name: Powell River Airport
+- id: YPX
+  name: Povungnituk Airport
+- id: YQB
+  name: Quebec Airport
+- id: YQC
+  name: Quaqtaq Airport
+- id: YQD
+  name: The Pas Airport
+- id: YQF
+  name: Red Deer Regional Airport
+- id: YQG
+  name: Windsor Airport
+- id: YQK
+  name: Kenora Airport
+- id: YQL
+  name: Lethbridge Airport
+- id: YQM
+  name: Greater Moncton International Airport
+- id: YQQ
+  name: Comox Airport
+- id: YQR
+  name: Regina Airport
+- id: YQT
+  name: Thunder Bay International Airport
+- id: YQU
+  name: Grande Prairie Airport
+- id: YQX
+  name: Gander International Airport
+- id: YQY
+  name: Sydney Airport
+- id: YQZ
+  name: Quesnel Airport
+- id: YRA
+  name: Rae Lakes Aerodrome
+- id: YRB
+  name: Resolute Airport
+- id: YRF
+  name: Cartwright Airport
+- id: YRG
+  name: Rigolet Aerodrome
+- id: YRJ
+  name: Roberval Airport
+- id: YRL
+  name: Red Lake Airport
+- id: YRS
+  name: Red Sucker Lake Airport
+- id: YRT
+  name: Rankin Inlet Airport
+- id: YSB
+  name: Sudbury Airport
+- id: YSG
+  name: Snowdrift Aerodrome
+- id: YSJ
+  name: Saint John Airport
+- id: YSK
+  name: Sanikiluaq Airport
+- id: YSM
+  name: Fort Smith Airport
+- id: YSO
+  name: Postville Aerodrome
+- id: YSR
+  name: Nanisivik Airport
+- id: YST
+  name: Shante Airport
+- id: YSY
+  name: Sachs Harbour Airport
+- id: YTE
+  name: Cape Dorset Airport
+- id: YTF
+  name: Alma
+- id: YTH
+  name: Thompson Airport
+- id: YTL
+  name: Big Trout Lake Airport
+- id: YTM
+  name: La Macaza
+- id: YTQ
+  name: Tasiujuaq Airport
+- id: YTS
+  name: Timmins Airport
+- id: YTZ
+  name: Toronto City Centre Airport
+- id: YUB
+  name: Tuktoyaktuk Airport
+- id: YUD
+  name: Umiujaq Airport
+- id: YUL
+  name: Aéroport International Pierre-Elliott-Trudeau d
+- id: YUM
+  name: Yuma International Airport
+- id: YUT
+  name: Repulse Bay Airport
+- id: YUX
+  name: Hall Beach Airport
+- id: YUY
+  name: Rouyn Noranda Airport
+- id: YVA
+  name: Moroni Iconi Airport
+- id: YVB
+  name: Bonaventure Airport
+- id: YVM
+  name: Broughton Island Airport
+- id: YVO
+  name: Val d'or Airport
+- id: YVP
+  name: Kuujjuaq Airport
+- id: YVQ
+  name: Norman Wells Airport
+- id: YVR
+  name: Vancouver International Airport
+- id: YVZ
+  name: Deer Lake Airport
+- id: YWB
+  name: Kangiqsujuaq Airport
+- id: YWG
+  name: Winnipeg International Airport
+- id: YWH
+  name: Inner Harbour Airport
+- id: YWJ
+  name: Fort Franklin Airport
+- id: YWK
+  name: Wabush Airport
+- id: YWL
+  name: Williams Lake Airport
+- id: YWM
+  name: Williams Harbour Airport
+- id: YWP
+  name: Webequie Airport
+- id: YWS
+  name: Green Lake Water Aerodrome
+- id: YXC
+  name: Cranbrook Airport
+- id: YXE
+  name: John G Diefenbaker International Airport
+- id: YXH
+  name: Medicine Hat Airport
+- id: YXJ
+  name: North Peace Airport
+- id: YXK
+  name: Rimouski Airport
+- id: YXL
+  name: Sioux Lookout Airport
+- id: YXN
+  name: Whale Cove Airport
+- id: YXP
+  name: Pangnirtung Airport
+- id: YXS
+  name: Prince George Airport
+- id: YXT
+  name: Terrace Airport
+- id: YXU
+  name: London International Airport
+- id: YXX
+  name: Abbotsford International Airport
+- id: YXY
+  name: Whitehorse International Airport
+- id: YYB
+  name: North Bay Airport
+- id: YYC
+  name: Calgary International Airport
+- id: YYD
+  name: Smithers Airport
+- id: YYE
+  name: Fort Nelson Airport
+- id: YYF
+  name: Penticton Airport
+- id: YYG
+  name: Charlottetown Airport
+- id: YYH
+  name: Taloyoak Airport
+- id: YYJ
+  name: Victoria International Airport
+- id: YYQ
+  name: Churchill Airport
+- id: YYR
+  name: Goose Bay Airport
+- id: YYT
+  name: St John's International Airport
+- id: YYU
+  name: Kapuskasing Airport
+- id: YYY
+  name: Mont Joli Airport
+- id: YYZ
+  name: Toronto Lester B Pearson International Airport
+- id: YZF
+  name: Yellowknife Airport
+- id: YZG
+  name: Salluit Airport
+- id: YZP
+  name: Sandspit Airport
+- id: YZR
+  name: Sarnia Airport
+- id: YZS
+  name: Coral Harbour Airport
+- id: YZT
+  name: Port Hardy Airport
+- id: YZV
+  name: Sept Iles Airport
+- id: YZZ
+  name: Trail Airport
+- id: ZAC
+  name: York Landing Airport
+- id: ZAD
+  name: Zadar Airport
+- id: ZAG
+  name: Zagreb Airport
+- id: ZAH
+  name: Zahedan International Airport
+- id: ZAL
+  name: Pichoy Airport
+- id: ZAM
+  name: Zamboanga International Airport
+- id: ZAT
+  name: Zhaotong
+- id: ZBF
+  name: Bathurst Airport
+- id: ZBL
+  name: Australia
+- id: ZBR
+  name: Chah Bahar Airport
+- id: ZCB
+  name: Skopje Airport
+- id: ZCL
+  name: Zacatecas Airport
+- id: ZCO
+  name: Maquehue Airport
+- id: ZDN
+  name: Kingsford Smith Airport
+- id: ZEE
+  name: Kelsey Airport
+- id: ZEJ
+  name: Satu Mare Airport
+- id: ZEL
+  name: Bella Bella Airport
+- id: ZEM
+  name: East Main Airport
+- id: ZFM
+  name: Fort Mcpherson Airport
+- id: ZFN
+  name: Fort Norman Airport
+- id: ZFZ
+  name: New York
+- id: ZGI
+  name: Gods River Airport
+- id: ZGN
+  name: Zhongshan Ferry Port
+- id: ZGS
+  name: Gethsemani Airport
+- id: ZGU
+  name: Gaua Airport
+- id: ZHA
+  name: Zhanjiang Airport
+- id: ZIG
+  name: Ziguinchor Airport
+- id: ZIH
+  name: Ixtapa Zihuatanejo International Airport
+- id: ZKE
+  name: Kaschechewan Airport
+- id: ZKG
+  name: Kegaska Airport
+- id: ZLO
+  name: Playa de Oro International Airport
+- id: ZLT
+  name: La Tabatiere Airport
+- id: ZML
+  name: General Mitchell International Airport
+- id: ZMT
+  name: Masset Airport
+- id: ZMY
+  name: Huangpu Harbour
+- id: ZNA
+  name: Nanaimo Harbour Airport
+- id: ZNB
+  name: Sinop Airport
+- id: ZNE
+  name: Newman Airport
+- id: ZNV
+  name: Santa Elena Airport
+- id: ZNZ
+  name: Zanzibar Airport
+- id: ZOS
+  name: Canal Bajo Carlos H Siebert Airport
+- id: ZPB
+  name: Sachigo Lake Airport
+- id: ZQN
+  name: Frankton Airport
+- id: ZQW
+  name: Rheinland-Pfalz
+- id: ZRH
+  name: Zurich International Airport
+- id: ZRJ
+  name: Round Lake Airport
+- id: ZSA
+  name: San Salvador Airport
+- id: ZSE
+  name: Réunion
+- id: ZSJ
+  name: Sandy Lake Airport
+- id: ZSN
+  name: South Indian Lake Airport
+- id: ZTB
+  name: Tete-a-la-Baleine Airport
+- id: ZTH
+  name: Zakinthos Airport
+- id: ZTI
+  name: Humen Port
+- id: ZTM
+  name: Shamattawa Airport
+- id: ZTV
+  name: Louisville International Airport
+- id: ZUH
+  name: Zhuhai Airport
+- id: ZUM
+  name: Churchill Falls Airport
+- id: ZUN
+  name: Black Rock Airport
+- id: ZVK
+  name: Savannakhet Airport
+- id: ZWV
+  name: Illinois
+- id: ZYK
+  name: Shekou Port
+- id: ZYL
+  name: Osmany Sylhet Airport
+- id: TNM
+  name: Teniente R. Marsh Airport

@@ -3,6 +3,9 @@
   top: -88px;
   background: $colour_primary;
   overflow: hidden;
+  @include in_size($xs) {
+    top: 0;
+  }
   &__wrapper {
     display: flex;
   }
@@ -36,12 +39,39 @@
     width: 100%;
     display: flex;
     align-items: center;
+    @include in_size($md) {
+      flex: 0 1 100%;
+      overflow: hidden;
+    }
     .slick-track {
       display: flex;
       align-items: center;
     }
     img {
       margin: 0 25px;
+    }
+  }
+  @include in_size($xs) {
+    &__wrapper {
+      flex-wrap: wrap;
+      padding-bottom: 15px;
+    }
+    &__title,
+    &__list {
+      flex: 1 0 100%;
+      padding: 0;
+    }
+    &__title {
+      background: none;
+      h3 {
+        margin: 10px 0;
+        font-size: 18px;
+        text-align: center;
+      }
+      &:before,
+      &:after {
+        display: none;
+      }
     }
   }
 }
