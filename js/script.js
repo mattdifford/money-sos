@@ -66,8 +66,8 @@ $(document).ready(function () {
         slidesToScroll: 1,
         dots: false,
         arrows: true,
-        prevArrow: '<span class="fas fa-angle-left slick-prev"></span>',
-        nextArrow: '<span class="fas fa-angle-right slick-next"></span>'
+        prevArrow: '<span class="icon-chevron-left slick-prev"></span>',
+        nextArrow: '<span class="icon-chevron-right slick-next"></span>'
     });
 
     $('.faqs-strip__question').on("click", function(){
