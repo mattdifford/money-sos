@@ -1,0 +1,1513 @@
+---
+- name: VASCO
+  id: VFC
+- name: Branson Air Express
+  id: BAE
+- name: Angara Airlines
+  id: AGU
+- name: Star Peru
+  id: SRU
+- name: Air Burkina
+  id: VBW
+- name: Avianca
+  id: GLG
+- name: Maya Island Air
+  id: MYD
+- name: Albawings
+  id: AWT
+- name: Blue Air
+  id: BMS
+- name: Helvetic Airways
+  id: OAW
+- name: Sun d'Or Airlines
+  id: ERO
+- name: Passaredo Linhas Aéreas
+  id: PTB
+- name: Binter Cabo Verde
+  id: NTB
+- name: Air Chathams
+  id: CVA
+- name: Air Choice One
+  id: WBR
+- name: Pacificair
+  id: PCF
+- name: Air Inuit
+  id: AIE
+- name: Jubba Airways
+  id: JBW
+- name: Silver Airways
+  id: SIL
+- name: Airline Urga
+  id: URG
+- name: Air Philip
+  id: APV
+- name: Avior Regional
+  id: RGR
+- name: Air Antilles
+  id: GUY
+- name: Tarco Aviation
+  id: TRQ
+- name: Sichuan Airlines
+  id: CSC
+- name: Malawi Airlines
+  id: MWI
+- name: Boutique Air
+  id: BTQ
+- name: Gazpromavia
+  id: GZP
+- name: FlyDamas
+  id: FDK
+- name: Kenn Borek Air
+  id: KBA
+- name: Airnorth
+  id: ANT
+- name: Star East Airlines
+  id: SEK
+- name: Warbelows Air
+  id: WAV
+- name: Airlink
+  id: LNK
+- name: Bassaka Air
+  id: BSX
+- name: Aeromexico Connect
+  id: SLI
+- name: FlyOne
+  id: FIA
+- name: FlyMontserrat
+  id: MNT
+- name: SmartAvia
+  id: AUL
+- name: ASL Airlines France
+  id: FPO
+- name: Rutaca Airlines
+  id: RUC
+- name: Canadian North
+  id: MPE
+- name: TAG Airlines
+  id: TGU
+- name: CemAir
+  id: KEM
+- name: TUI fly Nordiс
+  id: BLX
+- name: Air Timor
+  id: "586"
+- name: Israir Airlines
+  id: ISR
+- name: Solaseed Air
+  id: SNJ
+- name: Aklak Air
+  id: AKK
+- name: Niger Airlines
+  id: NIN
+- name: Orbest
+  id: OBS
+- name: Cham Wings Airlines
+  id: SAW
+- name: ALROSA
+  id: DRU
+- name: SaudiGulf
+  id: SGQ
+- name: SmartLynx Airlines Estonia
+  id: MYX
+- name: Madagasikara Airways
+  id: AYS
+- name: Sylt Air
+  id: AWU
+- name: First Air
+  id: FAB
+- name: MAYAir
+  id: MYI
+- name: Air Panama
+  id: PST
+- name: Elite Airways
+  id: MNU
+- name: RusLine
+  id: RLU
+- name: Federal Airlines
+  id: FDR
+- name: Windrose Airlines
+  id: WRC
+- name: Mann Yadanarpon Airlines
+  id: MYP
+- name: TransNusa
+  id: TNU
+- name: Bering Air
+  id: BRG
+- name: STP Airways
+  id: STP
+- name: Fly Mid Africa
+  id: MFG
+- name: BHAir
+  id: BGH
+- name: EcoJet
+  id: ECO
+- name: Myanmar Airways International
+  id: MMA
+- name: Regional Air
+  id: REG
+- name: Pacific Coastal Airlines
+  id: PCO
+- name: Air Tindi
+  id: TID
+- name: Afriqiyah Airways
+  id: AAW
+- name: EWA Air
+  id: EWR
+- name: LATAM Colombia
+  id: ARE
+- name: PAL Express
+  id: GAP
+- name: Jetstar Asia
+  id: JSA
+- name: Air Arabia Maroc
+  id: MAC
+- name: Fly540
+  id: FFV
+- name: IndiGo
+  id: IGO
+- name: Jeju Air
+  id: JJA
+- name: Lucky Air
+  id: LKE
+- name: StarFlyer
+  id: SFJ
+- name: TruJet
+  id: TRJ
+- name: Ravn Alaska
+  id: RVF
+- name: Eurowings
+  id: GWI
+- name: Onur Air
+  id: OHY
+- name: Interjet
+  id: AIJ
+- name: Wright Air Service
+  id: WRT
+- name: Fly All Ways
+  id: EDR
+- name: Pan Pacific Airlines
+  id: AAV
+- name: Congo Airways
+  id: CGA
+- name: Air Changan
+  id: CGN
+- name: Alliance Air
+  id: LLR
+- name: Dana Air
+  id: DAN
+- name: Cape Air
+  id: KAP
+- name: Central Mountain Air
+  id: GLR
+- name: Tropic Air
+  id: TOS
+- name: Caicos Express Airways
+  id: CXE
+- name: SATENA
+  id: NSE
+- name: Air Moldova
+  id: MLD
+- name: Avior Airlines
+  id: ROI
+- name: Jet Airways
+  id: JAI
+- name: Southern Airways Express
+  id: FDY
+- name: National Airways Ethiopia
+  id: NAE
+- name: Astra Airlines
+  id: AZI
+- name: Azimuth
+  id: AZO
+- name: HOP!
+  id: HOP
+- name: Air Travel
+  id: HTU
+- name: AeroLink
+  id: XAU
+- name: Georgian Airways
+  id: TGZ
+- name: Mandarin Airlines
+  id: MDA
+- name: Aruba Airlines
+  id: ARU
+- name: Air Algerie
+  id: DAH
+- name: Aztec Airways
+  id: AZY
+- name: Air Juan
+  id: AJU
+- name: AlbaStar
+  id: LAV
+- name: Alaska Airlines
+  id: ASA
+- name: Royal Air Maroc
+  id: RAM
+- name: Austral
+  id: AUT
+- name: Africa World Airlines
+  id: AFW
+- name: Venezolana
+  id: VNE
+- name: La Compagnie
+  id: DJT
+- name: Belavia
+  id: BRU
+- name: Bhutan Airlines
+  id: BTN
+- name: ZanAir
+  id: TAN
+- name: EastAfrican
+  id: EXZ
+- name: Uni Air
+  id: UIA
+- name: Eritrean Airlines
+  id: ERT
+- name: Iran Air Tours
+  id: IRB
+- name: Seaborne Airlines
+  id: SBS
+- name: Cambodia Bayon Airlines
+  id: BYC
+- name: French Bee
+  id: FBU
+- name: Biman Bangladesh Airlines
+  id: BBC
+- name: Royal Brunei Airlines
+  id: RBA
+- name: Nouvelair
+  id: LBT
+- name: Okay Airways
+  id: OKA
+- name: Air Botswana
+  id: BOT
+- name: US-Bangla Airlines
+  id: UBG
+- name: airBaltic
+  id: BTI
+- name: flyCAA
+  id: FPY
+- name: Caribbean Airlines
+  id: BWA
+- name: TUI Airways
+  id: TOM
+- name: Blue Bird Airways
+  id: BBG
+- name: CEIBA Intercontinental
+  id: CEL
+- name: Aegean Airlines
+  id: AEE
+- name: Air Canada
+  id: ACA
+- name: Air India
+  id: AIC
+- name: Avianca
+  id: AVA
+- name: British Airways
+  id: BAW
+- name: American Airlines
+  id: AAL
+- name: Finnair
+  id: FIN
+- name: Aeromexico
+  id: AMX
+- name: Alitalia
+  id: AZA
+- name: Aerolineas Argentinas
+  id: ARG
+- name: Air France
+  id: AFR
+- name: Jetstar Pacific
+  id: PIC
+- name: 9 Air
+  id: JYH
+- name: AirAsia
+  id: AXM
+- name: Air Busan
+  id: ABL
+- name: Eastar Jet
+  id: ESR
+- name: Skymark Airlines
+  id: SKY
+- name: Spring Airlines
+  id: CQH
+- name: Blue Panorama Airlines
+  id: BPA
+- name: Flybe
+  id: BEE
+- name: Azul
+  id: AZU
+- name: Aereo Calafia
+  id: CFV
+- name: jetBlue
+  id: JBU
+- name: Trade Air
+  id: TDR
+- name: AZUR Air
+  id: KTK
+- name: Cinnamon Air
+  id: CIN
+- name: Cronos Airlines
+  id: CRA
+- name: Air China
+  id: CCA
+- name: CM Airlines
+  id: OMT
+- name: Corendon Dutch Airlines
+  id: CND
+- name: Chalair Aviation
+  id: CLG
+- name: PNG Air
+  id: TOK
+- name: Lufthansa CityLine
+  id: CLH
+- name: Grand China Air
+  id: GDC
+- name: Coastal Aviation
+  id: CSV
+- name: Alitalia CityLiner
+  id: CYL
+- name: Cubana
+  id: CUB
+- name: Copa Airlines
+  id: CMP
+- name: China Airlines
+  id: CAL
+- name: Cyprus Airways
+  id: CYP
+- name: China Southern Airlines
+  id: CSN
+- name: Severstal Air Company
+  id: SSF
+- name: Daallo Airlines
+  id: DAO
+- name: Norwegian Air International
+  id: IBK
+- name: BRA
+  id: BRX
+- name: Condor
+  id: CDR
+- name: Norwegian
+  id: NAN
+- name: Norwegian
+  id: NRS
+- name: Thomas Cook Scandinavia
+  id: VKG
+- name: Norwegian Air Argentina
+  id: NAA
+- name: TAAG Angola
+  id: DTA
+- name: SCAT Airlines
+  id: VSV
+- name: Danish Air Transport
+  id: DTR
+- name: Donghai Airlines
+  id: EPA
+- name: New Gen Airways
+  id: VGO
+- name: Enter Air
+  id: ENT
+- name: Estelar Latinoamerica
+  id: ETR
+- name: Equaflight
+  id: EKA
+- name: Evelop!
+  id: EVE
+- name: Wamos Air
+  id: PLM
+- name: easyJet
+  id: EJU
+- name: Ernest Airlines
+  id: ERN
+- name: ANA Wings
+  id: AKX
+- name: Aer Lingus
+  id: EIN
+- name: Emirates
+  id: UAE
+- name: Ellinair
+  id: ELB
+- name: AirDolomiti
+  id: DLA
+- name: Pegas Fly
+  id: KAR
+- name: Iran Aseman Airlines
+  id: IRC
+- name: TAME
+  id: TAE
+- name: Serene Air
+  id: SEP
+- name: Etihad Airways
+  id: ETD
+- name: Safarilink Aviation
+  id: XLK
+- name: flyadeal
+  id: FAD
+- name: Air Flamenco
+  id: WAF
+- name: FlyValan
+  id: FXP
+- name: iFly
+  id: RSY
+- name: Bulgaria Air
+  id: LZB
+- name: Vivaair
+  id: VVC
+- name: FAT Far Eastern Air Transport
+  id: FEA
+- name: Ariana Afghan Airlines
+  id: AFG
+- name: Icelandair
+  id: ICE
+- name: Shanghai Airlines
+  id: CSH
+- name: Fastjet Tanzania
+  id: FTZ
+- name: Flybondi
+  id: FBD
+- name: FlyPelican
+  id: FRE
+- name: Flyest Lineas Aereas
+  id: FLA
+- name: FlyEgypt
+  id: FEG
+- name: Fly Tiwi
+  id: FTW
+- name: Fuzhou Airlines
+  id: FZA
+- name: Rossiya Airlines
+  id: SDM
+- name: Ibex Airlines
+  id: IBX
+- name: Firefly
+  id: FFM
+- name: China Express Airlines
+  id: HXA
+- name: Cathay Pacific
+  id: CPA
+- name: SUN-AIR
+  id: SUS
+- name: Fiji Airways
+  id: FJI
+- name: Delta
+  id: DAL
+- name: Chengdu Airlines
+  id: UEA
+- name: Ruili Airlines
+  id: RLH
+- name: Air Arabia Egypt
+  id: RBG
+- name: Fastjet Zimbabwe
+  id: FJW
+- name: FlySafair
+  id: SFR
+- name: AirAsia X
+  id: XAX
+- name: Nok Air
+  id: NOK
+- name: Thai AirAsia
+  id: AIQ
+- name: AirAsia Japan
+  id: WAJ
+- name: Condor
+  id: CFG
+- name: easyJet
+  id: EZS
+- name: Eurowings
+  id: EWG
+- name: Eurowings
+  id: EWE
+- name: Norwegian
+  id: NAX
+- name: Pobeda
+  id: PBD
+- name: Ryanair
+  id: RYR
+- name: GOL Linhas Aéreas
+  id: GLO
+- name: Fly Corporate
+  id: FCO
+- name: Flydubai
+  id: FDB
+- name: Allegiant Air
+  id: AAY
+- name: Flair Airlines
+  id: FLE
+- name: Frontier Airlines
+  id: FFT
+- name: Gowair Vacation Airlines
+  id: GWR
+- name: Gulf Air
+  id: GFA
+- name: Loong Air
+  id: CDC
+- name: Air Greenland
+  id: GRL
+- name: Germania Flug
+  id: GSW
+- name: APG Airlines
+  id: RIV
+- name: Sky Express Greece
+  id: SEH
+- name: Aurigny
+  id: AUR
+- name: Tianjin Airlines
+  id: GCR
+- name: Air Guilin
+  id: CGH
+- name: Avianca Guatemala
+  id: GUG
+- name: Grant Aviation
+  id: GUN
+- name: GX Airlines
+  id: CBG
+- name: Colorful Guizhou Airlines
+  id: CGZ
+- name: Air Rarotonga
+  id: RAR
+- name: Thomas Cook Airlines Balearics
+  id: CTB
+- name: Bulgarian Air Charter
+  id: BUC
+- name: Ravn Alaska
+  id: RVF
+- name: Eagle Air
+  id: FEI
+- name: Taron Avia
+  id: TRV
+- name: Hawaiian Airlines
+  id: HAL
+- name: Asia Atlantic Airlines
+  id: AAQ
+- name: Air Senegal
+  id: SZN
+- name: Air Cote D'Ivoire
+  id: VRE
+- name: Taban Airlines
+  id: TBN
+- name: Skippers Aviation
+  id: SAV
+- name: Juneyao Airlines
+  id: DKH
+- name: Hainan Airlines
+  id: CHH
+- name: North-Wright Airways
+  id: NWL
+- name: Hong Kong Airlines
+  id: CRK
+- name: Uzbekistan Airways
+  id: UZB
+- name: Aurora
+  id: SHU
+- name: ATA Airlines
+  id: TBZ
+- name: Island Air Express
+  id: EXP
+- name: Izhavia
+  id: IZA
+- name: Iraqi Airways
+  id: IAW
+- name: Batik Air
+  id: BTK
+- name: Solomon Airlines
+  id: SOL
+- name: Fly Baghdad
+  id: FBA
+- name: Air Kiribati
+  id: AKL
+- name: Trigana Air Service
+  id: TGN
+- name: NAM Air
+  id: LKN
+- name: IrAero
+  id: IAE
+- name: Qazaq Air
+  id: QAZ
+- name: Iran Air
+  id: IRA
+- name: Sepehran Airlines
+  id: SHI
+- name: Caspian Airlines
+  id: CPN
+- name: Yemenia
+  id: IYE
+- name: Arkia
+  id: AIZ
+- name: Azerbaijan Airlines
+  id: AHY
+- name: Buta Airways
+  id: BAW
+- name: Northwestern Air
+  id: PLR
+- name: Badr Airlines
+  id: BDR
+- name: Buffalo Airways
+  id: BFL
+- name: Alaska Seaplanes
+  id: ASP
+- name: Berjaya Air
+  id: BVT
+- name: JetSmart
+  id: JAT
+- name: Helijet
+  id: JBA
+- name: Beijing Capital Airlines
+  id: CBJ
+- name: Iberia
+  id: IBE
+- name: Iberia Express
+  id: IBS
+- name: Japan Air Commuter
+  id: JAC
+- name: Air Seychelles
+  id: SEY
+- name: Int'Air Iles
+  id: IIA
+- name: Harbour Air Seaplanes
+  id: HES
+- name: AirAsia India
+  id: IAD
+- name: Air Do
+  id: ADO
+- name: Air India Express
+  id: AXB
+- name: GoAir
+  id: GOW
+- name: Jetstar Japan
+  id: JJP
+- name: Spring Airlines Japan
+  id: SJO
+- name: Tigerair Taiwan
+  id: TTW
+- name: Wings Air
+  id: WON
+- name: Air Italy
+  id: ISS
+- name: Himalaya Airlines
+  id: HIM
+- name: Transavia
+  id: TRA
+- name: Sky Airline
+  id: SKU
+- name: Air Arabia
+  id: ABY
+- name: Jazeera Airways
+  id: JZR
+- name: Jet Asia Airways
+  id: JAA
+- name: Fuji Dream Airlines
+  id: FDA
+- name: Meraj Airlines
+  id: MRJ
+- name: Jambojet
+  id: JAJ
+- name: Joy Air
+  id: JOY
+- name: Air Koryo
+  id: KOR
+- name: Air Serbia
+  id: ASL
+- name: Bearskin Airlines
+  id: BLS
+- name: DAC Aviation
+  id: DAC
+- name: InterCaribbean Airways
+  id: IWY
+- name: Jubba Airways
+  id: JUB
+- name: Taquan Air
+  id: TQN
+- name: Cambodia Angkor Air
+  id: KHV
+- name: Air KBZ
+  id: KBZ
+- name: Drukair
+  id: DRK
+- name: Air Astana
+  id: KZR
+- name: Air Belgium
+  id: ABB
+- name: KrasAvia
+  id: SSJ
+- name: Air Malta
+  id: AMC
+- name: China United Airlines
+  id: CUA
+- name: Maroomba Airlines
+  id: MAL
+- name: Komiaviatrans
+  id: KMA
+- name: ASKY Airlines
+  id: SKK
+- name: Cambodia Airways
+  id: KME
+- name: Penair
+  id: PEN
+- name: Kuwait Airways
+  id: KAC
+- name: Korea Express Air
+  id: KEA
+- name: Cayman Airways
+  id: CAY
+- name: Kunming Airlines
+  id: KNA
+- name: LASA Líneas Aéreas
+  id: LLA
+- name: Mauritania Airlines International
+  id: MAI
+- name: Luxair
+  id: LGL
+- name: Liat
+  id: LIA
+- name: Lao Skyway
+  id: LLL
+- name: Miami Air International
+  id: BSK
+- name: Loganair
+  id: LOG
+- name: Libyan Airlines
+  id: LAA
+- name: Avianca Costa Rica
+  id: LRC
+- name: LongJiang Airlines
+  id: SNG
+- name: Level
+  id: BOS
+- name: EL AL
+  id: ELY
+- name: Aero Mongolia
+  id: MNG
+- name: Kenmore Air
+  id: KEN
+- name: SkyJet Airlines
+  id: MSJ
+- name: Motor Sich Airlines
+  id: MSI
+- name: SilkAir
+  id: SLK
+- name: Calm Air
+  id: CAV
+- name: Hunnu Air
+  id: MML
+- name: Egyptair
+  id: MSR
+- name: Thomas Cook Airlines
+  id: TCX
+- name: Air Mediterranean
+  id: MAR
+- name: Mokulele Airlines
+  id: MHO
+- name: MASwings
+  id: MWG
+- name: Amakusa Airlines
+  id: AHX
+- name: Nordwind Airlines
+  id: NWS
+- name: Nolinor Aviation
+  id: NRL
+- name: Novair
+  id: NVR
+- name: Nesma Airlines
+  id: NSS
+- name: Cobham Aviation Services Australia
+  id: JTE
+- name: Nesma Airlines
+  id: NMA
+- name: Air Vanuatu
+  id: AVN
+- name: Al Naser Wings
+  id: NAD
+- name: aero
+  id: NIG
+- name: TAP Air Portugal
+  id: PGA
+- name: Niger Airways
+  id: NWA
+- name: Neos
+  id: NOS
+- name: Nile Air
+  id: NIA
+- name: SWISS
+  id: SWR
+- name: Lufthansa
+  id: DLH
+- name: LOT Polish
+  id: LOT
+- name: EgyptAir Express
+  id: MSE
+- name: LATAM Brasil
+  id: TAM
+- name: Mango
+  id: MNO
+- name: Japan Airlines
+  id: JAL
+- name: Cathay Dragon
+  id: HDA
+- name: LATAM Chile
+  id: LAN
+- name: Malaysia Airlines
+  id: MAS
+- name: LATAM Express
+  id: LXP
+- name: LATAM Peru
+  id: LPE
+- name: NORRA
+  id: FCM
+- name: KLM
+  id: KLM
+- name: Kenya Airways
+  id: KQA
+- name: Middle East Airlines
+  id: MEA
+- name: Xiamen Airlines
+  id: CXA
+- name: China Eastern
+  id: CES
+- name: Air Madagascar
+  id: MDG
+- name: Air Mauritius
+  id: MAU
+- name: Kulula
+  id: CAW
+- name: Jetstar
+  id: JST
+- name: Jin Air
+  id: JNA
+- name: Lion Air
+  id: LNI
+- name: Myway Airlines
+  id: MYW
+- name: Peach
+  id: APJ
+- name: Lanmei Airlines
+  id: MKR
+- name: Vanilla Air
+  id: VNL
+- name: Atlasglobal
+  id: KKK
+- name: Jet2.com
+  id: EXS
+- name: Spirit Airlines
+  id: NKS
+- name: Air Japan
+  id: AJX
+- name: Hebei Airlines
+  id: HBH
+- name: Binter Canarias
+  id: IBB
+- name: Karun Airlines
+  id: IRG
+- name: Air Macau
+  id: AMU
+- name: Air Iceland Connect
+  id: FXI
+- name: Avianca Brazil
+  id: ONE
+- name: Orenburzhye
+  id: ORG
+- name: NOVA Airways
+  id: NOV
+- name: Olympic Air
+  id: OAL
+- name: BOA Boliviana de Aviación
+  id: BOV
+- name: Oriental Air Bridge
+  id: ORC
+- name: Cairo Aviation
+  id: CCE
+- name: Laudamotion
+  id: LDM
+- name: Overland Airways
+  id: OLA
+- name: Originair
+  id: OGN
+- name: Hinterland Aviation
+  id: HND
+- name: Samoa Airways
+  id: PAO
+- name: MIAT Mongolian Airlines
+  id: MGL
+- name: Nauru Airlines
+  id: RON
+- name: PassionAir
+  id: DIG
+- name: Chongqing Airlines
+  id: CQN
+- name: TUIfly Netherlands
+  id: TFL
+- name: Skyward Express
+  id: SEW
+- name: Andes Lineas Aereas
+  id: ANS
+- name: Proflight Zambia
+  id: PFZ
+- name: AirKenya
+  id: XAK
+- name: Wingo
+  id: RPB
+- name: Pascan Aviation
+  id: PSC
+- name: Privilege Style
+  id: PVG
+- name: SprintAir
+  id: SRN
+- name: Peruvian Airlines
+  id: PVN
+- name: PAL Airlines
+  id: PVL
+- name: Pegasus Airlines
+  id: PGT
+- name: Porter Airlines
+  id: POE
+- name: People's Viennaline
+  id: PEV
+- name: Bangkok Airways
+  id: BKP
+- name: Phoenix Air
+  id: PHA
+- name: Polar Airlines
+  id: RKA
+- name: Air Saint Pierre
+  id: SPM
+- name: PIA
+  id: PIA
+- name: Southern Air Charter
+  id: SOA
+- name: Canaryfly
+  id: CNF
+- name: Philippine Airlines
+  id: PAL
+- name: UIA
+  id: AUI
+- name: Plus Ultra Lineas Aereas
+  id: PUE
+- name: St Barth Commuter
+  id: SBU
+- name: Precision Air
+  id: PRF
+- name: Air Niugini
+  id: ANG
+- name: Surinam Airways
+  id: SLM
+- name: LATAM Paraguay
+  id: LAP
+- name: Maldivian
+  id: DQA
+- name: Anguilla Air Services
+  id: AXL
+- name: 40 Mile Air
+  id: MLA
+- name: SkyBahamas
+  id: SBM
+- name: Trans Air Congo
+  id: TSG
+- name: Qeshm Air
+  id: IRQ
+- name: Camair-co
+  id: CRC
+- name: JC International Airlines
+  id: JCC
+- name: Bamboo Airways
+  id: BAV
+- name: Air Kyrgyzstan
+  id: LYN
+- name: Air Canada Express
+  id: JZA
+- name: LASER Airlines
+  id: LER
+- name: Monacair
+  id: MNC
+- name: Skytrans
+  id: SKP
+- name: Alliance Airlines
+  id: UTY
+- name: Azur Air Ukraine
+  id: UTN
+- name: Lao Airlines
+  id: LAO
+- name: Qingdao Airlines
+  id: QDA
+- name: Transair Senegal
+  id: GTS
+- name: Yakutia Airlines
+  id: SYL
+- name: DOT LT
+  id: DNU
+- name: Nepal Airlines
+  id: RNA
+- name: SyrianAir
+  id: SYR
+- name: Atlantic Airways
+  id: FLI
+- name: Rotana Jet
+  id: RJD
+- name: Royal Flight
+  id: ABG
+- name: Armenia Aircompany
+  id: NGT
+- name: Kam Air
+  id: KMF
+- name: Ryanair Sun
+  id: RYS
+- name: UVT Aero
+  id: BUG
+- name: Air Canada Rouge
+  id: ROU
+- name: Royal Air Charter
+  id: RYL
+- name: Regent Airways
+  id: RGE
+- name: SANSA
+  id: LRS
+- name: Aerolineas Sosa
+  id: NSO
+- name: Azores Airlines
+  id: RZO
+- name: Sunrise Airways
+  id: KSZ
+- name: Croatia Airlines
+  id: CTN
+- name: Asiana Airlines
+  id: AAR
+- name: Japan Transocean Air
+  id: JTA
+- name: S7 Airlines
+  id: SBI
+- name: Qantas
+  id: QFA
+- name: Qatar Airways
+  id: QTR
+- name: Royal Jordanian
+  id: RJA
+- name: Tarom
+  id: ROT
+- name: CSA Czech Airlines
+  id: CSA
+- name: Citilink
+  id: CTV
+- name: Air Peace
+  id: APK
+- name: airblue
+  id: ABQ
+- name: Air Seoul
+  id: ASV
+- name: West Air
+  id: CHB
+- name: Indonesia AirAsia
+  id: AWQ
+- name: JetLite
+  id: JLL
+- name: Malindo Air
+  id: MXD
+- name: SmartWings Czechia
+  id: TVS
+- name: Volaris Costa Rica
+  id: VOC
+- name: Jordan Aviation
+  id: JAV
+- name: SalamAir
+  id: OMS
+- name: Sounds Air
+  id: SDA
+- name: Aircalin
+  id: ACI
+- name: Shandong Airlines
+  id: CDG
+- name: Sudan Airways
+  id: SUD
+- name: XL Airways France
+  id: XLF
+- name: Tassili Airlines
+  id: DTH
+- name: Sharp Airlines
+  id: SHA
+- name: Flybe
+  id: BCI
+- name: Sriwijaya Air
+  id: SJY
+- name: Air Cairo
+  id: MSC
+- name: SATA Air Acores
+  id: SAT
+- name: Sky Pasada
+  id: WCC
+- name: SundAir
+  id: SDR
+- name: Corsair International
+  id: CRL
+- name: Air Namibia
+  id: NMB
+- name: Somon Air
+  id: SMR
+- name: Avianca Peru
+  id: TPU
+- name: Fly Art
+  id: FLB
+- name: Eastern Airways
+  id: EZE
+- name: Turkmenistan Airlines
+  id: TUA
+- name: AirSWIFT
+  id: ATX
+- name: Twin Jet
+  id: TJT
+- name: Avianca El Salvador
+  id: TAI
+- name: Air Tanzania
+  id: ATC
+- name: SkyTaxi
+  id: IGA
+- name: BRA
+  id: SCW
+- name: Tailwind Airlines
+  id: TWI
+- name: Tradewind Aviation
+  id: GPD
+- name: Airnorth
+  id: ANO
+- name: LAM Mozambique Airlines
+  id: LAM
+- name: Air Tahiti Nui
+  id: THT
+- name: Tandem Aero
+  id: TDM
+- name: Air Transat
+  id: TSC
+- name: Tunisair
+  id: TAR
+- name: Tibet Airlines
+  id: TBA
+- name: Air Caraibes
+  id: FWI
+- name: Air Caledonie
+  id: TPC
+- name: Tsaradia
+  id: TRD
+- name: Buddha Air
+  id: BHA
+- name: Karinou Airlines
+  id: KRN
+- name: Ural Airlines
+  id: SVR
+- name: Tus Airways
+  id: CYF
+- name: Myanmar National Airlines
+  id: UBA
+- name: Ultimate Air Shuttle
+  id: UJC
+- name: Tunisair Express
+  id: TUX
+- name: AtlasGlobal Ukraine
+  id: UJX
+- name: Auric Air
+  id: AUK
+- name: ALMasria Universal Airlines
+  id: LMU
+- name: Vistara
+  id: VTI
+- name: South African Airways
+  id: SAA
+- name: SAS Scandinavian
+  id: SAS
+- name: Air Zimbabwe
+  id: AZW
+- name: Bahamasair
+  id: BHS
+- name: Utair
+  id: UTA
+- name: Buraq Air
+  id: BRQ
+- name: Conviasa
+  id: VCV
+- name: Vieques Air Link
+  id: VES
+- name: Aerovias DAP
+  id: DAP
+- name: VI Airlink
+  id: VIL
+- name: THAI airways
+  id: THA
+- name: United Airlines
+  id: UAL
+- name: Brussels Airlines
+  id: BEL
+- name: Singapore Airlines
+  id: SIA
+- name: Turkish Airlines
+  id: THY
+- name: TAP Air Portugal
+  id: TAP
+- name: SriLankan Airlines
+  id: ALK
+- name: Saudia
+  id: SVA
+- name: Aeroflot
+  id: AFL
+- name: Air Europa
+  id: AEA
+- name: Air Austral
+  id: REU
+- name: Thai Lion Air
+  id: TLM
+- name: Urumqi Air
+  id: CUH
+- name: HK Express
+  id: HKE
+- name: Scoot
+  id: SCO
+- name: SpiceJet
+  id: SEJ
+- name: Tigerair Australia
+  id: TGG
+- name: T'way Air
+  id: TWB
+- name: easyJet
+  id: EZY
+- name: Transavia France
+  id: TVF
+- name: TUI fly Belgium
+  id: JAF
+- name: Volotea
+  id: VOE
+- name: Sun Country Airlines
+  id: SCX
+- name: Iliamna Air Taxi
+  id: IAR
+- name: Virgin Australia
+  id: VOZ
+- name: LATAM Ecuador
+  id: LNE
+- name: Aeropostal
+  id: ALV
+- name: Anisec Luftfahrt
+  id: FOO
+- name: Med-View Airline
+  id: MEV
+- name: Max Air
+  id: NGL
+- name: Flyme
+  id: VQI
+- name: Novoair
+  id: NVQ
+- name: Cabo Verde Airlines
+  id: TCV
+- name: Virgin Atlantic
+  id: VIR
+- name: Air Tahiti
+  id: VTA
+- name: Viva Air Peru
+  id: VPE
+- name: Aeromar
+  id: TAO
+- name: Thai Vietjet Air
+  id: TVJ
+- name: FlexFlight
+  id: FXT
+- name: Arik Air
+  id: ARA
+- name: Mahan Air
+  id: IRM
+- name: Wings of Lebanon
+  id: WLB
+- name: Wizz Air UK
+  id: WUK
+- name: KLM Cityhopper
+  id: KLC
+- name: RwandAir
+  id: RWD
+- name: Avianca Honduras
+  id: ISV
+- name: THAI Smile
+  id: THD
+- name: Widerøe
+  id: WIF
+- name: White Airways
+  id: WHT
+- name: Edelweiss Air
+  id: EDW
+- name: Winair
+  id: WIA
+- name: Swift Air
+  id: SWQ
+- name: Wasaya Airways
+  id: WSG
+- name: Jetways Airlines
+  id: JWX
+- name: Westair Aviation
+  id: WAA
+- name: Oman Air
+  id: OMA
+- name: Red Wings
+  id: RWZ
+- name: Alaska Seaplanes
+  id: ASP
+- name: Air Europa Express
+  id: OVA
+- name: Corendon Airlines
+  id: CAI
+- name: JetSuiteX
+  id: JSX
+- name: Air Corsica
+  id: CCM
+- name: XpressAir
+  id: XAR
+- name: Corendon Airlines Europe
+  id: CXI
+- name: Indonesia AirAsia X
+  id: IDX
+- name: African Express Airways
+  id: AXK
+- name: Air Century
+  id: CEY
+- name: AB Aviation
+  id: AYD
+- name: NordStar
+  id: TYA
+- name: Suparna Airlines
+  id: YZR
+- name: Kish Air
+  id: IRK
+- name: Yamal Airlines
+  id: LLM
+- name: YANAIR
+  id: ANR
+- name: Yangon Airways
+  id: AYG
+- name: Asian Wings Airways
+  id: AWM
+- name: Avia Traffic Company
+  id: AVJ
+- name: Libyan Wings
+  id: LWA
+- name: Montenegro Airlines
+  id: MGX
+- name: Air Creebec
+  id: CRQ
+- name: Heli Air Monaco
+  id: MCM
+- name: Perimeter Aviation
+  id: PAG
+- name: TAR Aerolineas
+  id: LCT
+- name: HOP! Regional
+  id: RAE
+- name: Yeti Airlines
+  id: NYT
+- name: EuroAtlantic Airways
+  id: MMZ
+- name: Amaszonas Uruguay
+  id: AUZ
+- name: Amaszonas
+  id: AZN
+- name: Bek Air
+  id: BEK
+- name: Sky Angkor Airlines
+  id: SWM
+- name: Iberia Regional by Air Nostrum
+  id: ANE
+- name: Vietnam Airlines
+  id: HVN
+- name: Vueling
+  id: VLG
+- name: Golden Myanmar Airlines
+  id: GMR
+- name: NokScoot
+  id: NCT
+- name: Philippines AirAsia
+  id: APG
+- name: SEAir International
+  id: SGD
+- name: Thai AirAsia X
+  id: TAX
+- name: Sevenair
+  id: RVP
+- name: Vietjet
+  id: VJC
+- name: SunExpress
+  id: SXS
+- name: SunExpress Deutschland
+  id: SXD
+- name: TUI fly Deutschland
+  id: TUI
+- name: Wizz Air
+  id: WZZ
+- name: EasyFly
+  id: EFY
+- name: Viva Aerobus
+  id: VIV
+- name: Volaris
+  id: VOI
+- name: Flynas
+  id: KNE
+- name: Southwest Airlines
+  id: SWA
+- name: Sunwing Airlines
+  id: SWG
+- name: ViaAir
+  id: SRY
+- name: WestJet
+  id: WJA
+- name: WestJet Encore
+  id: WEN
+- name: Swoop
+  id: WSW
+- name: Aigle Azur
+  id: AAF
+- name: Regional Express
+  id: RXA
+- name: Zoom Air
+  id: ZOM
+- name: Paranair
+  id: AZP
+- name: Azman Air
+  id: AZM
+- name: Air Canada Express
+  id: GGN
+- name: Hi Fly Malta
+  id: HFM
+- name: EVA Air
+  id: EVA
+- name: Adria Airways
+  id: ADR
+- name: Ethiopian Airlines
+  id: ETH
+- name: Austrian Airlines
+  id: AUA
+- name: All Nippon Airways
+  id: ANA
+- name: Shenzhen Airlines
+  id: CSZ
+- name: LATAM Argentina
+  id: DSM
+- name: BA CityFlyer
+  id: CFE
+- name: Globus Airlines
+  id: GLP
+- name: J-Air
+  id: JLJ
+- name: Qatar Executive
+  id: QQE
+- name: Jiangxi Air
+  id: CJX
+- name: Korean Air
+  id: KAL
+- name: Garuda Indonesia
+  id: GIA
+- name: Joon
+  id: JON
+- name: Turpial Airlines
+  id: VTU
+- name: Air Manas
+  id: MBB
+- name: Cebgo
+  id: SRQ
+- name: Cebu Pacific
+  id: CEB
+- name: Air New Zealand
+  id: ANZ
+- name: Scoot
+  id: TGW
+- name: Hi Fly
+  id: HFY
+- name: Hibernian Airlines
+  id: HBN

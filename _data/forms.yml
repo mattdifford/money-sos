@@ -92,13 +92,16 @@ items:
       - helptext: 'This is important, so do you best to remember'
         name: Which airline did you travel with?
         required: true
-        type: string
+        type: data
+        options:
+          - name: airlines
       - helptext: Date fieldset
         name: Date fieldset
         required: false
         type: fieldset
       - helptext: Please select an accurate date of your delayed flight
         name: What date was the flight?
+        placeholder: DD/MM/YYYY
         required: true
         type: date
       - helptext: Flight details

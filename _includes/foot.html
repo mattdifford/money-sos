@@ -20,6 +20,7 @@
                 parent_fieldset.next().show();
                 var index = parent_fieldset.attr("data-index");
                 $('.form__fieldset-count').find('span[data-index="' + (parseInt(index) + 1) + '"]').addClass('active');
+                $("body, html").animate({scrollTop: parent_form.offset().top - 20});
             });
         });
 
@@ -32,14 +33,20 @@
                 group: group_name,
                 force: true
             }).done(function () {
-                var $modal = $("#modal");
-                var html = '<h3>We have successfully found a claim for you:</h3>';
-                html += "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>";
-                html += '<h4>Would you like to continue?</h4><p><a class="button button--green" id="proceed_button">Yes</a><a class="button button--grey" id="cancel_button">No</a></p>';
-                $modal.addClass('modal--active');
-                setTimeout(function () {
-                    $modal.html(html);
-                }, 3000);
+                if (parent_form.hasClass('form--personal-info')) {
+                    var html = '<h3>Thank you for submitting your details</h3>';
+                    html += '<p>Someone will be in touch shortly to discuss your claim</p>';
+                    parent_form.html();
+                } else {
+                    var $modal = $("#modal");
+                    var html = '<h3>We have successfully found a claim for you:</h3>';
+                    html += "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>";
+                    html += '<h4>Would you like to continue?</h4><p><a class="button button--green" id="proceed_button">Yes</a><a class="button button--grey" id="cancel_button">No</a></p>';
+                    $modal.addClass('modal--active');
+                    setTimeout(function () {
+                        $modal.html(html);
+                    }, 3000);
+                }
             });
         });
         $("body").on("click", "#cancel_button", function () {

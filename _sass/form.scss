@@ -144,6 +144,11 @@
     &-wrap {
       display: flex;
       margin-top: 15px;
+      padding-bottom: 20px;
+      .parsley-errors-list {
+        position: absolute;
+        bottom: -13px;
+      }
       .field {
         &__input,
         &__lookup-button {
@@ -233,7 +238,7 @@
 
 .parsley-errors-list {
   width: 100%;
-  .parsley-required {
+  li {
     background: $colour_error;
     color: #fff;
     font-size: 16px;
