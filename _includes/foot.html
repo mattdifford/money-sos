@@ -26,7 +26,7 @@
         $('.form__submit-button').on('click', function (e) {
             e.preventDefault();
             var parent_fieldset = $(this).parents('fieldset');
-            var group_name = parent_fieldset.attr('data-fieldset-name'); 
+            var group_name = parent_fieldset.attr('data-fieldset-name');
             var parent_form = $(this).parents('form');
             parent_form.parsley().whenValidate({
                 group: group_name,
@@ -49,7 +49,7 @@
             $("#modal").html('<h2 class="modal__title">We are finding your claim</h2><img src="/images/spinner.png" class="modal__spinner">').removeClass('modal--active');
             $(".form").hide();
             $(".form--personal-info").show();
-        })
+        });
     });
 </script>
 {%- endif -%}
