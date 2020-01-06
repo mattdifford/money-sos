@@ -5,40 +5,43 @@
 {%- assign fieldset_count = 1-%}
 {%- assign included_data = false -%}
 {%- assign included_date = false -%}
+{%- assign fieldset_name = '' -%}
 <form class="form">
     {{-form.pre_text | markdownify-}}
     {%- for field in form.fields -%}
     {%- if field.type == 'data' && !included_data -%}
-        <script src="{{- "/js/bootstrap3-typeahead.min.js" | relative_url -}}"></script>
-        {%- assign included_data = true -%}
+    <script src="{{- "/js/bootstrap3-typeahead.min.js" | relative_url -}}"></script>
+    {%- assign included_data = true -%}
     {%-endif-%}
     {%- if field.type == 'date' && !included_date -%}
-        <script src="{{- "/js/field_date.js" | relative_url -}}"></script>
-        {%- assign included_date = true -%}
+    <script src="{{- "/js/field_date.js" | relative_url -}}"></script>
+    {%- assign included_date = true -%}
     {%-endif-%}
     {%- if forloop.first == true -%}
-    <fieldset class="form__fieldset active" data-parsley-group="first" data-index="{{-fieldset_count-}}">
+    {% assign fieldset_name = "first"%}
+    <fieldset class="form__fieldset active" data-fieldset-name="first" data-index="{{-fieldset_count-}}">
         {%- elsif field.type == 'fieldset' -%}
         {%- assign fieldset_count = fieldset_count | plus: 1-%}
         <div class="form__proceed"><button type="button" class="form__proceed-button">Step {{fieldset_count}}</button>
         </div>
     </fieldset>
-    <fieldset class="form__fieldset" data-parsley-group="{{-field.name-}}" data-index="{{-fieldset_count-}}">
+    <fieldset class="form__fieldset" data-fieldset-name="{{-field.name-}}" data-index="{{-fieldset_count-}}">
+        {% assign fieldset_name = field.name%}
         {%- endif -%}
         {%- if field.type != 'fieldset' -%}
         <div class="form__field">
             {%- capture field_include -%}field_{{-field.type-}}.html{%- endcapture -%}
             {%- assign field_slug = field.name | slugify 'latin' -%}
             {%- if field.type == 'radio' -%}
-            {%- include {{-field_include |trim-}} name=field.name slug=field_slug type=field.type options=field.options helptext=field.helptext required=field.required-%}
+            {%- include {{-field_include |trim-}} name=field.name slug=field_slug type=field.type options=field.options helptext=field.helptext required=field.required fieldset=fieldset_name-%}
             {%- else -%}
-            {%- include {{-field_include |trim-}} name=field.name slug=field_slug type=field.type helptext=field.helptext required=field.required placeholder=field.placeholder options=field.options-%}
+            {%- include {{-field_include |trim-}} name=field.name slug=field_slug type=field.type helptext=field.helptext required=field.required placeholder=field.placeholder options=field.options fieldset=fieldset_name-%}
             {%- endif -%}
         </div>
         {%-endif -%}
         {%- if forloop.last == true -%}
-        <div class="form__submit"><button type="button" class="form__submit-button">Find a claim</button>
-        </fieldset>
+        <div class="form__submit"><button type="button" class="form__submit-button">{{form.submit_text}}</button>
+    </fieldset>
     {%-endif -%}
     {%- endfor -%}
     <div class="form__fieldset-count">
@@ -56,4 +59,15 @@
     <h2 class="modal__title">We are finding your claim</h2><img src="/images/spinner.png" class="modal__spinner">
 </div>
 <div class="modal-shroud"></div>
+<form class="form form--personal-info" style="display:none;">
+    {{-form.data_capture_pre_text | markdownify-}}
+    <div class="form__field">{%- include field_string.html name="First name" slug="firstname" required=true placeholder="John" fieldset="first" -%}</div>
+    <div class="form__field">{%- include field_string.html name="Surname" slug="surname" required=true placeholder="Smith" fieldset="first" -%}</div>
+    <div class="form__field">{%- include field_string.html name="Telephone number" slug="telephone" type="telephone" required=true placeholder="07000000000" fieldset="first" -%}</div>
+    <div class="form__field">{%- include field_string.html name="Email address" slug="email" type="email" required=true placeholder="john.smith@email.com" fieldset="first" -%}</div>
+    <div class="form__field">{%- include field_postcode_lookup.html name="Enter your postcode" slug="postcode" required=true placeholder="AA1 1AA" fieldset="first" -%}</div>
+    <div class="form__submit"><button type="button" class="form__submit-button">Submit application</button></div>
+    <p class="form__post-text">{{-form.data_capture_post_text -}}</p>
+    </p>
+</form>
 {%- endif -%}

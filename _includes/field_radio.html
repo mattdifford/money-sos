@@ -7,7 +7,7 @@
     {%- capture radio_id -%}{{-include.slug-}}_{{-option.name-}}{%-endcapture-%}
     <div class="field__radio-item"><input type="radio" name="{{-include.slug-}}" value="{{-option.name-}}"
             id="{{-radio_id-}}" {%if include.required%} data-parsley-multiple="{{-include.slug-}}" required{%endif%}
-            class="field__radio-input"><label class="field__radio-label" for="{{-radio_id-}}">{{-option.name-}}</label>
+            class="field__radio-input" data-parsley-group="{{include.fieldset}}"><label class="field__radio-label" for="{{-radio_id-}}">{{-option.name-}}</label>
     </div>
     {%- endfor -%}
 </div>

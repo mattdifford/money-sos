@@ -1,5 +1,11 @@
 <label for="{{-include.slug-}}" class="field__label">{{-include.name-}}</label>
+{% if include.type %}
+{%assign field_type = include.type%}
+{%else%}
+{%assign field_type = "text"%}
+{%endif%}
 {%- if include.helptext -%}
 <p class="field__helptext">{{-include.helptext-}}</p>
 {%- endif -%}
-<input type="text" name={{-include.slug-}} required="{{-input.required-}}" class="field__input" placeholder="{{-include.placeholder-}}">
+<input type="{{field_type}}" name="{{-include.slug-}}" required="{{-input.required-}}" class="field__input"
+    placeholder="{{-include.placeholder-}}" data-parsley-group="{{include.fieldset}}">

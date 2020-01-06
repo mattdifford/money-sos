@@ -80,6 +80,8 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Submit text, name: submit_text, widget: string}
               - {label: Category, name: category, widget: string}
               - {label: Pre text, name: pre_text, widget: markdown}
+              - {label: Personal details pre text, name: data_capture_pre_text, widget: markdown}
+              - {label: Personal details post text, name: data_capture_post_text, widget: string}
               - label: Fields
                 name: form_fields
                 widget: list
