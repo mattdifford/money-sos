@@ -63,7 +63,7 @@
     {{-form.data_capture_pre_text | markdownify-}}
     <div class="form__field">{%- include field_string.html name="First name" slug="firstname" required=true placeholder="John" fieldset="first" -%}</div>
     <div class="form__field">{%- include field_string.html name="Surname" slug="surname" required=true placeholder="Smith" fieldset="first" -%}</div>
-    <div class="form__field">{%- include field_string.html name="Telephone number" slug="telephone" type="telephone" required=true placeholder="07000000000" fieldset="first" -%}</div>
+    <div class="form__field">{%- include field_string.html name="Telephone" slug="telephone" type="telephone" required=true placeholder="07000000000" fieldset="first" -%}</div>
     <div class="form__field">{%- include field_string.html name="Email address" slug="email" type="email" required=true placeholder="john.smith@email.com" fieldset="first" -%}</div>
     <div class="form__field">{%- include field_postcode_lookup.html name="Enter your postcode" slug="postcode" required=true placeholder="AA1 1AA" fieldset="first" helptext="Enter your postcode, then click ‘Find Address’. A selection of addresses will appear. Choose your address from this list."-%}</div>
     <div class="form__submit"><button type="button" class="form__submit-button">Submit application</button></div>

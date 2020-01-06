@@ -325,6 +325,10 @@
     transform: rotate(-360deg);
   }
 }
+
+body.modal-active {
+  overflow: hidden;
+}
 .modal {
   position: fixed;
   left: 50%;

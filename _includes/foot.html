@@ -44,6 +44,7 @@
                     html += "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>";
                     html += '<h4>Would you like to continue?</h4><p><a class="button button--green" id="proceed_button">Yes</a><a class="button button--grey" id="cancel_button">No</a></p>';
                     $modal.addClass('modal--active');
+                    $("body").addClass("modal-active");
                     setTimeout(function () {
                         $modal.html(html);
                     }, 3000);
@@ -52,11 +53,13 @@
         });
         $("body").on("click", "#cancel_button", function () {
             $("#modal").html('<h2 class="modal__title">We are finding your claim</h2><img src="/images/spinner.png" class="modal__spinner">').removeClass('modal--active');
+            $("body").removeClass("modal-active");
         })
         $("body").on("click", "#proceed_button", function () {
             $("#modal").html('<h2 class="modal__title">We are finding your claim</h2><img src="/images/spinner.png" class="modal__spinner">').removeClass('modal--active');
             $(".form").hide();
             $(".form--personal-info").show();
+            $("body").removeClass("modal-active");
         });
     });
 </script>
