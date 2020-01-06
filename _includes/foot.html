@@ -36,7 +36,8 @@
                 if (parent_form.hasClass('form--personal-info')) {
                     var html = '<h3>Thank you for submitting your details</h3>';
                     html += '<p>Someone will be in touch shortly to discuss your claim</p>';
-                    parent_form.html();
+                    parent_form.html(html).addClass('form--completed');
+                    $("body, html").animate({scrollTop: parent_form.offset().top - 20});
                 } else {
                     var $modal = $("#modal");
                     var html = '<h3>We have successfully found a claim for you:</h3>';

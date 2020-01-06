@@ -17,9 +17,7 @@ $(document).ready(function () {
         }
         //Allow only Numeric Keys.
         if (((keyCode >= 48 && keyCode <= 57) || keyCode == 8 || keyCode <= 37 || keyCode <= 39 || (keyCode >= 96 && keyCode <= 105)) && isShift == false) {
-            if ((input.value.length == 2 || input.value.length == 5) && keyCode != 8) {
-                input.value += separator;
-            }
+            
 
             return true;
         }
@@ -32,6 +30,9 @@ $(document).ready(function () {
         var dateString = input.value;
         if (keyCode == 16) {
             isShift = false;
+        }
+        if ((input.value.length == 2 || input.value.length == 5) && keyCode != 8) {
+            input.value += separator;
         }
         var regex = /(((0|1)[0-9]|2[0-9]|3[0-1])\/(0[1-9]|1[0-2])\/((19|20)\d\d))$/;
 

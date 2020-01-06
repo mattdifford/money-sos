@@ -23,73 +23,7 @@ items:
         name: Airline details fieldset
         required: false
         type: fieldset
-      - helptext: 'This is important, so do you best to remember'
-        name: Which airline did you travel with?
-        required: true
-        type: string
-      - helptext: Date fieldset
-        name: Date fieldset
-        required: false
-        type: fieldset
-      - helptext: Please select an accurate date of your delayed flight
-        name: What date was the flight?
-        required: true
-        type: date
-      - helptext: Flight details
-        name: Flight details
-        required: false
-        type: fieldset
-      - helptext: Start typing the airport name
-        name: Departure Airport
-        options:
-          - name: airports
-        required: true
-        type: data
-      - helptext: Start typing the airport name
-        name: Arrival Airport
-        options:
-          - name: airports
-        required: true
-        type: data
-      - name: Flight number
-        required: false
-        type: string_short
-      - name: Booking reference
-        required: false
-        type: string_short
-    pre_text: >-
-      ### Get a **free** & instant decision below
-
-
-      Answer a series of simple questions below to see if you  can claim the
-      compensation you deserve after your delay!
-    submit_text: Find a claim
-    title: Flight Compensation
-  - category: Main 
-    fields:
-      - helptext: Make a selection below
-        name: What happened to your flight?
-        options:
-          - name: Delayed
-          - name: Cancelled
-          - name: Missed Connection
-          - name: Denied boarding
-        required: true
-        type: radio
-      - helptext: Make a selection below
-        name: How long was your flight delayed?
-        options:
-          - name: Not delayed
-          - name: Less than 3 hours
-          - name: Over 3 hours
-          - name: Didn't arrive
-        required: true
-        type: radio
-      - helptext: Airline details fieldset
-        name: Airline details fieldset
-        required: false
-        type: fieldset
-      - helptext: 'This is important, so do you best to remember'
+      - helptext: 'This is important, so do you best to remember' 
         name: Which airline did you travel with?
         required: true
         type: data
@@ -101,8 +35,8 @@ items:
         type: fieldset
       - helptext: Please select an accurate date of your delayed flight
         name: What date was the flight?
-        placeholder: DD/MM/YYYY
         required: true
+        placeholder: DD/MM/YYYY
         type: date
       - helptext: Flight details
         name: Flight details

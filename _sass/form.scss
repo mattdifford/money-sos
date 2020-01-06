@@ -21,6 +21,7 @@
       z-index: 1;
     }
   }
+
   h3 {
     color: $colour_secondary;
     font-size: 30px;
@@ -48,6 +49,7 @@
     position: relative;
     &--address {
       margin-bottom: 5px;
+      padding: 0 !important;
       .field {
         &__label {
           font-size: 14px;
@@ -124,6 +126,52 @@
       &:hover {
         background: $colour_secondary;
       }
+    }
+  }
+  &__post-text {
+    font-size: 12px;
+    margin: 15px 0 0;
+    text-align: center;
+  }
+  &--personal-info {
+    padding: 50px 40px;
+    .form {
+      &__field {
+        flex: 1 1 50%;
+        padding: 0 10px;
+      }
+      &__submit,
+      &__post-text {
+        padding: 0 10px;
+      }
+      &__submit {
+        flex: 1 1 100%;
+        text-align: center;
+        justify-content: center;
+      }
+    }
+    h3 {
+      padding: 0 10px;
+      strong {
+        text-transform: none;
+      }
+      + p {
+        font-size: 16px;
+        margin-top: 0;
+        padding: 0 10px;
+      }
+    }
+  }
+  &--completed {
+    text-align: center;
+    justify-content: center;
+    h3,
+    h3 + p {
+      padding: 0;
+    }
+    h3 {
+      margin-bottom: 20px;
+      font-weight: 600;
     }
   }
 }
@@ -289,6 +337,7 @@
   max-width: 85%;
   max-height: 85%;
   display: none;
+  overflow-y: scroll;
   &__title {
     color: $colour_dark_grey;
     font-size: 49px;
