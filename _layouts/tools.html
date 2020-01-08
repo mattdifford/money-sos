@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+{%- include head.html layout=page.layout -%}
+
+<body>
+    {%- include header.html -%}
+    {%- include header_image.html content=page.header_content layout="tools" -%}
+    {%- include featured_strip.html -%}
+    {%- include image-strip.html image_position=page.strip_1.image_position image=page.strip_1.image text=page.strip_1.content -%}
+    {%- include footer.html -%}
+    {%- include foot.html -%}
+</body>
+
+</html>

@@ -14,8 +14,8 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - { label: "Layout", name: "layout", widget: "string", default: "page" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
-      - { label: "Reference", name: "reference", widget: "string" }
-      - { label: "Section", name: "section", widget: "string" }
+      - { label: "Reference", name: "reference", widget: "string"}
+      - { label: "Section", name: "section", widget: "string", required: false}
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Permalink", name: "permalink", widget: "string" }
       - {
@@ -28,32 +28,35 @@ collections: # A list of collections the CMS should be able to edit
         name: "strip_1"
         widget: "object"
         fields:
-          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Image", name: "image", widget: "image", required: false}
           - label: "Image position"
             name: "image_position"
             widget: "select"
             options: ["left", "right"]
-          - { label: "Text", name: "text", widget: "markdown" }
+            required: false
+          - { label: "Text", name: "text", widget: "markdown", required: false}
       - label: "Strip 2"
         name: "strip_2"
         widget: "object"
         fields:
-          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Image", name: "image", widget: "image", required: false}
           - label: "Image position"
             name: "image_position"
             widget: "select"
             options: ["left", "right"]
-          - { label: "Text", name: "text", widget: "markdown" }
+            required: false
+          - { label: "Text", name: "text", widget: "markdown", required: false}
       - label: "Strip 3"
         name: "strip_3"
         widget: "object"
         fields:
-          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Image", name: "image", widget: "image", required: false}
           - label: "Image position"
             name: "image_position"
             widget: "select"
             options: ["left", "right"]
-          - { label: "Text", name: "text", widget: "markdown" }
+            required: false
+          - { label: "Text", name: "text", widget: "markdown", required: false}
   - name: "config"
     label: "Config"
     preview: false

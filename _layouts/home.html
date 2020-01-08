@@ -4,11 +4,11 @@
 
 <body>
     {%- include header.html -%}
-    {%- include header_image.html content=page.header_content layout="home" roundels=page.header_icons -%}
+    {%- include header_image.html content=page.header_content layout="home" -%}
     {%- include featured_strip.html -%}
-    {%- include image-strip.html image_position="right" image="laptop.png" text=page.strip_2_content -%}
-    {%- include image-strip.html image_position="left" image="phone-hand.png" text=page.  -%}
-    {%- include image-strip.html image_position="right" image="laptop.png" text=page.strip_2_content -%}
+    {%- include image-strip.html image_position=page.strip_1.image_position image=page.strip_1.image text=page.strip_1.content -%}
+    {%- include image-strip.html image_position=page.strip_2.image_position image=page.strip_2.image text=page.strip_2.content -%}
+    {%- include image-strip.html image_position=page.strip_3.image_position image=page.strip_3.image text=page.strip_3.content -%}
     {%- include footer.html -%}
     {%- include foot.html -%}
 </body>
