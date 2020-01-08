@@ -2,8 +2,8 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url("/images/header-image-alt.png") no-repeat -680% bottom;
   position: relative;
+  color: #fff;
   &__containment {
     top: 0;
     left: 0;
@@ -12,7 +12,7 @@
     padding: 100px 0 88px;
   }
   &--home {
-    background: url("/images/header-image.png") no-repeat 150% bottom;
+    background: $colour_primary;
     .header-image {
       &__containment {
         position: absolute;
@@ -60,7 +60,6 @@
         padding: 50px 0 50px 75px;
       }
     }
-    
   }
   &--home,
   &--default {

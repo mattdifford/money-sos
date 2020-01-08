@@ -1,0 +1,32 @@
+items:
+  - title: Mortgages
+    colour: #47b2c6
+    image: /images/uploads/claims.png
+  - title: Banking
+    colour: #2c7973
+    image: /images/uploads/claims.png
+  - title: Pensions
+    colour: #4a48a3
+    image: /images/uploads/claims.png
+  - title: Utilities
+    colour: #12ba99
+    image: /images/uploads/claims.png
+  - title: Claims
+    colour: #6cb3e1
+    image: /images/uploads/claims.png
+    sub_sections: 
+      - title: Medical negligence
+        colour: #eaeaea
+        image: /images/uploads/claims.png
+      - title: Flight compensation
+        colour: #59a2d9
+        image: /images/uploads/claims.png
+      - title: Personal injury
+        colour: #4dacbe
+        image: /images/uploads/claims.png
+      - title: Sipps
+        colour: #23b574
+        image: /images/uploads/claims.png
+  - title: Deals
+    colour: #ffdbc5
+    image: /images/uploads/claims.png

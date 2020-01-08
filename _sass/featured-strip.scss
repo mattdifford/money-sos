@@ -1,7 +1,7 @@
 .featured-strip {
   position: relative;
   top: -88px;
-  background: $colour_primary;
+  background: #797979;
   overflow: hidden;
   @include in_size($xs) {
     top: 0;
@@ -10,7 +10,7 @@
     display: flex;
   }
   &__title {
-    background: $colour_secondary;
+    background: #A3A3A3;
     color: #fff;
     padding-right: 50px;
     position: relative;
@@ -21,7 +21,7 @@
       right: 100%;
       width: 500px;
       height: 100%;
-      background: $colour_secondary;
+      background: #A3A3A3;
     }
     &:after {
       content: "";

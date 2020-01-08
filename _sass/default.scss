@@ -29,14 +29,19 @@ fieldset {
 }
 .header {
   background: $colour_primary;
-  padding: 25px 50px;
+  padding: 18px 50px;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   z-index: 1;
+  box-shadow: 0 6px 6px 0px rgba(0, 0, 0, 0.16);
   @include in_size($xs) {
     padding: 25px 20px;
+  }
+  img {
+    max-width: 150px;
+    float: left;
   }
 }
 .down-icon {
