@@ -1,29 +1,58 @@
 ---
 layout: home
 title: Home
-description: Page Description
+reference: Home
+section: Home
+description: Meta description goes here
 permalink: /
-header_content: >- 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
-strip_1_content: >- 
-    ## Access your requirements easily 
+header_content: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+strip_1:
+  image: /images/upload/banner-flight-compensation-form.jpg
+  image_position: right
+  text: >-
+    ### About Money SOS
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 
-    
-    [Sign up](/)
-strip_2_content: >- 
-    ## Easily access your requirements
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    commodo consequat. Non pulvinar neque laoreet suspendisse interdum
+    consectetur libero id. 
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 
-    
-    [Sign up](/)
-strip_2_content: >- 
-    ## Easily access your requirements
+    [Sign up here](/)
+strip_2:
+  image: /images/upload/banner-flight-compensation-form.jpg
+  image_position: left
+  text: >-
+    ### Getting Started Now
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 
-    
-    [Sign up](/)
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    commodo consequat. Non pulvinar neque laoreet suspendisse interdum
+    consectetur libero id. 
+
+
+    [Sign up here](/)
+strip_3:
+  image: /images/upload/banner-flight-compensation-form.jpg
+  image_position: right
+  text: >-
+    ### Life SOS
+
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    commodo consequat. Non pulvinar neque laoreet suspendisse interdum
+    consectetur libero id. 
+
+
+    [Sign up here](/)
 ---
+
