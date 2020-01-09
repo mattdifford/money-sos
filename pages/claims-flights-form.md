@@ -2,6 +2,7 @@
 layout: form
 description: Page Description
 title: Flight compensation
+section: Flight compensation
 reference: Flight compensation form
 permalink: /claims/flight-compensation/form
 header_content: >- 

@@ -210,7 +210,7 @@ fieldset {
     display: inline-block;
     vertical-align: middle;
   }
-  .fab {
+  [class^="icon-"] {
     color: $colour_dark_grey;
     font-size: 26px;
     transition: all 0.2s ease-in-out 0s;
@@ -232,11 +232,9 @@ fieldset {
 
 .button {
   @include button();
-  &--alt {
-    @include button(true);
-  }
   &--grey {
     background: $colour_grey;
+    color: $colour_black;
     &:hover {
       background: $colour_primary;
     }

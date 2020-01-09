@@ -1,21 +1,24 @@
 <div class="select-strip" id="select_strip">
     <div class="container">
-        <h2 class="select-strip__title {{include.title | slugify: "latin"}}">{{-include.title-}}</h2>
-        {%- if include.title != 'Please select'-%}
-        <h4 class="select-strip__subtitle">Select what you require below</h4 class="select-strip__subtitle">
-        {%-endif-%}
-        <div class="select-strip__list">
-            {%- for object in include.objects -%}
-            <a class="select-strip__item block scrollwatch" href="{{-object.link-}}">
-                <div class="block__image-wrapper">
-                    {%-assign image_type = object.image | slice: -3, 3-%}
-                    {%-include picture.html type=image_type url=object.image alt=object.title  class="block__image"-%}
-                </div>
-                <h4 class="block__title">{{-object.title-}}</h4>
-            </a>
-            {%-endfor-%}
+        <h2 class="select-strip__title">Select a tool</h2>
+        <p class="select-strip__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+        {% if include.section %}
+        {% assign section = site.data.sections.items | where: "title", include.section %}
+        {% assign sections = section[0].sub_sections %}
+        {% else %}
+        {% assign sections = site.data.sections.items %}
+        {% endif %}
+        <div class="select-strip__list{% if sections.size > 4%} select-strip__list--long{%endif%}">
+            {% for i in sections %}
+            <div class="select-strip__item">
+                <a class="select-strip__item-inner" style="background-color: #{{i.colour}};" href="{{i.link}}"
+                    title="{{i.title}}">
+                    {%-assign image_type = i.image | slice: -3, 3-%}
+                    {% include picture.html url=i.image type=image_type alt=i.title%}
+                    <h3 class="select-strip__item-title">{{i.title}}</h3>
+                </a>
+            </div>
+            {% endfor %}
         </div>
-        <div class="select-strip__arrow"><a href="#why_use" title="View more" class="down-icon__wrapper"><span
-                    class="icon-chevron-down down-icon"></span></a></div>
     </div>
 </div>

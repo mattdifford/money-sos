@@ -4,11 +4,13 @@
 
 <body>
     {%- include header.html -%}
-    {%- include header_image.html content=page.header_content layout="default" roundels=page.header_icons -%}
+    
+    {% assign section_obj = site.data.sections.items | where: "title", include.section %}
+    {% assign section_obj = section_obj[0] %}
+    {%- include header_image.html content=page.header_content layout="section" section=section_obj-%}
     {%- include featured_strip.html -%}
-    {%- include select_strip.html title="Claims" objects=page.select_strip_objects-%}
+    {%- include select_strip.html section="Claims" -%}
     {%- include reviews.html category=page.title -%}
-    {%- include why-use.html full=false -%}
     {%- include footer.html -%}
     {%- include foot.html -%}
 </body>

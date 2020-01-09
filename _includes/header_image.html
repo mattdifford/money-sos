@@ -1,21 +1,22 @@
-<div class="header-image header-image--{{-include.layout-}}">
+<div class="header-image header-image--{{-include.layout-}}" {%if include.section%}
+    style="background-color:#{{include.section.colour}}" {%endif%}>
     <div class="header-image__containment">
         <div class="container">
             <div class="header-image__wrapper">
-                {%- if include.layout == "cta" -%} 
+                {%- if include.layout == "cta" -%}
                 <h1 class="header-image__title">{{-include.page-}}</h1>
-                <div class="header-image__panel">
-                    <div class="header-image__panel-left">
+                <div class="header-image__content">
+                    <div class="header-image__left">
                         {{-include.content | markdownify-}}
                     </div>
-                    <div class="header-image__panel-right">
-                        {%- capture image_src-%}/images/upload/banner-{{-include.page | slugify 'latin'-}}.jpg{%- endcapture-%}
-                        {%- include picture.html alt=include.page url=image_src type="jpg"-%}
-                        <a href="{{-include.url-}}/form" class="button">Checking tool</a>
+                    <div class="header-image__right">
+                        {%-assign image_type = include.section.header_image | slice: -3, 3-%}
+                        {%- include picture.html alt=include.section.title url=include.section.header_image type=image_type-%}
+                    </div>
+                    <div class="header-image__footer">
+                        <a href="{{-include.url-}}/form" class="button">Free to use checking tool</a>
                     </div>
                 </div>
-                <a href="#about_strip" title="Check out our online tools" class="down-icon__wrapper"><span
-                        class="icon-chevron-down down-icon"></span></a>
 
                 {%- elsif include.layout == 'form' -%}
                 {%- capture image_src-%}/images/upload/banner-{{-include.page | slugify 'latin'-}}.jpg{%- endcapture-%}
@@ -26,14 +27,28 @@
                 <div class="header-image__right">
                     {%-include form.html reference=include.page -%}
                 </div>
+                {%- elsif include.layout == 'section' -%}
+                <div class="header-image__left">
+                    {%-assign image_type = include.section.header_image | slice: -3, 3-%}
+                    {%include picture.html url=include.section.header_image alt=include.section.title type=image_type%}
+                </div>
+                <div class="header-image__right">
+                    <div class="header-image__content">
+                        {{-include.content | markdownify-}}
+                    </div>
+                </div>
                 {%-else -%}
                 <div class="header-image__left">
 
                 </div>
-                <div class="header-image__right"> 
+                <div class="header-image__right">
                     <div class="header-image__content">
                         {{-include.content | markdownify-}}
                     </div>
+                </div>
+                <div class="header-image__footer">
+                    <a href="#about_strip" title="Check out our online tools" class="down-icon__wrapper"><span
+                            class="icon-chevron-down down-icon"></span></a>
                 </div>
                 {%-endif-%}
             </div>

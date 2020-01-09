@@ -1,11 +1,22 @@
 .image-strip {
-  background-color: $colour_grey;
-  background-image: url("/images/strip-bg.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding: 100px 0 40px;
+  background-color: #fff;
+  padding: 150px 0 120px;
   position: relative;
   overflow: hidden;
+  &:nth-of-type(2n + 1) {
+    background-color: $colour_primary;
+    color: #fff;
+    h2,
+    h3 {
+      color: #fff;
+      &:after {
+        background: #fff;
+      }
+    }
+    a {
+      @include button_custom(#e4e4e4, $colour_grey);
+    }
+  }
   @include in_size($xs) {
     padding: 30px 0 25px;
   }
@@ -26,17 +37,31 @@
     @include in_size($sm) {
       padding: 0;
     }
-    h2 {
-      color: $colour_secondary;
+    h2,
+    h3 {
       font-size: 58px;
       margin-top: 0;
       line-height: 1.2;
+      text-transform: uppercase;
+      padding-bottom: 60px;
+      position: relative;
+      font-weight: 800;
+      &:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 5px;
+        background: $colour_black;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
       @include in_size($xs) {
         font-size: 42px;
       }
     }
     a {
-      @include button();
+      @include button_custom(#28344e, $colour_primary);
       margin-top: 25px;
     }
   }

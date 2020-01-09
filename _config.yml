@@ -34,9 +34,9 @@ sass:
   sass_dir: _sass
 
 # social links
-twitter_url: www.twitter.com 
-facebook_url: www.facebook.com
-instagram_url: www.instagram.com
+twitter_url: https://www.twitter.com 
+facebook_url: https://www.facebook.com
+instagram_url: https://www.instagram.com
 
 # Mastodon instances
 # mastodon:

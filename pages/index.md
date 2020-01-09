@@ -6,6 +6,10 @@ section: Home
 description: Meta description goes here
 permalink: /
 header_content: >-
+
+  # Money made simple.
+
+  
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
   nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -28,7 +32,7 @@ strip_2:
   image: /images/upload/banner-flight-compensation-form.jpg
   image_position: left
   text: >-
-    ### Getting Started Now
+    ### Get Started Now
 
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

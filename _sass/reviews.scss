@@ -1,16 +1,17 @@
 .reviews-strip {
   padding: 40px 0 80px;
-  background: $colour_secondary;
-  border-top: 34px solid $colour_tertiary;
   text-align: center;
   &__title {
-    color: #fff;
+    color: $colour_black;
     text-align: center;
-    font-size: 70px;
+    font-size: 58px;
     display: inline-block;
     margin: 0 0 25px;
+    font-weight: 800;
+    line-height: 1.2;
+    text-transform: uppercase;
     @include in_size($lg) {
-      width: 45%;
+      width: 50%;
     }
     @include in_size($xs) {
       font-size: 40px;
@@ -34,16 +35,15 @@
     transform: translateY(-50%);
     background: none;
     border: none;
-    color: $colour_secondary;
-    background: #fff;
+    color: #fff;
+    background: $colour_primary;
     padding: 7px;
     border-radius: 50%;
-    border: 6px solid $colour_tertiary;
     font-size: 25px;
     cursor: pointer;
     transition: all 0.2s ease-in-out 0s;
     &:hover {
-      background: $colour_tertiary;
+      background: $colour_dark_grey;
     }
     &:before {
       display: inline-block;
@@ -86,7 +86,7 @@
   &__content {
     flex: 1;
     padding-left: 50px;
-    color: #fff;
+    color: $colour_black;
     @include in_size($mobile) {
       flex: 1 1 100%;
       padding-left: 0;
@@ -96,7 +96,7 @@
     &-wrapper {
       width: 215px;
       height: 215px;
-      background: #fff;
+      background: $colour_grey;
       border-radius: 50%;
       display: inline-flex;
       align-items: center;

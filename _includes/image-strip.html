@@ -2,9 +2,11 @@
     <div class="container">
         <div class="image-strip__wrapper">
             <div class="image-strip__image">
+                {% if include.image %}
                 {%-capture image_url-%}/images/{{-include.image-}}{%-endcapture-%}
                 {%-assign image_type = include.image | slice: -3, 3-%}
                 {%-include picture.html url=image_url alt=site.name type=image_type-%}
+                {%endif%}
             </div>
             <div class="image-strip__content">
                 {{-include.text | markdownify-}}

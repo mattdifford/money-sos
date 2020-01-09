@@ -29,6 +29,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: "object"
         fields:
           - { label: "Image", name: "image", widget: "image", required: false}
+          
           - label: "Image position"
             name: "image_position"
             widget: "select"
@@ -157,6 +158,8 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Title, name: title, widget: string }
               - { label: Colour, name: colour, widget: string }
               - { label: Image, name: image, widget: image }
+              - { label: Header image, name: header_image, widget: image }
+              - { label: Link, name: link, widget: string }
               - label: Sub sections
                 name: sub_sections
                 widget: list
@@ -164,3 +167,5 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: Title, name: title, widget: string }
                   - { label: Colour, name: colour, widget: string }
                   - { label: Image, name: image, widget: image }
+                  - { label: Header image, name: header_image, widget: image }
+                  - { label: Link, name: link, widget: string }
