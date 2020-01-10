@@ -18,6 +18,23 @@
   &--inner {
   }
   &--cta {
+    .header-image {
+      &__title {
+        margin-top: 0;
+        margin-bottom: 70px;
+        font-size: 65px;
+      }
+      &__footer {
+        margin: 70px 0 0;
+      }
+      &__content {
+        h3 {
+          font-weight: 500;
+          margin-bottom: 10px;
+          font-size: 40px;
+        }
+      }
+    }
   }
   &--form {
     background: $colour_grey;
@@ -27,7 +44,8 @@
         position: relative;
         z-index: 2;
         h1 {
-          font-size: 60px;
+          font-size: 65px;
+          font-weight: 600;
           line-height: 1.2;
           &:after {
             content: "";
@@ -43,7 +61,7 @@
         }
       }
       &__right {
-        padding: 50px 0 50px 75px;
+        padding: 50px 0 50px 85px;
       }
     }
   }
@@ -65,7 +83,6 @@
     margin: 50px auto 25px;
     font-size: 58px;
     line-height: 1;
-    text-transform: uppercase;
     position: relative;
     padding-bottom: 50px;
     &:after {
@@ -107,8 +124,7 @@
       }
     }
     h3 {
-      text-transform: uppercase;
-      font-weight: 800;
+      font-weight: 600;
       font-size: 50px;
       margin: 0 0 30px;
     }
@@ -127,13 +143,12 @@
   &__content {
     h1 {
       color: #fff;
-      font-size: 55px;
+      font-size: 65px;
       position: relative;
       display: inline-block;
       padding-bottom: 60px;
       margin-top: 0;
-      text-transform: uppercase;
-      font-weight: 800;
+      font-weight: 600;
       &:after {
         content: "";
         display: block;
@@ -162,7 +177,7 @@
     justify-content: center;
     flex-direction: column;
     display: flex;
-    padding-right: 90px;
+    padding-right: 85px;
     flex: 1 1 50%;
   }
   &__right {

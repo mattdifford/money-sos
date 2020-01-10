@@ -1,4 +1,4 @@
-<div class="header-image header-image--{{-include.layout-}}" {%if include.section%}
+<div class="header-image header-image--{{-include.layout-}}" {%if include.section and include.layout != 'form'%}
     style="background-color:#{{include.section.colour}}" {%endif%}>
     <div class="header-image__containment">
         <div class="container">
@@ -19,13 +19,13 @@
                 </div>
 
                 {%- elsif include.layout == 'form' -%}
-                {%- capture image_src-%}/images/upload/banner-{{-include.page | slugify 'latin'-}}.jpg{%- endcapture-%}
-                <div class="header-image__bg" style="background-image: url('{{-image_src-}}')"></div>
+                <div class="header-image__bg" {%if include.section%}
+                style="background-color:#{{include.section.colour}}" {%endif%}></div>
                 <div class="header-image__left">
                     {{-include.content |markdownify-}}
                 </div>
                 <div class="header-image__right">
-                    {%-include form.html reference=include.page -%}
+                    {%-include form.html reference=include.section.title -%}
                 </div>
                 {%- elsif include.layout == 'section' -%}
                 <div class="header-image__left">

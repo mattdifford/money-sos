@@ -14,7 +14,7 @@
       }
     }
     a {
-      @include button_custom(#e4e4e4, $colour_grey);
+      @include button_custom(#e4e4e4, #fff);
     }
   }
   @include in_size($xs) {
@@ -42,10 +42,9 @@
       font-size: 58px;
       margin-top: 0;
       line-height: 1.2;
-      text-transform: uppercase;
       padding-bottom: 60px;
       position: relative;
-      font-weight: 800;
+      font-weight: 500;
       &:after {
         content: "";
         display: block;
@@ -61,7 +60,7 @@
       }
     }
     a {
-      @include button_custom(#28344e, $colour_primary);
+      @include button();
       margin-top: 25px;
     }
   }

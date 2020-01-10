@@ -6,7 +6,7 @@ section: ''
 description: Meta desc
 permalink: /tools
 header_content: >-
-  # Get Started Now
+  # Get started now
 
 
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -15,7 +15,7 @@ header_content: >-
 strip_1:
   image_position: left
   text: >-
-    ### About Money SOS
+    ### About moneySOS
 
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

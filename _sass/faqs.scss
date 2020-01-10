@@ -3,14 +3,13 @@
     padding: 30px 0;
   }
   &__title {
-    font-size: 58px;
-    line-height: 1.2;
-    text-transform: uppercase;
-    font-weight: 800;
+    font-size: 55px;
+    font-weight: 500;
     color: $colour_black;
     margin: 0 0 60px;
     position: relative;
     padding-bottom: 40px;
+    display: inline-block;
     &:after {
       content: "";
       display: block;
@@ -20,9 +19,6 @@
       position: absolute;
       bottom: 0;
       left: 0;
-    }
-    @include in_size($lg) {
-      max-width: 48%;
     }
     @include in_size($xs) {
       font-size: 40px;
@@ -49,12 +45,13 @@
       border-radius: 50%;
       width: 34px;
       height: 34px;
-      color: $colour_dark_grey;
+      color: $colour_black;
       display: inline-block;
       flex: 0 0 auto;
       text-align: center;
       line-height: 34px;
       margin-right: 30px;
+      font-weight: 800;
     }
     @include in_size($xs) {
       flex-wrap: wrap;
@@ -72,7 +69,7 @@
     background: $colour_grey;
     padding: 0 95px;
     font-weight: 400;
-    color: $colour_dark_grey;
+    color: $colour_black;
     @include in_size($xs) {
       padding: 0 15px;
     }

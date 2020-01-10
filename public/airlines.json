@@ -832,10 +832,6 @@
         "id": "PLM"
     },
     {
-        "name": "easyJet",
-        "id": "EJU"
-    },
-    {
         "name": "Ernest Airlines",
         "id": "ERN"
     },
@@ -1022,10 +1018,6 @@
     {
         "name": "Condor",
         "id": "CFG"
-    },
-    {
-        "name": "easyJet",
-        "id": "EZS"
     },
     {
         "name": "Eurowings",

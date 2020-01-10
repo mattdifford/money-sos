@@ -8,6 +8,9 @@
 {%-capture id-%}"#{{- include.slug -}}"{%-endcapture-%}
 <script>
     $.get({{data_name}}, function(data){
+        data = data.filter(function(value,index,self){
+            return self.indexOf(value) === index;
+        })
         $({{id}}).typeahead({ source:data });
     },'json');
 </script>

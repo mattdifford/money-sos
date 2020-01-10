@@ -1,7 +1,7 @@
 ---
 layout: form
 description: Page Description
-title: Flight compensation
+title: Request a callback for flight compensation
 section: Flight compensation
 reference: Flight compensation form
 permalink: /claims/flight-compensation/form

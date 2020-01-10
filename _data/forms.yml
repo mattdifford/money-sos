@@ -1,5 +1,5 @@
 items:
-  - category: Flight compensation form
+  - category: Flight compensation
     fields:
       - helptext: Make a selection below
         name: What happened to your flight?
@@ -68,9 +68,4 @@ items:
       compensation you deserve after your delay!
     submit_text: Find a claim
     title: Flight Compensation
-    data_capture_pre_text: >-
-      ### **Thank you.** All of your flight details have been documented
-
-
-      Now we need to know details of the passenger(s) it affected.
     data_capture_post_text: We will use our best endeavours to keep your information 100% safe & secure on this website. By submitting your details you are consenting to be contacted by Bott and Co Solicitors Limited via Telephone, Email and SMS. By completing this form you confirm your intention and authority to instruct Bott and Co Solicitors Limited to present a claim to the airline on behalf of the passengers listed above. You understand that we work on a no-win no-fee basis which means if we aren’t successful you won’t have to pay anything.

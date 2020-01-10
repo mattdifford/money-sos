@@ -109,11 +109,6 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Category, name: category, widget: string }
               - { label: Pre text, name: pre_text, widget: markdown }
               - {
-                  label: Personal details pre text,
-                  name: data_capture_pre_text,
-                  widget: markdown,
-                }
-              - {
                   label: Personal details post text,
                   name: data_capture_post_text,
                   widget: string,
@@ -169,3 +164,15 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: Image, name: image, widget: image }
                   - { label: Header image, name: header_image, widget: image }
                   - { label: Link, name: link, widget: string }
+      - label: "Buyers"
+        name: "buyers"
+        file: "_data/buyers.yml"
+        fields:
+          - label: "Buyers"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Image, name: image, widget: image }
+              - { label: Description, name: description, widget: markdown }
+              - { label: Section, name: section, widget: string }

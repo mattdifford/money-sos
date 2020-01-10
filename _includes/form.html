@@ -1,4 +1,4 @@
-{%- assign form_data = site.data.forms.items | where: "category", include.reference -%}
+{%- assign form_data = site.data.forms.items | where: "category", include.section -%}
 {%- if form_data -%}
 {%- assign form = form_data[0] -%}
 {{-form_data.pre_text-}}
@@ -56,11 +56,10 @@
     </div>
 </form>
 <div class="modal" id="modal">
-    <h2 class="modal__title">We are finding your claim</h2><img src="/images/spinner.png" class="modal__spinner">
+    <h2 class="modal__title">We are matching you with a partner</h2><img src="/images/spinner.png" class="modal__spinner">
 </div>
 <div class="modal-shroud"></div>
 <form class="form form--personal-info" style="display:none;">
-    {{-form.data_capture_pre_text | markdownify-}}
     <div class="form__field">{%- include field_string.html name="First name" slug="firstname" required=true placeholder="John" fieldset="first" -%}</div>
     <div class="form__field">{%- include field_string.html name="Surname" slug="surname" required=true placeholder="Smith" fieldset="first" -%}</div>
     <div class="form__field">{%- include field_string.html name="Telephone" slug="telephone" type="telephone" required=true placeholder="07000000000" fieldset="first" -%}</div>

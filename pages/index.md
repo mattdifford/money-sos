@@ -32,7 +32,7 @@ strip_2:
   image: /images/upload/banner-flight-compensation-form.jpg
   image_position: left
   text: >-
-    ### Get Started Now
+    ### Get started now
 
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -47,7 +47,7 @@ strip_3:
   image: /images/upload/banner-flight-compensation-form.jpg
   image_position: right
   text: >-
-    ### Life SOS
+    ### Join lifeSOS
 
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

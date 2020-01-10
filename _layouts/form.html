@@ -4,7 +4,20 @@
 
 <body>
     {%- include header.html -%}
-    {%- include header_image.html layout="form" content=page.header_content page=page.reference-%}
+    {% assign section_obj = site.data.sections.items | where: "title", page.section %}
+    {% if section_obj.size == 0 %}
+        {% for section in site.data.sections.items %}
+            {% for sub_section in section.sub_sections %}
+                {% if sub_section.title == page.section%}
+                    {%assign section_obj = sub_section%}
+                    {% break %}
+                {%endif%}
+            {% endfor %}
+        {% endfor %}
+    {% else %}
+        {% assign section_obj = section_obj[0] %}
+    {% endif %}
+    {%- include header_image.html layout="form" content=page.header_content page=page.reference section=section_obj-%}
     {%- include featured_strip.html -%}
     {%- include faqs.html title=page.title reference=page.reference -%}
     {%- include footer.html -%}
