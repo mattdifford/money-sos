@@ -45,9 +45,17 @@
                     setTimeout(function () {
                         $modal.removeClass('modal--active');
                         $("body").removeClass("modal-active");
+                        parent_form.hide();
+                        $('.buyer-panel').show();
                     }, 3000);
                 }
             });
+        });
+
+        $("#request_callback").on("click", function (e) {
+            e.preventDefault();
+            $('.buyer-panel').hide();
+            $('.form--personal-info').show();
         });
     });
 </script>

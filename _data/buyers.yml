@@ -1,1 +1,5 @@
 items:
+  - title: Some buyer
+    image: /images/upload/flight-comp-header.png
+    description: Lorem ipsum dolor sed amit
+    section: Flight compensation

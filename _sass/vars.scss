@@ -30,6 +30,7 @@ $font_primary: objektiv-mk2, sans-serif;
   border: none;
   font-family: $font_primary;
   font-weight: 600;
+  cursor: pointer;
   &:hover {
     background: $hover;
   }

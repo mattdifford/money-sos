@@ -410,3 +410,15 @@ body.modal-active {
     }
   }
 }
+
+.buyer-panel {
+  background: #fff;
+  padding: 50px;
+  box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.16);
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 35px;
+  color: $colour_dark_grey;
+  text-align: center;
+  justify-content: center;
+}
