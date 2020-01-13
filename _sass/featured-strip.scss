@@ -1,6 +1,6 @@
 .featured-strip {
   position: relative;
-  top: -88px;
+  margin-top: -88px;
   background: #797979;
   overflow: hidden;
   @include in_size($xs) {

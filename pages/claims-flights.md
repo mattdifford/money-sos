@@ -16,7 +16,7 @@ header_content: >-
     * Fusce scelerisque diam vel ligula.
     
 strip_1:
-  image: /images/upload/banner-flight-compensation-form.jpg
+  image: /images/upload/flight-comp-header.jpg
   image_position: left
   text: >-
     ### About Flight Compensation

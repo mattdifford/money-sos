@@ -70,6 +70,7 @@
     }
   }
   &__image {
+    text-align: center;
     @include in_size($xs) {
       display: none;
     }
@@ -80,16 +81,16 @@
         &__image {
           order: 2;
           flex: 0 1 50%;
+          padding-left: 40px;
         }
       }
     }
     &-left {
       .image-strip {
         &__image {
-          position: absolute;
-          left: 0;
-          top: 50px;
-          max-width: 40%;
+          order: 0;
+          flex: 0 1 50%;
+          padding-right: 40px;
         }
       }
     }

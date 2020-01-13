@@ -14,10 +14,10 @@ header_content: >-
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
   nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 strip_1:
-  image: /images/upload/banner-flight-compensation-form.jpg
+  image: /images/upload/flight-comp-header.jpg.jpg
   image_position: right
   text: >-
-    ### About Money SOS
+    ### About moneySOS
 
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -29,7 +29,7 @@ strip_1:
 
     [Sign up here](/)
 strip_2:
-  image: /images/upload/banner-flight-compensation-form.jpg
+  image: /images/upload/flight-comp-header.jpg.jpg
   image_position: left
   text: >-
     ### Get started now
@@ -44,7 +44,7 @@ strip_2:
 
     [Sign up here](/)
 strip_3:
-  image: /images/upload/banner-flight-compensation-form.jpg
+  image: /images/upload/flight-comp-header.jpg.jpg
   image_position: right
   text: >-
     ### Join lifeSOS
