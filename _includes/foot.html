@@ -83,3 +83,5 @@
     defer_select.parentNode.insertBefore(slick, defer);
 
 </script>
+{%- capture layout_css -%}/assets/css/{{include.layout}}.css{%-endcapture-%}
+<noscript><link rel="stylesheet" href="{{layout_css}}"></noscript>

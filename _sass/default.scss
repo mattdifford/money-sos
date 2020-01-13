@@ -157,6 +157,9 @@ fieldset {
       &--social {
         text-align: left;
       }
+      &--nav {
+        margin-bottom: 0;
+      }
     }
   }
   &__nav-link {
@@ -197,6 +200,7 @@ fieldset {
 
       @include in_size($xxs) {
         flex: 0 1 100%;
+        padding: 13px 0;
       }
       &:hover {
         color: $colour_primary;
@@ -209,6 +213,13 @@ fieldset {
   &__social {
     display: inline-block;
     vertical-align: middle;
+    @include in_size($xxs) {
+      width: 48px;
+      height: 48px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
   [class^="icon-"] {
     color: $colour_dark_grey;
@@ -226,6 +237,17 @@ fieldset {
       &:hover {
         background: $colour_primary;
       }
+      @include in_size($xxs) {
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        padding: 0;
+      }
+    }
+    @include in_size($xxs) {
+      font-size: 35px;
     }
   }
 }
