@@ -1,5 +1,4 @@
-<div class="header-image header-image--{{-include.layout-}}" {%if include.section and include.layout != 'form'%}
-    style="background-color:#{{include.section.colour}}" {%endif%}>
+<div class="header-image header-image--{{-include.layout-}}">
     <div class="header-image__containment">
         <div class="container">
             <div class="header-image__wrapper">
@@ -19,37 +18,29 @@
                 </div>
 
                 {%- elsif include.layout == 'form' -%}
-                <div class="header-image__bg" {%if include.section%}
-                style="background-color:#{{include.section.colour}}" {%endif%}></div>
+                <div class="header-image__bg"></div>
                 <div class="header-image__left">
                     {{-include.content |markdownify-}}
                 </div>
                 <div class="header-image__right">
                     {%-include form.html reference=include.section.title -%}
                 </div>
-                {%- elsif include.layout == 'section' -%}
-                <div class="header-image__left">
-                    {%-assign image_type = include.section.header_image | slice: -3, 3-%}
-                    {%include picture.html url=include.section.header_image alt=include.section.title type=image_type%}
-                </div>
-                <div class="header-image__right">
-                    <div class="header-image__content">
-                        {{-include.content | markdownify-}}
-                    </div>
-                </div>
                 {%-else -%}
                 <div class="header-image__left">
-
+                    {%if include.image%}
+                    {%-assign image_type = include.image | slice: -3, 3-%}
+                    {%include picture.html url=include.image alt=include.title type=image_type%}
+                    {%endif%}
                 </div>
                 <div class="header-image__right">
                     <div class="header-image__content">
                         {{-include.content | markdownify-}}
                     </div>
                 </div>
-                <div class="header-image__footer">
+                <!-- <div class="header-image__footer">
                     <a href="#about_strip" title="Check out our online tools" class="down-icon__wrapper"><span
                             class="icon-chevron-down down-icon"></span></a>
-                </div>
+                </div> -->
                 {%-endif-%}
             </div>
         </div>

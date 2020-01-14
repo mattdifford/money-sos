@@ -21,8 +21,15 @@
     {% assign fieldset_name = "first"%}
     <fieldset class="form__fieldset active" data-fieldset-name="first" data-index="{{-fieldset_count-}}">
         {%- elsif field.type == 'fieldset' -%}
-        {%- assign fieldset_count = fieldset_count | plus: 1-%}
-        <div class="form__proceed"><button type="button" class="form__proceed-button">Step {{fieldset_count}}</button>
+        <div class="form__buttons">
+            {% if fieldset_count > 1%}
+            <div class="form__back"><button type="button" class="form__back-button"><i
+                        class="icon-chevron-left"></i>Back</button></div>
+            {% endif %}
+            {%- assign fieldset_count = fieldset_count | plus: 1-%}
+            <div class="form__proceed"><button type="button" class="form__proceed-button">Step
+                    {{fieldset_count}}</button>
+            </div>
         </div>
     </fieldset>
     <fieldset class="form__fieldset" data-fieldset-name="{{-field.name-}}" data-index="{{-fieldset_count-}}">
@@ -45,7 +52,7 @@
     {%-endif -%}
     {%- endfor -%}
     <div class="form__fieldset-count">
-        {%- for i in (1..{{-fieldset_count-}}) -%}
+        {%- for i in (1..{{fieldset_count}}) -%}
         {%- if i == 1-%}
         <span class="active" data-index={{-i-}}>
             {%-else-%}
@@ -62,15 +69,21 @@
 <div class="modal-shroud"></div>
 
 {%- assign buyer_data = site.data.buyers.items | where: "section", include.section -%}
-{%assign buyer_data = buyer_data[0]%}
 <div class="buyer-panel" style="display:none;">
-    <h3 class="buyer-panel__main-title">We've matched you with a partner</h3>
+    {%assign count = buyer_data.size |plus:0%}
+    <h3 class="buyer-panel__main-title">We have successfully found you {{count | pluralize: 'partner', 'partners'}}!</h3>
     <div class="buyer-panel__inner">
-        <h4 class="buyer-panel__title">{{buyer_data.title}}</h4>
-        {%-assign image_type = buyer_data.image | slice: -3, 3-%}
-        {%-include picture.html type=image_type url=buyer_data.image  alt=buyer_data.title class="buyer-panel__image"-%}
-        {{-buyer_data.description | markdownify-}}
-        <button type="button" class="button" id="request_callback">Request a callback</button>
+        <div class="buyer-panel__wrapper">
+            {% for buyer in buyer_data %}
+            <h4 class="buyer-panel__title">{{buyer.title}}</h4>
+            {%-assign image_type = buyer.image | slice: -3, 3-%}
+            {%-include picture.html type=image_type url=buyer.image  alt=buyer.title class="buyer-panel__image"-%}
+            {{-buyer.description | markdownify-}}
+            <button type="button" class="button" id="request_callback" data-ajax-buyer="{{buyer.title}}">Request a
+                callback</button>
+            {% endfor %}
+
+        </div>
     </div>
 </div>
 <form class="form form--personal-info" style="display:none;">

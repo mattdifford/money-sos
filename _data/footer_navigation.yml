@@ -3,13 +3,13 @@ items:
     link: /about
     header: true
   - name: Our story
-    link: /about/story
+    link: /about/our-story
     header: false
   - name: Why choose QuoteSOS?
-    link: /about/why
+    link: /about/why-choose
     header: false
   - name: Our culture & ethos
-    link: /about/culture
+    link: /about/culture-ethos
     header: false
   - name: How we help
     link: /how-we-help

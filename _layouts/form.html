@@ -19,7 +19,7 @@
     {% endif %}
     {%- include header_image.html layout="form" content=page.header_content page=page.reference section=section_obj-%}
     {%- include featured_strip.html -%}
-    {%- include faqs.html title=page.title reference=page.reference -%}
+    {%- include faqs.html title=page.title reference=section_obj.title -%}
     {%- include footer.html -%}
     {%- include foot.html layout='form' -%}
 </body>

@@ -61,35 +61,9 @@ fieldset {
     color: $colour_action;
   }
 }
-.roundel {
-  width: 218px;
-  height: 218px;
-  border-radius: 50%;
-  border: 8px solid $colour_secondary;
-  background: $colour_tertiary;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  transform: translateY(10px);
-  transition: all 0.5s ease-in-out 0s;
-  opacity: 0;
-  img {
-    max-height: 100%;
-  }
-  &.scrolled {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  @include in_size($md-only) {
-    width: 150px;
-    height: 150px;
-    padding: 25px;
-  }
-}
 
 .footer {
-  background: $colour_grey;
-  border-top: 34px solid $colour_primary;
+  background: $colour_tertiary;
   padding: 65px 0 40px;
   &__bottom {
     border-top: 1px solid $colour_dark_grey;
@@ -103,6 +77,7 @@ fieldset {
     }
     p {
       margin: 0;
+      color: #fff;
     }
     .footer {
       &__col {
@@ -118,6 +93,7 @@ fieldset {
     &-text {
       font-size: 16px;
       font-weight: 300;
+      color: #fff;
       @include in_size($xs) {
         margin-top: 0;
       }
@@ -165,13 +141,13 @@ fieldset {
   &__nav-link {
     display: block;
     font-size: 16px;
-    color: $colour_black;
+    color: #fff;
     text-transform: capitalize;
     margin-bottom: 10px;
     transition: all 0.2s ease-in-out 0s;
     font-weight: 300;
     &:hover {
-      color: $colour_primary;
+      color: $colour_secondary;
     }
     &--header {
       font-size: 20px;
@@ -188,7 +164,7 @@ fieldset {
       margin-top: 0;
     }
     &-link {
-      color: $colour_black;
+      color: #fff;
       border-left: 1px solid $colour_dark_grey;
       padding: 0 15px;
       transition: all 0.2s ease-in-out 0s;
@@ -203,7 +179,7 @@ fieldset {
         padding: 13px 0;
       }
       &:hover {
-        color: $colour_primary;
+        color: $colour_secondary;
       }
       &:first-child {
         border-left: none;
@@ -222,20 +198,20 @@ fieldset {
     }
   }
   [class^="icon-"] {
-    color: $colour_dark_grey;
+    color: #fff;
     font-size: 26px;
     transition: all 0.2s ease-in-out 0s;
     &:hover {
-      color: $colour_primary;
+      color: $colour_secondary;
     }
     &.bg {
-      background: $colour_dark_grey;
+      background: #fff;
       border-radius: 50%;
       padding: 5px;
-      color: $colour_grey;
+      color: $colour_tertiary;
       font-size: 16px;
       &:hover {
-        background: $colour_primary;
+        background: $colour_secondary;
       }
       @include in_size($xxs) {
         font-size: 20px;

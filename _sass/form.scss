@@ -114,10 +114,34 @@
       }
     }
   }
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  &__back {
+    &-button {
+      font-size: 17px;
+      display: inline-flex;
+      align-items: baseline;
+      background: none;
+      border: none;
+      color: $colour_black;
+      font-family: $font_primary;
+      cursor: pointer;
+      font-weight: 500;
+      i {
+        font-size: 14px;
+        margin-right: 5px;
+      }
+    }
+  }
   &__proceed,
   &__submit {
     display: flex;
     justify-content: flex-end;
+    flex: 1 1 100%;
     button {
       background: $colour_action;
       border: none;
@@ -131,6 +155,9 @@
       &:hover {
         background: lighten($colour_action, 5%);
       }
+      @include in_size($xxs) {
+        padding: 10px 30px;
+      }
     }
   }
   &__post-text {
@@ -140,10 +167,25 @@
   }
   &--personal-info {
     padding: 50px 40px;
+    @include in_size($xs) {
+      padding: 20px;
+      .field {
+        &__label {
+          font-size: 18px;
+        }
+        &__input {
+          margin-top: 5px;
+        }
+      }
+    }
     .form {
       &__field {
         flex: 1 1 50%;
         padding: 0 10px;
+        @include in_size($xs) {
+          flex: 1 1 100%;
+          margin-bottom: 15px;
+        }
       }
       &__submit,
       &__post-text {
@@ -221,6 +263,16 @@
           }
         }
       }
+      @include in_size($xs) {
+        flex-wrap: wrap;
+        .field {
+          &__input,
+          &__lookup-button {
+            margin: 0;
+            flex: 1 1 100%;
+          }
+        }
+      }
     }
   }
   &__helptext {
@@ -242,6 +294,9 @@
     &-item {
       flex: 1 1 50%;
       padding: 10px;
+      @include in_size($xxs) {
+        flex: 1 1 100%;
+      }
     }
     &-label {
       background: darken($colour_grey, 5%);
@@ -350,6 +405,11 @@ body.modal-active {
   max-height: 85%;
   display: none;
   overflow-y: scroll;
+  @include in_size($mobile) {
+    padding: 20px;
+    max-width: 100%;
+    max-height: 100%;
+  }
   &__title {
     color: $colour_dark_grey;
     font-size: 49px;
@@ -421,4 +481,33 @@ body.modal-active {
   color: $colour_dark_grey;
   text-align: center;
   justify-content: center;
+  font-size: 16px;
+
+  &__main-title {
+    font-weight: 400;
+    font-size: 36px;
+    margin: 0 0 25px;
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0 0 15px;
+  }
+  li {
+    @include list_style;
+  }
+  .button {
+    font-size: 21px;
+  }
+  @include in_size($mobile) {
+    padding: 30px;
+    &__main-title {
+      font-size: 28px;
+      line-height: 1.2;
+    }
+    &__title {
+      font-size: 22px;
+      line-height: 1.2;
+    }
+  }
 }

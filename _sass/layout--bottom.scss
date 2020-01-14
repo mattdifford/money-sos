@@ -1,0 +1,17 @@
+body.layout--bottom {
+  .image-strip {
+    &:only-of-type {
+      background: #fff;
+      color: $colour_black;
+      h3 {
+        color: $colour_black;
+        &:after {
+          background: $colour_black;
+        }
+      }
+    }
+  }
+  .faqs-strip {
+    background: $colour_grey;
+  }
+}

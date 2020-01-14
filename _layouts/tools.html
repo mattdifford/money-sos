@@ -4,10 +4,13 @@
 
 <body>
     {%- include header.html -%}
-    {%- include header_image.html content=page.header_content layout="tools" -%}
+    {%- include header_image.html content=page.header_content layout="default" -%}
     {%- include featured_strip.html -%}
     {%- include select_strip.html -%}
-    {%- include image-strip.html image_position=page.strip_1.image_position image=page.strip_1.image text=page.strip_1.content -%}
+    <div class="image-strip-wrapper">
+        {%- include image-strip.html image_position=page.strip_1.image_position image=page.strip_1.image text=page.strip_1.text -%}
+    </div>
+    {%- include faqs.html title=page.title reference=page.reference  -%}
     {%- include footer.html -%}
     {%- include foot.html layout=page.layout -%}
 </body>

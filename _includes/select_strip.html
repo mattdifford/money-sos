@@ -1,9 +1,9 @@
-<div class="select-strip" id="select_strip">
+<div class="select-strip scrollwatch" id="select_strip">
     <div class="container">
         <h2 class="select-strip__title">Select a tool</h2>
         <p class="select-strip__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
         {% if include.section %}
-        {% assign section = site.data.sections.items | where: "title", include.section %}
+        {% assign section = site.data.sections.items | where: "title", include.section.title %}
         {% assign sections = section[0].sub_sections %}
         {% else %}
         {% assign sections = site.data.sections.items %}
@@ -11,7 +11,10 @@
         <div class="select-strip__list{% if sections.size > 4%} select-strip__list--long{%endif%}">
             {% for i in sections %}
             <div class="select-strip__item">
-                <a class="select-strip__item-inner" style="background-color: #{{i.colour}};" href="{{i.link}}"
+
+                {% capture brightness%}{{i.colour | color_brightness}}{%endcapture%}
+                {% assign brightness  = brightness | plus:0 %}
+                <a class="select-strip__item-inner{%if brightness == 0%} light{%endif%}" style="background-color: #{{i.colour}};" href="{{i.link}}"
                     title="{{i.title}}">
                     {%-assign image_type = i.image | slice: -3, 3-%}
                     {% include picture.html url=i.image type=image_type alt=i.title%}

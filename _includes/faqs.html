@@ -1,9 +1,7 @@
 {%- assign faqs = site.data.faqs.items | where: "category", include.reference -%}
-{%- if !faqs -%}
+{%- if faqs.size == 0 -%}
 {%- assign faqs = site.data.faqs.items | where: "category", include.title -%}
 {%- endif -%}
-
-
 {%- if faqs -%}
 <div class="faqs-strip">
     <div class="container">

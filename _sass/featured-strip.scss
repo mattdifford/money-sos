@@ -4,7 +4,7 @@
   background: #797979;
   overflow: hidden;
   @include in_size($xs) {
-    top: 0;
+    margin-top: 0;
   }
   &__wrapper {
     display: flex;

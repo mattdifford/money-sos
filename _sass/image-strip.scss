@@ -1,9 +1,13 @@
 .image-strip {
-  background-color: #fff;
+  background-color: $colour_grey;
   padding: 150px 0 120px;
   position: relative;
   overflow: hidden;
-  &:nth-of-type(2n + 1) {
+  &:first-of-type {
+    background-color: #fff;
+  }
+  &:nth-of-type(2n + 3),
+  &:only-of-type {
     background-color: $colour_primary;
     color: #fff;
     h2,
@@ -17,6 +21,7 @@
       @include button_custom(#e4e4e4, #fff);
     }
   }
+
   @include in_size($xs) {
     padding: 30px 0 25px;
   }
@@ -27,15 +32,16 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-  }
-  &__content {
-    flex: 0 1 50%;
-    padding: 50px 0;
     opacity: 0;
     transition: opacity 0.5s ease-in-out 0.2s;
     &.scrolled {
       opacity: 1;
     }
+  }
+  &__content {
+    flex: 0 1 50%;
+    padding: 50px 0;
+
     @include in_size($xs) {
       flex: 1 0 100%;
     }
@@ -81,7 +87,7 @@
         &__image {
           order: 2;
           flex: 0 1 50%;
-          padding-left: 40px;
+          padding-left: 90px;
         }
       }
     }
@@ -90,7 +96,7 @@
         &__image {
           order: 0;
           flex: 0 1 50%;
-          padding-right: 40px;
+          padding-right: 90px;
         }
       }
     }

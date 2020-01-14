@@ -1,0 +1,25 @@
+items:
+  - title: Money
+    colour: 00249D
+    image: /images/upload/money-white.png
+    link: https://www.moneysos.co.uk
+  - title: Health
+    colour: 59D4E8
+    image: /images/upload/health.png
+    link: https://www.moneysos.co.uk
+  - title: Claims
+    colour: fff
+    image: /images/spinner.png
+    link: https://www.moneysos.co.uk
+  - title: Home
+    colour: fff
+    image: /images/spinner.png
+    link: https://www.moneysos.co.uk
+  - title: Training
+    colour: fff
+    image: /images/spinner.png
+    link: https://www.moneysos.co.uk
+  - title: Life
+    colour: fff
+    image: /images/spinner.png
+    link: https://www.moneysos.co.uk
