@@ -1,7 +1,7 @@
 $colour_primary: #00249d;
 $colour_secondary: #6cb3e1;
-$colour_tertiary: #28344E;
-$colour_action: #00C994;
+$colour_tertiary: #28344e;
+$colour_action: #00c994;
 $colour_black: #302f2f;
 $colour_grey: #ededed;
 $colour_dark_grey: #5c5c5c;
@@ -18,8 +18,11 @@ $button-text: #fff;
 
 /*Header*/
 $header-bg: $colour_primary;
+$header-nav-text: #fff;
+$header-sub-nav-bg: $header-bg;
+$header-sub-nav-text: $header-nav-text;
 $header-image-bg: $colour_primary;
-$header-image-text: #FFF;
+$header-image-text: #fff;
 $header-image-text-accent: $header-image-text;
 $header-image-button-bg: $colour_action;
 $header-image-button-text: #fff;
@@ -30,7 +33,6 @@ $header-image-cta-bg: $colour_primary;
 $header-image-cta-text: #fff;
 $header-image-cta-tick-bg: $colour_action;
 $header-image-cta-tick: #fff;
-$header-nav-text: #fff;
 
 /*Down icon*/
 $down-icon-bg: #fff;
@@ -54,12 +56,12 @@ $strip-first-text: $text;
 $strip-first-text-accent: $strip-first-text;
 $strip-first-button-bg: $button-bg;
 $strip-first-button-text: $button-text;
-$strip-first-circle-bg: #FFF;
+$strip-first-circle-bg: #fff;
 
 $strip-alt-bg: $colour_primary;
 $strip-alt-border: $strip-alt-bg;
-$strip-alt-text: #FFF;
-$strip-alt-text-accent: #FFF;
+$strip-alt-text: #fff;
+$strip-alt-text-accent: #fff;
 $strip-alt-button-bg: $colour_grey;
 $strip-alt-button-text: $text;
 $strip-alt-circle-bg: $colour_primary;
@@ -83,13 +85,13 @@ $select-strip-title-text-accent: $select-strip-text;
 $brands-strip-title-text: $colour_black;
 
 /*Featured strip*/
-$featured-strip-title-bg: #A3A3A3;
+$featured-strip-title-bg: #a3a3a3;
 $featured-strip-title-text: #fff;
 $featured-strip-main-bg: #797979;
 
 /*FAQs*/
 $faqs-strip-bg: #fff;
-$faqs-strip-bottom-bg: #F7F7F7;
+$faqs-strip-bottom-bg: #f7f7f7;
 $faqs-title-text: $colour_black;
 $faqs-question-bg: $colour_action;
 $faqs-question-text: #fff;

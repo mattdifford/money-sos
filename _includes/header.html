@@ -1,3 +1,4 @@
+{% assign sections = site.data.sections.items %}
 <div class="header">
         <div class="container">
                 <div class="header__wrapper">
@@ -5,6 +6,16 @@
                                 {%- include picture.html url="/images/logo.png" alt=site.title type="png"-%}
                         </a>
                         <nav class="header__nav">
+                                {% if sections.size > 0 %}
+                                <span class="header__nav-link">Tools
+                                        <div class="header__sub-nav">
+                                        <a href="/tools" class="header__sub-nav-link">All tools</a>
+                                                {% for i in sections %}
+                                                <a href="{{i.link}}" class="header__sub-nav-link">{{i.title}}</a>
+                                                {% endfor %}
+                                        </div>
+                                </span>
+                                {% endif %}
                                 <a class="header__nav-link" href="/about">
                                         About
                                 </a>
