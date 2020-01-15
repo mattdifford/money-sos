@@ -63,7 +63,7 @@ webp:
   enabled: true
   
   # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
-  quality: 75
+  quality: 100
 
   # List of directories containing images to optimize, nested directories will only be checked if `nested` is true
   img_dir: ["/images", "/images/upload"]
