@@ -1,4 +1,5 @@
 @import "vars.scss";
+@import "mixins.scss";
 @import "fonts.scss";
 ul,
 ol,
@@ -17,6 +18,7 @@ html {
   font-family: $font_primary;
   font-weight: 500;
   font-size: 22px;
+  color: $text;
   @include in_size($xs) {
     font-size: 18px;
   }
@@ -28,7 +30,7 @@ fieldset {
   border: none;
 }
 .header {
-  background: $colour_primary;
+  background: $header-bg;
   padding: 18px 50px;
   position: absolute;
   left: 0;
@@ -41,12 +43,39 @@ fieldset {
   }
   img {
     max-width: 150px;
-    float: left;
+  }
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__nav {
+    &-link {
+      margin-left: 100px;
+      font-size: 19px;
+      color: $header-nav-text;
+      position: relative;
+      &:after {
+        content: "";
+        background: $header-nav-text;
+        height: 2px;
+        position: absolute;
+        bottom: -5px;
+        width: 0px;
+        left: 0;
+        transition: width 0.2s ease-in-out;
+      }
+      &:hover {
+        &:after {
+          width: 100%;
+        }
+      }
+    }
   }
 }
 .down-icon {
-  background: #fff;
-  color: $colour_primary;
+  background: $down-icon-bg;
+  color: $down-icon-text;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -58,15 +87,17 @@ fieldset {
     display: inline-block;
   }
   &:hover {
-    color: $colour_action;
+    color: $down-icon-hover-text;
+    background: $down-icon-hover-bg;
   }
 }
 
 .footer {
-  background: $colour_tertiary;
+  background: $footer-bg;
   padding: 65px 0 40px;
+  border-top: 30px solid $footer-border-top-bg;
   &__bottom {
-    border-top: 1px solid $colour_dark_grey;
+    border-top: 1px solid $footer-accent;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -77,7 +108,7 @@ fieldset {
     }
     p {
       margin: 0;
-      color: #fff;
+      color:$footer-link-text;
     }
     .footer {
       &__col {
@@ -93,7 +124,7 @@ fieldset {
     &-text {
       font-size: 16px;
       font-weight: 300;
-      color: #fff;
+      color: $footer-link-text;
       @include in_size($xs) {
         margin-top: 0;
       }
@@ -141,13 +172,13 @@ fieldset {
   &__nav-link {
     display: block;
     font-size: 16px;
-    color: #fff;
+    color: $footer-link-text;
     text-transform: capitalize;
     margin-bottom: 10px;
     transition: all 0.2s ease-in-out 0s;
     font-weight: 300;
     &:hover {
-      color: $colour_secondary;
+      color: $footer-link-text-hover;
     }
     &--header {
       font-size: 20px;
@@ -164,8 +195,8 @@ fieldset {
       margin-top: 0;
     }
     &-link {
-      color: #fff;
-      border-left: 1px solid $colour_dark_grey;
+      color: $footer-link-text;
+      border-left: 1px solid $footer-accent;
       padding: 0 15px;
       transition: all 0.2s ease-in-out 0s;
       @include in_size($xs) {
@@ -179,7 +210,7 @@ fieldset {
         padding: 13px 0;
       }
       &:hover {
-        color: $colour_secondary;
+        color: $footer-link-text-hover;
       }
       &:first-child {
         border-left: none;
@@ -198,20 +229,20 @@ fieldset {
     }
   }
   [class^="icon-"] {
-    color: #fff;
+    color: $footer-link-text;
     font-size: 26px;
     transition: all 0.2s ease-in-out 0s;
     &:hover {
-      color: $colour_secondary;
+      color: $footer-link-text-hover;
     }
     &.bg {
-      background: #fff;
+      background: $footer-link-text;
       border-radius: 50%;
       padding: 5px;
-      color: $colour_tertiary;
+      color: $footer-bg;
       font-size: 16px;
       &:hover {
-        background: $colour_secondary;
+        background: $footer-link-text-hover;
       }
       @include in_size($xxs) {
         font-size: 20px;
@@ -230,18 +261,4 @@ fieldset {
 
 .button {
   @include button();
-  &--grey {
-    background: $colour_grey;
-    color: $colour_black;
-    &:hover {
-      background: darken($colour_grey, 5%);
-    }
-  }
-  &--blue {
-    background: $colour_secondary;
-    color: #fff;
-    &:hover {
-      background: $colour_primary;
-    }
-  }
 }

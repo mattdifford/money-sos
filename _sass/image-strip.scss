@@ -1,24 +1,82 @@
 .image-strip {
-  background-color: $colour_grey;
-  padding: 150px 0 120px;
+  background-color: $strip-bg;
+  border-bottom: 30px solid $strip-border;
+  padding: 200px 0 160px;
   position: relative;
   overflow: hidden;
-  &:first-of-type {
-    background-color: #fff;
+  &:before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 20px solid $strip-circle-bg;
+    width: 575px;
+    height: 575px;
+    z-index: 1;
+    @include in_size($mobile) {
+      display: none;
+    }
   }
-  &:nth-of-type(2n + 3),
-  &:only-of-type {
-    background-color: $colour_primary;
-    color: #fff;
+  &:nth-child(4n + 1) {
+    &:before {
+      top: -300px;
+      left: -100px;
+    }
+  }
+  &:nth-of-type(4n + 2) {
+    &:before {
+      bottom: -300px;
+      left: -100px;
+    }
+  }
+  &:nth-of-type(4n + 3) {
+    &:before {
+      top: -300px;
+      right: -100px;
+    }
+  }
+  &:nth-of-type(4n + 4) {
+    &:before {
+      display: none;
+    }
+  }
+  &:first-of-type {
+    background-color: $strip-first-bg;
+    color: $strip-first-text;
+    border-bottom-color: $strip-first-border;
+    &:before {
+      border-color: $strip-first-circle-bg;
+    }
     h2,
     h3 {
-      color: #fff;
+      color: $strip-first-text;
       &:after {
-        background: #fff;
+        background: $strip-first-text-accent;
       }
     }
     a {
-      @include button_custom(#e4e4e4, #fff);
+      @include button_custom($strip-first-button-bg);
+    }
+  }
+  &:last-child {
+    border: none;
+  }
+  &:nth-of-type(2n + 3),
+  &:only-of-type {
+    background-color: $strip-alt-bg;
+    color: $strip-alt-text;
+    border-bottom-color: $strip-alt-border;
+    &:before {
+      border-color: $strip-alt-circle-bg;
+    }
+    h2,
+    h3 {
+      color: $strip-alt-text;
+      &:after {
+        background: $strip-alt-text-accent;
+      }
+    }
+    a {
+      @include button_custom($strip-alt-button-bg);
     }
   }
 
@@ -34,6 +92,8 @@
     justify-content: flex-end;
     opacity: 0;
     transition: opacity 0.5s ease-in-out 0.2s;
+    position: relative;
+    z-index: 2;
     &.scrolled {
       opacity: 1;
     }
@@ -45,7 +105,7 @@
     @include in_size($xs) {
       flex: 1 0 100%;
     }
-    @include in_size($sm) {
+    @include in_size($sm-only) {
       padding: 0;
     }
     h2,
@@ -56,12 +116,13 @@
       padding-bottom: 60px;
       position: relative;
       font-weight: 500;
+      color: $strip-text;
       &:after {
         content: "";
         display: block;
         width: 100%;
         height: 5px;
-        background: $colour_black;
+        background: $strip-text-accent;
         position: absolute;
         left: 0;
         bottom: 0;

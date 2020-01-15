@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: moneySOS
-email: matt@difford.pw
+email: matt@mrsavvy.co.uk
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -38,12 +38,6 @@ twitter_url: https://www.twitter.com
 facebook_url: https://www.facebook.com
 instagram_url: https://www.instagram.com
 
-# Mastodon instances
-# mastodon:
-# - username: jekyll
-#   instance: example.com
-# - username: jekyll2
-#   instance: example.com
 
 
 # Exclude from processing.
@@ -59,6 +53,7 @@ instagram_url: https://www.instagram.com
 #   - vendor/ruby/
 
 plugins:
+  - jekyll-include-cache
   - jekyll-webp
 
 
@@ -71,7 +66,6 @@ webp:
   quality: 75
 
   # List of directories containing images to optimize, nested directories will only be checked if `nested` is true
-  # By default the generator will search for a folder called `/img` under the site root and process all jpg, png and tiff image files found there.
   img_dir: ["/images", "/images/upload"]
 
   # Whether to search in nested directories or not

@@ -1,8 +1,9 @@
 .reviews-strip {
   padding: 40px 0 80px;
   text-align: center;
+  background: $reviews-strip-bg;
   &__title {
-    color: $colour_black;
+    color: $reviews-strip-title-text;
     text-align: center;
     font-size: 58px;
     display: inline-block;
@@ -20,7 +21,7 @@
   &__list {
     padding: 0 200px;
     margin-bottom: 50px;
-    @include in_size($sm) {
+    @include in_size($sm-only) {
       padding: 0 130px;
     }
     @include in_size($xs) {
@@ -34,15 +35,16 @@
     transform: translateY(-50%);
     background: none;
     border: none;
-    color: #fff;
-    background: $colour_primary;
+    color: $reviews-strip-nav-text;
+    background: $reviews-strip-nav-bg;
     padding: 7px;
     border-radius: 50%;
     font-size: 25px;
     cursor: pointer;
     transition: all 0.2s ease-in-out 0s;
     &:hover {
-      background: $colour_dark_grey;
+      background: $reviews-strip-nav-bg-hover;
+      color: $reviews-strip-nav-text-hover;
     }
     &:before {
       display: inline-block;
@@ -85,7 +87,7 @@
   &__content {
     flex: 1;
     padding-left: 50px;
-    color: $colour_black;
+    color: $reviews-strip-text;
     @include in_size($mobile) {
       flex: 1 1 100%;
       padding-left: 0;
@@ -95,7 +97,7 @@
     &-wrapper {
       width: 215px;
       height: 215px;
-      background: $colour_grey;
+      background: $reviews-strip-image-bg;
       border-radius: 50%;
       display: inline-flex;
       align-items: center;

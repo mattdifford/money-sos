@@ -2,11 +2,14 @@
 {%- if faqs.size == 0 -%}
 {%- assign faqs = site.data.faqs.items | where: "category", include.title -%}
 {%- endif -%}
-{%- if faqs -%}
+{%- if faqs.size > 0 -%}
 <div class="faqs-strip">
     <div class="container">
         <div class="faqs-strip__wrapper">
-            <h3 class="faqs-strip__title">Frequently asked questions</h3>
+            <div class="faqs-strip__title-wrapper">
+                <h3 class="faqs-strip__title">Frequently asked questions</h3>
+                {% include_cached picture.html url="/images/questions.png" alt="Frequently asked questions" class="faqs-strip__image" %}
+            </div>
             <div class="faqs-strip__list">
                 {%- for faq in faqs -%}
                 <div class="faqs-strip__item">

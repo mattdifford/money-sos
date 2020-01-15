@@ -3,7 +3,7 @@
 {%- include head.html layout=page.layout -%}
 
 <body>
-    {%- include header.html -%}
+    {%- include_cached header.html -%}
     {% assign section_obj = site.data.sections.items | where: "title", page.section %}
     {% if section_obj.size == 0 %}
         {% for section in site.data.sections.items %}
@@ -18,9 +18,9 @@
         {% assign section_obj = section_obj[0] %}
     {% endif %}
     {%- include header_image.html layout="form" content=page.header_content page=page.reference section=section_obj-%}
-    {%- include featured_strip.html -%}
+    {%- include_cached featured_strip.html -%}
     {%- include faqs.html title=page.title reference=section_obj.title -%}
-    {%- include footer.html -%}
+    {%- include_cached footer.html -%}
     {%- include foot.html layout='form' -%}
 </body>
 

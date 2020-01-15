@@ -27,15 +27,16 @@
                 </div>
                 {%-else -%}
                 <div class="header-image__left">
+                    <div class="header-image__content">
+                        {{-include.content | markdownify-}}
+                    </div>
+                </div>
+                <div class="header-image__right">
                     {%if include.image%}
                     {%-assign image_type = include.image | slice: -3, 3-%}
                     {%include picture.html url=include.image alt=include.title type=image_type%}
                     {%endif%}
-                </div>
-                <div class="header-image__right">
-                    <div class="header-image__content">
-                        {{-include.content | markdownify-}}
-                    </div>
+
                 </div>
                 <!-- <div class="header-image__footer">
                     <a href="#about_strip" title="Check out our online tools" class="down-icon__wrapper"><span

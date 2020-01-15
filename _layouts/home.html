@@ -3,17 +3,17 @@
 {%- include head.html layout=page.layout -%}
 
 <body>
-    {%- include header.html -%}
+    {%- include_cached header.html -%}
     {%- include header_image.html content=page.header_content layout="home" image=page.header_image title=page.title-%}
-    {%- include featured_strip.html -%}
+    {%- include_cached featured_strip.html -%}
     <div class="image-strip-wrapper">
         {%- include image-strip.html image_position=page.strip_1.image_position image=page.strip_1.image text=page.strip_1.text -%}
         {%- include image-strip.html image_position=page.strip_2.image_position image=page.strip_2.image text=page.strip_2.text -%}
         {%- include image-strip.html image_position=page.strip_3.image_position image=page.strip_3.image text=page.strip_3.text -%}
         {%- include image-strip.html image_position=page.strip_4.image_position image=page.strip_4.image text=page.strip_4.text -%}
     </div>
-    {%- include brands.html -%}
-    {%- include footer.html -%}
+    {%- include_cached brands.html -%}
+    {%- include_cached footer.html -%}
     {%- include foot.html layout=page.layout -%}
 </body>
 

@@ -1,11 +1,11 @@
 .form {
-  background: #fff;
+  background: $form-bg;
   padding: 50px;
   box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.16);
   display: flex;
   flex-wrap: wrap;
   border-radius: 35px;
-  color: $colour_dark_grey;
+  color: $form-text;
   @include in_size($xs) {
     padding: 20px;
   }
@@ -79,7 +79,8 @@
     width: 100%;
     margin-bottom: 20px;
     span {
-      background: $colour_grey;
+      background: $form-fieldset-count-bg;
+      color: $form-fieldset-count-text;
       height: 35px;
       width: 35px;
       border-radius: 50%;
@@ -98,7 +99,7 @@
         right: 100%;
         top: 50%;
         margin-top: -2.5px;
-        background: $colour_grey;
+        background: $form-fieldset-count-bg;
       }
       &:first-child {
         &:before {
@@ -106,10 +107,10 @@
         }
       }
       &.active {
-        background: $colour_action;
-        color: #fff;
+        background: $form-fieldset-count-bg-active;
+        color: $form-fieldset-count-text-active;
         &:before {
-          background: $colour_action;
+          background: $form-fieldset-count-bg-active;
         }
       }
     }
@@ -127,7 +128,7 @@
       align-items: baseline;
       background: none;
       border: none;
-      color: $colour_black;
+      color: $form-text;
       font-family: $font_primary;
       cursor: pointer;
       font-weight: 500;
@@ -143,9 +144,9 @@
     justify-content: flex-end;
     flex: 1 1 100%;
     button {
-      background: $colour_action;
+      background: $form-button-bg;
       border: none;
-      color: #fff;
+      color: $form-button-text;
       font-weight: 600;
       font-size: 21px;
       padding: 10px 50px;
@@ -153,7 +154,7 @@
       transition: all 0.2s ease-in-out 0s;
       font-family: $font_primary;
       &:hover {
-        background: lighten($colour_action, 5%);
+        background: $form-button-bg-hover;
       }
       @include in_size($xxs) {
         padding: 10px 30px;
@@ -230,7 +231,7 @@
   }
   &__input {
     width: 100%;
-    border: 1px solid $colour_border_grey;
+    border: 1px solid $form-input-border;
     padding: 10px;
     font-family: $font_primary;
     font-size: 16px;
@@ -260,6 +261,8 @@
             box-shadow: none;
             cursor: pointer;
             font-size: 18px;
+            background: $form-postcode-lookup-button-bg;
+            color: $form-postcode-lookup-button-text;
           }
         }
       }
@@ -299,7 +302,8 @@
       }
     }
     &-label {
-      background: darken($colour_grey, 5%);
+      background: $form-radio-label-bg;
+      color: $form-radio-label-text;
       padding: 10px 15px;
       font-size: 16px;
       font-weight: 400;
@@ -313,9 +317,9 @@
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background: #fff;
+        background: $form-radio-tick-bg;
         margin-right: 10px;
-        color: #fff;
+        color: $form-radio-tick-bg;
         @include check-icon();
         flex: 0 0 30px;
         display: inline-flex;
@@ -328,10 +332,10 @@
       visibility: hidden;
       &:checked {
         + .field__radio-label {
-          background: $colour_action;
-          color: #fff;
+          background: $form-radio-label-bg-active;
+          color: $form-radio-label-text-active;
           &:before {
-            color: $colour_action;
+            color: $form-radio-label-bg-active;
           }
         }
       }
@@ -362,7 +366,7 @@
 .typeahead.dropdown-menu {
   list-style: none;
   padding: 0 10px;
-  border: 1px solid $colour_border_grey;
+  border: 1px solid $form-element-border;
   border-top: none;
   background: #fff;
   position: absolute;
@@ -371,10 +375,10 @@
   margin-top: 15px;
   li {
     padding: 10px 0;
-    border-top: 1px solid $colour_border_grey;
+    border-top: 1px solid $form-element-border;
     font-size: 16px;
     a {
-      color: $colour_dark_grey;
+      color: $form-text;
       font-weight: 300;
     }
     &:first-child {
@@ -399,21 +403,24 @@ body.modal-active {
   transform: translate(-50%, -50%);
   z-index: 4;
   padding: 100px;
-  background: #fff;
+  background: $modal-bg;
   text-align: center;
   max-width: 85%;
   max-height: 85%;
   display: none;
   overflow-y: scroll;
+  img {
+    float: none;
+  }
   @include in_size($mobile) {
     padding: 20px;
     max-width: 100%;
     max-height: 100%;
   }
   &__title {
-    color: $colour_dark_grey;
+    color: $modal-title-text;
     font-size: 49px;
-    font-weight: 600;
+    font-weight: 400;
   }
   &__spinner {
     animation: spin 2s linear infinite;
@@ -430,7 +437,7 @@ body.modal-active {
   }
   h3,
   h4 {
-    color: $colour_secondary;
+    color: $modal-inner-title-text;
     font-weight: 600;
   }
   h3 {
@@ -441,7 +448,7 @@ body.modal-active {
     font-size: 30px;
   }
   p {
-    color: $colour_black;
+    color: $modal-text;
   }
   .button {
     margin: 0 15px;
@@ -456,14 +463,14 @@ body.modal-active {
 
 .postcode-lookup-list {
   margin: 10px 0;
-  border: 1px solid $colour_border_grey;
+  border: 1px solid $form-element-border;
   max-height: 239px;
   overflow-y: scroll;
   &__item {
     display: block;
     width: 100%;
     padding: 5px 10px;
-    border-top: 1px solid $colour_border_grey;
+    border-top: 1px solid $form-element-border;
     font-size: 16px;
     &:first-child {
       border-top: none;
@@ -478,11 +485,13 @@ body.modal-active {
   display: flex;
   flex-wrap: wrap;
   border-radius: 35px;
-  color: $colour_dark_grey;
+  color: $buyer-panel-text;
   text-align: center;
   justify-content: center;
   font-size: 16px;
-
+  img {
+    float: none;
+  }
   &__main-title {
     font-weight: 400;
     font-size: 36px;

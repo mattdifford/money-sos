@@ -3,9 +3,9 @@
 {%- include head.html layout=page.layout -%}
 
 <body>
-    {%- include header.html -%}
+    {%- include_cached header.html -%}
     {{-content-}}
-    {%- include footer.html -%}
+    {%- include_cached footer.html -%}
     {%- include foot.html layout=page.layout -%}
 </body>
 

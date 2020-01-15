@@ -1,17 +1,25 @@
 body.layout--bottom {
   .image-strip {
     &:only-of-type {
-      background: #fff;
-      color: $colour_black;
+      background-color: $strip-bottom-bg;
+      color: $strip-bottom-text;
+      border-bottom-color: $strip-bottom-border;
+      &:before {
+        border-color: $strip-bottom-circle-bg;
+      }
+      h2,
       h3 {
-        color: $colour_black;
+        color: $strip-bottom-text;
         &:after {
-          background: $colour_black;
+          background: $strip-bottom-text-accent;
         }
+      }
+      a {
+        @include button_custom($strip-bottom-button-bg);
       }
     }
   }
   .faqs-strip {
-    background: $colour_grey;
+    background: $faqs-strip-bottom-bg;
   }
 }

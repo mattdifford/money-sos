@@ -1,5 +1,20 @@
 <div class="header">
-        <a href="/">
-                {%- include picture.html url="/images/logo.png" alt=site.title type="png"-%}
-        </a>
+        <div class="container">
+                <div class="header__wrapper">
+                        <a href="/">
+                                {%- include picture.html url="/images/logo.png" alt=site.title type="png"-%}
+                        </a>
+                        <nav class="header__nav">
+                                <a class="header__nav-link" href="/about">
+                                        About
+                                </a>
+                                <a class="header__nav-link" href="/what-we-do">
+                                        What we do
+                                </a>
+                                <a class="header__nav-link" href="/contact">
+                                        Contact us
+                                </a>
+                        </nav>
+                </div>
+        </div>
 </div>

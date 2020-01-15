@@ -3,22 +3,22 @@
   display: flex;
   align-items: center;
   position: relative;
-  color: #fff;
-  background: $colour_primary;
+  color: $header-image-text;
+  background: $header-image-bg;
   &__containment {
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 100px 0 88px;
-  }
-  &--default {
-    background: $colour_primary;
-  }
-  &--inner {
+    padding: 120px 0 88px;
   }
   &--cta {
+    background: $header-image-cta-bg;
+    color: $header-image-cta-text;
     .header-image {
+      &__wrapper {
+        flex-wrap: wrap;
+      }
       &__title {
         margin-top: 0;
         margin-bottom: 70px;
@@ -63,13 +63,13 @@
     }
   }
   &--form {
-    background: $colour_grey;
+    background: $header-image-form-bg-alt;
     @include in_size($mobile) {
-      background: $colour_primary;
+      background: $header-image-form-bg;
     }
     .header-image {
       &__left {
-        color: #fff;
+        color: $header-image-form-text;
         position: relative;
         z-index: 2;
         h1 {
@@ -96,6 +96,11 @@
   }
   &--home,
   &--default {
+    a {
+      @include button_custom($header-image-button-bg);
+      color: $header-image-button-text;
+      margin-top: 25px;
+    }
     @include in_size($mobile) {
       .header-image {
         &__left {
@@ -142,7 +147,7 @@
     top: 0;
     height: 100%;
     width: 50%;
-    background: $colour_primary;
+    background: $header-image-form-bg;
     @include in_size($mobile) {
       width: 100%;
     }
@@ -168,7 +173,7 @@
       margin: 0 0 30px;
     }
     li {
-      @include list_style;
+      @include list_style($header-image-cta-tick-bg, $header-image-cta-tick);
     }
 
     @include in_size($xs) {
@@ -181,7 +186,7 @@
   }
   &__content {
     h1 {
-      color: #fff;
+      color: $header-image-text;
       font-size: 65px;
       position: relative;
       display: inline-block;
@@ -194,7 +199,7 @@
         display: block;
         width: 100%;
         height: 5px;
-        background: #fff;
+        background: $header-image-text-accent;
         position: absolute;
         left: 0;
         bottom: 0;
@@ -222,9 +227,8 @@
     flex-direction: column;
     display: flex;
     padding-right: 85px;
-    flex: 1 1 50%;
-    justify-content: center;
-    text-align: center;
+    flex: 1 0 50%;
+    text-align: left;
     @include in_size($mobile) {
       padding: 0;
       flex: 1 1 100%;
@@ -232,7 +236,10 @@
   }
   &__right {
     position: relative;
-    flex: 1 1 50%;
+    flex: 1 1 auto;
+    img {
+      float: right;
+    }
   }
   &__image-wrapper {
     margin-bottom: 50px;
@@ -254,27 +261,9 @@
       margin-top: 20px;
     }
   }
-  .roundel {
-    position: absolute;
-    &--1 {
-      top: 10%;
-      left: 0;
-    }
-    &--2 {
-      top: 24%;
-      right: 0;
-      transition-delay: 0.25s;
-    }
-    &--3 {
-      top: 62%;
-      left: 100px;
-      transition-delay: 0.4s;
-    }
-  }
-  @include in_size($sm) {
+  @include in_size($sm-only) {
     &--default,
     &--home {
-      background-position: right bottom;
       .header-image {
         &__left {
           img {
@@ -311,7 +300,6 @@
       }
     }
     &--form {
-      
       .header-image {
         &__left,
         &__right {

@@ -1,7 +1,7 @@
 .featured-strip {
   position: relative;
   margin-top: -88px;
-  background: #797979;
+  background: $featured-strip-main-bg;
   overflow: hidden;
   @include in_size($xs) {
     margin-top: 0;
@@ -10,8 +10,8 @@
     display: flex;
   }
   &__title {
-    background: #A3A3A3;
-    color: #fff;
+    background: $featured-strip-title-bg;
+    color: $featured-strip-title-text;
     padding-right: 50px;
     position: relative;
     flex: 1 0 auto;
@@ -21,17 +21,7 @@
       right: 100%;
       width: 500px;
       height: 100%;
-      background: #A3A3A3;
-    }
-    &:after {
-      content: "";
-      display: block;
-      height: 75%;
-      background: #fff;
-      width: 1px;
-      position: absolute;
-      top: 12.5%;
-      right: 25px;
+      background: $featured-strip-title-bg;
     }
   }
   &__list {
