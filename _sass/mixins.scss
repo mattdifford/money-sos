@@ -1,119 +1,119 @@
 @mixin button() {
-    @include button_custom($button-bg, lighten($button-bg, 5%));
+  @include button_custom($button-bg, lighten($button-bg, 5%));
+}
+
+@mixin button_custom($colour, $hover: lighten($colour, 5%)) {
+  background: $colour;
+  padding: 10px 40px;
+  @if (lightness($colour) > 50) {
+    color: $colour_black;
+  } @else {
+    color: $button-text;
   }
-  
-  @mixin button_custom($colour, $hover: lighten($colour, 5%)) {
-    background: $colour;
-    padding: 10px 40px;
-    @if (lightness($colour) > 50) {
-      color: $colour_black;
-    } @else {
-      color: $button-text;
-    }
-    display: inline-block;
-    transition: all 0.2s ease-in-out 0s;
-    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
-    max-width: 295px;
-    text-align: center;
-    line-height: 1.3;
-    border: none;
-    font-family: $font_primary;
-    font-weight: 600;
-    cursor: pointer;
-    &:hover {
-      background: $hover;
-    }
+  display: inline-block;
+  transition: all 0.2s ease-in-out 0s;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  max-width: 295px;
+  text-align: center;
+  line-height: 1.3;
+  border: none;
+  font-family: $font_primary;
+  font-weight: 600;
+  font-size: 23px;
+  cursor: pointer;
+  &:hover {
+    background: $hover;
   }
-  
-  @mixin list_style($background:#FFF, $color: $colour_action) {
-    list-style: none;
-    display: flex;
+}
+
+@mixin list_style($background: #fff, $color: $colour_action) {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  font-weight: 500;
+  font-size: 22px;
+  @include in_size($xs) {
+    margin: 10px 0;
+  }
+  &:before {
+    @include check-icon();
+    display: inline-flex;
     align-items: center;
-    margin: 10px;
-    font-weight: 500;
-    font-size: 22px;
-    @include in_size($xs) {
-      margin: 10px 0;
-    }
-    &:before {
-      @include check-icon();
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 30px;
-      height: 30px;
-      flex: 0 0 30px;
-      background: $background;
-      border-radius: 50%;
-      margin-right: 10px;
-      color: $color;
-    }
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    flex: 0 0 30px;
+    background: $background;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: $color;
   }
-  
-  @mixin check-icon() {
-    content: "\f00c";
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: "icomoon" !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin check-icon() {
+  content: "\f00c";
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+$xxs: (
+  max: 450px
+);
+$xs: (
+  max: 767px
+);
+$sm: (
+  min: 768px
+);
+$md: (
+  min: 1260px
+);
+$lg: (
+  min: 1400px
+);
+$sm-only: (
+  min: map-get($sm, min),
+  max: map-get($md, min) - 1
+);
+$md-only: (
+  min: map-get($md, min),
+  max: map-get($lg, min) - 1
+);
+$mobile: (
+  max: map-get($md, min) - 1
+);
+
+@mixin in_size($map) {
+  $query: "";
+
+  @if map-has-key($map, min) {
+    $query: append($query, "(min-width: #{map-get($map, min)})");
   }
-  
-  $xxs: (
-    max: 450px
-  );
-  $xs: (
-    max: 767px
-  );
-  $sm: (
-    min: 768px
-  );
-  $md: (
-    min: 1260px
-  );
-  $lg: (
-    min: 1400px
-  );
-  $sm-only: (
-    min: map-get($sm, min),
-    max: map-get($md, min) - 1
-  );
-  $md-only: (
-    min: map-get($md, min),
-    max: map-get($lg, min) - 1
-  );
-  $mobile: (
-    max: map-get($md, min) - 1
-  );
-  
-  @mixin in_size($map) {
-    $query: "";
-  
-    @if map-has-key($map, min) {
-      $query: append($query, "(min-width: #{map-get($map, min)})");
-    }
-  
-    @if map-has-key($map, min) and map-has-key($map, max) {
-      $query: append($query, "and");
-    }
-  
-    @if map-has-key($map, max) {
-      $query: append($query, "(max-width: #{map-get($map, max)})");
-    }
-  
-    @media screen and #{$query} {
-      @content;
-    }
+
+  @if map-has-key($map, min) and map-has-key($map, max) {
+    $query: append($query, "and");
   }
-  
-  @mixin media($map) {
-    @include in_size($map);
+
+  @if map-has-key($map, max) {
+    $query: append($query, "(max-width: #{map-get($map, max)})");
   }
-  
+
+  @media screen and #{$query} {
+    @content;
+  }
+}
+
+@mixin media($map) {
+  @include in_size($map);
+}

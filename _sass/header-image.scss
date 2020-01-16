@@ -22,7 +22,7 @@
       &__title {
         margin-top: 0;
         margin-bottom: 70px;
-        font-size: 65px;
+        font-size: $header_image_title_size;
       }
       &__footer {
         margin: 70px 0 25px;
@@ -30,7 +30,6 @@
       }
       &__content {
         h3 {
-          font-weight: 500;
           margin-bottom: 10px;
           font-size: 40px;
         }
@@ -73,8 +72,7 @@
         position: relative;
         z-index: 2;
         h1 {
-          font-size: 65px;
-          font-weight: 500;
+          font-size: $header_image_title_size;
           line-height: 1.2;
           &:after {
             content: "";
@@ -135,7 +133,7 @@
   }
   &__title {
     margin: 50px auto 25px;
-    font-size: 58px;
+    font-size: $header_image_title_size;
     line-height: 1;
     position: relative;
     padding-bottom: 50px;
@@ -186,7 +184,6 @@
       }
     }
     h3 {
-      font-weight: 500;
       font-size: 50px;
       margin: 0 0 30px;
     }
@@ -205,13 +202,12 @@
   &__content {
     h1 {
       color: $header-image-text;
-      font-size: 65px;
+      font-size: $header_image_title_size;
       position: relative;
       display: inline-block;
       padding-bottom: 60px;
       margin-top: 0;
-      font-weight: 500;
-      line-height: 1.1;
+      line-height: 1.2;
       &:after {
         content: "";
         display: block;
@@ -231,10 +227,6 @@
           bottom: -15px;
         }
       }
-    }
-    p {
-      font-weight: 400;
-      font-size: 20px;
     }
   }
   &__wrapper {

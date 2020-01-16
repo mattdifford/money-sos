@@ -16,8 +16,8 @@ img {
 }
 html {
   font-family: $font_primary;
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: $body_font_weight;
+  font-size: $body_font_size;
   color: $text;
   @include in_size($xs) {
     font-size: 18px;
@@ -218,7 +218,7 @@ fieldset {
   }
   &__nav-link {
     display: block;
-    font-size: 16px;
+    font-size: 18px;
     color: $footer-link-text;
     text-transform: capitalize;
     margin-bottom: 10px;
@@ -228,8 +228,8 @@ fieldset {
       color: $footer-link-text-hover;
     }
     &--header {
-      font-size: 20px;
-      font-weight: 600;
+      font-weight: 800;
+      text-transform: uppercase;
     }
   }
   &__small-nav {
