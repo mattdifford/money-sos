@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $('body').addClass("loaded");
     var elements = document.querySelectorAll('.scrollwatch');
     var config = {
         threshold: 0.01

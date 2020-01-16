@@ -96,6 +96,24 @@
   }
   &--home,
   &--default {
+    .header-image {
+      &__wrapper {
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out 0.5s;
+      }
+      @at-root body.loaded {
+        .header-image {
+          &--home,
+          &--default {
+            .header-image {
+              &__wrapper {
+                opacity: 1;
+              }
+            }
+          }
+        }
+      }
+    }
     a {
       @include button_custom($header-image-button-bg);
       color: $header-image-button-text;

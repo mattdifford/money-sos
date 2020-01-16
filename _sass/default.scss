@@ -50,6 +50,9 @@ fieldset {
     justify-content: space-between;
   }
   &__nav {
+    @include in_size($mobile) {
+      display: none;
+    }
     &-link {
       margin-left: 100px;
       font-size: 19px;
@@ -67,7 +70,7 @@ fieldset {
       }
       &:hover {
         .header__sub-nav {
-          max-height: 250px;
+          max-height: 350px;
         }
         &:after {
           width: 100%;
@@ -152,7 +155,7 @@ fieldset {
     }
     p {
       margin: 0;
-      color:$footer-link-text;
+      color: $footer-link-text;
     }
     .footer {
       &__col {

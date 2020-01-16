@@ -3,6 +3,6 @@
     {%-assign url = url | remove: '.png'-%}
     {%-assign url = url |  remove: '.jpg'-%}
     {%-capture url_full -%}{{-url-}}.{{-include.type-}}{%-endcapture-%}
-    <source srcset="{{-url-}}.webp" type="image/webp">
-    <img src="{{-url_full-}}" alt="{{-include.alt-}}">
+    <source data-srcset="{{-url-}}.webp" type="image/webp">
+    <img data-src="{{-url_full-}}" alt="{{-include.alt-}}" class="lazyload">
 </picture>

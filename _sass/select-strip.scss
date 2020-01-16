@@ -19,7 +19,7 @@
     position: relative;
     padding-bottom: 40px;
     max-width: 40%;
-    color:$select-strip-text;
+    color: $select-strip-text;
     @include in_size($mobile) {
       max-width: none;
     }
@@ -67,6 +67,12 @@
   &__item {
     flex: 0 1 50%;
     padding: 15px;
+    @include in_size($sm-only) {
+      flex: 1 1 50%;
+    }
+    @include in_size($xs) {
+      flex: 1 1 100%;
+    }
     &-inner {
       box-shadow: -3px 4px 6px 0 rgba(0, 0, 0, 0.16);
       position: relative;
@@ -76,6 +82,9 @@
       position: relative;
       display: inline-block;
       transition: all 0.25s ease-in-out;
+      @include in_size($xs) {
+        height: 210px;
+      }
       &.light {
         .select-strip__item-title {
           color: $colour_black;
