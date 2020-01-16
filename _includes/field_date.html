@@ -2,5 +2,5 @@
 {%- if include.helptext -%}
 <p class="field__helptext">{{-include.helptext-}}</p>
 {%- endif -%}
-<input type="text" name="{{-include.slug-}}" required="{{-input.required-}}" class="field__input field__input--date" placeholder="{{-include.placeholder-}}" maxlength="10" data-parsley-group="{{include.fieldset}}">
-<span class="field__error" style="display: none">Invalid date</span>
+<input type="number" name="{{-include.slug-}}" required="{{-input.required-}}" class="field__input field__input--date" placeholder="{{-include.placeholder-}}" maxlength="10" data-parsley-group="{{include.fieldset}}">
+<span class="field__error" style="display: none">Invalid date - must be DD/MM/YYYY</span>

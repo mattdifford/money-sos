@@ -236,6 +236,18 @@
     font-family: $font_primary;
     font-size: 16px;
     margin-top: 15px;
+    &::-webkit-input-placeholder {
+      opacity: 0.5;
+    }
+    &::-moz-placeholder {
+      opacity: 0.5;
+    }
+    &:-ms-input-placeholder {
+      opacity: 0.5;
+    }
+    &:-moz-placeholder {
+      opacity: 0.5;
+    }
     &-wrap {
       display: flex;
       margin-top: 15px;
@@ -272,7 +284,7 @@
           &__input,
           &__lookup-button {
             margin: 0;
-            flex: 1 1 100%;
+            flex: 1 0 100%;
           }
         }
       }
