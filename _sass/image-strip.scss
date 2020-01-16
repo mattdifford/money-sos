@@ -1,5 +1,6 @@
 .image-strip {
   background-color: $strip-bg;
+  color: $strip-text;
   border-bottom: 30px solid $strip-border;
   padding: 200px 0 160px;
   position: relative;
@@ -55,6 +56,7 @@
     }
     a {
       @include button_custom($strip-first-button-bg);
+      color: $strip-first-button-text;
     }
   }
   &:last-child {
@@ -77,6 +79,7 @@
     }
     a {
       @include button_custom($strip-alt-button-bg);
+      color: $strip-alt-button-text;
     }
   }
 
@@ -110,7 +113,7 @@
     }
     h2,
     h3 {
-      font-size: $strip_title_size;
+      font-size: 58px;
       margin-top: 0;
       line-height: 1.2;
       padding-bottom: 60px;
@@ -132,8 +135,9 @@
       }
     }
     a {
-      @include button();
+      @include button_custom($strip-button-bg);
       margin-top: 25px;
+      color: $strip-button-text;
     }
   }
   &__image {

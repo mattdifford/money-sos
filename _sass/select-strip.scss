@@ -4,6 +4,8 @@
   padding-top: 50px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out 0.2s;
+  background: $select-strip-bg;
+  border-bottom: 30px solid $select-strip-border;
   &.scrolled {
     opacity: 1;
   }
@@ -87,7 +89,7 @@
       }
       &.light {
         .select-strip__item-title {
-          color: $colour_black;
+          color: $select-strip-item-title-light;
         }
       }
       &:hover {
@@ -99,7 +101,7 @@
       position: absolute;
       bottom: 25px;
       left: 30px;
-      color: #fff;
+      color: $select-strip-item-title;
       text-decoration: underline;
       font-size: 28px;
       margin: 0;
