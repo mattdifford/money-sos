@@ -58,6 +58,7 @@ fieldset {
       font-size: 19px;
       color: $header-nav-text;
       position: relative;
+      font-weight: 600;
       &:after {
         content: "";
         background: $header-nav-text;

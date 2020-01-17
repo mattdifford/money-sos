@@ -176,8 +176,11 @@
         margin-bottom: 70px;
         font-size: $header_image_title_size;
       }
+      &__right {
+        max-width: 50%;
+      }
       &__footer {
-        margin: 70px 0 25px;
+        margin: 70px 0;
         position: static;
       }
       &__content {
@@ -188,6 +191,7 @@
       }
       @include in_size($mobile) {
         &__right {
+          max-width:none;
           padding-top: 50px;
         }
       }

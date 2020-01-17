@@ -9,6 +9,17 @@ items:
     image: /images/upload/banks.png
     header_image: /images/upload/banks-header.png
     link: /banking
+    sub_sections: 
+      - title: Loans
+        colour: eaeaea
+        image: /images/upload/banks.png
+        header_image: /images/upload/banks-header.png
+        link: /banking/loans
+      - title: Current accounts
+        colour: 59a2d9
+        image: /images/upload/banks.png
+        header_image: /images/upload/banks-header.png
+        link: /banking/current-accounts
   - title: Pensions
     colour: 4a48a3
     image: /images/upload/pensions.png
@@ -19,6 +30,22 @@ items:
     image: /images/upload/utilities.png
     header_image: /images/upload/utilities-header.png
     link: /utilities
+    sub_sections: 
+      - title: Broadband
+        colour: eaeaea
+        image: /images/upload/utilities.png
+        header_image: /images/upload/utilities-header.png
+        link: /utilities/broadband
+      - title: Energy
+        colour: 59a2d9
+        image: /images/upload/utilities.png
+        header_image: /images/upload/utilities-header.png
+        link: /utilities/energy
+      - title: Solar
+        colour: 4dacbe
+        image: /images/upload/utilities.png
+        header_image: /images/upload/utilities-header.png
+        link: /utilities/solar
   - title: Claims
     colour: 6cb3e1
     image: /images/upload/claims.png
