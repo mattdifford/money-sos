@@ -6,6 +6,7 @@
     {%- include_cached header.html -%}
     {%- include header_image.html content=page.header_content layout="home" image=page.header_image title=page.title-%}
     {%- include_cached featured_strip.html -%}
+    {%- include_cached process-strip.html -%}
     <div class="image-strip-wrapper">
         {%- include image-strip.html image_position=page.strip_1.image_position image=page.strip_1.image text=page.strip_1.text -%}
         {%- include image-strip.html image_position=page.strip_2.image_position image=page.strip_2.image text=page.strip_2.text -%}
