@@ -31,7 +31,7 @@
   display: flex;
   align-items: center;
   margin: 10px;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 22px;
   @include in_size($xs) {
     margin: 10px 0;
@@ -71,16 +71,16 @@ $xxs: (
   max: 450px
 );
 $xs: (
-  max: 767px
+  max: 991px
 );
 $sm: (
-  min: 768px
+  min: 992px
 );
 $md: (
-  min: 1260px
+  min: 1200px
 );
 $lg: (
-  min: 1400px
+  min: 1460px
 );
 $sm-only: (
   min: map-get($sm, min),

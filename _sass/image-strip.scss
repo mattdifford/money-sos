@@ -110,6 +110,7 @@
     }
     @include in_size($sm-only) {
       padding: 0;
+      flex: 1 1 50%;
     }
     h2,
     h3 {
@@ -142,8 +143,12 @@
   }
   &__image {
     text-align: center;
+    flex: 0 1 50%;
     @include in_size($xs) {
       display: none;
+    }
+    @include in_size($sm-only) {
+      flex: 0 1 30%;
     }
   }
   &--image {
@@ -151,8 +156,10 @@
       .image-strip {
         &__image {
           order: 2;
-          flex: 0 1 50%;
           padding-left: 90px;
+          @include in_size($sm-only) {
+            padding-left: 40px;
+          }
         }
       }
     }
@@ -160,7 +167,7 @@
       .image-strip {
         &__image {
           order: 0;
-          flex: 0 1 50%;
+
           padding-right: 90px;
         }
       }

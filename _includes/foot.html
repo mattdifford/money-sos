@@ -1,10 +1,10 @@
-<script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js" async></script>
+<script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js" defer></script>
 
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
 <script src="{{ "/js/script.js" | relative_url }}"></script>
-<script src="{{ "/js/lazysizes.min.js" | relative_url }}"></script>
+<script src="{{ "/js/lazysizes.min.js" | relative_url }}" defer></script>
 {%- if include.layout && include.layout == 'form' -%}
-<script src="{{ "/js/parsley.min.js" | relative_url }}" type="text/javascript"></script>
+<script src="{{ "/js/parsley.min.js" | relative_url }}" type="text/javascript" defer></script>
 <script type="text/javascript">
     $(document).ready(function () {
         $('.form__proceed-button').on('click', function () {

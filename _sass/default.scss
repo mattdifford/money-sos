@@ -151,7 +151,7 @@ fieldset {
     margin-top: 20px;
     padding-top: 20px;
     font-size: 16px;
-    @include in_size($xs) {
+    @include in_size($mobile) {
       flex-wrap: wrap;
     }
     p {
@@ -162,6 +162,11 @@ fieldset {
       &__col {
         padding: 0;
         flex: 1 1 auto;
+        &--nav {
+          @include in_size($mobile) {
+            flex: 1 1 100%;
+          }
+        }
       }
     }
   }
@@ -173,14 +178,14 @@ fieldset {
       font-size: 16px;
       font-weight: 300;
       color: $footer-link-text;
-      @include in_size($xs) {
+      @include in_size($mobile) {
         margin-top: 0;
       }
     }
   }
   &__wrapper {
     display: flex;
-    @include in_size($xs) {
+    @include in_size($mobile) {
       flex-wrap: wrap;
       justify-content: space-between;
     }
@@ -191,7 +196,7 @@ fieldset {
     &--logo {
       padding-left: 0;
     }
-    @include in_size($xs) {
+    @include in_size($mobile) {
       flex: 0 1 31%;
       padding: 0;
       &--logo {
@@ -235,7 +240,7 @@ fieldset {
   }
   &__small-nav {
     display: flex;
-    @include in_size($xs) {
+    @include in_size($mobile) {
       flex-wrap: wrap;
       margin-top: 25px;
     }
@@ -247,7 +252,7 @@ fieldset {
       border-left: 1px solid $footer-accent;
       padding: 0 15px;
       transition: all 0.2s ease-in-out 0s;
-      @include in_size($xs) {
+      @include in_size($mobile) {
         flex: 0 1 50%;
         border: none;
         padding: 10px 0 0;
