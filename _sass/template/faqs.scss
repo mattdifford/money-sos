@@ -32,7 +32,8 @@
       left: 0;
     }
     @include in_size($xs) {
-      font-size: 40px;
+      font-size: 35px;
+      margin-bottom: 20px;
       line-height: 1;
     }
   }

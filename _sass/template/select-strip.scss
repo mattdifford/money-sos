@@ -105,6 +105,11 @@
       text-decoration: underline;
       font-size: 28px;
       margin: 0;
+      @include in_size($xs) {
+        left: 0;
+        width: 100%;
+        padding: 0 15px;
+      }
     }
   }
   &__arrow {
