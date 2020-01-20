@@ -108,6 +108,7 @@
     @include in_size($xs) {
       flex: 1 0 100%;
       max-width: 100%;
+      padding: 0;
     }
     @include in_size($sm-only) {
       padding: 0;
