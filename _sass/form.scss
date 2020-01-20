@@ -236,6 +236,7 @@
     font-family: $font_primary;
     font-size: 16px;
     margin-top: 15px;
+    color: $form-text;
     &::-webkit-input-placeholder {
       opacity: 0.5;
     }
