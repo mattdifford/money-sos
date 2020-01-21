@@ -4,6 +4,7 @@ description: Page Description
 title: Medical negligence
 section: Medical negligence
 permalink: /claims/medical-negligence
+header_image: /images/upload/gavel-large.png
 header_content: >- 
     ### Benefits: 
 
@@ -16,7 +17,7 @@ header_content: >-
     * Fusce scelerisque diam vel ligula.
     
 strip_1:
-  image: /images/upload/medical-negligence.png
+  image: /images/upload/stethoscope.png
   image_position: left
   text: >-
     ### About medical negligence compensation

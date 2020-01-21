@@ -1,79 +1,49 @@
 items:
   - title: Mortgages
-    colour: 47b2c6
-    image: /images/upload/mortgages.png
-    header_image: /images/upload/mortgages-header.png
+    image: /images/upload/keys.png
     link: /mortgages
   - title: Banking
-    colour: 2c7973
-    image: /images/upload/banks.png
-    header_image: /images/upload/banks-header.png
+    image: /images/upload/cards.png
     link: /banking
     sub_sections: 
       - title: Loans
-        colour: eaeaea
-        image: /images/upload/banks.png
-        header_image: /images/upload/banks-header.png
+        image: /images/upload/cards.png
         link: /banking/loans
       - title: Current accounts
-        colour: 59a2d9
-        image: /images/upload/banks.png
-        header_image: /images/upload/banks-header.png
+        image: /images/upload/cards.png
         link: /banking/current-accounts
   - title: Pensions
-    colour: 4a48a3
-    image: /images/upload/pensions.png
-    header_image: /images/upload/pensions-header.png
+    image: /images/upload/piggy-bank.png
     link: /pensions
   - title: Utilities
-    colour: 12ba99
-    image: /images/upload/utilities.png
-    header_image: /images/upload/utilities-header.png
+    image: /images/upload/bill.png
     link: /utilities
     sub_sections: 
       - title: Broadband
-        colour: eaeaea
-        image: /images/upload/utilities.png
-        header_image: /images/upload/utilities-header.png
+        image: /images/upload/bill.png
         link: /utilities/broadband
       - title: Energy
-        colour: 59a2d9
-        image: /images/upload/utilities.png
-        header_image: /images/upload/utilities-header.png
+        image: /images/upload/bill.png
         link: /utilities/energy
       - title: Solar
-        colour: 4dacbe
-        image: /images/upload/utilities.png
-        header_image: /images/upload/utilities-header.png
+        image: /images/upload/bill.png
         link: /utilities/solar
   - title: Claims
-    colour: 6cb3e1
-    image: /images/upload/claims.png
-    header_image: /images/upload/claims-header.png
+    image: /images/upload/suitcase.png
     link: /claims
     sub_sections: 
       - title: Medical negligence
-        colour: eaeaea
-        image: /images/upload/medical-negligence.png
-        header_image: /images/upload/medical-negligence-header.png
+        image: /images/upload/gavel.png
         link: /claims/medical-negligence
       - title: Flight compensation
-        colour: 59a2d9
-        image: /images/upload/flight-comp.png
-        header_image: /images/upload/flight-comp-header.png
+        image: /images/upload/boarding-pass.png
         link: /claims/flight-compensation
       - title: Personal injury
-        colour: 4dacbe
-        image: /images/upload/personal-injury.png
-        header_image: /images/upload/personal-injury-header.png
+        image: /images/upload/plaster.png
         link: /claims/personal-injury
       - title: Sipps
-        colour: 23b574
         image: /images/upload/sipps.png
-        header_image: /images/upload/sipps-header.png
         link: /claims/sipps
   - title: Deals
-    colour: ffdbc5
-    image: /images/upload/deals.png
-    header_image: /images/upload/deals-header.png
+    image: /images/upload/deal.png
     link: /deals

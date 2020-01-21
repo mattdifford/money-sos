@@ -4,6 +4,7 @@ description: Page Description
 title: Pensions
 section: Pensions
 permalink: /pensions
+header_image: /images/upload/pension.png
 header_content: >- 
     ### Benefits: 
 
@@ -16,7 +17,7 @@ header_content: >-
     * Fusce scelerisque diam vel ligula.
     
 strip_1:
-  image: /images/upload/pensions-header.png
+  image: /images/upload/pension.png
   image_position: left
   text: >-
     ### About pensions

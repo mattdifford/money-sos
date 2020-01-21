@@ -4,6 +4,7 @@ description: Page Description
 title: Banking
 section: Banking
 permalink: /banking
+header_image: /images/upload/bank.png
 header_content: >- 
     # Banking made simple
 

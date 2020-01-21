@@ -5,6 +5,7 @@ reference: Tools
 section: ''
 description: Meta desc
 permalink: /tools
+header_image: /images/upload/laptop.png
 header_content: >-
   # Get started now
 
@@ -14,7 +15,7 @@ header_content: >-
   nostrud exercitation ullamco laboris nisi ut
 strip_1:
   image_position: left
-  image: /images/upload/thumbs-up.png
+  image: /images/upload/transfer.png
   text: >-
     ### About moneySOS
 

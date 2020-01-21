@@ -5,7 +5,7 @@ reference: Home
 section: Home
 description: Meta description goes here
 permalink: /
-header_image: /images/upload/phone-hand.png
+header_image: /images/upload/coins.png
 header_content: >-
 
   # Money made simple.
@@ -15,10 +15,10 @@ header_content: >-
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
   nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 strip_1:
-  image: /images/upload/flight-comp-header.png
-  image_position: right
+  image: /images/upload/fingerprint.png
+  image_position: left
   text: >-
-    ### About moneySOS
+    ### Who are we?
 
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -30,22 +30,7 @@ strip_1:
 
     [Sign up here](/)
 strip_2:
-  image: /images/upload/claims-header.png
-  image_position: left
-  text: >-
-    ### Get started now
-
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Non pulvinar neque laoreet suspendisse interdum
-    consectetur libero id. 
-
-
-    [Get started](/tools)
-strip_3:
-  image: /images/upload/5-stars.png
+  image: /images/upload/5-star.png
   image_position: right
   text: >-
     ### Why Money SOS?
@@ -59,7 +44,7 @@ strip_3:
 
 
     [Sign up here](/)
-strip_4:
+strip_3:
   image: /images/upload/flight-comp-header.png
   image_position: left
   text: >-

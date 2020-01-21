@@ -3,6 +3,7 @@ layout: bottom
 description: Page Description
 title: Personal injury
 section: Personal injury
+header_image: /images/upload/medical-bag.png
 permalink: /claims/personal-injury
 header_content: >- 
     ### Benefits: 
@@ -16,7 +17,7 @@ header_content: >-
     * Fusce scelerisque diam vel ligula.
     
 strip_1:
-  image: /images/upload/personal-injury.png
+  image: /images/upload/medical-notes.png
   image_position: left
   text: >-
     ### About personal injury compensation

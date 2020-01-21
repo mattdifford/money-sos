@@ -4,6 +4,7 @@ description: Page Description
 title: Flight compensation
 section: Flight compensation
 permalink: /claims/flight-compensation
+header_image: /images/upload/plane.png
 header_content: >- 
     ### Benefits: 
 
@@ -16,7 +17,7 @@ header_content: >-
     * Fusce scelerisque diam vel ligula.
     
 strip_1:
-  image: /images/upload/flight-comp-header.png
+  image: /images/upload/flight.png
   image_position: left
   text: >-
     ### About Flight Compensation

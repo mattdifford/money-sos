@@ -4,6 +4,7 @@ description: Page Description
 title: Mortgages
 section: Mortgages
 permalink: /mortgages
+header_image: /images/upload/house.png
 header_content: >- 
     ### Benefits: 
 

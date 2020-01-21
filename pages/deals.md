@@ -4,6 +4,7 @@ description: Page Description
 title: Deals
 section: Deals
 permalink: /deals
+header_image: /images/upload/handshake-large-light.png
 header_content: >- 
     # Deals made simple
 

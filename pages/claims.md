@@ -4,6 +4,7 @@ description: Page Description
 title: Claims
 section: Claims
 permalink: /claims
+header_image: /images/upload/contract.png
 header_content: >- 
     # Claims made simple
 

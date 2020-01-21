@@ -4,6 +4,7 @@ description: Page Description
 title: Loans
 section: Loans
 permalink: /banking/loans
+header_image: /images/upload/bank.png
 header_content: >- 
     ### Benefits: 
 

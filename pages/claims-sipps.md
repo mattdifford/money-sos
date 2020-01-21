@@ -4,6 +4,7 @@ description: Page Description
 title: Sipps
 section: Sipps
 permalink: /claims/sipps
+header_image: /images/upload/glasses.png
 header_content: >- 
     ### Benefits: 
 
@@ -16,7 +17,7 @@ header_content: >-
     * Fusce scelerisque diam vel ligula.
     
 strip_1:
-  image: /images/upload/sipps.png
+  image: /images/upload/handshake-large-dark.png
   image_position: left
   text: >-
     ### About Sipps

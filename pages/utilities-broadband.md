@@ -4,17 +4,18 @@ description: Page Description
 title: Broadband
 section: Broadband
 permalink: /utilities/broadband
-header_content: >- 
-    ### Benefits: 
+header_image: /images/upload/utilities.png
+header_content: >-
+  ### Benefits: 
 
-    * Donec nibh nibh, mattis id.
+  * Donec nibh nibh, mattis id.
 
-    * Nam enim velit, dictum non.
+  * Nam enim velit, dictum non.
 
-    * In in magna condimentum, porta.
+  * In in magna condimentum, porta.
 
-    * Fusce scelerisque diam vel ligula.
-    
+  * Fusce scelerisque diam vel ligula.
+
 strip_1:
   image: /images/upload/utilities-header.png
   image_position: left

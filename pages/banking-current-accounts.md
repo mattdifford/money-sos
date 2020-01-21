@@ -4,6 +4,7 @@ description: Page Description
 title: Current accounts
 section: Current accounts
 permalink: /banking/current-accounts
+header_image: /images/upload/bank.png
 header_content: >- 
     ### Benefits: 
 
