@@ -39,7 +39,10 @@ fieldset {
   z-index: 1;
   box-shadow: 0 6px 6px 0px rgba(0, 0, 0, 0.16);
   @include in_size($xs) {
-    padding: 25px 20px;
+    padding: 15px 10px;
+    img {
+      float: left;
+    }
   }
   img {
     max-width: 150px;
