@@ -29,7 +29,7 @@ $header-sub-nav-bg: $header-bg;
 $header-sub-nav-text: $header-nav-text;
 $header-image-bg: $colour_primary;
 $header-image-text: #fff;
-$header-image-text-accent: $header-image-text;
+$header-image-text-accent: $colour_action;
 $header-image-button-bg: $colour_action;
 $header-image-button-text: #fff;
 $header-image-form-bg: $colour_primary;
@@ -48,13 +48,14 @@ $down-icon-hover-text: $colour_action;
 
 /*Strips*/
 
-$strip-bg: $colour_grey;
-$strip-border: $colour_grey;
-$strip-text: $text;
-$strip-text-accent: $text;
-$strip-button-bg: $button-bg;
-$strip-button-text: $button-text;
-$strip-circle-bg: $colour_grey;
+
+$strip-bg: $colour_primary;
+$strip-border: $strip-bg;
+$strip-text: #fff;
+$strip-text-accent: #fff;
+$strip-button-bg: $colour_grey;
+$strip-button-text: $text;
+$strip-circle-bg: $colour_primary;
 
 $strip-first-bg: #fff;
 $strip-first-border: $strip-first-bg;
@@ -64,13 +65,13 @@ $strip-first-button-bg: $button-bg;
 $strip-first-button-text: $button-text;
 $strip-first-circle-bg: #fff;
 
-$strip-alt-bg: $colour_primary;
-$strip-alt-border: $strip-alt-bg;
-$strip-alt-text: #fff;
-$strip-alt-text-accent: #fff;
-$strip-alt-button-bg: $colour_grey;
-$strip-alt-button-text: $text;
-$strip-alt-circle-bg: $colour_primary;
+$strip-alt-bg: $colour_grey;
+$strip-alt-border: $colour_grey;
+$strip-alt-text: $text;
+$strip-alt-text-accent: $text;
+$strip-alt-button-bg: $button-bg;
+$strip-alt-button-text: $button-text;
+$strip-alt-circle-bg: $colour_grey;
 
 /*Layout bottom strip*/
 $strip-bottom-bg: $strip-first-bg;
@@ -89,6 +90,7 @@ $select-strip-title-text: $select-strip-text;
 $select-strip-title-text: $select-strip-text;
 $select-strip-title-text-accent: $select-strip-text;
 $select-strip-item-title: #fff;
+$select-strip-item-bg: $colour_action;
 $select-strip-item-title-light: $colour_black;
 
 /*Brands strip*/

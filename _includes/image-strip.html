@@ -1,3 +1,4 @@
+{% if include.image && include.text %}
 <div class="image-strip image-strip--image-{{-include.image_position-}}">
     <div class="container">
         <div class="image-strip__wrapper scrollwatch">
@@ -13,3 +14,4 @@
         </div>
     </div>
 </div>
+{%endif%}

@@ -5,7 +5,7 @@
   padding: 120px 0;
   border-bottom: 30px solid $process-strip-border;
   @include in_size($mobile) {
-    padding: 80px 0;
+    padding: 50px 0;
   }
   &__wrapper {
     padding: 0 150px;
@@ -32,9 +32,9 @@
       bottom: 0;
     }
     @include in_size($xs) {
-      font-size: 42px;
-      padding-bottom: 40px;
-      margin-bottom: 30px;
+      font-size: 32px;
+      padding-bottom: 20px;
+      margin-bottom: 10px;
     }
   }
   &__list {
@@ -58,7 +58,7 @@
       padding: 0 10px;
     }
     @include in_size($xs) {
-      padding: 30px 15px;
+      padding: 20px 15px;
     }
     &.scrolled {
       opacity: 1;
@@ -68,6 +68,9 @@
     font-weight: 800;
     font-size: 32px;
     margin: 20px 0 10px;
+    @include in_size($xs) {
+      margin: 5px 0;
+    }
   }
   &__text {
     margin: 0;
@@ -80,7 +83,7 @@
     border-radius: 50%;
     width: 130px;
     height: 130px;
-    padding: 30px;
+    padding: 20px;
   }
   .button {
     background: $process-strip-button-bg;

@@ -11,14 +11,10 @@
         <div class="select-strip__list{% if sections.size > 4%} select-strip__list--long{%endif%}">
             {% for i in sections %}
             <div class="select-strip__item">
-                {% capture brightness%}{{i.colour | color_brightness}}{%endcapture%}
-                {% assign brightness  = brightness | plus:0 %}
                 {%if i.link %}
-                    <a class="select-strip__item-inner{%if brightness == 0%} light{%endif%}"
-                    style="background-color: #{{i.colour}};" href="{{i.link}}" title="{{i.title}}">
+                    <a class="select-strip__item-inner" href="{{i.link}}" title="{{i.title}}">
                 {%else %}
-                    <div class="select-strip__item-inner{%if brightness == 0%} light{%endif%}"
-                        style="background-color: #{{i.colour}};">
+                    <div class="select-strip__item-inner">
                 {%endif%}
                         {%-assign image_type = i.image | slice: -3, 3-%}
                         {% include picture.html url=i.image type=image_type alt=i.title%}

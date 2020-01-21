@@ -144,6 +144,9 @@ fieldset {
   background: $footer-bg;
   padding: 65px 0 40px;
   border-top: 30px solid $footer-border-top-bg;
+  @include in_size($xs) {
+    padding: 15px 0 20px;
+  }
   &__bottom {
     border-top: 1px solid $footer-accent;
     display: flex;

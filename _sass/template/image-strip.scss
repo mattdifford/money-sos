@@ -123,6 +123,9 @@
       position: relative;
       font-weight: 500;
       color: $strip-text;
+      @include in_size($xs) {
+        padding-bottom: 30px;
+      }
       &:after {
         content: "";
         display: block;
@@ -134,7 +137,7 @@
         bottom: 0;
       }
       @include in_size($xs) {
-        font-size: 39px;
+        font-size: 35px;
       }
     }
     a {

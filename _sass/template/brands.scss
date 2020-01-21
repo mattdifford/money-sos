@@ -4,6 +4,10 @@
   padding-top: 50px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out 0.2s;
+  @include in_size($xs) {
+    padding-bottom: 40px;
+    padding-top: 30px;
+  }
   &.scrolled {
     opacity: 1;
   }
@@ -13,6 +17,10 @@
     margin: 0 0 15px;
     font-weight: 500;
     font-size: 45px;
+    @include in_size($xs) {
+      font-size: 35px;
+      line-height: 1.1;
+    }
   }
   &__text {
     margin: 0 auto 40px;

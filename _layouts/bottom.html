@@ -17,7 +17,7 @@
     {% else %}
     {% assign section_obj = section_obj[0] %}
     {% endif %}
-    {%- include header_image.html layout="cta" content=page.header_content page=page.title url=page.permalink section=section_obj-%}
+    {%- include header_image.html layout="cta" content=page.header_content page=page.title url=page.permalink image=page.header_image section=section_obj-%}
     {%- include_cached featured_strip.html -%}
     <div class="image-strip-wrapper">
         {%- include image-strip.html image_position=page.strip_1.image_position image=page.strip_1.image text=page.strip_1.text -%}
