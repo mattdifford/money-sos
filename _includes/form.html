@@ -10,12 +10,8 @@
     {{-form.pre_text | markdownify-}}
     {%- for field in form.fields -%}
     {%- if field.type == 'data' && !included_data -%}
-    <script src="{{- "/js/bootstrap3-typeahead.min.js" | relative_url -}}"></script>
+    <script src="{{- "/js/src/bootstrap3-typeahead.min.js" | relative_url -}}"></script>
     {%- assign included_data = true -%}
-    {%-endif-%}
-    {%- if field.type == 'date' && !included_date -%}
-    <script src="{{- "/js/field_date.js" | relative_url -}}"></script>
-    {%- assign included_date = true -%}
     {%-endif-%}
     {%- if forloop.first == true -%}
     {% assign fieldset_name = "first"%}
