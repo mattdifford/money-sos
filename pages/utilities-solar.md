@@ -4,7 +4,7 @@ description: Page Description
 title: Solar
 section: Solar
 permalink: /utilities/solar
-header_image: /images/upload/utilities.png
+header_image: /images/upload/wifi.png
 header_content: >- 
     ### Benefits: 
 

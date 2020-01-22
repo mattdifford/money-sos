@@ -5,7 +5,7 @@ reference: Home
 section: Home
 description: Meta description goes here
 permalink: /
-header_image: /images/upload/coins.png
+header_image: /images/upload/phone.png
 header_content: >-
 
   # Money made simple.
@@ -15,7 +15,7 @@ header_content: >-
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
   nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 strip_1:
-  image: /images/upload/fingerprint.png
+  image: /images/upload/coins.png
   image_position: left
   text: >-
     ### Who are we?

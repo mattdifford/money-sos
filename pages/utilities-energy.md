@@ -4,7 +4,7 @@ description: Page Description
 title: Energy
 section: Energy
 permalink: /utilities/energy
-header_image: /images/upload/utilities.png
+header_image: /images/upload/wifi.png
 header_content: >- 
     ### Benefits: 
 

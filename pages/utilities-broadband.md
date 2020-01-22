@@ -4,7 +4,7 @@ description: Page Description
 title: Broadband
 section: Broadband
 permalink: /utilities/broadband
-header_image: /images/upload/utilities.png
+header_image: /images/upload/wifi.png
 header_content: >-
   ### Benefits: 
 
