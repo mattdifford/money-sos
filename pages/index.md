@@ -45,7 +45,7 @@ strip_2:
 
     [Sign up here](/)
 strip_3:
-  image: /images/upload/flight-comp-header.png
+  image: /images/upload/coins.png
   image_position: left
   text: >-
     ### Join lifeSOS
