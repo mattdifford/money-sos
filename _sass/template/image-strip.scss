@@ -162,6 +162,7 @@
         &__image {
           order: 2;
           padding-left: 90px;
+          text-align: right;
           @include in_size($sm-only) {
             padding-left: 40px;
           }
@@ -172,8 +173,8 @@
       .image-strip {
         &__image {
           order: 0;
-
           padding-right: 90px;
+          text-align: left;
         }
       }
     }
