@@ -101,6 +101,9 @@
     }
     li {
       @include list_style($header-image-cta-tick-bg, $header-image-cta-tick);
+      @include in_size($xs) {
+        font-size: 18px;
+      }
     }
     @include in_size($mobile) {
       justify-content: center;
@@ -309,9 +312,11 @@
       .header-image {
         &__left {
           img {
-            max-width: 600px;
+            float: none;
             display: block;
+            padding: 0 30px;
             margin: 0 auto;
+            max-height: 200px;
           }
         }
       }
@@ -324,13 +329,15 @@
     &--inner {
       .header-image {
         &__containment {
-          padding: 125px 0 0;
+          padding: 95px 0 0;
         }
         &__left {
           img {
-            max-width: 300px;
+            float: none;
             display: block;
+            padding: 0 30px;
             margin: 0 auto;
+            max-height: 200px;
           }
         }
       }

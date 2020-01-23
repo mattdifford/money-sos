@@ -43,7 +43,11 @@
         </div>
         {%-endif -%}
         {%- if forloop.last == true -%}
-        <div class="form__submit"><button type="button" class="form__submit-button">{{form.submit_text}}</button>
+        <div class="form__buttons">
+            <div class="form__back"><button type="button" class="form__back-button"><i
+                        class="icon-chevron-left"></i>Back</button></div>
+            <div class="form__submit"><button type="button" class="form__submit-button">{{form.submit_text}}</button>
+            </div>
     </fieldset>
     {%-endif -%}
     {%- endfor -%}
@@ -67,7 +71,8 @@
 {%- assign buyer_data = site.data.buyers.items | where: "section", include.section -%}
 <div class="buyer-panel" style="display:none;">
     {%assign count = buyer_data.size |plus:0%}
-    <h3 class="buyer-panel__main-title">We have successfully found you {{count | pluralize: 'partner', 'partners'}}!</h3>
+    <h3 class="buyer-panel__main-title">We have successfully found you {{count | pluralize: 'partner', 'partners'}}!
+    </h3>
     <div class="buyer-panel__inner">
         <div class="buyer-panel__wrapper">
             {% for buyer in buyer_data %}

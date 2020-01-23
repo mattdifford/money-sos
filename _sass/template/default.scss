@@ -168,10 +168,8 @@ fieldset {
       &__col {
         padding: 0;
         flex: 1 1 auto;
-        &--nav {
-          @include in_size($mobile) {
-            flex: 1 1 100%;
-          }
+        @include in_size($mobile) {
+          flex: 1 1 100%;
         }
       }
     }

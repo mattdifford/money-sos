@@ -314,8 +314,10 @@
       flex: 1 1 50%;
       padding: 10px;
       @include in_size($xxs) {
-        flex: 1 1 100%;
         padding: 5px 0;
+      }
+      @include in_size($xxxs) {
+        flex: 1 1 100%;
       }
     }
     &-label {
@@ -330,7 +332,6 @@
       transition: all 0.2s ease-in-out 0s;
       &:before {
         transition: all 0.2s ease-in-out 0s;
-        display: inline-block;
         width: 30px;
         height: 30px;
         border-radius: 50%;
@@ -342,6 +343,14 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
+      }
+      @include in_size($xs) {
+        text-align: left;
+        padding: 10px 5px;
+        border: 2px solid $form-bg;
+        &:before {
+          display: none;
+        }
       }
     }
     &-input {

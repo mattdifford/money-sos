@@ -102,12 +102,14 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
+      padding: 15px;
       @include in_size($mobile) {
         margin: 0 auto;
       }
       @include in_size($xs) {
         width: 125px;
         height: 125px;
+        padding: 30px;
       }
     }
   }

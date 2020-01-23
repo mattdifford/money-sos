@@ -89,8 +89,12 @@
       background: $select-strip-item-bg;
       width: 100%;
       @include in_size($xs) {
-        height: 210px;
-        padding-bottom: 45px !important;
+        height: auto;
+        padding-bottom: 65px !important;
+        padding-top: 25px;
+        img {
+          max-height: 90px;
+        }
       }
       &.light {
         .select-strip__item-title {
