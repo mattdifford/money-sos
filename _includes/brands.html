@@ -9,7 +9,7 @@
                 {% capture brightness%}{{i.colour | color_brightness}}{%endcapture%}
                 {% assign brightness  = brightness | plus:0 %}
                 <a class="brands-strip__item-inner{%if brightness == 0%} light{%endif%}"" style="background-color: #{{i.colour}};" href="{{i.link}}"
-                    title="{{i.title}}">
+                    title="{{i.title}}" target="_blank" rel="external noopener">
                     {%-assign image_type = i.image | slice: -3, 3-%}
                     {% include picture.html url=i.image type=image_type alt=i.title%}
                     <h3 class="brands-strip__item-title">{{i.title}}</h3>

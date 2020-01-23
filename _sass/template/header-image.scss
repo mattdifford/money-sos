@@ -262,7 +262,8 @@
     }
   }
   &--home,
-  &--default {
+  &--default,
+  &--inner {
     .header-image {
       &__wrapper {
         opacity: 0;
@@ -271,7 +272,8 @@
       @at-root body.loaded {
         .header-image {
           &--home,
-          &--default {
+          &--default,
+          &--inner {
             .header-image {
               &__wrapper {
                 opacity: 1;
@@ -302,7 +304,8 @@
   }
   @include in_size($sm-only) {
     &--default,
-    &--home {
+    &--home,
+    &--inner {
       .header-image {
         &__left {
           img {
@@ -317,7 +320,8 @@
   @include in_size($xs) {
     min-height: 0;
     &--default,
-    &--home {
+    &--home,
+    &--inner {
       .header-image {
         &__containment {
           padding: 125px 0 0;

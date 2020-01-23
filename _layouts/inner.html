@@ -6,7 +6,7 @@
     {%- include_cached header.html -%}
     {% assign section_obj = site.data.sections.items | where: "title", page.section %}
     {% assign section_obj = section_obj[0] %}
-    {%- include header_image.html content=page.header_content layout="default" image=page.header_image-%}
+    {%- include header_image.html content=page.header_content layout="inner" image=page.header_image-%}
     {%- include_cached featured_strip.html -%}
     {%- include select_strip.html section=section_obj -%}
     <div class="image-strip-wrapper">
