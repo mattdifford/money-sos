@@ -1,5 +1,14 @@
 items:
   - title: Some buyer
-    image: /images/upload/flight-comp-header.png
-    description: Lorem ipsum dolor sed amit
+    logo: /images/upload/vitality.png
+    image: /images/upload/starbucks.png
+    colour: F7125B
     section: Flight compensation
+    description: >- 
+      * Donec nibh nibh, mattis id.
+
+      * Nam enim velit, dictum non.
+
+      * In in magna condimentum, porta.
+
+      * Fusce scelerisque diam vel ligula.

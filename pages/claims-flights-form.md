@@ -5,6 +5,7 @@ title: Request a callback for flight compensation
 section: Flight compensation
 reference: Flight compensation form
 permalink: /claims/flight-compensation/form
+header_image: /images/upload/plane-outline.png
 header_content: >- 
     # Get your compensation for flight delays here: 
 

@@ -7,13 +7,18 @@ $colour_grey: #ededed;
 $colour_dark_grey: #5c5c5c;
 $colour_border_grey: #5f5f5f;
 $colour_error: #cc0000;
-$font_primary: objektiv-mk2, sans-serif;
 
 /*Fonts*/
+$font_primary: objektiv-mk2, sans-serif;
 $body_font_weight: 300;
-$body_font_size: 22px;
-$header_image_title_size: 58px;
-$strip_title_size: $header_image_title_size;
+$body_font_size: 20px;
+$header_image_title_size: 50px;
+$strip_title_size: 40px;
+$strip_title_size_mobile: 32px;
+
+/*Misc*/
+$strip_padding: 40px 0 60px;
+$strip_padding_mobile: 20px 0 30px;
 
 /* Specific section colours */
 
@@ -47,7 +52,6 @@ $down-icon-hover-bg: $down-icon-bg;
 $down-icon-hover-text: $colour_action;
 
 /*Strips*/
-
 
 $strip-bg: $colour_primary;
 $strip-border: $strip-bg;
@@ -159,7 +163,6 @@ $modal-text: $colour_black;
 
 /*Buyer panel*/
 $buyer-panel-text: $colour_dark_grey;
-
 
 /*Process strip*/
 $process-strip-bg: #fff;
