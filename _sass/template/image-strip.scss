@@ -2,7 +2,7 @@
   background-color: $strip-bg;
   color: $strip-text;
   border-bottom: 30px solid $strip-border;
-  padding: 200px 0 160px;
+  padding: $strip_padding;
   position: relative;
   overflow: hidden;
   &:before {
@@ -84,10 +84,7 @@
   }
 
   @include in_size($xs) {
-    padding: 30px 0 25px;
-  }
-  @include in_size($sm-only) {
-    padding: 50px 0 30px;
+    padding: $strip_padding_mobile;
   }
   &__wrapper {
     display: flex;
@@ -116,13 +113,15 @@
     }
     h2,
     h3 {
-      font-size: 58px;
+      font-size: $strip_title_size;
       margin-top: 0;
       line-height: 1.2;
-      padding-bottom: 60px;
+      padding-bottom: 1em;
+      margin-bottom: 0.8em;
       position: relative;
       font-weight: 500;
       color: $strip-text;
+      display: inline-block;
       @include in_size($xs) {
         padding-bottom: 30px;
       }
@@ -137,7 +136,7 @@
         bottom: 0;
       }
       @include in_size($xs) {
-        font-size: 35px;
+        font-size: $strip_title_size_mobile;
       }
     }
     a {

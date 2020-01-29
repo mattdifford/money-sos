@@ -240,6 +240,7 @@
     font-size: 16px;
     margin-top: 15px;
     color: $form-text;
+    font-weight: 300;
     &::-webkit-input-placeholder {
       opacity: 0.5;
     }
@@ -325,7 +326,6 @@
       color: $form-radio-label-text;
       padding: 10px 15px;
       font-size: 16px;
-      font-weight: 400;
       display: flex;
       align-items: center;
       height: 100%;
@@ -435,7 +435,9 @@ body.modal-active {
   max-width: 85%;
   max-height: 85%;
   display: none;
-  overflow-y: scroll;
+  @include in_size($mobile) {
+    overflow-y: scroll;
+  }
   @include in_size($xs) {
     max-width: 100%;
     max-height: 100%;
@@ -454,9 +456,7 @@ body.modal-active {
     color: $modal-title-text;
     font-size: 49px;
     font-weight: 400;
-  }
-  &__spinner {
-    animation: spin 2s linear infinite;
+    margin-top: 0;
   }
   + .modal-shroud {
     position: fixed;
@@ -467,6 +467,54 @@ body.modal-active {
     left: 0;
     z-index: 3;
     display: none;
+  }
+  &__slider {
+    width: 100%;
+    height: 5px;
+    overflow-x: hidden;
+    position: relative;
+    margin-top: 25px;
+    display: inline-block;
+    .line {
+      position: absolute;
+      opacity: 0.4;
+      background: $colour_action;
+      width: 150%;
+      height: 5px;
+    }
+
+    .subline {
+      position: absolute;
+      background: $colour_action;
+      height: 5px;
+    }
+    .inc {
+      animation: increase 2s infinite;
+    }
+    .dec {
+      animation: decrease 2s 0.5s infinite;
+    }
+
+    @keyframes increase {
+      from {
+        left: -5%;
+        width: 5%;
+      }
+      to {
+        left: 130%;
+        width: 100%;
+      }
+    }
+    @keyframes decrease {
+      from {
+        left: -80%;
+        width: 80%;
+      }
+      to {
+        left: 110%;
+        width: 10%;
+      }
+    }
   }
   h3,
   h4 {
@@ -513,7 +561,7 @@ body.modal-active {
 
 .buyer-panel {
   background: #fff;
-  padding: 50px;
+  padding: 70px 100px;
   box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.16);
   display: flex;
   flex-wrap: wrap;
@@ -522,8 +570,63 @@ body.modal-active {
   text-align: center;
   justify-content: center;
   font-size: 16px;
+  width: 100%;
+  &__item-wrap {
+    text-align: center;
+    display: flex;
+  }
+  &__left,
+  &__right {
+    flex: 0 1 50%;
+  }
+  &__left {
+    text-align: left;
+    .button {
+      margin-top: 25px;
+    }
+  }
+  &__right {
+    position: relative;
+    .button {
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  &__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.35;
+    border-radius: 35px;
+  }
+  &__image {
+    overflow: hidden;
+    border-radius: 35px;
+  }
+  &__intro-text {
+    margin: 0;
+  }
+  &__inner {
+    flex: 1 0 100%;
+    margin-top: 25px;
+  }
+  picture {
+    justify-content: center;
+  }
   img {
     float: none;
+  }
+  &__logo {
+    display: inline-flex !important;
+    margin-right: 20px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    width: 135px;
+    height: 135px !important;
+    object-fit: contain;
   }
   &__main-title {
     font-weight: 400;
@@ -534,6 +637,8 @@ body.modal-active {
     font-weight: 400;
     font-size: 25px;
     margin: 0 0 15px;
+    display: inline-flex;
+    align-items: center;
   }
   li {
     @include list_style;

@@ -17,7 +17,7 @@
     {% else %}
         {% assign section_obj = section_obj[0] %}
     {% endif %}
-    {%- include header_image.html layout="form" content=page.header_content page=page.reference section=section_obj-%}
+    {%- include header_image.html layout="form" content=page.header_content page=page.reference section=section_obj image=page.header_image-%}
     {%- include_cached featured_strip.html -%}
     {%- include faqs.html title=page.title reference=section_obj.title -%}
     {%- include_cached footer.html -%}

@@ -2,10 +2,10 @@
   background: $process-strip-bg;
   color: $process-strip-text;
   text-align: center;
-  padding: 120px 0;
+  padding: $strip_padding;
   border-bottom: 30px solid $process-strip-border;
-  @include in_size($mobile) {
-    padding: 50px 0;
+  @include in_size($xs) {
+    padding: $strip_padding_mobile;
   }
   &__wrapper {
     padding: 0 150px;
@@ -14,10 +14,10 @@
     }
   }
   &__title {
-    font-size: 48px;
-    margin: 0 0 100px;
+    font-size: $strip_title_size;
+    margin: 0 0 1em;
+    padding: 0 0 1em;
     line-height: 1.2;
-    padding-bottom: 60px;
     position: relative;
     font-weight: 600;
     display: inline-block;
@@ -32,7 +32,7 @@
       bottom: 0;
     }
     @include in_size($xs) {
-      font-size: 32px;
+      font-size: $strip_title_size_mobile;
       padding-bottom: 20px;
       margin-bottom: 10px;
     }

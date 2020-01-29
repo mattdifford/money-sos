@@ -50,15 +50,19 @@ $(document).ready(function () {
                     $modal.removeClass('modal--active');
                     $("body").removeClass("modal-active");
                     parent_form.hide();
+                    $('.header-image__bg, .header-image__left').hide();
                     $('.buyer-panel').show();
+                    $('.header-image__right').addClass('has-buyer-panel');
                 }, 3000);
             }
         });
     });
 
-    $("#request_callback").on("click", function (e) {
+    $(".request_callback_button").on("click", function (e) {
         e.preventDefault();
         $('.buyer-panel').hide();
         $('.form--personal-info').show();
+        $('.header-image__bg, .header-image__left').show();
+        $('.header-image__right').removeClass('has-buyer-panel');
     });
 });

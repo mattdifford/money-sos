@@ -63,8 +63,12 @@
     </div>
 </form>
 <div class="modal" id="modal">
-    <h2 class="modal__title">We are matching you with a partner</h2><img src="/images/spinner.png"
-        class="modal__spinner">
+    <h2 class="modal__title">We are matching you with a partner</h2>
+    <div class="modal__slider">
+        <div class="line"></div>
+        <div class="subline inc"></div>
+        <div class="subline dec"></div>
+    </div>
 </div>
 <div class="modal-shroud"></div>
 
@@ -73,15 +77,26 @@
     {%assign count = buyer_data.size |plus:0%}
     <h3 class="buyer-panel__main-title">We have successfully found you {{count | pluralize: 'partner', 'partners'}}!
     </h3>
+    <p class="buyer-panel__intro-text">We have found you a match to {{count | pluralize: 'one', 'some', false}} of our trusted
+        partners who may be able to help. Details can be found below:</p>
     <div class="buyer-panel__inner">
         <div class="buyer-panel__wrapper">
             {% for buyer in buyer_data %}
-            <h4 class="buyer-panel__title">{{buyer.title}}</h4>
-            {%-assign image_type = buyer.image | slice: -3, 3-%}
-            {%-include picture.html type=image_type url=buyer.image  alt=buyer.title class="buyer-panel__image"-%}
-            {{-buyer.description | markdownify-}}
-            <button type="button" class="button" id="request_callback" data-ajax-buyer="{{buyer.title}}">Request a
-                callback</button>
+            <div class="buyer-panel__item-wrap">
+                {%-assign image_type_logo = buyer.logo | slice: -3, 3-%}
+                <div class="buyer-panel__left">
+
+                    <h4 class="buyer-panel__title">{%-include picture.html type=image_type_logo url=buyer.logo  alt=buyer.title class="buyer-panel__logo"-%}{{buyer.title}}</h4>
+                    {{-buyer.description | markdownify-}}
+                    <button style="background:#{{buyer.colour}}" type="button" class="button request_callback_button" data-ajax-buyer="{{buyer.title}}">Request a callback</button>
+                </div>
+                <div class="buyer-panel__right">
+                    {%-assign image_type = buyer.image | slice: -3, 3-%}
+                    <div class="buyer-panel__overlay" style="background:#{{buyer.colour}}"></div>
+                    {%-include picture.html type=image_type url=buyer.image  alt=buyer.title class="buyer-panel__image"-%}
+                    <button style="background:#fff;color:#{{buyer.colour}}" type="button" class="button request_callback_button" data-ajax-buyer="{{buyer.title}}">Request a callback</button>
+                </div>
+            </div>
             {% endfor %}
 
         </div>

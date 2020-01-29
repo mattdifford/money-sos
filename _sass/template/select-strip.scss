@@ -1,7 +1,6 @@
 .select-strip {
-  padding-bottom: 75px;
   text-align: center;
-  padding-top: 50px;
+  padding: $strip_padding;
   opacity: 0;
   transition: opacity 0.5s ease-in-out 0.2s;
   background: $select-strip-bg;
@@ -14,7 +13,7 @@
     color: $select-strip-title-text;
     margin: 0 0 15px;
     font-weight: 500;
-    font-size: 45px;
+    font-size: $strip_title_size;
   }
   &__text {
     margin: 0 auto 40px;

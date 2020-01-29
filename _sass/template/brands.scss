@@ -1,12 +1,10 @@
 .brands-strip {
-  padding-bottom: 75px;
   text-align: center;
-  padding-top: 50px;
+  padding: $strip_padding;
   opacity: 0;
   transition: opacity 0.5s ease-in-out 0.2s;
   @include in_size($xs) {
-    padding-bottom: 40px;
-    padding-top: 30px;
+    padding: $strip_padding_mobile;
   }
   &.scrolled {
     opacity: 1;
@@ -16,9 +14,9 @@
     color: $brands-strip-title-text;
     margin: 0 0 15px;
     font-weight: 500;
-    font-size: 45px;
+    font-size: $strip_title_size;
     @include in_size($xs) {
-      font-size: 35px;
+      font-size: $strip_title_size_mobile;
       line-height: 1.1;
     }
   }
