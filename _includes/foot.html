@@ -1,4 +1,3 @@
-<script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js" defer></script>
 {%- if include.layout and include.layout == 'form' -%}
 {% assign js_src="/js/bundle-form.js" %}
 {%else%}
@@ -6,7 +5,7 @@
 {%- endif -%}
 {%- capture layout_css -%}/assets/css/{{include.layout}}.css{%-endcapture-%}
 <script type="text/javascript">
-
+    loadScript("https://identity-js.netlify.com/v1/netlify-identity-widget.js");
     if (document.createStyleSheet) {
         document.createStyleSheet("/assets/css/bootstrap.css");
         document.createStyleSheet("/assets/css/default.css");
@@ -40,6 +39,7 @@
         document.head.append(script);
     }
     loadScript("{{js_src}}");
+
     var fonts = document.createElement('link');
     fonts.rel = 'stylesheet';
     fonts.href = 'https://use.typekit.net/lfq5beq.css';
@@ -50,5 +50,5 @@
 {%- capture layout_css -%}/assets/css/{{include.layout}}.css{%-endcapture-%}
 <noscript>
     <link rel="stylesheet" href="/assets/css/bootstrap.css"></noscript>
-    <link rel="stylesheet" href="/assets/css/default.css"></noscript>
-    <link rel="stylesheet" href="{{layout_css}}"></noscript>
+<link rel="stylesheet" href="/assets/css/default.css"></noscript>
+<link rel="stylesheet" href="{{layout_css}}"></noscript>
