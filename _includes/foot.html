@@ -10,15 +10,7 @@
     fonts.href = 'https://use.typekit.net/lfq5beq.css';
     fonts.type = 'text/css';
     var defer = document.getElementsByTagName('link')[0];
-    defer.parentNode.insertBefore(fonts, defer);
-
-    var slick = document.createElement('link');
-    slick.rel = 'stylesheet';
-    slick.href = '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css';
-    slick.type = 'text/css';
-    var defer_slick = document.getElementsByTagName('link')[0];
-    defer_slick.parentNode.insertBefore(slick, defer_slick);
-    
+    defer.parentNode.insertBefore(fonts, defer); 
 </script>
 {%- capture layout_css -%}/assets/css/{{include.layout}}.css{%-endcapture-%}
 <noscript>

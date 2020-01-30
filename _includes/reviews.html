@@ -28,6 +28,13 @@
     </div>
 </div>
 <script>
+    var slick = document.createElement('link');
+    slick.rel = 'stylesheet';
+    slick.href = '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css';
+    slick.type = 'text/css';
+    var defer_slick = document.getElementsByTagName('link')[0];
+    defer_slick.parentNode.insertBefore(slick, defer_slick);
+    
     function loadScript(src, callback) {
         let script = document.createElement('script');
         script.src = src;
