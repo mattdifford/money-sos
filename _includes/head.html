@@ -3,20 +3,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
-  <link rel="stylesheet" href="/assets/css/bootstrap.css">
-  <link rel="stylesheet" href="/assets/css/default.css">
+  <link rel="stylesheet" href="/assets/css/critical.css">
 
   {%- capture layout_css -%}/assets/css/{{include.layout}}.css{%-endcapture-%}
-  <script type="text/javascript">
-    if (document.createStyleSheet) document.createStyleSheet("{{layout_css}}");
-    else {
-      var stylesheet = document.createElement('link');
-      stylesheet.href = "{{layout_css}}";
-      stylesheet.rel = 'stylesheet';
-      stylesheet.type = 'text/css';
-      document.getElementsByTagName('head')[0].appendChild(stylesheet);
-    }
-  </script>
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
   {%- include google-analytics.html -%}

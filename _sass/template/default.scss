@@ -24,6 +24,16 @@ html {
   }
 }
 
+.header-image,
+.featured-strip,
+.process-strip,
+.image-strip,
+.brands-strip,
+.faqs-strip,
+.footer {
+  display: block;
+}
+
 fieldset {
   padding: 0;
   margin: 0;
@@ -46,7 +56,7 @@ fieldset {
   }
   img {
     max-width: 150px;
-    float:left;
+    float: left;
   }
   &__wrapper {
     display: flex;

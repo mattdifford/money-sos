@@ -1,10 +1,45 @@
 <script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js" defer></script>
 {%- if include.layout and include.layout == 'form' -%}
-<script src="{{ "/js/bundle-form.js" | relative_url }}"></script>
+{% assign js_src="/js/bundle-form.js" %}
 {%else%}
-<script src="{{ "/js/bundle.js" | relative_url }}"></script>
+{% assign js_src="/js/bundle.js" %}
 {%- endif -%}
+{%- capture layout_css -%}/assets/css/{{include.layout}}.css{%-endcapture-%}
 <script type="text/javascript">
+
+    if (document.createStyleSheet) {
+        document.createStyleSheet("/assets/css/bootstrap.css");
+        document.createStyleSheet("/assets/css/default.css");
+        document.createStyleSheet("{{layout_css}}");
+    } else {
+        var stylesheet_bs = document.createElement('link');
+        stylesheet_bs.href = "/assets/css/bootstrap.css";
+        stylesheet_bs.rel = 'stylesheet';
+        stylesheet_bs.type = 'text/css';
+        document.getElementsByTagName('head')[0].appendChild(stylesheet_bs);
+
+        var stylesheet_default = document.createElement('link');
+        stylesheet_default.href = "/assets/css/default.css";
+        stylesheet_default.rel = 'stylesheet';
+        stylesheet_default.type = 'text/css';
+        document.getElementsByTagName('head')[0].appendChild(stylesheet_default);
+
+        var stylesheet_layout = document.createElement('link');
+        stylesheet_layout.href = "{{layout_css}}";
+        stylesheet_layout.rel = 'stylesheet';
+        stylesheet_layout.type = 'text/css';
+        document.getElementsByTagName('head')[0].appendChild(stylesheet_layout);
+    }
+    function loadScript(src, callback) {
+        let script = document.createElement('script');
+        script.src = src;
+        if (typeof callback != "undefined") {
+            script.onload = () => callback(script);
+        }
+
+        document.head.append(script);
+    }
+    loadScript("{{js_src}}");
     var fonts = document.createElement('link');
     fonts.rel = 'stylesheet';
     fonts.href = 'https://use.typekit.net/lfq5beq.css';
@@ -14,4 +49,6 @@
 </script>
 {%- capture layout_css -%}/assets/css/{{include.layout}}.css{%-endcapture-%}
 <noscript>
+    <link rel="stylesheet" href="/assets/css/bootstrap.css"></noscript>
+    <link rel="stylesheet" href="/assets/css/default.css"></noscript>
     <link rel="stylesheet" href="{{layout_css}}"></noscript>
