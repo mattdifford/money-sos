@@ -27,4 +27,15 @@
         <a href="#select_strip" class="button" title="{{-link_text-}}">{{-link_text-}}</a>
     </div>
 </div>
+<script src="/js/src/slick.min.js"></script>
+<script>
+    $('.reviews-strip__list').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: true,
+        prevArrow: '<span class="icon-chevron-left slick-prev"></span>',
+        nextArrow: '<span class="icon-chevron-right slick-next"></span>'
+    });
+</script>
 {%- endif -%}

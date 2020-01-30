@@ -21,4 +21,9 @@
         </div>
     </div>
 </div>
+<script>
+    $('.faqs-strip__question').on("click", function () {
+        $(this).next('.faqs-strip__answer').toggleClass('active');
+    });
+</script>
 {%-endif-%}
