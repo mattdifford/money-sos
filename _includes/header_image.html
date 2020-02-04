@@ -20,7 +20,10 @@
                 {%- elsif include.layout == 'form' -%}
                 {%-assign image_type = include.image | slice: -3, 3-%}
                 <div class="header-image__bg">
-                    {%- include picture.html alt=include.section.title url=include.image type=image_type class="header-image__bg-img"-%}</div>
+                    {% if include.image %}
+                        {%- include picture.html alt=include.section.title url=include.image type=image_type class="header-image__bg-img"-%}
+                    {%endif%}
+                </div>
                 <div class="header-image__left">
                     {{-include.content |markdownify-}}
                 </div>
