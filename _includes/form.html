@@ -8,7 +8,7 @@
 {%- assign fieldset_name = '' -%}
 <form class="form">
     {{-form.pre_text | markdownify-}}
-    {%- for field in form.fields -%}
+    {%- for field in form.form_fields -%}
     {%- if field.type == 'data' && !included_data -%}
     {%- assign included_data = true -%}
     {%-endif-%}
@@ -50,6 +50,7 @@
     </fieldset>
     {%-endif -%}
     {%- endfor -%}
+    {% if fieldset_count > 1%}
     <div class="form__fieldset-count">
         {%- for i in (1..{{fieldset_count}}) -%}
         {%- if i == 1-%}
@@ -60,6 +61,7 @@
                 {{-i-}}</span data-index={{-i-}}>
             {%- endfor -%}
     </div>
+    {% endif %}
 </form>
 <div class="modal" id="modal">
     <h2 class="modal__title">We are matching you with a partner</h2>
@@ -91,8 +93,8 @@
                     </h4>
                     {{-buyer.description | markdownify-}}
                     {% if buyer.external_url %}
-                    <a style="background:#fff;color:#{{buyer.colour}}" rel="external noopener" target="_blank" href="{{buyer.external_url}}" class="button"
-                        data-ajax-buyer="{{buyer.title}}">Visit site</a>
+                    <a style="background:#{{buyer.colour}}" rel="external noopener" target="_blank"
+                        href="{{buyer.external_url}}" class="button" data-ajax-buyer="{{buyer.title}}">Visit site</a>
                     {%else%}
                     <button style="background:#{{buyer.colour}}" type="button" class="button request_callback_button"
                         data-ajax-buyer="{{buyer.title}}">Request a callback</button>
@@ -104,8 +106,8 @@
                     <div class="buyer-panel__overlay" style="background:#{{buyer.colour}}"></div>
                     {%-include picture.html type=image_type url=buyer.image  alt=buyer.title class="buyer-panel__image"-%}
                     {% if buyer.external_url %}
-                    <a style="background:#fff;color:#{{buyer.colour}}" rel="external noopener" target="_blank" href="{{buyer.external_url}}" class="button"
-                        data-ajax-buyer="{{buyer.title}}">Visit site</a>
+                    <a style="background:#fff;color:#{{buyer.colour}}" rel="external noopener" target="_blank"
+                        href="{{buyer.external_url}}" class="button" data-ajax-buyer="{{buyer.title}}">Visit site</a>
                     {%else%}
                     <button style="background:#fff;color:#{{buyer.colour}}" type="button"
                         class="button request_callback_button" data-ajax-buyer="{{buyer.title}}">Request a

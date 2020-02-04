@@ -1,0 +1,15 @@
+<label for="{{-include.slug-}}" class="field__label">{{-include.name-}}</label>
+{% if include.type %}
+{%assign field_type = include.type%}
+{%else%}
+{%assign field_type = "text"%}
+{%endif%}
+{%- if include.helptext -%}
+<p class="field__helptext">{{-include.helptext-}}</p>
+{%- endif -%}
+<div class="form__input-wrapper"><i class="price-icon">£</i><input type="{{field_type}}" name="{{-include.slug-}}"
+        required="{{-input.required-}}" class="field__input field__input--price" placeholder="{{-include.placeholder-}}"
+        data-parsley-group="{{include.fieldset}}"></div>
+<script>
+    window.postJqueryScripts.push('/js/src/field_price.js');
+</script>

@@ -47,6 +47,16 @@
       }
     }
   }
+  &__input-wrapper {
+    position: relative;
+    margin-top: 15px;
+    .field {
+      &__input {
+        margin-top: 0;
+        padding-left: 30px;
+      }
+    }
+  }
   &__field {
     margin-bottom: 25px;
     width: 100%;
@@ -62,6 +72,15 @@
           margin-top: 5px;
         }
       }
+    }
+    .price-icon {
+      position: absolute;
+      left: 10px;
+      top: 12px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 21px;
+      line-height: 1;
     }
   }
   &__fieldset {
