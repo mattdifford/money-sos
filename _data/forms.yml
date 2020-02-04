@@ -188,3 +188,73 @@ items:
       nunc. Nunc a pretium lectus
     submit_text: Submit
     title: Current accounts
+  - category: Loans - less than £10K
+    data_capture_post_text: >-
+      We will use our best endeavours to keep your information 100% safe &
+      secure on this website. By submitting your details you are consenting to
+      be contacted by Think Money via Telephone, Email and SMS
+    form_fields:
+      - helptext: 'Choose from £100 to £10,000'
+        name: How much would you like to borrow?
+        options:
+          - name: £100 - £999
+          - name: '£1,000 - £2,999'
+          - name: '£3,000 - £5,999'
+          - name: '£6,000 - £10,000'
+        required: true
+        type: radio
+      - name: What are you intending to use the loan for?
+        options:
+          - name: Debt consolidation
+          - name: Home improvements
+          - name: Pay bills
+          - name: Short term cash
+          - name: Car or motorcycle
+          - name: Other
+        required: true
+        type: radio
+    pre_text: >-
+      ### Lorem **ipsum**
+
+
+      Phasellus nulla tellus, luctus quis elementum dapibus, imperdiet sit amet
+      nunc. Nunc a pretium lectus
+    submit_text: Submit
+    title: Loans - less than £10K
+  - category: Loans - more than £10K
+    data_capture_post_text: >-
+      We will use our best endeavours to keep your information 100% safe &
+      secure on this website. By submitting your details you are consenting to
+      be contacted by Think Money via Telephone, Email and SMS
+    form_fields:
+      - name: Are you a homeowner?
+        options:
+          - name: 'Yes'
+          - name: 'No'
+        required: true
+        type: radio
+      - helptext: 'Choose from £10,000 to £50,000+'
+        name: How much would you like to borrow?
+        options:
+          - name: '£10,000 - £15,000'
+          - name: '£15,000 - £25,000'
+          - name: '£25,000 - £50,0000'
+          - name: '£50,000+'
+        required: true
+        type: radio
+      - helptext: You can select more than one option
+        name: What would you like to borrow for?
+        options:
+          - name: Debt consolidation
+          - name: Home improvements
+          - name: Other
+        required: true
+        type: multiple_choice
+    pre_text: >-
+      ### Lorem **ipsum**
+
+
+      Phasellus nulla tellus, luctus quis elementum dapibus, imperdiet sit amet
+      nunc. Nunc a pretium lectus
+    submit_text: Submit
+    title: Loans - more than £10K
