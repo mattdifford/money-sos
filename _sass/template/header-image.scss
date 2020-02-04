@@ -204,6 +204,9 @@
       &__wrapper {
         flex-wrap: wrap;
       }
+      &__containment {
+        position: static;
+      }
       &__title {
         margin-top: 0;
         margin-bottom: 50px;
