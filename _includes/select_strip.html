@@ -11,15 +11,15 @@
         <div class="select-strip__list{% if sections.size > 4%} select-strip__list--long{%endif%}">
             {% for i in sections %}
             <div class="select-strip__item">
-                {%if i.link %}
+                {%if i.link and i.disabled != true %}
                     <a class="select-strip__item-inner" href="{{i.link}}" title="{{i.title}}">
                 {%else %}
-                    <div class="select-strip__item-inner">
+                    <div class="select-strip__item-inner disabled">
                 {%endif%}
                         {%-assign image_type = i.image | slice: -3, 3-%}
                         {% include picture.html url=i.image type=image_type alt=i.title%}
                         <h3 class="select-strip__item-title">{{i.title}}</h3>
-                {%if i.link %}
+                {%if i.link and i.disabled != true %}
                     </a>
                 {%else %}
                     </div>
