@@ -139,6 +139,7 @@
       flex-wrap: wrap;
     }
   }
+  $padding: 65px;
   &__left {
     justify-content: center;
     flex-direction: column;
@@ -149,6 +150,9 @@
     @include in_size($mobile) {
       padding: 0;
       flex: 1 1 100%;
+    }
+    picture{
+      padding: $padding $padding $padding 0;
     }
   }
   &__right {
@@ -167,6 +171,7 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
+      padding: $padding 0 $padding $padding;
     }
     img {
       float: right;
