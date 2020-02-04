@@ -91,8 +91,10 @@ items:
         required: true
         type: radio
       - name: What's the property value?
+        required: true
         type: price
       - name: How much deposit do you have?
+        required: true
         type: price
       - helptext: ''
         name: Mortgage term in years
@@ -129,6 +131,7 @@ items:
           - name: '£15,000 - £35,000'
           - name: 'Over £35,000'
           - name: Not sure
+        required: true
         type: radio
     pre_text: >-
       ### Lorem **ipsum**
@@ -138,3 +141,50 @@ items:
       nunc. Nunc a pretium lectus
     submit_text: Submit
     title: Pensions
+  - category: Current accounts
+    data_capture_post_text: >-
+      We will use our best endeavours to keep your information 100% safe &
+      secure on this website. By submitting your details you are consenting to
+      be contacted by Think Money via Telephone, Email and SMS
+    form_fields:
+      - helptext: 'Is it just you who will be using the account, or somebody else too?'
+        name: Are you looking for a single or joint account?
+        options:
+          - name: Single account
+          - name: Joint account
+        required: true
+        type: radio
+      - name: What is your account used for?
+        options:
+          - name: Income
+          - name: Savings
+          - name: Bills
+          - name: Loans
+        required: true
+        type: multiple_choice
+      - helptext: 'What is your income, per month?'
+        name: Monthly income
+        options:
+          - name: '£0 - £1,000'
+          - name: '£1,000 - £1,500'
+          - name: '£1,500 - £2,000'
+          - name: '£2,000+'
+        required: true
+        type: radio
+      - helptext: By what method are you paid your income every month?
+        name: How are you paid?
+        options:
+          - name: Bank transfer
+          - name: Cheque
+          - name: Cash
+          - name: Internationl transfer
+        required: true
+        type: radio
+    pre_text: >-
+      ### Lorem **ipsum**
+
+
+      Phasellus nulla tellus, luctus quis elementum dapibus, imperdiet sit amet
+      nunc. Nunc a pretium lectus
+    submit_text: Submit
+    title: Current accounts
