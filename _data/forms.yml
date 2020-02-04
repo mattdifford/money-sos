@@ -1,14 +1,65 @@
 items:
   - category: Flight compensation
-    data_capture_post_text: >-
-      We will use our best endeavours to keep your information 100% safe &
-      secure on this website. By submitting your details you are consenting to
-      be contacted by Bott and Co Solicitors Limited via Telephone, Email and
-      SMS. By completing this form you confirm your intention and authority to
-      instruct Bott and Co Solicitors Limited to present a claim to the airline
-      on behalf of the passengers listed above. You understand that we work on a
-      no-win no-fee basis which means if we aren’t successful you won’t have to
-      pay anything.
+    form_fields:
+      - helptext: Make a selection below
+        name: What happened to your flight?
+        options:
+          - name: Delayed
+          - name: Cancelled
+          - name: Missed Connection
+          - name: Denied boarding
+        required: true
+        type: radio
+      - helptext: Make a selection below
+        name: How long was your flight delayed?
+        options:
+          - name: Not delayed
+          - name: Less than 3 hours
+          - name: Over 3 hours
+          - name: Didn't arrive
+        required: true
+        type: radio
+      - helptext: Airline details fieldset
+        name: Airline details fieldset
+        required: false
+        type: fieldset
+      - helptext: 'This is important, so do you best to remember' 
+        name: Which airline did you travel with?
+        required: true
+        type: data
+        options:
+          - name: airlines
+      - helptext: Date fieldset
+        name: Date fieldset
+        required: false
+        type: fieldset
+      - helptext: Please select an accurate date of your delayed flight
+        name: What date was the flight?
+        required: true
+        placeholder: DD/MM/YYYY
+        type: date
+      - helptext: Flight details
+        name: Flight details
+        required: false
+        type: fieldset
+      - helptext: Start typing the airport name
+        name: Departure Airport
+        options:
+          - name: airports
+        required: true
+        type: data
+      - helptext: Start typing the airport name
+        name: Arrival Airport
+        options:
+          - name: airports
+        required: true
+        type: data
+      - name: Flight number
+        required: false
+        type: string_short
+      - name: Booking reference
+        required: false
+        type: string_short
     pre_text: >-
       ### Get a **free** & instant decision below
 
@@ -17,6 +68,7 @@ items:
       compensation you deserve after your delay!
     submit_text: Find a claim
     title: Flight Compensation
+    data_capture_post_text: We will use our best endeavours to keep your information 100% safe & secure on this website. By submitting your details you are consenting to be contacted by Bott and Co Solicitors Limited via Telephone, Email and SMS. By completing this form you confirm your intention and authority to instruct Bott and Co Solicitors Limited to present a claim to the airline on behalf of the passengers listed above. You understand that we work on a no-win no-fee basis which means if we aren’t successful you won’t have to pay anything.
   - category: Mortgages
     data_capture_post_text: >-
       We will use our best endeavours to keep your information 100% safe &
@@ -40,8 +92,6 @@ items:
         type: number
     pre_text: >-
       ### Lorem **ipsum**
-
-
       Phasellus nulla tellus, luctus quis elementum dapibus, imperdiet sit amet
       nunc. Nunc a pretium lectus
     submit_text: Submit
