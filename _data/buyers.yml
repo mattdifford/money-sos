@@ -30,8 +30,20 @@ items:
     logo: /images/upload/thinkmoney.png
     image: /images/upload/saving.png
     colour: FFC72A
-    section: Loans
-    external_url: https://www.google.com
+    section: Loans - more than £10K
+    description: >- 
+      * Donec nibh nibh, mattis id.
+
+      * Nam enim velit, dictum non.
+
+      * In in magna condimentum, porta.
+
+      * Fusce scelerisque diam vel ligula.
+  - title: Think Money
+    logo: /images/upload/thinkmoney.png
+    image: /images/upload/saving.png
+    colour: FFC72A
+    section: Loans - less than £10K
     description: >- 
       * Donec nibh nibh, mattis id.
 

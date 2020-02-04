@@ -6,7 +6,10 @@ items:
     image: /images/upload/cards.png
     link: /banking
     sub_sections: 
-      - title: Loans
+      - title: Loans - less than £10K
+        image: /images/upload/cards.png
+        link: /banking/loans
+      - title: Loans - more than £10K
         image: /images/upload/cards.png
         link: /banking/loans
       - title: Current accounts

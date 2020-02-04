@@ -1,6 +1,7 @@
 .featured-strip {
   position: relative;
-  margin-top: -80px;
+  margin-top: 1px;
+  transform: translateY(-100%);
   background: $featured-strip-main-bg;
   overflow: hidden;
   @include in_size($xs) {
