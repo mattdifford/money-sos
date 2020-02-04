@@ -38,6 +38,8 @@ items:
       - title: Flight compensation
         image: /images/upload/boarding-pass.png
         link: /claims/flight-compensation
+        lp_id: yayayay
+        lp_key: yayayay
       - title: Personal injury
         image: /images/upload/plaster.png
         link: /claims/personal-injury

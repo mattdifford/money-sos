@@ -10,7 +10,6 @@
     {{-form.pre_text | markdownify-}}
     {%- for field in form.fields -%}
     {%- if field.type == 'data' && !included_data -%}
-    <script src="{{- "/js/src/bootstrap3-typeahead.min.js" | relative_url -}}"></script>
     {%- assign included_data = true -%}
     {%-endif-%}
     {%- if forloop.first == true -%}
@@ -77,7 +76,8 @@
     {%assign count = buyer_data.size |plus:0%}
     <h3 class="buyer-panel__main-title">We have successfully found you {{count | pluralize: 'partner', 'partners'}}!
     </h3>
-    <p class="buyer-panel__intro-text">We have found you a match to {{count | pluralize: 'one', 'some', false}} of our trusted
+    <p class="buyer-panel__intro-text">We have found you a match to {{count | pluralize: 'one', 'some', false}} of our
+        trusted
         partners who may be able to help. Details can be found below:</p>
     <div class="buyer-panel__inner">
         <div class="buyer-panel__wrapper">
@@ -86,15 +86,31 @@
                 {%-assign image_type_logo = buyer.logo | slice: -3, 3-%}
                 <div class="buyer-panel__left">
 
-                    <h4 class="buyer-panel__title">{%-include picture.html type=image_type_logo url=buyer.logo  alt=buyer.title class="buyer-panel__logo"-%}{{buyer.title}}</h4>
+                    <h4 class="buyer-panel__title">
+                        {%-include picture.html type=image_type_logo url=buyer.logo  alt=buyer.title class="buyer-panel__logo"-%}{{buyer.title}}
+                    </h4>
                     {{-buyer.description | markdownify-}}
-                    <button style="background:#{{buyer.colour}}" type="button" class="button request_callback_button" data-ajax-buyer="{{buyer.title}}">Request a callback</button>
+                    {% if buyer.external_url %}
+                    <a style="background:#fff;color:#{{buyer.colour}}" rel="external noopener" target="_blank" href="{{buyer.external_url}}" class="button"
+                        data-ajax-buyer="{{buyer.title}}">Visit site</a>
+                    {%else%}
+                    <button style="background:#{{buyer.colour}}" type="button" class="button request_callback_button"
+                        data-ajax-buyer="{{buyer.title}}">Request a callback</button>
+                    {%endif%}
+
                 </div>
                 <div class="buyer-panel__right">
                     {%-assign image_type = buyer.image | slice: -3, 3-%}
                     <div class="buyer-panel__overlay" style="background:#{{buyer.colour}}"></div>
                     {%-include picture.html type=image_type url=buyer.image  alt=buyer.title class="buyer-panel__image"-%}
-                    <button style="background:#fff;color:#{{buyer.colour}}" type="button" class="button request_callback_button" data-ajax-buyer="{{buyer.title}}">Request a callback</button>
+                    {% if buyer.external_url %}
+                    <a style="background:#fff;color:#{{buyer.colour}}" rel="external noopener" target="_blank" href="{{buyer.external_url}}" class="button"
+                        data-ajax-buyer="{{buyer.title}}">Visit site</a>
+                    {%else%}
+                    <button style="background:#fff;color:#{{buyer.colour}}" type="button"
+                        class="button request_callback_button" data-ajax-buyer="{{buyer.title}}">Request a
+                        callback</button>
+                    {%endif%}
                 </div>
             </div>
             {% endfor %}
@@ -105,6 +121,8 @@
 <form class="form form--personal-info" style="display:none;">
     <h3>Personal information</h3>
     <p>We need some details about you</p>
+    <input type="hidden" value="{{include.section.lp_key}}" name="lp_campaign_key">
+    <input type="hidden" value="{{include.section.lp_id}}" name="lp_campaign_id">
     <div class="form__field">
         {%- include field_string.html name="First name" slug="firstname" required=true placeholder="John" fieldset="first" -%}
     </div>
@@ -123,4 +141,5 @@
     <div class="form__submit"><button type="button" class="form__submit-button">Submit application</button></div>
     <p class="form__post-text">{{-form.data_capture_post_text -}}</p>
 </form>
+
 {%- endif -%}

@@ -38,10 +38,47 @@ $(document).ready(function () {
             force: true
         }).done(function () {
             if (parent_form.hasClass('form--personal-info')) {
-                var html = '<h3>Thank you for submitting your details</h3>';
-                html += '<p>Someone will be in touch shortly to discuss your claim</p>';
-                parent_form.html(html).addClass('form--completed');
-                $("body, html").animate({ scrollTop: parent_form.offset().top - 20 });
+                $.ajax({
+
+                    async: true,
+                    url: 'https://savvy.leadspediatrack.com/post.do',
+                    data: parent_form.serializeObject(),
+                    type: 'POST',
+                    success: function (data) {
+                        var response = data.all;
+                        var nodes = [];
+                        for (i = 0; i < response.length; i++) {
+                            nodes[data.all[i].nodeName] = i;
+                        }
+                        var result_index = nodes["result"];
+                        var error_index = nodes["error"];
+                        if (response[result_index].innerHTML != 'failed') {
+                            $.ajax({
+                                type: "POST",
+                                url: "https://prod-03.uksouth.logic.azure.com:443/workflows/4eb150b479614cd09dc24d18c8cfd03e/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=IhYaG8SQ2pgSNJysFtQJ7fm9sO1u5ULUyItiEIe9G6g",
+                                async: true,
+                                data: { "email": formData.email_address, "first_name": formData.first_name, "last_name": formData.last_name },
+                                success: function () {
+                                    var html = '<h3>Thank you for submitting your details</h3>';
+                                    html += '<p>Someone will be in touch shortly to discuss your claim</p>';
+                                    parent_form.html(html).addClass('form--completed');
+                                    $("body, html").animate({ scrollTop: parent_form.offset().top - 20 });
+                                }
+                            });
+                        } else {
+                            var html = '<p class="form__message form__message--error">Something went wrong, please try again</p>';
+                            parent_form.append(html);
+                            $("body, html").animate({ scrollTop: parent_form.offset().top - 20 });
+                        }
+
+                    },
+                    error: function (e) {
+                        var html = '<p class="form__message form__message--error">Something went wrong, please try again</p>';
+                        parent_form.append(html);
+                        $("body, html").animate({ scrollTop: parent_form.offset().top - 20 });
+                    }
+                });
+
             } else {
                 var $modal = $("#modal");
                 $modal.addClass('modal--active');
@@ -66,3 +103,19 @@ $(document).ready(function () {
         $('.header-image__right').removeClass('has-buyer-panel');
     });
 });
+
+$.fn.serializeObject = function () {
+    var o = {};
+    var a = this.serializeArray();
+    $.each(a, function () {
+        if (o[this.name]) {
+            if (!o[this.name].push) {
+                o[this.name] = [o[this.name]];
+            }
+            o[this.name].push(this.value || '');
+        } else {
+            o[this.name] = this.value || '';
+        }
+    });
+    return o;
+};

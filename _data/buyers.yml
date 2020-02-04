@@ -4,6 +4,7 @@ items:
     image: /images/upload/starbucks.png
     colour: F7125B
     section: Flight compensation
+    external_url: https://www.google.com
     description: >- 
       * Donec nibh nibh, mattis id.
 

@@ -34,24 +34,7 @@
     slick.type = 'text/css';
     var defer_slick = document.getElementsByTagName('link')[0];
     defer_slick.parentNode.insertBefore(slick, defer_slick);
-    
-    function loadScript(src, callback) {
-        let script = document.createElement('script');
-        script.src = src;
-
-        script.onload = () => callback(script);
-
-        document.head.append(script);
-    }
-    loadScript("/js/src/slick.min.js", function () {
-        $('.reviews-strip__list').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: false,
-            arrows: true,
-            prevArrow: '<span class="icon-chevron-left slick-prev"></span>',
-            nextArrow: '<span class="icon-chevron-right slick-next"></span>'
-        });
-    })
+    window.postJqueryScripts.push("/js/src/slick.min.js");
+    window.postJqueryScripts.push('/js/src/reviews.js')
 </script>
 {%- endif -%}

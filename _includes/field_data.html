@@ -7,10 +7,5 @@
 {%-capture data_name-%}"/public/{{- include.options[0].name -}}.json"{%-endcapture-%}
 {%-capture id-%}"#{{- include.slug -}}"{%-endcapture-%}
 <script>
-    $.get({{data_name}}, function(data){
-        data = data.filter(function(value,index,self){
-            return self.indexOf(value) === index;
-        })
-        $({{id}}).typeahead({ source:data });
-    },'json');
+    window.postJqueryScripts.push(["/js/src/bootstrap3-typeahead.min.js", '$.get({{ data_name }}, function (data) {data = data.filter(function (value, index, self) {return self.indexOf(value) === index;});$({{ id }}).typeahead({ source: data });}, "json");'])
 </script>

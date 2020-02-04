@@ -29,23 +29,69 @@
         stylesheet_layout.type = 'text/css';
         document.getElementsByTagName('head')[0].appendChild(stylesheet_layout);
     }
-    function loadScript(src, callback) {
-        let script = document.createElement('script');
-        script.src = src;
-        if (typeof callback != "undefined") {
-            script.onload = () => callback(script);
-        }
 
-        document.head.append(script);
-    }
-    loadScript("{{js_src}}");
+
+    window.postJqueryScripts.push("{{js_src}}");
 
     var fonts = document.createElement('link');
     fonts.rel = 'stylesheet';
     fonts.href = 'https://use.typekit.net/lfq5beq.css';
     fonts.type = 'text/css';
     var defer = document.getElementsByTagName('link')[0];
-    defer.parentNode.insertBefore(fonts, defer); 
+    defer.parentNode.insertBefore(fonts, defer);
+
+
+    function loadScript(src, callback, text) {
+        if (typeof src === "object") {
+            callback = src[1];
+            src = src[0]
+        }
+        let script = document.createElement('script');
+        script.async = false;
+        if (src.charAt(0) == '/' || src.substring(0, 4) === 'http') {
+            script.src = src;
+        } else {
+            script.defer = true;
+            script.text = src;
+        }
+        if (typeof callback != "undefined" && callback != false) {
+            if (script.readyState) {  //IE
+                script.onreadystatechange = function () {
+                    if (script.readyState == "loaded" ||
+                        script.readyState == "complete") {
+                        script.onreadystatechange = null;
+                        if (typeof callback !== "function") {
+                            loadScript(callback);
+                        } else {
+                            callback();
+                        }
+                    }
+                };
+            } else {  //Others
+                script.onload = function () {
+                    if (typeof callback !== "function") {
+                        loadScript(callback);
+                    } else {
+                        callback();
+                    }
+                };
+            }
+        }
+        document.head.append(script);
+    }
+    loadScript("/js/src/jquery.min.js", loadPostJqueryScripts);
+    function loadPostJqueryScripts() {
+        var scripts = window.postJqueryScripts;
+        var uniq = scripts.filter(onlyUnique);
+        uniq.forEach(function (item) {
+            loadScript(item)
+        });
+    }
+
+
+    function onlyUnique(value, index, self) {
+        return self.indexOf(value) === index;
+    }
 </script>
 {%- capture layout_css -%}/assets/css/{{include.layout}}.css{%-endcapture-%}
 <noscript>
