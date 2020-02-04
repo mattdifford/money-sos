@@ -177,7 +177,7 @@ items:
           - name: Bank transfer
           - name: Cheque
           - name: Cash
-          - name: Internationl transfer
+          - name: International transfer
         required: true
         type: radio
     pre_text: >-
