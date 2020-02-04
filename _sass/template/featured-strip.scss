@@ -1,7 +1,6 @@
 .featured-strip {
   position: relative;
-  margin-top: 1px;
-  transform: translateY(-100%);
+  margin-top: -96px;
   background: $featured-strip-main-bg;
   overflow: hidden;
   @include in_size($xs) {
@@ -16,6 +15,8 @@
     padding-right: 50px;
     position: relative;
     flex: 1 0 auto;
+    display: flex;
+    align-items: center;
     &:before {
       content: "";
       position: absolute;
@@ -39,7 +40,7 @@
       align-items: center;
     }
     picture {
-      margin: 0 25px;
+      margin: 15px 25px 5px;
     }
   }
   @include in_size($xs) {
