@@ -22,6 +22,7 @@ header_content: >-
 
 
   [Start now](/tools)
+header_image: /images/upload/phone.png
 strip_1:
   image: /images/upload/coins.png
   image_position: left
