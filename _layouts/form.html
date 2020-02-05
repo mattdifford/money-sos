@@ -12,6 +12,16 @@
                     {%assign section_obj = sub_section%}
                     {% break %}
                 {%endif%}
+                {% if section_obj.size == 0 %}
+                    {{page.section}}
+                    {% for sub_sub_section in sub_section.sub_sections %}
+                        {{sub_section.title}}    
+                        {% if sub_sub_section.title == page.section%}
+                            {%assign section_obj = sub_sub_section%}
+                            {% break %}
+                        {%endif%}
+                    {% endfor %}
+                {%endif%}
             {% endfor %}
         {% endfor %}
     {% else %}

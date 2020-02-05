@@ -41,10 +41,13 @@
             {%- endif -%}
         </div>
         {%-endif -%}
-        {%- if forloop.last == true -%}
+        {%- if forloop.last == true-%}
         <div class="form__buttons">
-            <div class="form__back"><button type="button" class="form__back-button"><i
-                        class="icon-chevron-left"></i>Back</button></div>
+            {% if fieldset_count > 1%}
+            <div class="form__back">
+                <button type="button" class="form__back-button"><i class="icon-chevron-left"></i>Back</button>
+            </div>
+            {% endif %}
             <div class="form__submit"><button type="button" class="form__submit-button">{{form.submit_text}}</button>
             </div>
     </fieldset>

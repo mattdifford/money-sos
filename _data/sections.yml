@@ -3,15 +3,19 @@ items:
     image: /images/upload/keys.png
     link: /mortgages
   - title: Banking
-    image: /images/upload/cards.png
+    image: /images/upload/bank-flat.png
     link: /banking
     sub_sections: 
-      - title: Loans - less than £10K
-        image: /images/upload/cards.png
+      - title: Loans
+        image: /images/upload/loan-large.png
         link: /banking/loans
-      - title: Loans - more than £10K
-        image: /images/upload/cards.png
-        link: /banking/loans
+        sub_sections: 
+          - title: Loans - less than £10K
+            image: /images/upload/loan-small.png
+            link: /banking/loans-under-10k
+          - title: Loans - more than £10K
+            image: /images/upload/loan-large.png
+            link: /banking/loans-over-10k
       - title: Current accounts
         image: /images/upload/cards.png
         link: /banking/current-accounts

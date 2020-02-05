@@ -16,10 +16,10 @@ items:
     image: /images/upload/home.png
     link: https://www.moneysos.co.uk
   - title: Claims
-    colour: fff
-    image: /images/spinner.png
+    colour: 7459DC
+    image: /images/upload/claims.png
     link: https://www.moneysos.co.uk
   - title: Life
     colour: fff
-    image: /images/spinner.png
+    image: /images/upload/lifesos.png
     link: https://www.moneysos.co.uk

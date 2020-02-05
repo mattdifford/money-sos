@@ -5,7 +5,28 @@
 <body>
     {%- include_cached header.html -%}
     {% assign section_obj = site.data.sections.items | where: "title", page.section %}
-    {% assign section_obj = section_obj[0] %}
+    {% if section_obj.size == 0 %}
+        {% for section in site.data.sections.items %}
+            {% for sub_section in section.sub_sections %}
+                {% if sub_section.title == page.section%}
+                    {%assign section_obj = sub_section%}
+                    {% break %}
+                {%endif%}
+                {% if section_obj.size == 0 %}
+                    {{page.section}}
+                    {% for sub_sub_section in sub_section.sub_sections %}
+                        {{sub_section.title}}    
+                        {% if sub_sub_section.title == page.section%}
+                            {%assign section_obj = sub_sub_section%}
+                            {% break %}
+                        {%endif%}
+                    {% endfor %}
+                {%endif%}
+            {% endfor %}
+        {% endfor %}
+    {% else %}
+        {% assign section_obj = section_obj[0] %}
+    {% endif %}
     {%- include header_image.html content=page.header_content layout="inner" image=page.header_image-%}
     {%- include_cached featured_strip.html -%}
     {%- include select_strip.html section=section_obj -%}

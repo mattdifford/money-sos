@@ -9,9 +9,11 @@
                                 {% if sections.size > 0 %}
                                 <span class="header__nav-link">Tools
                                         <div class="header__sub-nav">
-                                        <a href="/tools" class="header__sub-nav-link">All tools</a>
+                                                <a href="/tools" class="header__sub-nav-link">All tools</a>
                                                 {% for i in sections %}
+                                                {% if i.disabled != true %}
                                                 <a href="{{i.link}}" class="header__sub-nav-link">{{i.title}}</a>
+                                                {%endif%}
                                                 {% endfor %}
                                         </div>
                                 </span>
