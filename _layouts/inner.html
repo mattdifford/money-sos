@@ -26,7 +26,7 @@
         {% assign section_obj = section_obj[0] %}
     {% endif %}
     {%- include header_image.html content=page.header_content layout="inner" image=page.header_image-%}
-    {%- include_cached featured_strip.html -%}
+    {%- include featured_strip.html section=section_obj-%}
     {%- include select_strip.html section=section_obj -%}
     <div class="image-strip-wrapper">
         {%- include image-strip.html image_position=page.strip_1.image_position image=page.strip_1.image text=page.strip_1.text -%}

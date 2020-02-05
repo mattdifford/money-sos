@@ -1,5 +1,7 @@
 {%- assign partners = site.partners | split: ", " -%}
-
+{%if include.section and include.section.partners.size > 0 %}
+{%assign partners = include.section.partners | split: ", " %}
+{%endif%}
 <div class="featured-strip">
     <div class="container">
         <div class="featured-strip__wrapper">

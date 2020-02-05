@@ -5,17 +5,21 @@ items:
   - title: Banking
     image: /images/upload/bank-flat.png
     link: /banking
+    partners: "zurich, thinkmoney, aviva, tsb"
     sub_sections: 
       - title: Loans
         image: /images/upload/loan-large.png
         link: /banking/loans
+        partners: "zurich, thinkmoney, aviva, tsb"
         sub_sections: 
           - title: Loans - less than £10K
             image: /images/upload/loan-small.png
             link: /banking/loans-under-10k
+            partners: "zurich, thinkmoney, aviva, tsb"
           - title: Loans - more than £10K
             image: /images/upload/loan-large.png
             link: /banking/loans-over-10k
+            partners: "zurich, thinkmoney, aviva, tsb"
       - title: Current accounts
         image: /images/upload/cards.png
         link: /banking/current-accounts
