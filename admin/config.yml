@@ -24,6 +24,7 @@ collections: # A list of collections the CMS should be able to edit
           widget: "markdown",
           required: false,
         }
+      - { label: "Header image", name: "header_image", widget: "image", required: false}
       - label: "Strip 1"
         name: "strip_1"
         widget: "object"
