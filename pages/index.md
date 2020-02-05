@@ -14,6 +14,10 @@ header_content: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
   nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+
+  
+  [Get started](/tools)
+
 strip_1:
   image: /images/upload/coins.png
   image_position: left

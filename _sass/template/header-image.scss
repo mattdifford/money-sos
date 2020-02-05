@@ -113,6 +113,10 @@
       font-size: 50px;
       margin: 0 0 30px;
     }
+    ul + .button {
+      margin-top: 35px;
+      max-width: 385px;
+    }
     li {
       @include list_style($header-image-cta-tick-bg, $header-image-cta-tick);
       @include in_size($xs) {
@@ -151,7 +155,7 @@
       padding: 0;
       flex: 1 1 100%;
     }
-    picture{
+    picture {
       padding: $padding $padding $padding 0;
     }
   }
@@ -165,6 +169,7 @@
     @include in_size($mobile) {
       text-align: center;
       justify-content: center;
+      height: auto;
     }
     picture {
       height: 100%;
@@ -172,6 +177,10 @@
       align-items: center;
       justify-content: flex-end;
       padding: $padding 0 $padding $padding;
+      @include in_size($mobile) {
+        height: auto;
+        padding: 0;
+      }
     }
     img {
       float: right;
@@ -273,7 +282,11 @@
     }
     .header-image {
       &__containment {
+        padding: 60px 0 105px;
         position: static;
+        @include in_size($xs) {
+          padding: 80px 0;
+        }
       }
       &__left {
         color: $header-image-form-text;

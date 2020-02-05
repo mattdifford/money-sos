@@ -363,6 +363,16 @@
         align-items: center;
         justify-content: center;
       }
+      @include in_size($md) {
+        padding: 10px;
+        font-size: 15px;
+        &:before {
+          width: 20px;
+          height: 20px;
+          flex: 0 0 20px;
+          font-size: 14px;
+        }
+      }
       @include in_size($xs) {
         text-align: left;
         padding: 10px 5px;
@@ -647,6 +657,7 @@ body.modal-active {
   }
   picture {
     justify-content: center;
+    padding: 0;
   }
   img {
     float: none;

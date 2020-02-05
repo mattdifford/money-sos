@@ -2,7 +2,7 @@
 layout: bottom
 description: Page Description
 title: Loans under £10,000
-section: Loans - less than 10K
+section: Up to £10K
 permalink: /banking/loans-under-10k
 header_image: /images/upload/bank.png
 header_content: >- 

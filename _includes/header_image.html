@@ -7,13 +7,11 @@
                 <div class="header-image__content">
                     <div class="header-image__left">
                         {{-include.content | markdownify-}}
+                        <a href="{{-include.url-}}/form" class="button">Free to use checking tool</a>
                     </div>
                     <div class="header-image__right">
                         {%-assign image_type = include.image | slice: -3, 3-%}
                         {%- include picture.html alt=include.section.title url=include.image type=image_type-%}
-                    </div>
-                    <div class="header-image__footer">
-                        <a href="{{-include.url-}}/form" class="button">Free to use checking tool</a>
                     </div>
                 </div>
 

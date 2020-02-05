@@ -3,6 +3,12 @@
   margin-top: -96px;
   background: $featured-strip-main-bg;
   overflow: hidden;
+  @include in_size($md-only) {
+    margin-top: -72px;
+  }
+  @include in_size($sm-only) {
+    margin-top: -71px;
+  }
   @include in_size($xs) {
     margin-top: 0;
   }
@@ -59,6 +65,8 @@
         margin: 10px 0;
         font-size: 18px;
         text-align: center;
+        color: $featured-strip-title-text-mobile;
+        width: 100%;
       }
       &:before,
       &:after {

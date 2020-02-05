@@ -30,7 +30,7 @@ items:
     logo: /images/upload/thinkmoney.png
     image: /images/upload/saving.png
     colour: FFC72A
-    section: Loans - more than £10K
+    section: Over £10K
     description: >- 
       * Donec nibh nibh, mattis id.
 
@@ -43,7 +43,7 @@ items:
     logo: /images/upload/thinkmoney.png
     image: /images/upload/saving.png
     colour: FFC72A
-    section: Loans - less than £10K
+    section: Up to £10K
     description: >- 
       * Donec nibh nibh, mattis id.
 

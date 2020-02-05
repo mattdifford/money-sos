@@ -2,7 +2,7 @@
 layout: form
 description: Page Description
 title: Request a callback for loans under £10,000
-section: Loans - less than £10K
+section: Up to £10K
 reference: Loans form
 permalink: /banking/loans-under-10k/form
 header_content: >- 

@@ -108,14 +108,6 @@
                     {%-assign image_type = buyer.image | slice: -3, 3-%}
                     <div class="buyer-panel__overlay" style="background:#{{buyer.colour}}"></div>
                     {%-include picture.html type=image_type url=buyer.image  alt=buyer.title class="buyer-panel__image"-%}
-                    {% if buyer.external_url %}
-                    <a style="background:#fff;color:#{{buyer.colour}}" rel="external noopener" target="_blank"
-                        href="{{buyer.external_url}}" class="button" data-ajax-buyer="{{buyer.title}}">Visit site</a>
-                    {%else%}
-                    <button style="background:#fff;color:#{{buyer.colour}}" type="button"
-                        class="button request_callback_button" data-ajax-buyer="{{buyer.title}}">Request a
-                        callback</button>
-                    {%endif%}
                 </div>
             </div>
             {% endfor %}
