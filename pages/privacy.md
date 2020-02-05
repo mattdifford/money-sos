@@ -22,8 +22,8 @@ strip_1:
     right to object to processing based on legitimate interests, profiling
     (including the use of custom and lookalike/similar audiences), and direct
     marketing. At any time, you can exercise your rights by emailing us at
-    info@mrsavvy.co.uk. For further details about our processing and your
-    rights, please see below.
+    [info@mrsavvy.co.uk](mailto:info@mrsavvy.co.uk). For further details about
+    our processing and your rights, please see below.
 
 
     #### 1. Who we are
@@ -472,9 +472,7 @@ strip_1:
     hold about you, please contact us:
 
 
-    Post: Data Protection Officer
-
-    Mr Savvy Ltd
+    Post: Data Protection Officer Mr Savvy Ltd
 
     20-22 The Mall
 
@@ -517,12 +515,10 @@ strip_1:
 
 
     Visit: [www.ico.org.uk/make-a-complaint](www.ico.org.uk/make-a-complaint)
-    and select Your Personal Information Concerns Call: 0303 123 1113
-
-    Chat: [ico.org.uk/global/contact-us/live-chat
-    ](ico.org.uk/global/contact-us/live-chat) Information:
-
-    Commissioner’s Office,
+    and select Your Personal Information Concerns Call: 0303 123 1113 Chat:
+    [ico.org.uk/global/contact-us/live-chat
+    ](ico.org.uk/global/contact-us/live-chat) Information: Commissioner’s
+    Office,
 
     Wycliffe House,
 
