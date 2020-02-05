@@ -1,25 +1,25 @@
 items:
-  - title: Health
+  - title: healthSOS
     colour: 59D4E8
     image: /images/upload/health.png
     link: https://www.moneysos.co.uk
-  - title: Money
+  - title: moneySOS
     colour: 00249D
     image: /images/upload/money-white.png
     link: https://www.moneysos.co.uk
-  - title: Quote
+  - title: quoteSOS
     colour: 110133
     image: /images/upload/quote.png
     link: https://www.moneysos.co.uk
-  - title: Home
+  - title: homeSOS
     colour: 4fb291
     image: /images/upload/home.png
     link: https://www.moneysos.co.uk
-  - title: Claims
+  - title: claimsSOS
     colour: 7459DC
     image: /images/upload/claims.png
     link: https://www.moneysos.co.uk
-  - title: Life
+  - title: lifeSOS
     colour: ededed
     image: /images/upload/lifesos.png
     link: https://www.moneysos.co.uk

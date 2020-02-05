@@ -3,24 +3,46 @@
         <div class="footer__wrapper">
             <div class="footer__col footer__col--logo">
                 {%- include picture.html class="footer__logo" type="png" url="/images/logo-footer.png" alt=site.title -%}
-                <p class="footer__logo-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="footer__logo-text">money SOS<br>
+                    20-22 The Mall<br>
+                    Clifton Village<br>
+                    Bristol<br>
+                    BS8 4DR<br>
+                </p>
             </div>
+            <div class="footer__col footer__col--nav">
+                <span class="footer__nav-link footer__nav-link--header">Our tools</span>
+                {% for i in  site.data.sections.items %}
+                <a class="footer__nav-link" href="{{i.link}}" title="{{i.title}}" target="_blank"
+                    rel="external noopener">{{i.title}}</a>
+                {%endfor%}
+            </div>
+            <div class="footer__col footer__col--nav">
+                <span class="footer__nav-link footer__nav-link--header">Our brands</span>
+                {% for i in site.data.brands.items %}
+                <a class="footer__nav-link" href="{{i.link}}" title="{{i.title}}" target="_blank"
+                    rel="external noopener">{{i.title}}</a>
+                {%endfor%}
+            </div>
+            {%assign show_nav = false%}
+            {% if show_nav %}
             {%- for item in site.data.footer_navigation.items -%}
-                {%- if forloop.first == true -%}
-                    <div class="footer__col">
+            {%- if forloop.first == true -%}
+            <div class="footer__col">
                 {%- elsif item.header == true and forloop.first == false -%}
-                    </div>
-                    <div class="footer__col">
+            </div>
+            <div class="footer__col">
                 {%- endif -%}
-                    <a href="{{-site.baseurl-}}{{-item.link-}}"
+                <a href="{{-site.baseurl-}}{{-item.link-}}"
                     {%-if item.header ==true-%}class="footer__nav-link footer__nav-link--header" {%-else-%}
                     class="footer__nav-link" {%-endif-%}>
                     {{- item.name -}}
-                    </a>
+                </a>
                 {%- if forloop.last == true -%}
-                    </div>
-                {%-endif-%}
+            </div>
+            {%-endif-%}
             {%- endfor -%}
+            {%-endif-%}
         </div>
         <div class="footer__bottom">
             <div class="footer__col footer__col--copyright">
@@ -29,15 +51,15 @@
             <div class="footer__col footer__col--nav">
                 <nav class="footer__small-nav">
                     <a class="footer__small-nav-link" href="/privacy">Privacy notice & cookies</a>
-                    <a class="footer__small-nav-link" href="/accessiblity">Accessiblity</a>
-                    <a class="footer__small-nav-link" href="/terms-conditions">Terms & conditions</a>
-                    <a class="footer__small-nav-link" href="/modern-slavery-statement">Modern Slavery Statement</a>
                 </nav>
             </div>
             <div class="footer__col footer__col--social">
-                <a class="footer__social" title="Facebook" href="{{site.facebook_url | absolute_url}}" target="_blank" rel="external noopener"><span class="icon-facebook"></span></a>
-                <a class="footer__social" title="Twitter" href="{{site.twitter_url | absolute_url}}" target="_blank" rel="external noopener"><span class="icon-twitter bg"></span></a class="footer__social">
-                <a class="footer__social" title="Instagram" href="{{site.instagram_url | absolute_url}}" target="_blank" rel="external noopener"><span class="icon-instagram bg"></span></a class="footer__social">
+                <a class="footer__social" title="Facebook" href="{{site.facebook_url | absolute_url}}" target="_blank"
+                    rel="external noopener"><span class="icon-facebook"></span></a>
+                <a class="footer__social" title="Twitter" href="{{site.twitter_url | absolute_url}}" target="_blank"
+                    rel="external noopener"><span class="icon-twitter bg"></span></a class="footer__social">
+                <a class="footer__social" title="Instagram" href="{{site.instagram_url | absolute_url}}" target="_blank"
+                    rel="external noopener"><span class="icon-instagram bg"></span></a class="footer__social">
             </div>
         </div>
     </div>

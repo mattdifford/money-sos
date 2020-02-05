@@ -6,27 +6,11 @@
                                 {%- include picture.html url="/images/logo.png" alt=site.title type="png"-%}
                         </a>
                         <nav class="header__nav">
-                                {% if sections.size > 0 %}
-                                <span class="header__nav-link">Tools
-                                        <div class="header__sub-nav">
-                                                <a href="/tools" class="header__sub-nav-link">All tools</a>
-                                                {% for i in sections %}
-                                                {% if i.disabled != true %}
-                                                <a href="{{i.link}}" class="header__sub-nav-link">{{i.title}}</a>
-                                                {%endif%}
-                                                {% endfor %}
-                                        </div>
-                                </span>
-                                {% endif %}
-                                <a class="header__nav-link" href="/about">
-                                        About
-                                </a>
-                                <a class="header__nav-link" href="/what-we-do">
-                                        What we do
-                                </a>
-                                <a class="header__nav-link" href="/contact">
-                                        Contact us
-                                </a>
+                                {% for i in sections %}
+                                {% if i.disabled != true %}
+                                <a href="{{i.link}}" class="header__nav-link">{{i.title}}</a>
+                                {%endif%}
+                                {% endfor %}
                         </nav>
                 </div>
         </div>

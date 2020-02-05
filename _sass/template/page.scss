@@ -4,5 +4,28 @@
   &__wrapper {
     max-width: 75%;
     margin: 0 auto;
+    ul,
+    ol {
+      padding-left: 45px;
+    }
+    table {
+      border-top: 1px solid $colour_border_grey;
+      border-left: 1px solid $colour_border_grey;
+      border-collapse: collapse;
+      tr {
+        display: flex;
+        th,
+        td {
+          flex: 1 1 100%;
+        }
+      }
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid $colour_border_grey;
+        border-left: none;
+        border-top: none;
+      }
+    }
   }
 }
