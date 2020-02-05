@@ -363,7 +363,7 @@
         align-items: center;
         justify-content: center;
       }
-      @include in_size($md) {
+      @include in_size($md-only) {
         padding: 10px;
         font-size: 15px;
         &:before {
