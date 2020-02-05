@@ -7,9 +7,13 @@ $(document).ready(function () {
             return IsNumeric(this, e.keyCode);
         })
 
-        //Validate Date as User types.
+        //Validate Date as user types.
         inputs.on("keyup", function (e) {
-            ValidateDateFormat(this, e.keyCode);
+            ValidateDateFormat(this, e.keyCode, false);
+        })
+        //Validate Date fully when user blurs input.
+        inputs.on("blur", function (e) {
+            ValidateDateFormat(this, e.keyCode, true);
         })
 
         function IsNumeric(input, keyCode) {
@@ -27,7 +31,10 @@ $(document).ready(function () {
             }
         };
 
-        function ValidateDateFormat(input, keyCode) {
+        function ValidateDateFormat(input, keyCode, show_error) {
+            if (typeof show_error === "undefined") {
+                show_error = false
+            }
             var dateString = input.value;
             if (keyCode == 16) {
                 isShift = false;
@@ -37,11 +44,14 @@ $(document).ready(function () {
             }
             var regex = /(((0|1)[0-9]|2[0-9]|3[0-1])\/(0[1-9]|1[0-2])\/((19|20)\d\d))$/;
 
+
             //Check whether valid dd/mm/yyyy Date Format.
             if (regex.test(dateString) || dateString.length == 0) {
                 ShowHideError(input, "none");
             } else {
-                ShowHideError(input, "block");
+                if (show_error) {
+                    ShowHideError(input, "block");
+                }
             }
         };
 
@@ -52,7 +62,7 @@ $(document).ready(function () {
                 errorMsg.style.display = display;
             }
         };
-    } else{
+    } else {
         $('.field__input--date').prop('type', 'date')
     }
 })
