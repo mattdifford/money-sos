@@ -103,7 +103,7 @@ $brands-strip-title-text: $colour_black;
 /*Featured strip*/
 $featured-strip-title-bg: $colour_action;
 $featured-strip-title-text: #fff;
-$featured-strip-main-bg: #F2F2F2;
+$featured-strip-main-bg: #f2f2f2;
 
 /*FAQs*/
 $faqs-strip-bg: #fff;
@@ -165,9 +165,10 @@ $modal-text: $colour_black;
 $buyer-panel-text: $colour_dark_grey;
 
 /*Process strip*/
-$process-strip-bg: #fff;
-$process-strip-border: $colour_primary;
+$process-strip-bg: $colour_grey;
+$process-strip-border: $colour_grey;
 $process-strip-text: $text;
 $process-strip-image-bg: $colour_primary;
 $process-strip-button-bg: $button-bg;
 $process-strip-button-text: $button-text;
+$process-strip-accent: $colour_action;
