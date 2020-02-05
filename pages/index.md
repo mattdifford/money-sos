@@ -45,7 +45,7 @@ strip_2:
 
     [Sign up here](/)
 strip_3:
-  image: /images/upload/coins.png
+  image: /images/upload/lifesos-large.png
   image_position: left
   text: >-
     ### Join lifeSOS
