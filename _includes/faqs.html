@@ -14,7 +14,7 @@
                 {%- for faq in faqs -%}
                 <div class="faqs-strip__item">
                     <h3 class="faqs-strip__question" data-index="{{forloop.index}}">{{-faq.question-}}</h3>
-                    <div class="faqs-strip__answer">{{-faq.answer |markdownify-}}</div>
+                    <div class="faqs-strip__answer">{{-faq.answer | markdownify-}}</div>
                 </div>
                 {%- endfor -%}
             </div>

@@ -5,17 +5,19 @@ title: Current accounts
 section: Current accounts
 permalink: /banking/current-accounts
 header_image: /images/upload/bank.png
-header_content: >- 
-    ### Benefits: 
+header_content: >-
+  ### Benefits: 
 
-    * Donec nibh nibh, mattis id.
+  * Free to Use
 
-    * Nam enim velit, dictum non.
+  * Manage Your Money Better
 
-    * In in magna condimentum, porta.
+  * Get Rewards
 
-    * Fusce scelerisque diam vel ligula.
-    
+  * No Credit Checks to open an account
+
+  * Improve your credit rating
+
 strip_1:
   image: /images/upload/bank.png
   image_position: left
@@ -23,12 +25,5 @@ strip_1:
     ### About current accounts
 
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Non pulvinar neque laoreet suspendisse interdum
-    consectetur libero id. 
-
-
-    [Sign up here](/)
+    A current account is a bank or building society account that allows you to manage your spending on a day-to-day basis. Your salary can be paid into it, and direct debits and standing orders can be set up. Some current accounts pay interest on balances, offer cashback on spending and many come with an overdraft facility.
 ---

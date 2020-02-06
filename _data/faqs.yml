@@ -1,4 +1,10 @@
 items:
-  - question: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat sagittis elit sed porttitor. Donec rhoncus vel est nec vehicula. Vivamus hendrerit gravida libero et pharetra.
-    answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae urna nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras non luctus diam, quis eleifend libero. Aliquam mattis, sem quis sodales suscipit, purus justo tempor tortor, in vulputate mi nibh ac ipsum.
-    category: Flight compensation
+  - question: Can I get a current account?
+    answer: Any legal UK resident over the age of 16 can get a current account. Some banks won’t accept you until you’re 18, unless you have your parents’ approval. But there are banks that will happily provide you with basic banking facilities, although these types of accounts can be more limited in their services. You might need to undergo a credit check, as most current accounts come with an automatic overdraft that might be cut if you have a poor credit history. Here are some tips for improving your credit score. Obviously, you’ll have to prove your identity and provide an address to open a current account.
+    category: Current accounts
+  - question: What should I consider before comparing current accounts?
+    answer: It’s worth thinking about how you plan to use your current account. Consider your money flow - what amounts do you estimate putting in and taking out each month? Will you need an overdraft? Do you move money often? These sorts of things will help you narrow down your options and help you find the current account with the right features for your lifestyle.
+    category: Current accounts
+  - question: What should I consider before comparing current accounts?
+    answer: It’s worth thinking about how you plan to use your current account. Consider your money flow - what amounts do you estimate putting in and taking out each month? Will you need an overdraft? Do you move money often? These sorts of things will help you narrow down your options and help you find the current account with the right features for your lifestyle.
+    category: Current accounts

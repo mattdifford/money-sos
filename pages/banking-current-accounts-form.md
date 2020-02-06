@@ -6,13 +6,15 @@ section: Current accounts
 reference: Current accounts form
 permalink: /banking/current-accounts/form
 header_content: >- 
-    # Find out more about current accounts here: 
+    ### Benefits: 
 
-    * Donec nibh nibh, mattis id.
+    * Free to Use
 
-    * Nam enim velit, dictum non.
+    * Manage Your Money Better
 
-    * In in magna condimentum, porta.
+    * Get Rewards
 
-    * Fusce scelerisque diam vel ligula.
+    * No Credit Checks to open an account
+    
+    * Improve your credit rating
 ---
