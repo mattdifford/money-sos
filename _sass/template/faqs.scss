@@ -52,7 +52,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    margin: 0;
+    margin: 0 0 1px 0;
     &:before {
       content: attr(data-index);
       background: $faqs-question-count-bg;
@@ -97,9 +97,9 @@
       margin: 0;
     }
     &.active {
-      max-height: 200px;
+      max-height: 2000px;
       @include in_size($xs) {
-        max-height: 400px;
+        max-height: 9999px;
       }
     }
   }
