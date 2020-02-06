@@ -27,7 +27,7 @@
     {% endif %}
     {%- include header_image.html layout="form" content=page.header_content page=page.reference section=section_obj image=page.header_image-%}
     {%- include featured_strip.html section=section_obj-%}
-    {%- include faqs.html title=page.title reference=section_obj.title -%}
+    {%- include faqs.html section=section_obj.title -%}
     {%- include reviews.html -%}
     {%- include_cached footer.html -%}
     {%- include foot.html layout='form' -%}

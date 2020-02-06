@@ -76,10 +76,7 @@
     }
   }
   &__answer {
-    max-height: 0;
-    height: auto;
-    overflow: hidden;
-    transition: all 0.5s ease-in-out 0s;
+    display: none;
     background: $faqs-answer-bg;
     padding: 0 95px;
     font-weight: 300;

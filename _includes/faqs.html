@@ -1,7 +1,4 @@
-{%- assign faqs = site.data.faqs.items | where: "category", include.reference -%}
-{%- if faqs.size == 0 -%}
-{%- assign faqs = site.data.faqs.items | where: "category", include.title -%}
-{%- endif -%}
+{%- assign faqs = site.data.faqs.items | where: "category", include.section -%}
 {%- if faqs.size > 0 -%}
 <div class="faqs-strip">
     <div class="container">
@@ -22,6 +19,6 @@
     </div>
 </div>
 <script>
-    window.postJqueryScripts.push('$(".faqs-strip__question").on("click", function () {$(this).next(".faqs-strip__answer").toggleClass("active");});');
+    window.postJqueryScripts.push('$(".faqs-strip__question").on("click", function () {$(this).next(".faqs-strip__answer").slideToggle();});');
 </script>
 {%-endif-%}

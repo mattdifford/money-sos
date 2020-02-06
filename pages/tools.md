@@ -15,7 +15,7 @@ header_content: >-
   nostrud exercitation ullamco laboris nisi ut
 strip_1:
   image_position: left
-  image: /images/upload/transfer.png
+  image: /images/upload/phone.png
   text: >-
     ### About moneySOS
 
