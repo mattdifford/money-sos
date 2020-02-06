@@ -1,6 +1,9 @@
+{%if include.category %}
+
 {%- assign reviews = site.data.reviews.items | where: "category", include.category -%}
-
-
+{%else%}
+{%- assign reviews = site.data.reviews.items -%}
+{%endif%}
 {%- if reviews.size > 0 -%}
 {%- if include.link_text -%}
 {%- assign link_text = include.link_text -%}
@@ -14,8 +17,10 @@
             {%- for review in reviews -%}
             <div class="reviews-strip__item">
                 <div class="reviews-strip__image-wrapper">
+                    {%if review.image %}
                     {%-assign image_type = review.image | slice: -3, 3-%}
                     {%-include picture.html type=image_type url=review.image  alt=review.name class="reviews-strip__image"-%}
+                    {%endif%}
                 </div>
                 <div class="reviews-strip__content">
                     <div class="reviews-strip__text">{{-review.text | markdownify -}}</div>
