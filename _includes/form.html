@@ -1,13 +1,14 @@
 {%- assign form_data = site.data.forms.items | where: "category", include.section -%}
 {%- if form_data -%}
 {%- assign form = form_data[0] -%}
-{{-form_data.pre_text-}}
 {%- assign fieldset_count = 1-%}
 {%- assign included_data = false -%}
 {%- assign included_date = false -%}
 {%- assign fieldset_name = '' -%}
 <form class="form">
+    {% if form.pre_text %}
     {{-form.pre_text | markdownify-}}
+    {%endif%}
     {%- for field in form.form_fields -%}
     {%- if field.type == 'data' && !included_data -%}
     {%- assign included_data = true -%}

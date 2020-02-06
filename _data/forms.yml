@@ -100,12 +100,6 @@ items:
         name: Mortgage term in years
         required: true
         type: number
-    pre_text: >-
-      ### Lorem **ipsum**
-
-
-      Phasellus nulla tellus, luctus quis elementum dapibus, imperdiet sit amet
-      nunc. Nunc a pretium lectus
     submit_text: Submit
     title: Mortgages
   - category: Pensions
@@ -133,12 +127,6 @@ items:
           - name: Not sure
         required: true
         type: radio
-    pre_text: >-
-      ### Lorem **ipsum**
-
-
-      Phasellus nulla tellus, luctus quis elementum dapibus, imperdiet sit amet
-      nunc. Nunc a pretium lectus
     submit_text: Submit
     title: Pensions
   - category: Current accounts
@@ -187,12 +175,6 @@ items:
           - name: International transfer
         required: true
         type: radio
-    pre_text: >-
-      ### Lorem **ipsum**
-
-
-      Phasellus nulla tellus, luctus quis elementum dapibus, imperdiet sit amet
-      nunc. Nunc a pretium lectus
     submit_text: Submit
     title: Current accounts
   - category: Up to £10K
@@ -225,12 +207,6 @@ items:
           - name: Other
         required: true
         type: radio
-    pre_text: >-
-      ### Lorem **ipsum**
-
-
-      Phasellus nulla tellus, luctus quis elementum dapibus, imperdiet sit amet
-      nunc. Nunc a pretium lectus
     submit_text: Submit
     title: Loans - less than £10K
   - category: Over £10K
@@ -265,11 +241,5 @@ items:
           - name: Other
         required: true
         type: multiple_choice
-    pre_text: >-
-      ### Lorem **ipsum**
-
-
-      Phasellus nulla tellus, luctus quis elementum dapibus, imperdiet sit amet
-      nunc. Nunc a pretium lectus
     submit_text: Submit
     title: Loans - more than £10K

@@ -6,6 +6,8 @@ section: Current accounts
 reference: Current accounts form
 permalink: /banking/current-accounts/form
 header_content: >- 
+    # Current accounts
+
     ### Benefits: 
 
     * Free to Use
