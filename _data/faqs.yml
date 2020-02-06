@@ -1,10 +1,61 @@
 items:
-  - question: Can I get a current account?
-    answer: Any legal UK resident over the age of 16 can get a current account. Some banks won’t accept you until you’re 18, unless you have your parents’ approval. But there are banks that will happily provide you with basic banking facilities, although these types of accounts can be more limited in their services. You might need to undergo a credit check, as most current accounts come with an automatic overdraft that might be cut if you have a poor credit history. Here are some tips for improving your credit score. Obviously, you’ll have to prove your identity and provide an address to open a current account.
+  - answer: >-
+      Any legal UK resident over the age of 16 can get a current account. Some
+      banks won’t accept you until you’re 18, unless you have your parents’
+      approval. But there are banks that will happily provide you with basic
+      banking facilities, although these types of accounts can be more limited
+      in their services. You might need to undergo a credit check, as most
+      current accounts come with an automatic overdraft that might be cut if you
+      have a poor credit history. Here are some tips for improving your credit
+      score. Obviously, you’ll have to prove your identity and provide an
+      address to open a current account.
     category: Current accounts
-  - question: What should I consider before comparing current accounts?
-    answer: It’s worth thinking about how you plan to use your current account. Consider your money flow - what amounts do you estimate putting in and taking out each month? Will you need an overdraft? Do you move money often? These sorts of things will help you narrow down your options and help you find the current account with the right features for your lifestyle.
+    question: Can I get a current account?
+  - answer: >-
+      It’s worth thinking about how you plan to use your current account.
+      Consider your money flow - what amounts do you estimate putting in and
+      taking out each month? Will you need an overdraft? Do you move money
+      often? These sorts of things will help you narrow down your options and
+      help you find the current account with the right features for your
+      lifestyle.
     category: Current accounts
-  - question: What should I consider before comparing current accounts?
-    answer: It’s worth thinking about how you plan to use your current account. Consider your money flow - what amounts do you estimate putting in and taking out each month? Will you need an overdraft? Do you move money often? These sorts of things will help you narrow down your options and help you find the current account with the right features for your lifestyle.
+    question: What should I consider before comparing current accounts?
+  - answer: "* Standard current accounts  provide many useful services. You can have your salary paid directly into a current account, settle bills or set up direct debits. These accounts usually provide a debit card that allows you to make cash withdrawals and to pay for items.\n\n* Packaged accounts  are aimed at customers looking for additional extras on top of what’s available with a standard account. Additional extras such as travel insurance, mobile phone insurance, breakdown cover and cashback are typically available.\n\nHowever, there are often monthly or annual fees associated with this type of account, so weigh up the benefits versus any fees and make sure it works for you.\r\n\n* Student accounts  aim to meet the needs of those studying at college or university and typically offer interest-free overdrafts.\r\n\n* Graduate accounts  are specifically designed for graduates to help pay down overdrafts built up while at university. They normally offer interest-free overdrafts for up to three years.\r\n\n* Basic bank accounts  are available to anyone. They tend to suit people who are unable to qualify for a standard account, perhaps because they have a low credit score or have only recently moved to the UK.\r\n\n"
     category: Current accounts
+    question: What type of current account is right for me?
+  - answer: >-
+      Unless you slip into an overdraft that hasn’t been pre-agreed with your
+      bank or building society, then you often won’t be charged for having a
+      current account (unless it is a packaged account that comes with an agreed
+      monthly fee) But do check, because each account will have different terms.
+      Withdrawals from cash machines, over-the-counter and online or contactless
+      payments are often free of charge. However, you can sometimes get charged
+      fees in cash machines that are privately owned.
+
+
+      If you’re overseas, then you’ll typically get charged to withdraw money -
+      and your bank’s exchange rate can also prove painful. You should try to
+      avoid using your current account’s debit card to take out cash abroad.
+      Find other solutions, such as pre-paid cards or currency. Some credit
+      cards even have great offers for overseas travel. Find out more about
+      credit cards you can use abroad.
+
+
+      Unless you have agreed to an interest free overdraft you’ll almost
+      certainly have to pay for an overdraft with a current account, and it can
+      cost more than you might think. Make sure you check the terms and
+      conditions for any overdraft charges.
+    category: Current accounts
+    question: Will I be charged for using a current account?
+  - answer: >-
+      It would be hard to function in the modern world without a current
+      account, and you might find it difficult to set up many of the things you
+      take for granted. This includes cheap broadband deals, a phone contract
+      and all kinds of other simple pleasures.
+
+
+      You can receive money electronically, set up standing orders and make
+      payments to other people over the phone and online. Plus, you can often
+      keep an eye on your balance through mobile apps.
+    category: Current accounts
+    question: What benefits come with a current account?
