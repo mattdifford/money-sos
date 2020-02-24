@@ -1,16 +1,11 @@
 .featured-strip {
   position: relative;
-  margin-top: -96px;
+  transform: translateY(-100%);
   background: $featured-strip-main-bg;
   overflow: hidden;
-  @include in_size($md-only) {
-    margin-top: -72px;
-  }
-  @include in_size($sm-only) {
-    margin-top: -71px;
-  }
+  margin: 1px 0 -80px;
   @include in_size($xs) {
-    margin-top: 0;
+    transform: none;
   }
   &__wrapper {
     display: flex;

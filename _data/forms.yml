@@ -251,7 +251,7 @@ items:
   - category: Broadband
     data_capture_post_text: Post text goes here
     form_fields:
-      - name: Postcode
+      - name: Enter your postcode
         placeholder: Your postcode
         required: true
         type: postcode_lookup

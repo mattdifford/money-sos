@@ -30,7 +30,8 @@ html {
 .image-strip,
 .brands-strip,
 .faqs-strip,
-.footer {
+.footer,
+.reviews-strip {
   display: block;
 }
 
@@ -339,7 +340,6 @@ fieldset {
 .button {
   @include button();
 }
-
 
 .page-text {
   padding-top: 100px;

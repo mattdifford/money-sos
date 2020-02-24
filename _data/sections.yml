@@ -29,7 +29,6 @@ items:
   - title: Utilities
     image: /images/upload/bill.png
     link: /utilities
-    disabled: true
     sub_sections: 
       - title: Broadband
         image: /images/upload/bill.png
@@ -37,9 +36,11 @@ items:
       - title: Energy
         image: /images/upload/bill.png
         link: /utilities/energy
+        disabled: true
       - title: Solar
         image: /images/upload/bill.png
         link: /utilities/solar
+        disabled: true
   - title: Claims
     image: /images/upload/suitcase.png
     link: /claims
