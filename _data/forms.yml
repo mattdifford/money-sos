@@ -100,6 +100,7 @@ items:
         name: Mortgage term in years
         required: true
         type: number
+    pre_text: Some pre text goes here
     submit_text: Submit
     title: Mortgages
   - category: Pensions
@@ -127,6 +128,7 @@ items:
           - name: Not sure
         required: true
         type: radio
+    pre_text: Some pre text goes here
     submit_text: Submit
     title: Pensions
   - category: Current accounts
@@ -145,8 +147,8 @@ items:
       - name: Purpose fieldset
         required: false
         type: fieldset
-      - name: What is your account used for?
-        helptext: Select all that apply
+      - helptext: Select all that apply
+        name: What is your account used for?
         options:
           - name: Income
           - name: Savings
@@ -175,6 +177,7 @@ items:
           - name: International transfer
         required: true
         type: radio
+    pre_text: Some pre text goes here
     submit_text: Submit
     title: Current accounts
   - category: Up to £10K
@@ -195,8 +198,8 @@ items:
         required: true
         type: radio
       - name: Purpose fieldset
-        type: fieldset
         required: false
+        type: fieldset
       - name: What are you intending to use the loan for?
         options:
           - name: Debt consolidation
@@ -207,6 +210,7 @@ items:
           - name: Other
         required: true
         type: radio
+    pre_text: Some pretext goes here
     submit_text: Submit
     title: Loans - less than £10K
   - category: Over £10K
@@ -231,8 +235,8 @@ items:
         required: true
         type: radio
       - name: Purpose fieldset
-        type: fieldset
         required: false
+        type: fieldset
       - helptext: You can select more than one option
         name: What would you like to borrow for?
         options:
@@ -241,5 +245,42 @@ items:
           - name: Other
         required: true
         type: multiple_choice
+    pre_text: Some pre text goes here
     submit_text: Submit
     title: Loans - more than £10K
+  - category: Broadband
+    data_capture_post_text: Post text goes here
+    form_fields:
+      - name: Postcode
+        placeholder: Your postcode
+        required: true
+        type: postcode_lookup
+      - name: Provider fieldset
+        type: fieldset
+      - name: Who is your current broadband provider?
+        options:
+          - name: BT
+          - name: EE
+          - name: Plusnet
+          - name: Sky
+          - name: TalkTalk
+          - name: Virgin Media
+          - name: Vodafone
+          - name: iTalk
+          - name: Other
+          - name: No Broadband
+        required: true
+        type: radio
+      - name: Speed fieldset
+        type: fieldset
+      - name: What broadband speeds do you require?
+        options:
+          - name: 0-30MB
+          - name: 30-60MB
+          - name: 60MB+
+          - name: Not sure
+        required: true
+        type: radio
+    pre_text: '## Some pretext goes here'
+    submit_text: Submit
+    title: Broadband
