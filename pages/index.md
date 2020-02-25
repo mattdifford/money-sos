@@ -11,39 +11,62 @@ description: >-
 permalink: /
 header_content: >-
 
-  # Money made simple.
+  # Money matched to you
 
 
-  moneySOS is designed to help make life easier, not more confusing. Join today
-  and take the stress out of your money management. Over 5,000 people each week
-  create a MoneySOS account. Join today and take the next step towards stress
-  free living.
+  For bank accounts, mortgages, pensions, insurance and more, find the financial help you need in a matter of minutes.
 
-
-
+  
   [Start now](/tools)
 header_image: /images/upload/phone.png
 strip_1:
   image: /images/upload/ipad.png
   image_position: left
   text: >-
-    ### Who are we?
+    ### What is moneySOS?
 
 
-    moneySOS is an Artificial Intelligence driven platform specifically designed
-    to help you find what you need, when you need it. moneySOS enables its
-    customers to compare suppliers, prices and services on a number of financial
-    products including Mortgages, Utilities, Banking and Pensions. 
+    moneySOS is a new way to find the financial help you need, just when you need it. Our AI-driven platform cuts out all the time and stress of searching the market, comparing offers and trying to understand which suits you best. 
+
+    
+    All we need is a bit of information about you, and we’ll match you to the provider who best fits what you’re looking for.
+
+    
+    It’s free, it’s instant and it doesn’t take any effort on your part. So for bank accounts, mortgages, pensions, claims and other areas of your financial life, there’s never been a smarter option.
 
 
-    [Join now](/tools)
+    [Try it now](/tools)
 strip_2:
   image: /images/upload/phone.png
   image_position: right
-  text: "### Why moneySOS?\n\nUnlike other comparison tools available, moneySOS uses Artificial Intelligence to understand what you are looking for. Each of the tools is free to use and will help guide you through the process. By answering a selection of relevant questions, our technology will be able to match you to a specific supplier, product or service based on either costs, customer reviews or location. \n\nFinding what you need doesn't need to be hard work anymore, with moneySOS it's simple.\r\n\n[Join now](/tools)"
+  text: >-
+    ### Why use moneySOS?
+
+    
+    Unlike the many online comparison tools available, moneySOS uses artificial intelligence to understand exactly what you’re looking for and then find your most likely money match. 
+
+    
+    So you won’t be presented with long lists of possibles, potentials and probables. Instead, our technology does all of that work for you instantly, connecting you directly to what suits you best, right away.
+
+    
+    Each of the moneySOS tools is free to use and guides you through the process in quick, easy steps. By answering a few simple questions, you’re matched with a specific supplier, product or service, based on cost, customer reviews or location.
+
+    
+    **And that’s all there is to it. Money matched to you in a matter of minutes.**
+
 strip_3:
   image: /images/upload/life-laptop.png
   image_position: left
-  text: "### Join lifeSOS\n\nlifeSOS is a data and A.I. life management platform. Specifically focused around helping remove the stress of dealing with those everyday bills and commitments. Using our proprietary A.I. technology, we understand exactly what you require and when you need it. Then we search the market on your behalf and show you the results. \r\n\r\nBy creating you lifeSOS account and telling us about you, your house, family and life we are able to automatically keep track of everything you need, from car insurance to a friday night treat, we have it all.\n\nJoin over 150,000 members and let lifeSOS take care of everything you don't want to."
+  text: >-
+    ### Join lifeSOS
+
+    
+    moneySOS is just one part of lifeSOS – an online platform that takes away many of the stresses and strains of daily life. Whether it’s bills, longer-term financial plans, your home, your health, looking after what matters most, or the odd little treat here and there, lifeSOS uses its own artificial technology to connect you directly to the help and services that suit you best.
+
+    
+    Setting us your lifeSOS account is quick and easy – and free from any commitments and obligations. All it takes is a few details about you. From there, we’ll keep you constantly updated on the things you’re interested in and new offers as they arrive, matched to your specific needs and changing circumstances.
+
+
+    **So why not take a step towards a more stress-free life today? Join XXXXXX members and register with lifeSOS now.**
 ---
 
