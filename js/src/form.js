@@ -38,11 +38,13 @@ $(document).ready(function () {
             force: true
         }).done(function () {
             if (parent_form.hasClass('form--personal-info')) {
+                var original_form = $('.form--main');
+                var merged_data = {...parent_form.serializeObject(), ...original_form.serializeObject() }
                 $.ajax({
 
                     async: true,
                     url: 'https://savvy.leadspediatrack.com/post.do',
-                    data: parent_form.serializeObject(),
+                    data: merged_data,
                     type: 'POST',
                     success: function (data) {
                         var response = data.all;
@@ -59,10 +61,7 @@ $(document).ready(function () {
                                 async: true,
                                 data: { "email": formData.email_address, "first_name": formData.first_name, "last_name": formData.last_name },
                                 success: function () {
-                                    var html = '<h3>Thank you for submitting your details</h3>';
-                                    html += '<p>Someone will be in touch shortly to discuss your claim</p>';
-                                    parent_form.html(html).addClass('form--completed');
-                                    $("body, html").animate({ scrollTop: parent_form.offset().top - 20 });
+                                    window.location = '/thankyou'
                                 }
                             });
                         } else {

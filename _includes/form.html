@@ -1,17 +1,22 @@
-{%- assign form_data = site.data.forms.items | where: "category", include.section -%}
+{%- assign form_data = site.data.forms.items | where: "category", include.section.title -%}
 {%- if form_data -%}
 {%- assign form = form_data[0] -%}
 {%- assign fieldset_count = 1-%}
 {%- assign included_data = false -%}
 {%- assign included_date = false -%}
 {%- assign fieldset_name = '' -%}
-<form class="form">
+{%- assign postcode_lookup = 'false' -%}
+<form class="form form--main">
+    <input type="hidden" name="section" value='{{include.section | jsonify }}'>
     {% if form.pre_text %}
     {{-form.pre_text | markdownify-}}
     {%endif%}
     {%- for field in form.form_fields -%}
     {%- if field.type == 'data' && !included_data -%}
     {%- assign included_data = true -%}
+    {%-endif-%}
+    {% if field.type == 'postcode_lookup'%}
+    {%- assign postcode_lookup = 'true' -%}
     {%-endif-%}
     {%- if forloop.first == true -%}
     {% assign fieldset_name = "first"%}
@@ -36,9 +41,9 @@
             {%- capture field_include -%}field_{{-field.type-}}.html{%- endcapture -%}
             {%- assign field_slug = field.name | slugify 'latin' -%}
             {%- if field.type == 'radio' -%}
-            {%- include {{-field_include |trim-}} name=field.name slug=field_slug type=field.type options=field.options helptext=field.helptext required=field.required fieldset=fieldset_name-%}
+            {%- include {{-field_include |trim-}} label=field.label name=field.name slug=field_slug type=field.type options=field.options helptext=field.helptext required=field.required fieldset=fieldset_name-%}
             {%- else -%}
-            {%- include {{-field_include |trim-}} name=field.name slug=field_slug type=field.type helptext=field.helptext required=field.required placeholder=field.placeholder options=field.options fieldset=fieldset_name-%}
+            {%- include {{-field_include |trim-}} label=field.label name=field.name slug=field_slug type=field.type helptext=field.helptext required=field.required placeholder=field.placeholder options=field.options fieldset=fieldset_name-%}
             {%- endif -%}
         </div>
         {%-endif -%}
@@ -77,7 +82,7 @@
 </div>
 <div class="modal-shroud"></div>
 
-{%- assign buyer_data = site.data.buyers.items | where: "section", include.section -%}
+{%- assign buyer_data = site.data.buyers.items | where: "section", include.section.title -%}
 <div class="buyer-panel" style="display:none;">
     {%assign count = buyer_data.size |plus:0%}
     <h3 class="buyer-panel__main-title">We have successfully found you {{count | pluralize: 'partner', 'partners'}}!
@@ -119,25 +124,32 @@
 <form class="form form--personal-info" style="display:none;">
     <h3>Personal information</h3>
     <p>We need some details about you</p>
-    <input type="hidden" value="{{include.section.lp_key}}" name="lp_campaign_key">
-    <input type="hidden" value="{{include.section.lp_id}}" name="lp_campaign_id">
+    <input type="hidden" value="{{include.section.campaign_key}}" name="lp_campaign_key">
+    <input type="hidden" value="{{include.section.campaign_id}}" name="lp_campaign_id">
     <div class="form__field">
-        {%- include field_string.html name="First name" slug="firstname" required=true placeholder="John" fieldset="first" -%}
+        {%- include field_string.html name="First name" slug="first_name" required=true placeholder="John" fieldset="first" -%}
     </div>
     <div class="form__field">
-        {%- include field_string.html name="Surname" slug="surname" required=true placeholder="Smith" fieldset="first" -%}
+        {%- include field_string.html name="Surname" slug="last_name" required=true placeholder="Smith" fieldset="first" -%}
     </div>
     <div class="form__field">
-        {%- include field_string.html name="Telephone" slug="telephone" type="telephone" required=true placeholder="07000000000" fieldset="first" -%}
+        {%- include field_string.html name="Telephone" slug="phone_mobile" type="telephone" required=true placeholder="07000000000" fieldset="first" -%}
     </div>
     <div class="form__field">
-        {%- include field_string.html name="Email address" slug="email" type="email" required=true placeholder="john.smith@email.com" fieldset="first" -%}
+        {%- include field_string.html name="Email address" slug="email_address" type="email" required=true placeholder="john.smith@email.com" fieldset="first" -%}
     </div>
+    {% if postcode_lookup == 'false' %}
     <div class="form__field">
         {%- include field_postcode_lookup.html name="Enter your postcode" slug="postcode" required=true placeholder="AA1 1AA" fieldset="first" helptext="Enter your postcode, then click ‘Find Address’. A selection of addresses will appear. Choose your address from this list."-%}
     </div>
+    {%endif%}
     <div class="form__submit"><button type="button" class="form__submit-button">Submit application</button></div>
     <p class="form__post-text">{{-form.data_capture_post_text -}}</p>
 </form>
+
+<script>
+    sessionStorage.setItem("contact-name", {{buyer.title}})
+    sessionStorage.setItem("contact-number", {{buyer.number}})
+</script>
 
 {%- endif -%}

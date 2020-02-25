@@ -257,7 +257,8 @@ items:
         type: postcode_lookup
       - name: Provider fieldset
         type: fieldset
-      - name: Who is your current broadband provider?
+      - name: current_provider
+        label: Who is your current broadband provider?
         options:
           - name: BT
           - name: EE
@@ -273,7 +274,8 @@ items:
         type: radio
       - name: Speed fieldset
         type: fieldset
-      - name: What broadband speeds do you require?
+      - name: required_speed
+        label: What broadband speeds do you require?
         options:
           - name: 0-30MB
           - name: 30-60MB

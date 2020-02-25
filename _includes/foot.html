@@ -5,7 +5,6 @@
 {%- endif -%}
 {%- capture layout_css -%}/assets/css/{{include.layout}}.css{%-endcapture-%}
 <script type="text/javascript">
-    loadScript("https://identity-js.netlify.com/v1/netlify-identity-widget.js");
     if (document.createStyleSheet) {
         document.createStyleSheet("/assets/css/bootstrap.css");
         document.createStyleSheet("/assets/css/default.css");

@@ -1,24 +1,32 @@
-<label for="{{-include.slug-}}" class="field__label">{{-include.name-}}</label>
+{% if include.label %}
+{%assign label = include.label%}
+{%assign slug = include.name%}
+{% else %}
+{%assign label = include.name%}
+{%assign slug = include.slug%}
+{%endif%}
+
+<label for={{slug}} class="field__label">{{label}}</label>
 {%- if include.helptext -%}
 <p class="field__helptext">{{-include.helptext-}}</p>
 {%- endif -%}
-<div class="field__input-wrap"><input type="text" name="{{-include.slug-}}" required="{{-input.required-}}"
+<div class="field__input-wrap"><input type="text" name="zip_code" required="{{-input.required-}}"
         class="field__input field__input--postcode" placeholder="{{-include.placeholder-}}" maxlength="8"
         data-parsley-group="{{include.fieldset}}">
     <div class="field__lookup-button"><button type="button" class="button">Find address</button></div>
 </div>
 <div id="postcode_lookup_results"></div>
-<div class="form__field form__field--address" style="display:none;"><label for="{{-include.slug-}}-line1"
+<div class="form__field form__field--address" style="display:none;"><label for="{{slug}}-line1"
         class="field__label">Line 1</label><input name="address" type="text" required
-        class="field__input" data-parsley-group="{{include.fieldset}}" id="{{-include.slug-}}-line1"></div>
-<div class="form__field form__field--address" style="display:none;"><label for="{{-include.slug-}}-line2"
-        class="field__label">Line 2</label><input name="address2" id="{{-include.slug-}}-line2" type="text" class="field__input"
+        class="field__input" data-parsley-group="{{include.fieldset}}" id="{{slug}}-line1"></div>
+<div class="form__field form__field--address" style="display:none;"><label for="{{slug}}-line2"
+        class="field__label">Line 2</label><input name="address2" id="{{slug}}-line2" type="text" class="field__input"
         data-parsley-group="{{include.fieldset}}"></div>
-<div class="form__field form__field--address" style="display:none;"><label for="{{-include.slug-}}-towncity"
-        class="field__label">Town/city</label><input name="city" id="{{-include.slug-}}-towncity" type="text" required
+<div class="form__field form__field--address" style="display:none;"><label for="{{slug}}-towncity"
+        class="field__label">Town/city</label><input name="city" id="{{slug}}-towncity" type="text" required
         class="field__input" data-parsley-group="{{include.fieldset}}"></div>
-<div class="form__field form__field--address" style="display:none;"><label for="{{-include.slug-}}-county"
-        class="field__label">County</label><input name="county" id="{{-include.slug-}}-county" type="text" required
+<div class="form__field form__field--address" style="display:none;"><label for="{{slug}}-county"
+        class="field__label">County</label><input name="county" id="{{slug}}-county" type="text" required
         class="field__input" data-parsley-group="{{include.fieldset}}"></div>
 
 <script>

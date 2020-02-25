@@ -33,6 +33,8 @@ items:
       - title: Broadband
         image: /images/upload/bill.png
         link: /utilities/broadband
+        campaign_id: 5e53fadd70c85
+        campaign_key: bf7rzLhGxDgNXH4YMwv3
       - title: Energy
         image: /images/upload/bill.png
         link: /utilities/energy

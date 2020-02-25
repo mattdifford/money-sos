@@ -1,11 +1,20 @@
-<label for={{include.slug}} class="field__label">{{include.name}}</label>
+{% if include.label %}
+{%assign label = include.label%}
+{%assign slug = include.name%}
+{% else %}
+{%assign label = include.name%}
+{%assign slug = include.slug%}
+{%endif%}
+
+
+<label for={{slug}} class="field__label">{{label}}</label>
 {%- if include.helptext -%}
 <p class="field__helptext">{{- include.helptext -}}</p>
 {%- endif -%}
-<input type="text" name="{{- include.slug- }}" required="{{- input.required -}}" class="field__input"
-    placeholder="{{- include.placeholder -}}" id="{{- include.slug -}}" data-parsley-group="{{include.fieldset}}">
+<input type="text" name="{{slug}}" required="{{- input.required -}}" class="field__input"
+    placeholder="{{- include.placeholder -}}" id="{{slug}}" data-parsley-group="{{include.fieldset}}">
 {%-capture data_name-%}"/public/{{- include.options[0].name -}}.json"{%-endcapture-%}
-{%-capture id-%}"#{{- include.slug -}}"{%-endcapture-%}
+{%-capture id-%}"#{{slug}}"{%-endcapture-%}
 <script>
     window.postJqueryScripts.push(["/js/src/bootstrap3-typeahead.min.js", '$.get({{ data_name }}, function (data) {data = data.filter(function (value, index, self) {return self.indexOf(value) === index;});$({{ id }}).typeahead({ source: data });}, "json");'])
 </script>
