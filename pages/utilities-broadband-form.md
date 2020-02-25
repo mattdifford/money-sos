@@ -6,13 +6,11 @@ section: Broadband
 reference: Broadband form
 permalink: /utilities/broadband/form
 header_content: >- 
-    # Find out more about broadband here: 
+  # Our broadband checking tool
 
-    * Donec nibh nibh, mattis id.
+  * Free to use
 
-    * Nam enim velit, dictum non.
+  * AI-driven matching technology
 
-    * In in magna condimentum, porta.
-
-    * Fusce scelerisque diam vel ligula.
+  * Exclusive moneySOS deals
 ---

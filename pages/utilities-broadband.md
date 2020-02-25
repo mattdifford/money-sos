@@ -8,13 +8,11 @@ header_image: /images/upload/wifi.png
 header_content: >-
   ### Benefits: 
 
-  * Donec nibh nibh, mattis id.
+  * Free to use
 
-  * Nam enim velit, dictum non.
+  * AI-driven matching technology
 
-  * In in magna condimentum, porta.
-
-  * Fusce scelerisque diam vel ligula.
+  * Exclusive moneySOS deals
 
 strip_1:
   image: /images/upload/utilities-header.png

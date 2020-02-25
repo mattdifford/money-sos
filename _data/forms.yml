@@ -251,13 +251,15 @@ items:
   - category: Broadband
     data_capture_post_text: Post text goes here
     form_fields:
-      - name: Enter your postcode
+      - name: What is your postcode?
+        helptext: Enter your postcode, then click 'Find Address'. A selection of addresses will appear. Choose your address from this list.
         placeholder: Your postcode
         required: true
         type: postcode_lookup
       - name: Provider fieldset
         type: fieldset
       - name: current_provider
+        helptext: If you do not currently have broadband, select 'No broadband'
         label: Who is your current broadband provider?
         options:
           - name: BT
@@ -283,6 +285,5 @@ items:
           - name: Not sure
         required: true
         type: radio
-    pre_text: '## Some pretext goes here'
     submit_text: Submit
     title: Broadband
