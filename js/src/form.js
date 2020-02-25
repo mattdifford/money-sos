@@ -39,7 +39,7 @@ $(document).ready(function () {
         }).done(function () {
             if (parent_form.hasClass('form--personal-info')) {
                 var original_form = $('.form--main');
-                var merged_data = {...parent_form.serializeObject(), ...original_form.serializeObject() }
+                var merged_data = { ...parent_form.serializeObject(), ...original_form.serializeObject() }
                 $.ajax({
 
                     async: true,
@@ -61,6 +61,9 @@ $(document).ready(function () {
                                 async: true,
                                 data: { "email": formData.email_address, "first_name": formData.first_name, "last_name": formData.last_name },
                                 success: function () {
+                                    if (typeof gtag === 'function') {
+                                        gtag('event', 'Form submission success', { 'event_category': 'Form submission' });
+                                    }
                                     window.location = '/thankyou'
                                 }
                             });
@@ -118,3 +121,31 @@ $.fn.serializeObject = function () {
     });
     return o;
 };
+
+window["Parsley"].on('field:error', function () {
+    if (typeof gtag === 'function') {
+        gtag('event', this.element.name, { 'event_category': 'Form validation error', 'event_label': this.validationResult[0]['assert'].name, });
+    }
+});
+
+$('input[type="checkbox"],input[type="radio"]').on("click", function () {
+    if (typeof gtag === 'function') {
+        gtag('event', $(this).attr("name"), { 'event_category': 'Form interaction', 'event_label': $(this).val(), });
+    }
+});
+$('input[type="text"],input[type="email"],input[type="tel"]').on("focusin", function () {
+    if (typeof gtag === 'function') {
+        gtag('event', $(this).attr("name"), { 'event_category': 'Form interaction', 'event_label': "Focus", });
+    }
+});
+$('.field--dropdown .field__input--select').on("change", function () {
+    if (typeof gtag === 'function') {
+        gtag('event', $(this).attr("name"), { 'event_category': 'Form interaction', 'event_label': "Change", });
+    }
+})
+$('input[type="tel"]').on("keypress keyup blur", function (event) {
+    $(this).val($(this).val().replace(/[^\d].+/, ""));
+    if ((event.which < 48 || event.which > 57)) {
+        event.preventDefault();
+    }
+});

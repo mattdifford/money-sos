@@ -6,6 +6,7 @@
   margin: 1px 0 -80px;
   @include in_size($xs) {
     transform: none;
+    margin-bottom: 0;
   }
   &__wrapper {
     display: flex;
@@ -53,6 +54,12 @@
     &__list {
       flex: 1 0 100%;
       padding: 0;
+    }
+    &__list {
+      overflow-x: scroll;
+      picture {
+        flex: 0 0 auto;
+      }
     }
     &__title {
       background: none;
