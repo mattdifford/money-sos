@@ -31,7 +31,8 @@ html {
 .brands-strip,
 .faqs-strip,
 .footer,
-.reviews-strip {
+.reviews-strip,
+.stats-strip {
   display: block;
 }
 
@@ -40,6 +41,7 @@ fieldset {
   margin: 0;
   border: none;
 }
+
 .header {
   background: $header-bg;
   padding: 18px 50px;
@@ -47,6 +49,7 @@ fieldset {
   left: 0;
   top: 0;
   width: 100%;
+  height: auto;
   z-index: 1;
   box-shadow: 0 6px 6px 0px rgba(0, 0, 0, 0.16);
   @include in_size($xs) {
