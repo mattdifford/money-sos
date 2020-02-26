@@ -1,7 +1,20 @@
+{% if include.page.select_title and include.page.select_title.size > 0 %}
+    {% assign title = include.page.select_title %}
+{% else %}
+    {% assign title = 'What do you need?' %}
+{% endif %}
+
+{% if include.page.select_text and include.page.select_text.size > 0 %}
+    {% assign text = include.page.select_text %}
+{% else %}
+    {% assign text = 'Choose from the options below and find your money match.' %}
+{% endif %}
+
+
 <div class="select-strip scrollwatch" id="select_strip">
     <div class="container">
-        <h2 class="select-strip__title">{{include.page.select_title}}</h2>
-        <p class="select-strip__text">{{include.page.select_text}}</p>
+        <h2 class="select-strip__title">{{title}}</h2>
+        <p class="select-strip__text">{{text}}</p>
         {% if include.section %}
             {% assign sections = include.section.sub_sections %}
         {% else %}

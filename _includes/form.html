@@ -6,7 +6,7 @@
 {%- assign included_date = false -%}
 {%- assign fieldset_name = '' -%}
 {%- assign postcode_lookup = 'false' -%}
-<form class="form form--main">
+<form class="form form--main" id="form">
     <input type="hidden" name="section" value='{{include.section | jsonify }}'>
     {% if form.pre_text %}
     {{-form.pre_text | markdownify-}}

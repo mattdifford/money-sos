@@ -82,21 +82,25 @@ items:
       secure on this website. By submitting your details you are consenting to
       be contacted by Think Money via Telephone, Email and SMS
     form_fields:
-      - name: Select your mortgage type
+      - label: Select your mortgage type
+        name: mortgage_type
         options:
           - name: First time buyer
           - name: Moving house
           - name: Buy to Let
         required: true
         type: radio
-      - name: What's the property value?
+      - label: What's the property value?
+        name: property_value
         required: true
         type: price
-      - name: How much deposit do you have?
+      - label: How much deposit do you have?
+        name: deposit
         required: true
         type: price
       - helptext: ''
-        name: Mortgage term in years
+        name: mortgage_term
+        label: Mortgage term in years
         required: true
         type: number
     submit_text: Submit
@@ -180,7 +184,8 @@ items:
       be contacted by Think Money via Telephone, Email and SMS
     form_fields:
       - helptext: 'Choose from £100 to £10,000'
-        name: How much would you like to borrow?
+        label: How much would you like to borrow?
+        name: borrow_amount
         options:
           - name: £100 - £499
           - name: £500 - £999
@@ -193,7 +198,8 @@ items:
       - name: Purpose fieldset
         required: false
         type: fieldset
-      - name: What are you intending to use the loan for?
+      - label: What are you intending to use the loan for?
+        name: loan_usage
         options:
           - name: Debt consolidation
           - name: Home improvements
@@ -211,14 +217,16 @@ items:
       secure on this website. By submitting your details you are consenting to
       be contacted by Think Money via Telephone, Email and SMS
     form_fields:
-      - name: Are you a homeowner?
+      - label: Are you a homeowner?
+        name: homeowner
         options:
           - name: 'Yes'
           - name: 'No'
         required: true
         type: radio
       - helptext: 'Choose from £10,000 to £50,000+'
-        name: How much would you like to borrow?
+        label: How much would you like to borrow?
+        name: borrow_money
         options:
           - name: '£10,000 - £15,000'
           - name: '£15,000 - £25,000'
@@ -230,7 +238,8 @@ items:
         required: false
         type: fieldset
       - helptext: You can select more than one option
-        name: What would you like to borrow for?
+        label: What would you like to borrow for?
+        name: borrow_type
         options:
           - name: Debt consolidation
           - name: Home improvements

@@ -29,6 +29,6 @@ strip_1:
     With moneySOS, you’ll find the answers to these questions, quickly and easily.
 
 
-    [Find your loan match now](/)
+    [Find your loan match now](/banking/loans-under-10k/form)
 review_button: Find your lending match
 ---

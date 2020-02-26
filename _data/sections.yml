@@ -2,6 +2,8 @@ items:
   - title: Mortgages
     image: /images/upload/keys.png
     link: /mortgages
+    campaign_id: 5e56909975ce4
+    campaign_key: pLY9jGxDvqtdZy37TKBN
   - title: Banking
     image: /images/upload/bank-flat.png
     link: /banking
@@ -16,22 +18,30 @@ items:
             image: /images/upload/loan-small.png
             link: /banking/loans-under-10k
             partners: "zurich, thinkmoney, aviva, tsb"
+            campaign_id: 5e5690b94f474
+            campaign_key: G9q3gYLQFRKBvb7xpJdh
           - title: Over £10K
             image: /images/upload/loan-large.png
             link: /banking/loans-over-10k
             partners: "zurich, thinkmoney, aviva, tsb"
+            campaign_id: 5e5690ce84444
+            campaign_key: HBN4WdLJZXbxMYyT3R6r
       - title: Current accounts
         image: /images/upload/cards.png
         link: /banking/current-accounts
+        campaign_id: 5e5690e6ce630
+        campaign_key: c8xbgCNnTGZrFBXtfP3p
   - title: Pensions
     image: /images/upload/piggy-bank.png
     link: /pensions
+    campaign_id: 5e56925b37f68
+    campaign_key: yGvJtMxZz9VXQKq286Ym
   - title: Utilities
     image: /images/upload/bill.png
     link: /utilities
     sub_sections: 
       - title: Broadband
-        image: /images/upload/bill.png
+        image: /images/upload/wifi-flat.png
         link: /utilities/broadband
         campaign_id: 5e53fadd70c85
         campaign_key: bf7rzLhGxDgNXH4YMwv3
@@ -39,9 +49,13 @@ items:
         image: /images/upload/bill.png
         link: /utilities/energy
         disabled: true
+        campaign_id: 5e5690fcd5e38
+        campaign_key: krPGVqCLnxTm46g39DfJ
       - title: Solar
-        image: /images/upload/bill.png
+        image: /images/upload/solar-panels.png
         link: /utilities/solar
+        campaign_id: 5e5691101591d
+        campaign_key: gJHNX2PnryxWjmKBktwD
         disabled: true
   - title: Claims
     image: /images/upload/suitcase.png
@@ -54,8 +68,8 @@ items:
       - title: Flight compensation
         image: /images/upload/boarding-pass.png
         link: /claims/flight-compensation
-        lp_id: yayayay
-        lp_key: yayayay
+        campaign_id: 5e5691235a665
+        campaign_key: dMW7j6vwzDTmkCYgJBy4
       - title: Personal injury
         image: /images/upload/plaster.png
         link: /claims/personal-injury

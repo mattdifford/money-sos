@@ -25,8 +25,6 @@ strip_1:
     
     With moneySOS, you’ll find the answers to these questions, quickly and easily.
 
-
-    [Find your loan match now](/)
 review_button: Find your lending match
 strip_2:
   image: /images/upload/phone.png

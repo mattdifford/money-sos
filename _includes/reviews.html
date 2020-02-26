@@ -29,7 +29,12 @@
             </div>
             {%- endfor -%}
         </div>
-        <a href="#select_strip" class="button" title="{{-link_text-}}">{{-link_text-}}</a>
+        {% if include.url and include.url.size > 0 %}
+        {%assign url=include.url%}
+        {% else %}
+        {%assign url="#select_strip"%}
+        {% endif %}
+        <a href="{{url}}" class="button" title="{{-link_text-}}">{{-link_text-}}</a>
     </div>
 </div>
 <script>

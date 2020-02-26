@@ -1,3 +1,4 @@
+{% if include.section and include.section.size > 0 %}
 {%- assign faqs = site.data.faqs.items | where: "category", include.section -%}
 {%- if faqs.size > 0 -%}
 <div class="faqs-strip">
@@ -21,4 +22,5 @@
 <script>
     window.postJqueryScripts.push('$(".faqs-strip__question").on("click", function () {$(this).next(".faqs-strip__answer").slideToggle();});');
 </script>
+{%-endif-%}
 {%-endif-%}

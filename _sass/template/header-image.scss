@@ -115,7 +115,7 @@
     }
     ul + .button {
       margin-top: 35px;
-      max-width: 385px;
+      align-self: flex-start;
     }
     li {
       @include list_style($header-image-cta-tick-bg, $header-image-cta-tick);
@@ -223,7 +223,7 @@
       }
       &__title {
         margin-top: 0;
-        margin-bottom: 50px;
+        margin-bottom: 0;
         font-size: $header_image_title_size;
       }
       &__right {

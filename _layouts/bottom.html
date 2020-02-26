@@ -6,16 +6,24 @@
     {%- include_cached header.html -%}
     {% assign section_obj = site.data.sections.items | where: "title", page.section %}
     {% if section_obj.size == 0 %}
-    {% for section in site.data.sections.items %}
-    {% for sub_section in section.sub_sections %}
-    {% if sub_section.title == page.section%}
-    {%assign section_obj = sub_section%}
-    {% break %}
-    {%endif%}
-    {% endfor %}
-    {% endfor %}
+        {% for section in site.data.sections.items %}
+            {% for sub_section in section.sub_sections %}
+                {% if sub_section.title == page.section%}
+                    {%assign section_obj = sub_section%}
+                    {% break %}
+                {%endif%}
+                {% if section_obj.size == 0 %}
+                    {% for sub_sub_section in sub_section.sub_sections %}
+                        {% if sub_sub_section.title == page.section%}
+                            {%assign section_obj = sub_sub_section%}
+                            {% break %}
+                        {%endif%}
+                    {% endfor %}
+                {%endif%}
+            {% endfor %}
+        {% endfor %}
     {% else %}
-    {% assign section_obj = section_obj[0] %}
+        {% assign section_obj = section_obj[0] %}
     {% endif %}
     {%- include header_image.html layout="cta" content=page.header_content page=page url=page.permalink image=page.header_image section=section_obj-%}
     {%- include featured_strip.html section=section_obj-%}
@@ -23,7 +31,8 @@
         {%- include image-strip.html image_position=page.strip_1.image_position image=page.strip_1.image text=page.strip_1.text-%}
     </div>
     {%- include faqs.html section=section_obj.title-%}
-    {%- include reviews.html link_text=page.review_button -%}
+    {% capture url%}{{page.permalink}}/form{%endcapture%}
+    {%- include reviews.html link_text=page.review_button url=url -%}
     {%- include_cached footer.html -%}
     {%- include foot.html layout=page.layout -%}
 </body>

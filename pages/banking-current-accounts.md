@@ -26,4 +26,5 @@ strip_1:
 
     For most people, a current account is the building block of their daily finances. In fact, without a current account, it isn’t easy to get by in today’s world. It’s a home for your money, and the easiest way to manage your incomings and outgoings. But it can be more than that. Many current accounts pay interest on your balance, offer cashback rewards for your purchases, and can come with an overdraft facility, depending on your situation.
     
+    [Find your current account match](/banking/current-accounts/form)
 ---

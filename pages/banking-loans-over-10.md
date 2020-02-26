@@ -29,6 +29,6 @@ strip_1:
     Use moneySOS, and you’ll be matched to a lender who can help you work through each of these questions, and arrive at an answer that’s suited to you.
 
 
-    [Find your loan match now](/)
+    [Find your loan match now](/banking/loans-over-10k/form)
 review_button: Find your lending match
 ---
