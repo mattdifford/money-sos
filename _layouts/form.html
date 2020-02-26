@@ -2,7 +2,7 @@
 <html lang="en-gb">
 {%- include head.html layout=page.layout -%}
 
-<body>
+<body class="body--form">
     {%- include_cached header.html -%}
     {% assign section_obj = site.data.sections.items | where: "title", page.section %}
     {% if section_obj.size == 0 %}
@@ -27,6 +27,10 @@
     {% endif %}
     {%- include header_image.html layout="form" content=page.header_content page=page.reference section=section_obj image=page.header_image-%}
     {%- include featured_strip.html section=section_obj-%}
+    <div class="image-strip-wrapper">
+        {%- include image-strip.html image_position=page.strip_1.image_position image=page.strip_1.image text=page.strip_1.text-%}
+        {%- include image-strip.html image_position=page.strip_2.image_position image=page.strip_2.image text=page.strip_2.text-%}
+    </div>
     {%- include faqs.html section=section_obj.title -%}
     {%- include reviews.html link_text=page.review_button -%}
     {%- include_cached footer.html -%}
