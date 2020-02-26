@@ -6,13 +6,11 @@ section: Up to £10K
 reference: Loans form
 permalink: /banking/loans-under-10k/form
 header_content: >- 
-    # Find out more about loans here: 
+    # Find a loan up to £10,000
 
-    * Donec nibh nibh, mattis id.
+    * Quick, easy process
 
-    * Nam enim velit, dictum non.
+    * No obligation or charges
 
-    * In in magna condimentum, porta.
-
-    * Fusce scelerisque diam vel ligula.
+    * Loans matched to your circumstances
 ---

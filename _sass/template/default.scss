@@ -32,7 +32,8 @@ html {
 .faqs-strip,
 .footer,
 .reviews-strip,
-.stats-strip {
+.stats-strip,
+.select-strip {
   display: block;
 }
 
@@ -195,6 +196,10 @@ fieldset {
         }
       }
     }
+  }
+  &__caveat {
+    color: $footer-link-text;
+    font-size: 12px;
   }
   &__logo {
     max-width: 100%;

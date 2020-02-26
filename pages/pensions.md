@@ -6,29 +6,26 @@ section: Pensions
 permalink: /pensions
 header_image: /images/upload/pension.png
 header_content: >- 
-    ### Benefits: 
+    ### Pensions matched to you
 
-    * Donec nibh nibh, mattis id.
+    * Find a partner to plan for the future you want
 
-    * Nam enim velit, dictum non.
+    * Understand all your pension options
 
-    * In in magna condimentum, porta.
-
-    * Fusce scelerisque diam vel ligula.
-    
+    * Free, easy quote process
 strip_1:
   image: /images/upload/pension.png
   image_position: left
   text: >-
-    ### About pensions
+    ### Your pension options
 
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Non pulvinar neque laoreet suspendisse interdum
-    consectetur libero id. 
+    The pensions market can seem daunting. There are so many options that it’s hard to know what to do for the best. But with the right pension plan, you can look forward to the future you want, with all the financial confidence you need. 
+
+    
+    Use moneySOS, and we’ll help you connect directly with a pension provider that can build plans around you, your family and the lifestyle you’re looking for.
 
 
-    [Sign up here](/)
+    [Find your pensions match](/pensions/form)
+review_button: Find your pensions match
 ---

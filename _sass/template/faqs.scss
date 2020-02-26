@@ -92,6 +92,9 @@
     }
     p {
       margin: 0;
+      + p {
+        margin-top: 15px;
+      }
     }
     &.active {
       max-height: 2000px;

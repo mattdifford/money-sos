@@ -6,29 +6,29 @@ section: Over £10K
 permalink: /banking/loans-over-10k
 header_image: /images/upload/bank.png
 header_content: >- 
-    ### Benefits: 
+    ### Loans over £10,000
 
-    * Donec nibh nibh, mattis id.
+    * Find the right loan for those larger needs
 
-    * Nam enim velit, dictum non.
+    * Loans matched to your circumstances
 
-    * In in magna condimentum, porta.
+    * Check without harming your credit score
 
-    * Fusce scelerisque diam vel ligula.
+    * Free, easy service
     
 strip_1:
   image: /images/upload/bank.png
   image_position: left
   text: >-
-    ### About Loans
+    ### What to look for in your loan
 
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Non pulvinar neque laoreet suspendisse interdum
-    consectetur libero id. 
+    When you’re taking out a loan of over £10,000, you need to be sure of a few things. Is the APR/interest rate affordable and competitive? Is the term suitable for you – and are you able to repay early if possible? Is any security required?
 
 
-    [Sign up here](/)
+    Use moneySOS, and you’ll be matched to a lender who can help you work through each of these questions, and arrive at an answer that’s suited to you.
+
+
+    [Find your loan match now](/)
+review_button: Find your lending match
 ---

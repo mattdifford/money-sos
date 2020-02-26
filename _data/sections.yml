@@ -12,7 +12,7 @@ items:
         link: /banking/loans
         partners: "zurich, thinkmoney, aviva, tsb"
         sub_sections: 
-          - title: Up to £10K
+          - title: Under £10K
             image: /images/upload/loan-small.png
             link: /banking/loans-under-10k
             partners: "zurich, thinkmoney, aviva, tsb"

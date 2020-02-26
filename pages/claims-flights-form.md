@@ -7,13 +7,12 @@ reference: Flight compensation form
 permalink: /claims/flight-compensation/form
 header_image: /images/upload/plane-outline.png
 header_content: >- 
-    # Get your compensation for flight delays here: 
+    # Claim your flight compensation
 
-    * Donec nibh nibh, mattis id.
+    * Fast, easy process
 
-    * Nam enim velit, dictum non.
+    * Answer a few details to find your claims partner
 
-    * In in magna condimentum, porta.
-
-    * Fusce scelerisque diam vel ligula.
+    * No-obligation quote
+review_button: Find your claims match
 ---

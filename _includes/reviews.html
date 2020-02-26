@@ -5,10 +5,10 @@
 {%- assign reviews = site.data.reviews.items -%}
 {%endif%}
 {%- if reviews.size > 0 -%}
-{%- if include.link_text -%}
+{%- if include.link_text and include.link_text.size > 0 -%}
 {%- assign link_text = include.link_text -%}
 {%- else -%}
-{%- assign link_text = "Select your required tool" -%}
+{%- assign link_text = "Find your money match" -%}
 {%-endif -%}
 <div class="reviews-strip" id="reviews_strip">
     <div class="container">

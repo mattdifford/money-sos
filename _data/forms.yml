@@ -73,8 +73,7 @@ items:
       ### Get a **free** & instant decision below
 
 
-      Answer a series of simple questions below to see if you  can claim the
-      compensation you deserve after your delay!
+      Answer a few quick questions to find out whether you’re entitled to compensation
     submit_text: Find a claim
     title: Flight Compensation
   - category: Mortgages
@@ -100,7 +99,6 @@ items:
         name: Mortgage term in years
         required: true
         type: number
-    pre_text: Some pre text goes here
     submit_text: Submit
     title: Mortgages
   - category: Pensions
@@ -128,7 +126,6 @@ items:
           - name: Not sure
         required: true
         type: radio
-    pre_text: Some pre text goes here
     submit_text: Submit
     title: Pensions
   - category: Current accounts
@@ -137,8 +134,7 @@ items:
       secure on this website. By submitting your details you are consenting to
       be contacted by Think Money via Telephone, Email and SMS
     form_fields:
-      - helptext: 'Is it just you who will be using the account, or somebody else too?'
-        name: Are you looking for a single or joint account?
+      - name: Are you looking for a single or joint account?
         options:
           - name: Single account
           - name: Joint account
@@ -148,7 +144,7 @@ items:
         required: false
         type: fieldset
       - helptext: Select all that apply
-        name: What is your account used for?
+        name: What will you use the account for?
         options:
           - name: Income
           - name: Savings
@@ -159,8 +155,7 @@ items:
       - name: Income fieldset
         required: false
         type: fieldset
-      - helptext: 'What is your income, per month?'
-        name: Monthly income
+      - name: What’s your monthly income?
         options:
           - name: '£0 - £1,000'
           - name: '£1,000 - £1,500'
@@ -168,8 +163,7 @@ items:
           - name: '£2,000+'
         required: true
         type: radio
-      - helptext: By what method are you paid your income every month?
-        name: How are you paid?
+      - name: How are you paid?
         options:
           - name: Bank transfer
           - name: Cheque
@@ -177,10 +171,9 @@ items:
           - name: International transfer
         required: true
         type: radio
-    pre_text: Some pre text goes here
-    submit_text: Submit
+    submit_text: Find your match
     title: Current accounts
-  - category: Up to £10K
+  - category: Under £10K
     data_capture_post_text: >-
       We will use our best endeavours to keep your information 100% safe &
       secure on this website. By submitting your details you are consenting to
@@ -210,7 +203,6 @@ items:
           - name: Other
         required: true
         type: radio
-    pre_text: Some pretext goes here
     submit_text: Submit
     title: Loans - less than £10K
   - category: Over £10K
@@ -245,7 +237,6 @@ items:
           - name: Other
         required: true
         type: multiple_choice
-    pre_text: Some pre text goes here
     submit_text: Submit
     title: Loans - more than £10K
   - category: Broadband

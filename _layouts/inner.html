@@ -27,11 +27,11 @@
     {% endif %}
     {%- include header_image.html content=page.header_content layout="inner" image=page.header_image-%}
     {%- include featured_strip.html section=section_obj-%}
-    {%- include select_strip.html section=section_obj -%}
+    {%- include select_strip.html section=section_obj page=page -%}
     <div class="image-strip-wrapper">
         {%- include image-strip.html image_position=page.strip_1.image_position image=page.strip_1.image text=page.strip_1.text -%}
     </div>
-    {%- include reviews.html -%}
+    {%- include reviews.html link_text=page.review_button -%}
     {%- include_cached footer.html -%}
     {%- include foot.html layout=page.layout -%}
 </body>

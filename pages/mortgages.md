@@ -6,29 +6,25 @@ section: Mortgages
 permalink: /mortgages
 header_image: /images/upload/house.png
 header_content: >- 
-    ### Benefits: 
+    ### Mortgages matched to you
 
-    * Donec nibh nibh, mattis id.
+    * Fast, easy mortgage matching service
 
-    * Nam enim velit, dictum non.
+    * Find a partner suited to your circumstances
 
-    * In in magna condimentum, porta.
-
-    * Fusce scelerisque diam vel ligula.
-    
+    * Free, no-obligation process
 strip_1:
   image: /images/upload/house.png
   image_position: left
   text: >-
-    ### About Mortgages
+    ### Choosing your mortgage
 
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Non pulvinar neque laoreet suspendisse interdum
-    consectetur libero id. 
+    Whether it’s to buy your home, move into buying-to-let or refinancing an existing house, a mortgage is often the biggest financial commitment many of us will make. So it’s vital that you find the right provider – someone who understands exactly what you need and what you’re hoping to achieve.
+
+    And that’s what moneySOS is all about. We’ll help you see through the complexity of the mortgage market, connecting you directly to the most suitable partner for you.
 
 
-    [Sign up here](/)
+    [Find your mortgage match](/mortgages/form)
+review_button: Find your mortgage match
 ---

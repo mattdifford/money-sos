@@ -6,29 +6,29 @@ section: Up to £10K
 permalink: /banking/loans-under-10k
 header_image: /images/upload/bank.png
 header_content: >- 
-    ### Benefits: 
+    ### Loans under £10,000
 
-    * Donec nibh nibh, mattis id.
+    * From cars to holidays, and from school fees to your home 
 
-    * Nam enim velit, dictum non.
+    * Find loans suited to you
 
-    * In in magna condimentum, porta.
+    * Check without harming your credit score
 
-    * Fusce scelerisque diam vel ligula.
+    * Fast, easy service
     
 strip_1:
   image: /images/upload/bank.png
   image_position: left
   text: >-
-    ### About Loans
+    ### What to look for in your loan
 
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Non pulvinar neque laoreet suspendisse interdum
-    consectetur libero id. 
+    When choosing a loan under £10,000, the first thing most people check for is the interest rate or APR. And that’s obviously a critical factor in your choice of lender. But there are other considerations too – how long do you want the loan for? Are there any early repayment charges? Is the loan suitable for your purposes?
+
+    
+    With moneySOS, you’ll find the answers to these questions, quickly and easily.
 
 
-    [Sign up here](/)
+    [Find your loan match now](/)
+review_button: Find your lending match
 ---

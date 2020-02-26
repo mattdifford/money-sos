@@ -6,29 +6,22 @@ section: Flight compensation
 permalink: /claims/flight-compensation
 header_image: /images/upload/plane.png
 header_content: >- 
-    ### Benefits: 
+    ### Find your flight compensation match
 
-    * Donec nibh nibh, mattis id.
+    * Reclaim any money you’re entitled to
 
-    * Nam enim velit, dictum non.
+    * Easy, obligation-free check
 
-    * In in magna condimentum, porta.
-
-    * Fusce scelerisque diam vel ligula.
-    
+    * Claims partners matched to you
 strip_1:
   image: /images/upload/flight.png
   image_position: left
   text: >-
-    ### About Flight Compensation
+    ### What is flight compensation?
 
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Non pulvinar neque laoreet suspendisse interdum
-    consectetur libero id. 
+    Flight delays and cancellations are an unavoidable fact of life. But with the right support, they needn’t mean you lose out financially. And if your flight has been overbooked, delayed or cancelled in the past three years, you could well be eligible for compensation.
 
 
-    [Sign up here](/)
+    [Find your claims match](/claims/flight-compensation/form)
 ---

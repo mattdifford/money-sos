@@ -3,11 +3,11 @@
         <div class="container">
             <div class="header-image__wrapper">
                 {%- if include.layout == "cta" -%}
-                <h1 class="header-image__title">{{-include.page-}}</h1>
+                <h1 class="header-image__title">{{-include.page.title-}}</h1>
                 <div class="header-image__content">
                     <div class="header-image__left">
                         {{-include.content | markdownify-}}
-                        <a href="{{-include.url-}}/form" class="button">Open our checking tool</a>
+                        <a href="{{-include.url-}}/form" class="button">Find your {{include.page.reference}} match</a>
                     </div>
                     <div class="header-image__right">
                         {%-assign image_type = include.image | slice: -3, 3-%}
@@ -19,7 +19,7 @@
                 {%-assign image_type = include.image | slice: -3, 3-%}
                 <div class="header-image__bg">
                     {% if include.image %}
-                        {%- include picture.html alt=include.section.title url=include.image type=image_type class="header-image__bg-img"-%}
+                    {%- include picture.html alt=include.section.title url=include.image type=image_type class="header-image__bg-img"-%}
                     {%endif%}
                 </div>
                 <div class="header-image__left">

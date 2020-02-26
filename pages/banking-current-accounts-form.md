@@ -3,20 +3,11 @@ layout: form
 description: Page Description
 title: Request a callback for current accounts
 section: Current accounts
-reference: Current accounts form
+reference: current account
 permalink: /banking/current-accounts/form
 header_content: >- 
-    # Current accounts
+    # Find your current account match
 
-    ### Benefits: 
-
-    * Free to Use
-
-    * Manage Your Money Better
-
-    * Get Rewards
-
-    * No Credit Checks to open an account
+    Use our free tool to connect directly to a current account that suits you.
     
-    * Improve your credit rating
 ---
