@@ -40,8 +40,12 @@ $(document).ready(function () {
             if (parent_form.hasClass('form--personal-info')) {
                 var original_form = $('.form--main');
                 var merged_data = { ...parent_form.serializeObject(), ...original_form.serializeObject() }
+                $.each(merged_data, function(key, value){
+                    if (typeof value === 'object'){
+                        merged_data[key] = value.join(', ');
+                    }
+                });
                 $.ajax({
-
                     async: true,
                     url: 'https://savvy.leadspediatrack.com/post.do',
                     data: merged_data,

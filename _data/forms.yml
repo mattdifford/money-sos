@@ -11,7 +11,8 @@ items:
       pay anything.
     form_fields:
       - helptext: Make a selection below
-        name: What happened to your flight?
+        label: What happened to your flight?
+        name: what_happened
         options:
           - name: Delayed
           - name: Cancelled
@@ -20,7 +21,8 @@ items:
         required: true
         type: radio
       - helptext: Make a selection below
-        name: How long was your flight delayed?
+        label: How long was your flight delayed?
+        name: flight_delayed
         options:
           - name: Not delayed
           - name: Less than 3 hours
@@ -33,7 +35,8 @@ items:
         required: false
         type: fieldset
       - helptext: 'This is important, so do you best to remember'
-        name: Which airline did you travel with?
+        label: Which airline did you travel with?
+        name: airline
         options:
           - name: airlines
         required: true
@@ -43,7 +46,8 @@ items:
         required: false
         type: fieldset
       - helptext: Please select an accurate date of your delayed flight
-        name: What date was the flight?
+        label: What date was the flight?
+        name: date_of_flight
         placeholder: DD/MM/YYYY
         required: true
         type: date
@@ -52,21 +56,25 @@ items:
         required: false
         type: fieldset
       - helptext: Start typing the airport name
-        name: Departure Airport
+        label: Departure Airport
+        name: departure_airport
         options:
           - name: airports
         required: true
         type: data
       - helptext: Start typing the airport name
-        name: Arrival Airport
+        label: Arrival Airport
+        name: arrival_airport
         options:
           - name: airports
         required: true
         type: data
-      - name: Flight number
+      - label: Flight number
+        name: flight_number
         required: false
         type: string_short
-      - name: Booking reference
+      - label: Booking reference
+        name: booking_reference
         required: false
         type: string_short
     pre_text: >-
@@ -111,7 +119,8 @@ items:
       secure on this website. By submitting your details you are consenting to
       be contacted by Think Money via Telephone, Email and SMS
     form_fields:
-      - name: Select all the pension types that you currently have
+      - label: Select all the pension types that you currently have
+        name: pension_types
         options:
           - name: Personal Pension
           - name: Current Workplace Pension
@@ -121,7 +130,8 @@ items:
           - name: Not sure
         required: true
         type: multiple_choice
-      - name: What is the approximate value of your pension(s) combined?
+      - label: What is the approximate value of your pension(s) combined?
+        name: pension_value
         options:
           - name: '£0 - £5,000'
           - name: '£5,000 - £15,000'
@@ -138,7 +148,8 @@ items:
       secure on this website. By submitting your details you are consenting to
       be contacted by Think Money via Telephone, Email and SMS
     form_fields:
-      - name: Are you looking for a single or joint account?
+      - label: Are you looking for a single or joint account?
+        name: account_type
         options:
           - name: Single account
           - name: Joint account
@@ -148,7 +159,8 @@ items:
         required: false
         type: fieldset
       - helptext: Select all that apply
-        name: What will you use the account for?
+        name: account_usage
+        label: What will you use the account for?
         options:
           - name: Income
           - name: Savings
@@ -159,7 +171,8 @@ items:
       - name: Income fieldset
         required: false
         type: fieldset
-      - name: What’s your monthly income?
+      - label: What’s your monthly income?
+        name: monthly_income
         options:
           - name: '£0 - £1,000'
           - name: '£1,000 - £1,500'
@@ -167,7 +180,8 @@ items:
           - name: '£2,000+'
         required: true
         type: radio
-      - name: How are you paid?
+      - label: How are you paid?
+        name: payment_method 
         options:
           - name: Bank transfer
           - name: Cheque

@@ -69,7 +69,6 @@ items:
     image: /images/upload/saving.png
     colour: FFC72A
     section: Pensions
-    external_url: https://www.google.com
     description: >- 
       * Donec nibh nibh, mattis id.
 
