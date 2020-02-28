@@ -2,7 +2,7 @@
 layout: thankyou
 description: Thank you for your submission
 title: Thank you
-permalink: /thankyou
+permalink: /banking/current-accounts/form/thankyou
 sitemap: false
 header_image: /images/upload/laptop.png
 header_content: >-

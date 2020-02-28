@@ -36,6 +36,7 @@ items:
         link: /banking/current-accounts
         campaign_id: 5e5690e6ce630
         campaign_key: c8xbgCNnTGZrFBXtfP3p
+        disabled: true
   - title: Pensions
     image: /images/upload/piggy-bank.png
     link: /pensions
