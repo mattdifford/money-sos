@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: moneySOS
-email: matt@mrsavvy.co.uk
+email: 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://money-sos.netlify.com/" # the base hostname & protocol for your site, e.g. http://example.com
-description: Money made simple
+url: "https://www.moneysos.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+description: Money matched to you
 
 # Build settings
 theme: minima
@@ -35,7 +35,7 @@ sass:
   sass_dir: _sass
 
 # social links
-twitter_url: https://www.twitter.com 
+twitter_url: https://www.twitter.com/moneysos
 facebook_url: https://www.facebook.com
 instagram_url: https://www.instagram.com
 
