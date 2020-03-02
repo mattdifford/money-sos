@@ -4,18 +4,15 @@ items:
     link: /mortgages
     campaign_id: 5e56909975ce4
     campaign_key: pLY9jGxDvqtdZy37TKBN
-    disabled: true
   - title: Banking
     image: /images/upload/bank-flat.png
     link: /banking
     partners: "zurich, thinkmoney, aviva, tsb"
-    disabled: true
     sub_sections: 
       - title: Loans
         image: /images/upload/loan-large.png
         link: /banking/loans
         partners: "zurich, thinkmoney, aviva, tsb"
-        disabled: true
         sub_sections: 
           - title: Under £10K
             image: /images/upload/loan-small.png
@@ -23,30 +20,25 @@ items:
             partners: "zurich, thinkmoney, aviva, tsb"
             campaign_id: 5e5690b94f474
             campaign_key: G9q3gYLQFRKBvb7xpJdh
-            disabled: true
           - title: Over £10K
             image: /images/upload/loan-large.png
             link: /banking/loans-over-10k
             partners: "zurich, thinkmoney, aviva, tsb"
             campaign_id: 5e5690ce84444
             campaign_key: HBN4WdLJZXbxMYyT3R6r
-            disabled: true
       - title: Current accounts
         image: /images/upload/cards.png
         link: /banking/current-accounts
         campaign_id: 5e5690e6ce630
         campaign_key: c8xbgCNnTGZrFBXtfP3p
-        disabled: true
   - title: Pensions
     image: /images/upload/piggy-bank.png
     link: /pensions
     campaign_id: 5e56925b37f68
     campaign_key: yGvJtMxZz9VXQKq286Ym
-    disabled: true
   - title: Utilities
     image: /images/upload/bill.png
     link: /utilities
-    disabled: true
     sub_sections: 
       - title: Broadband
         image: /images/upload/wifi-flat.png
@@ -68,7 +60,6 @@ items:
   - title: Claims
     image: /images/upload/suitcase.png
     link: /claims
-    disabled: true
     sub_sections: 
       - title: Medical negligence
         image: /images/upload/gavel.png
