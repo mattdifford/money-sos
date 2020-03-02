@@ -68,7 +68,7 @@ $(document).ready(function () {
                                     if (typeof gtag === 'function') {
                                         gtag('event', 'Form submission success', { 'event_category': 'Form submission' });
                                     }
-                                    window.location = '/thankyou'
+                                    window.location += '/thankyou'
                                 }
                             });
                         } else {

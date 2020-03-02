@@ -28,8 +28,7 @@
                         class="icon-chevron-left"></i>Back</button></div>
             {% endif %}
             {%- assign fieldset_count = fieldset_count | plus: 1-%}
-            <div class="form__proceed"><button type="button" class="form__proceed-button">Step
-                    {{fieldset_count}}</button>
+            <div class="form__proceed"><button type="button" class="form__proceed-button" id="{{form.title | slugify}}_proceed_button_{{-fieldset_count-}}">Step {{fieldset_count}}</button>
             </div>
         </div>
     </fieldset>
@@ -41,9 +40,9 @@
             {%- capture field_include -%}field_{{-field.type-}}.html{%- endcapture -%}
             {%- assign field_slug = field.name | slugify 'latin' -%}
             {%- if field.type == 'radio' -%}
-            {%- include {{-field_include |trim-}} label=field.label name=field.name slug=field_slug type=field.type options=field.options helptext=field.helptext required=field.required fieldset=fieldset_name-%}
+            {%- include {{-field_include |trim-}} form_name=form.title label=field.label name=field.name slug=field_slug type=field.type options=field.options helptext=field.helptext required=field.required fieldset=fieldset_name-%}
             {%- else -%}
-            {%- include {{-field_include |trim-}} label=field.label name=field.name slug=field_slug type=field.type helptext=field.helptext required=field.required placeholder=field.placeholder options=field.options fieldset=fieldset_name-%}
+            {%- include {{-field_include |trim-}} form_name=form.title label=field.label name=field.name slug=field_slug type=field.type helptext=field.helptext required=field.required placeholder=field.placeholder options=field.options fieldset=fieldset_name-%}
             {%- endif -%}
         </div>
         {%-endif -%}
@@ -54,7 +53,7 @@
                 <button type="button" class="form__back-button"><i class="icon-chevron-left"></i>Back</button>
             </div>
             {% endif %}
-            <div class="form__submit"><button type="button" class="form__submit-button">{{form.submit_text}}</button>
+            <div class="form__submit"><button type="button" class="form__submit-button" id="{{form.title | slugify}}_submit_button">{{form.submit_text}}</button>
             </div>
     </fieldset>
     {%-endif -%}
@@ -127,16 +126,16 @@
     <input type="hidden" value="{{include.section.campaign_key}}" name="lp_campaign_key">
     <input type="hidden" value="{{include.section.campaign_id}}" name="lp_campaign_id">
     <div class="form__field">
-        {%- include field_string.html name="First name" slug="first_name" required=true placeholder="John" fieldset="first" -%}
+        {%- include field_string.html form_name=form.title name="First name" slug="first_name" required=true placeholder="John" fieldset="first" -%}
     </div>
     <div class="form__field">
-        {%- include field_string.html name="Surname" slug="last_name" required=true placeholder="Smith" fieldset="first" -%}
+        {%- include field_string.html form_name=form.title name="Surname" slug="last_name" required=true placeholder="Smith" fieldset="first" -%}
     </div>
     <div class="form__field">
-        {%- include field_string.html name="Telephone" slug="phone_mobile" type="telephone" required=true placeholder="07000000000" fieldset="first" -%}
+        {%- include field_string.html form_name=form.title name="Telephone" slug="phone_mobile" type="telephone" required=true placeholder="07000000000" fieldset="first" -%}
     </div>
     <div class="form__field">
-        {%- include field_string.html name="Email address" slug="email_address" type="email" required=true placeholder="john.smith@email.com" fieldset="first" -%}
+        {%- include field_string.html form_name=form.title name="Email address" slug="email_address" type="email" required=true placeholder="john.smith@email.com" fieldset="first" -%}
     </div>
     {% if postcode_lookup == 'false' %}
     <div class="form__field">

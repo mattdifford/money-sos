@@ -6,7 +6,7 @@
 {%assign slug = include.slug%}
 {%endif%}
 
-
+{% capture slug%}{{include.form_name |slugify }}_{{slug}}{%endcapture%}
 <label for={{slug}} class="field__label">{{label}}</label>
 {%- if include.helptext -%}
 <p class="field__helptext">{{- include.helptext -}}</p>
