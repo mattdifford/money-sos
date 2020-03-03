@@ -68,12 +68,19 @@ $(document).ready(function () {
                                     if (typeof gtag === 'function') {
                                         gtag('event', 'Form submission success', { 'event_category': 'Form submission' });
                                     }
-
-                                    window.location = window.location.replace(/\/$/, "") + '/thankyou'
+                                    var url = window.location.pathname;
+                            if (url.charAt(url.length - 1) === '/') {
+                                url = url.substring(0, url.length - 1);
+                            }
+                                    window.location = url + '/thankyou'
                                 },
                             });
                         } else {
-                            window.location = window.location.replace(/\/$/, "") + '/thankyou'
+                            var url = window.location.pathname;
+                            if (url.charAt(url.length - 1) === '/') {
+                                url = url.substring(0, url.length - 1);
+                            }
+                            window.location = url + '/thankyou'
                             // var html = '<p class="form__message form__message--error">Something went wrong, please try again</p>';
                             // parent_form.append(html);
                             // $("body, html").animate({ scrollTop: parent_form.offset().top - 20 });
