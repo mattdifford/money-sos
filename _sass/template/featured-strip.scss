@@ -43,11 +43,11 @@
       align-items: center;
     }
     picture {
-      margin: 15px 25px;
+      padding: 15px 25px;
     }
     picture,
     img {
-      max-height: 100%;
+      height: 100%;
     }
   }
   @include in_size($xs) {
