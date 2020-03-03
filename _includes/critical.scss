@@ -1,28 +1,13 @@
-@import "vars";
-@import "mixins";
-
 .header-image,
 .featured-strip,
 .process-strip,
-.image-strip,
+.image-strip-wrapper,
 .brands-strip,
 .faqs-strip,
 .footer,
-.reviews-strip,
-.stats-strip,
-.select-strip,.form {
+.header,
+.reviews-strip {
   display: none;
-}
-body {
-  margin: 0;
-}
-.header {
-  width: 100%;
-  background: $colour_primary;
-  height: 50px;
-  &__wrapper {
-    display: none;
-  }
 }
 .container {
   width: 100%;

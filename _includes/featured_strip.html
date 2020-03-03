@@ -11,7 +11,7 @@
             <div class="featured-strip__list">
                 {%- for item in partners -%}
                 {%- capture image_src-%}/images/upload/featured-{{item}}.png{%- endcapture -%}
-                {%- capture image_alt-%}"{{-item |capitalize-}}"{%-endcapture-%}
+                {%- capture image_alt-%}{{-item |capitalize-}}{%-endcapture-%}
                 {%-include picture.html url=image_src alt=image_alt type="png"-%}
                 {%- endfor -%}
             </div>
