@@ -1,8 +1,6 @@
 ---
 layout: home
-title: Home
 reference: Home
-section: Home
 description: >-
   moneySOS is designed to help make life easier, not more confusing. Join today
   and take the stress out of your money management by comparing suppliers,

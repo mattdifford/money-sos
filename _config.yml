@@ -14,10 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: moneySOS
-email: 
+tagline: Money matched to you
+email:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.moneysos.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 description: Money matched to you
+logo: /images/logo.png
 
 # Build settings
 theme: minima
@@ -38,8 +40,12 @@ sass:
 twitter_url: https://www.twitter.com/yourmoneysos
 facebook_url: https://www.facebook.com/yourmoneysos
 instagram_url: https://www.instagram.com/yourmoneysos
-
-
+social:
+  name: moneySOS
+  links:
+    - https://www.twitter.com/yourmoneysos
+    - https://www.facebook.com/yourmoneysos
+    - https://www.instagram.com/yourmoneysos
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -57,12 +63,11 @@ plugins:
   - jekyll-include-cache
   - jekyll-webp
 
-
 ############################################################
 # Site configuration for the WebP Generator Plugin
 webp:
   enabled: true
-  
+
   # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
   quality: 100
 
@@ -75,7 +80,7 @@ webp:
   # add ".gif" to the format list to generate webp for animated gifs as well
   formats: [".jpeg", ".jpg", ".png", ".tiff"]
 
-  # File extensions for animated gif files 
+  # File extensions for animated gif files
   gifs: [".gif"]
 
   # Set to true to always regenerate existing webp files
