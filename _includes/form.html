@@ -126,16 +126,16 @@
     <input type="hidden" value="{{include.section.campaign_key}}" name="lp_campaign_key">
     <input type="hidden" value="{{include.section.campaign_id}}" name="lp_campaign_id">
     <div class="form__field">
-        {%- include field_string.html form_name=form.title name="First name" slug="first_name" required=true placeholder="John" fieldset="first" -%}
+        {%- include field_string.html form_name=form.title name="First name" slug="first_name" required=true placeholder="John" fieldset="first" unique_name=false -%}
     </div>
     <div class="form__field">
-        {%- include field_string.html form_name=form.title name="Surname" slug="last_name" required=true placeholder="Smith" fieldset="first" -%}
+        {%- include field_string.html form_name=form.title name="Surname" slug="last_name" required=true placeholder="Smith" fieldset="first" unique_name=false -%}
     </div>
     <div class="form__field">
-        {%- include field_string.html form_name=form.title name="Telephone" slug="phone_mobile" type="telephone" required=true placeholder="07000000000" fieldset="first" -%}
+        {%- include field_string.html form_name=form.title name="Telephone" slug="phone_mobile" type="telephone" required=true placeholder="07000000000" fieldset="first" unique_name=false -%}
     </div>
     <div class="form__field">
-        {%- include field_string.html form_name=form.title name="Email address" slug="email_address" type="email" required=true placeholder="john.smith@email.com" fieldset="first" -%}
+        {%- include field_string.html form_name=form.title name="Email address" slug="email_address" type="email" required=true placeholder="john.smith@email.com" fieldset="first" unique_name=false -%}
     </div>
     {% if postcode_lookup == 'false' %}
     <div class="form__field">

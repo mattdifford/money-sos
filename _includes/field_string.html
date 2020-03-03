@@ -5,7 +5,9 @@
 {%assign label = include.name%}
 {%assign slug = include.slug%}
 {%endif%}
+{% if include.unique_name != false%}
 {% capture slug%}{{include.form_name | slugify }}_{{slug}}{%endcapture%}
+{%endif%}
 <label for={{slug}} class="field__label">{{label}}</label>
 {% if include.type %}
 {%assign field_type = include.type%}

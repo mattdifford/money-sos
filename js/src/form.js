@@ -40,8 +40,8 @@ $(document).ready(function () {
             if (parent_form.hasClass('form--personal-info')) {
                 var original_form = $('.form--main');
                 var merged_data = { ...parent_form.serializeObject(), ...original_form.serializeObject() }
-                $.each(merged_data, function(key, value){
-                    if (typeof value === 'object'){
+                $.each(merged_data, function (key, value) {
+                    if (typeof value === 'object') {
                         merged_data[key] = value.join(', ');
                     }
                 });
@@ -68,13 +68,15 @@ $(document).ready(function () {
                                     if (typeof gtag === 'function') {
                                         gtag('event', 'Form submission success', { 'event_category': 'Form submission' });
                                     }
-                                    window.location += '/thankyou'
-                                }
+
+                                    window.location = window.location.replace(/\/$/, "") + '/thankyou'
+                                },
                             });
                         } else {
-                            var html = '<p class="form__message form__message--error">Something went wrong, please try again</p>';
-                            parent_form.append(html);
-                            $("body, html").animate({ scrollTop: parent_form.offset().top - 20 });
+                            window.location = window.location.replace(/\/$/, "") + '/thankyou'
+                            // var html = '<p class="form__message form__message--error">Something went wrong, please try again</p>';
+                            // parent_form.append(html);
+                            // $("body, html").animate({ scrollTop: parent_form.offset().top - 20 });
                         }
 
                     },
