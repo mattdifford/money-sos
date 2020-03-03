@@ -15,7 +15,7 @@ header_content: >-
   * Exclusive moneySOS deals
 
 strip_1:
-  image: /images/upload/utilities-header.png
+  image: /images/upload/router.png
   image_position: left
   text: >-
     ### About Broadband
