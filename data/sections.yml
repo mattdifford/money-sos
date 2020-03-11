@@ -1,4 +1,14 @@
 items:
+  - title: Life insurance
+    image: /images/upload/life-insurance.png
+    link: /life-insurance/form
+    campaign_id: 5e67918f877c5
+    campaign_key: PXk8h26FpByHM3GcrVbt
+  - title: Equity release
+    image: /images/upload/equity-release.png
+    link: /equity-release/form
+    campaign_id: 5e67920264336
+    campaign_key: PbNCMKTfjkF94QvBn6rG
   - title: Mortgages
     image: /images/upload/keys.png
     link: /mortgages
@@ -65,29 +75,29 @@ items:
         campaign_id: 5e5691101591d
         campaign_key: gJHNX2PnryxWjmKBktwD
         disabled: true
-  - title: Claims
-    image: /images/upload/suitcase.png
-    link: /claims
-    disabled: true
-    sub_sections: 
-      - title: Medical negligence
-        image: /images/upload/gavel.png
-        link: /claims/medical-negligence
-        disabled: true
-      - title: Flight compensation
-        image: /images/upload/boarding-pass.png
-        link: /claims/flight-compensation
-        campaign_id: 5e5691235a665
-        campaign_key: dMW7j6vwzDTmkCYgJBy4
-      - title: Personal injury
-        image: /images/upload/plaster.png
-        link: /claims/personal-injury
-        disabled: true
-      - title: Sipps
-        image: /images/upload/sipps.png
-        link: /claims/sipps
-        disabled: true
-  - title: Deals
-    image: /images/upload/deal.png
-    link: /deals
-    disabled: true
+  # - title: Claims
+  #   image: /images/upload/suitcase.png
+  #   link: /claims
+  #   disabled: true
+  #   sub_sections: 
+  #     - title: Medical negligence
+  #       image: /images/upload/gavel.png
+  #       link: /claims/medical-negligence
+  #       disabled: true
+  #     - title: Flight compensation
+  #       image: /images/upload/boarding-pass.png
+  #       link: /claims/flight-compensation
+  #       campaign_id: 5e5691235a665
+  #       campaign_key: dMW7j6vwzDTmkCYgJBy4
+  #     - title: Personal injury
+  #       image: /images/upload/plaster.png
+  #       link: /claims/personal-injury
+  #       disabled: true
+  #     - title: Sipps
+  #       image: /images/upload/sipps.png
+  #       link: /claims/sipps
+  #       disabled: true
+  # - title: Deals
+  #   image: /images/upload/deal.png
+  #   link: /deals
+  #   disabled: true

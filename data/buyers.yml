@@ -91,3 +91,30 @@ items:
       * In in magna condimentum, porta.
 
       * Fusce scelerisque diam vel ligula.  
+  - title: QuoteSearch
+    logo: /images/upload/quotesearch.png
+    image: /images/upload/saving.png
+    colour: 262a61
+    section: Life insurance
+    description: >- 
+      * Donec nibh nibh, mattis id.
+
+      * Nam enim velit, dictum non.
+
+      * In in magna condimentum, porta.
+
+      * Fusce scelerisque diam vel ligula.
+  - title: QuoteSearch
+    logo: /images/upload/quotesearch.png
+    image: /images/upload/saving.png
+    colour: 262a61
+    section: Equity release
+    description: >- 
+      * Donec nibh nibh, mattis id.
+
+      * Nam enim velit, dictum non.
+
+      * In in magna condimentum, porta.
+
+      * Fusce scelerisque diam vel ligula.
+  

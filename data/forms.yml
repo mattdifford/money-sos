@@ -301,3 +301,76 @@ items:
         type: radio
     submit_text: Submit
     title: Broadband
+  - category: Life insurance
+    data_capture_post_text: >-
+      Disclaimer to go here
+    form_fields:
+      - helptext: Make a selection below
+        label: What would you like to cover?
+        name: cover_type
+        options:
+          - name: My family
+          - name: My mortgage
+          - name: Family & mortgage
+          - name: Not sure
+        required: true
+        type: radio
+      - helptext: Smoking fieldset
+        name: Smoking fieldset
+        required: false
+        type: fieldset
+      - helptext: Make a selection below
+        label: Have you smoked in the last 12 months?
+        name: smoked
+        options:
+          - name: 'Yes'
+          - name: 'No'
+        required: true
+        type: radio
+      - helptext: Your details fieldset
+        name: Your fieldset
+        required: false
+        type: fieldset
+      - label: What is your date of birth?
+        name: dob
+        placeholder: DD/MM/YYYY
+        required: true
+        type: date
+      - label: Are you male or female?
+        name: gender
+        options:
+          - name: Male
+          - name: Female
+        required: true
+        type: radio
+    submit_text: Submit
+    title: Life insurance
+  - category: Equity release
+    data_capture_post_text: >-
+      Disclaimer to go here
+    form_fields:
+      - helptext: Make a selection below
+        label: How do you want to use the money?
+        name: money_usage
+        options:
+          - name: Home improvement
+          - name: Family
+          - name: Retirement
+          - name: Other
+          - name: Not sure
+        required: true
+        type: radio
+      - helptext: Property details fieldset
+        name: Property fieldset
+        required: false
+        type: fieldset
+      - label: Estimated property value
+        name: property_value
+        required: true
+        type: price
+      - label: Outstanding mortgage balance
+        name: mortgage_balance
+        required: true
+        type: price
+    submit_text: Submit
+    title: Equity release

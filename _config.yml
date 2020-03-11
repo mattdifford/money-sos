@@ -63,6 +63,8 @@ plugins:
   - jekyll-include-cache
   - jekyll-webp
 
+data_source: data
+
 ############################################################
 # Site configuration for the WebP Generator Plugin
 webp:

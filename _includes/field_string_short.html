@@ -5,10 +5,10 @@
 {%assign label = include.name%}
 {%assign slug = include.slug%}
 {%endif%}
-{% capture slug%}{{include.form_name | slugify }}_{{slug}}{%endcapture%}
-<label for={{slug}} class="field__label">{{label}}</label>
+{% capture id%}{{include.form_name | slugify }}_{{slug}}{%endcapture%}
+<label for={{id}} class="field__label">{{label}}</label>
 {%- if include.helptext -%}
 <p class="field__helptext">{{-include.helptext-}}</p>
 {%- endif -%}
-<input type="text" id="{{slug}}" name="{{slug}}" required="{{-input.required-}}" class="field__input"
+<input type="text" id="{{id}}" name="{{slug}}" required="{{-input.required-}}" class="field__input"
     placeholder="{{-include.placeholder-}}" maxlength="8" data-parsley-group="{{include.fieldset}}">

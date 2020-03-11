@@ -657,11 +657,15 @@ body.modal-active {
   picture {
     justify-content: center;
     padding: 0;
+    &.buyer-panel__logo {
+      padding: 10px;
+    }
   }
   img {
     float: none;
     max-height: none;
     padding: 0;
+    flex: 1 1 auto;
   }
   &__logo {
     display: inline-flex !important;
