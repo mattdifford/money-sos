@@ -4,11 +4,13 @@ items:
     link: /life-insurance/form
     campaign_id: 5e67918f877c5
     campaign_key: PXk8h26FpByHM3GcrVbt
+    disabled: true
   - title: Equity release
     image: /images/upload/equity-release.png
     link: /equity-release/form
     campaign_id: 5e67920264336
     campaign_key: PbNCMKTfjkF94QvBn6rG
+    disabled: true
   - title: Mortgages
     image: /images/upload/keys.png
     link: /mortgages
