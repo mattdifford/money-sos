@@ -112,6 +112,7 @@ $(document).ready(function () {
         e.preventDefault();
         $('.form--personal-info').show();
         hideResultsPage();
+        $('body, html').animate({ scrollTop: 0 });
     });
 });
 

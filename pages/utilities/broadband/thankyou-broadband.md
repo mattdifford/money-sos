@@ -10,7 +10,7 @@ header_content: >-
 
   ## Your details have been submitted
 
-  Someone from <strong class="contact-name"></strong> will be in touch shortly. They will email you or be calling from <strong class="contact-number"></strong> so be sure to make a note so that you know it's them
+  Someone from Origin will be in touch shortly. They will email you or be calling from <strong class="contact-number"></strong> so be sure to make a note so that you know it's them
 strip_1:
   image: /images/upload/life-laptop.png
   image_position: left
