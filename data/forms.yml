@@ -263,7 +263,7 @@ items:
     submit_text: Submit
     title: Loans - more than £10K
   - category: Broadband
-    data_capture_post_text: Post text goes here
+    data_capture_post_text: ""
     form_fields:
       - name: What is your postcode?
         helptext: Enter your postcode, then click 'Find Address'. A selection of addresses will appear. Choose your address from this list.
