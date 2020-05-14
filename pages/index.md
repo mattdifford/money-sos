@@ -59,12 +59,12 @@ strip_3:
     ### Join lifeSOS
 
     
-    moneySOS is just one part of lifeSOS – an online platform that takes away many of the stresses and strains of daily life. Whether it’s bills, longer-term financial plans, your home, your health, looking after what matters most, or the odd little treat here and there, lifeSOS uses its own artificial technology to connect you directly to the help and services that suit you best.
+    moneySOS is just one part of lifeSOS – an online platform that takes away many of the stresses and strains of daily life. Whether it’s bills, longer-term financial plans, your home, your health, looking after what matters most, or the odd little treat here and there, lifeSOS uses its own artificial intelligence technology to connect you directly to the help and services that suit you best.
 
     
     Setting us your lifeSOS account is quick and easy – and free from any commitments and obligations. All it takes is a few details about you. From there, we’ll keep you constantly updated on the things you’re interested in and new offers as they arrive, matched to your specific needs and changing circumstances.
 
 
-    **So why not take a step towards a more stress-free life today? Join XXXXXX members and register with lifeSOS now.**
+    [Find out more](https://www.lifesos.co.uk)
 ---
 

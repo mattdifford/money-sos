@@ -747,4 +747,18 @@ body.modal-active {
       display: none;
     }
   }
+  .image-strip {
+    @include in_size($mobile) {
+      &__wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      &__image {
+        display: block;
+        padding: 40px 0 0 !important;
+        order: 2 !important;
+        text-align: center !important;
+      }
+    }
+  }
 }

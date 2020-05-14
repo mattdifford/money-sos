@@ -14,16 +14,15 @@ header_content: >-
 
   * Exclusive moneySOS deals
 strip_1:
-  image: /images/upload/pension.png
+  image: /images/upload/wifi.png
   image_position: left
   text: >-
-    ### Your pension options
+    ### Your broadband options
 
-
-    The pensions market can seem daunting. There are so many options that it’s hard to know what to do for the best. But with the right pension plan, you can look forward to the future you want, with all the financial confidence you need. 
-
+    Everyone has different needs for their broadband. That could be the highest speed for HD streaming and online gaming, or just a reliable service at an agreeable price. 
     
-    Use moneySOS, and we’ll help you connect directly with a pension provider that can build plans around you, your family and the lifestyle you’re looking for.
+    No matter your needs, moneySOS can match you with a broadband provider today.
+
 strip_2:
   image: /images/upload/phone.png
   image_position: right
