@@ -26,9 +26,9 @@
         {% assign section_obj = section_obj[0] %}
     {% endif %}
     {%- include header_image.html layout="thankyou" content=page.header_content page=page.reference section=section_obj image=page.header_image-%}
-    {%- include featured_strip.html section=section_obj-%}
+    {%- include featured_strip.html section=section_obj -%}
     <div class="image-strip-wrapper">
-        {%- include image-strip.html image_position=page.strip_1.image_position image=page.strip_1.image text=page.strip_1.text -%}
+        {%- include life-sos.html -%}
     </div>
     {%- include_cached footer.html -%}
     {%- include foot.html layout='thankyou' -%}

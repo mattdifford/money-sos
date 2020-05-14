@@ -587,158 +587,20 @@ body.modal-active {
     }
   }
 }
-
-.buyer-panel {
-  background: #fff;
-  padding: 70px 100px;
-  box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.16);
-  display: flex;
-  flex-wrap: wrap;
-  border-radius: 35px;
-  color: $buyer-panel-text;
-  text-align: center;
-  justify-content: center;
-  font-size: 16px;
-  width: 100%;
-  &__item-wrap {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    @include in_size($mobile) {
-      flex-wrap: wrap;
-    }
-  }
-  &__left,
-  &__right {
-    flex: 0 1 50%;
-    @include in_size($mobile) {
-      flex: 0 1 100%;
-    }
-  }
-  &__left {
-    text-align: left;
-    .button {
-      margin-top: 25px;
-    }
-  }
-  &__right {
-    position: relative;
-    @include in_size($mobile) {
-      margin-top: 50px;
-    }
-    .button {
-      position: absolute;
-      bottom: 30px;
-      left: 50%;
-      transform: translateX(-50%);
-      @include in_size($xxs) {
-        display: none;
-      }
-    }
-  }
-  &__overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0.35;
-    border-radius: 35px;
-  }
-  &__image {
-    overflow: hidden;
-    border-radius: 35px;
-  }
-  &__intro-text {
-    margin: 0;
-  }
-  &__inner {
-    flex: 1 0 100%;
-    margin-top: 25px;
-  }
-  picture {
-    justify-content: center;
-    padding: 0;
-    &.buyer-panel__logo {
-      padding: 10px;
-    }
-  }
-  img {
-    float: none;
-    max-height: none;
-    padding: 0;
-    flex: 1 1 auto;
-  }
-  &__logo {
-    display: inline-flex !important;
-    margin-right: 20px;
-    border-radius: 50%;
-    background: #fff;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    width: 135px;
-    height: 135px !important;
-    object-fit: contain;
-    @include in_size($xxs) {
-      margin: 0 50px 10px;
-    }
-  }
-  &__main-title {
-    font-weight: 400;
-    font-size: 36px;
-    margin: 0 0 25px;
-  }
-  &__title {
-    font-weight: 400;
-    font-size: 25px;
-    margin: 0 0 15px;
-    display: inline-flex;
-    align-items: center;
-    @include in_size($xxs) {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  }
-  li {
-    @include list_style;
-    @include in_size($mobile) {
-      font-size: 18px;
-    }
-  }
-  .button {
-    font-size: 21px;
-    @include in_size($mobile) {
-      max-width: none;
-      width: 100%;
-    }
-  }
-  @include in_size($mobile) {
-    padding: 30px;
-    &__main-title {
-      font-size: 28px;
-      line-height: 1.2;
-    }
-    &__title {
-      font-size: 22px;
-      line-height: 1.2;
-    }
-  }
-  @include in_size($xxs) {
-    padding: 25px;
-    &__main-title {
-      font-size: 22px;
-      line-height: 1.2;
-    }
-    &__title {
-      font-size: 20px;
-      line-height: 1.2;
-    }
-  }
-}
-
 #address_loading {
   order: 2;
   flex: 1 0 100%;
   text-align: center;
   margin-top: 10px;
   padding: 5px;
+}
+
+.body--form {
+  .header {
+    &__nav {
+      display: none;
+    }
+  }
 }
 
 .body--form {

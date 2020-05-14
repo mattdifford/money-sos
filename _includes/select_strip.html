@@ -20,8 +20,9 @@
         {% else %}
             {% assign sections = site.data.sections.items %}
         {% endif %}
-        <div class="select-strip__list{% if sections.size > 4%} select-strip__list--long{%endif%}">
+        <div class="select-strip__list{% if sections.size >= 3%} select-strip__list--long{%endif%}">
             {% for i in sections %}
+            {% if i.hidden != true %}
             <div class="select-strip__item">
                 {%if i.link and i.disabled != true %}
                     <a class="select-strip__item-inner" href="{{i.link}}" title="{{i.title}}">
@@ -36,7 +37,8 @@
                 {%else %}
                     </div>
                 {%endif%}
-        </div>
+            </div>
+            {%endif%}
         {% endfor %}
     </div>
 </div>

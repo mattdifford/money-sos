@@ -1,0 +1,301 @@
+.product-header {
+  padding: 100px 0 50px;
+  background-position: bottom center;
+  border-bottom: 30px solid;
+  @include in_size($xs) {
+    padding: 30px 0;
+  }
+}
+
+.product-page-header {
+  &__wrapper {
+    display: flex;
+    width: 100%;
+  }
+  &__left,
+  &__right {
+    padding: 25px 0;
+    align-items: center;
+    flex: 1 0 50%;
+    display: flex;
+    @include in_size($xs) {
+      justify-content: center;
+      padding: 15px 0;
+    }
+  }
+  &__left {
+    border-right: 14px solid;
+    justify-content: flex-end;
+    padding-right: 50px;
+    @include in_size($xs) {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+  &__right {
+    padding-left: 50px;
+    @include in_size($xs) {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+}
+
+.buyer-panel {
+  display: flex;
+  flex-wrap: wrap;
+  color: $buyer-panel-text;
+  text-align: center;
+  justify-content: center;
+  font-size: 16px;
+  width: 100%;
+  &__wrapper {
+    border-radius: 35px;
+    width: 75%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px 100px 70px;
+    box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.16);
+  }
+  &__item-wrap {
+    text-align: center;
+    .button {
+      margin-top: 25px;
+    }
+  }
+  &__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.35;
+    border-radius: 35px;
+  }
+  &__image {
+    overflow: hidden;
+    border-radius: 35px;
+  }
+  &__intro-text {
+    margin: 0;
+  }
+  &__inner {
+    flex: 1 0 100%;
+    margin-top: 25px;
+  }
+  &__logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    width: 135px;
+    height: 135px;
+    padding: 0;
+    position: relative;
+    @include in_size($xxs) {
+      margin: 0 50px 10px;
+    }
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  &__post-description {
+    &:not(:empty) {
+      border: 3px solid;
+      padding: 20px;
+      margin-top: 30px;
+      h3 {
+        margin-top: 0;
+      }
+    }
+  }
+  h2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+  }
+  &__main-title {
+    font-weight: 400;
+    font-size: 36px;
+    margin: 0 0 25px;
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0 0 15px;
+    display: inline-flex;
+    align-items: center;
+    @include in_size($xxs) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  li {
+    @include list_style;
+    @include in_size($mobile) {
+      font-size: 18px;
+    }
+  }
+  .button {
+    font-size: 21px;
+    @include in_size($mobile) {
+      max-width: none;
+      width: 100%;
+    }
+  }
+  @include in_size($mobile) {
+    padding: 0;
+    &__wrapper {
+      width: 100%;
+      padding: 20px 35px 30px;
+    }
+    &__logo {
+      margin: 0 25px 10px 0;
+    }
+    &__main-title {
+      font-size: 28px;
+      line-height: 1.2;
+    }
+    &__title {
+      font-size: 22px;
+      line-height: 1.2;
+    }
+  }
+  @include in_size($xxs) {
+    &__main-title {
+      font-size: 22px;
+      line-height: 1.2;
+    }
+    &__title {
+      font-size: 20px;
+      line-height: 1.2;
+    }
+  }
+}
+
+.product-strip {
+  position: relative;
+  padding: 180px 0;
+  @include in_size($mobile) {
+    padding: 30px 0;
+  }
+  &__bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 0;
+    z-index: -1;
+    @include in_size($mobile) {
+      display: none;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  &__content {
+    flex: 0 0 40%;
+    @include in_size($mobile) {
+      flex: 0 1 100%;
+    }
+    h3 {
+      margin: 0 0 25px;
+      padding-bottom: 20px;
+      border-bottom: 5px solid;
+      border-color: inherit;
+      display: inline-block;
+      font-size: 40px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+.product-icons {
+  border-bottom: 30px solid;
+  padding: 40px 0;
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__icon {
+    margin: 0 100px;
+    @include in_size($mobile) {
+      margin: 0 30px;
+      margin: 0 30px;
+    }
+  }
+}
+
+.product-stats {
+  text-align: center;
+  padding: 40px 0;
+  border-bottom: 30px solid;
+  h3 {
+    font-size: 40px;
+    margin: 0 0 70px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid;
+    display: inline-block;
+    @include in_size($mobile) {
+      margin: 0 0 20px;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    @include in_size($mobile) {
+      flex-wrap: wrap;
+    }
+  }
+  &__stat {
+    margin: 0 40px;
+    flex: 0 1 100%;
+    @include in_size($mobile) {
+      margin: 40px 0;
+    }
+    &-icon {
+      height: 100px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      margin-bottom: 25px;
+    }
+    img {
+      max-width: 180px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 2;
+    }
+  }
+}
+
+.product-footer {
+  text-align: center;
+  &__post-description {
+    &:not(:empty) {
+      max-width: 75%;
+      border: 3px solid;
+      padding: 20px;
+      margin: 30px auto;
+      h3 {
+        margin-top: 0;
+      }
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

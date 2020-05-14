@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Origin",
+      "customer_title": "Origin Broadband",
+      "logo": "/images/upload/origin.png",
+      "site_logo": "/images/logo.png",
+      "header_logo": "/images/upload/origin.png",
+      "colour_primary": "#001d60",
+      "colour_secondary": "#1ed660",
+      "colour_button_text": "#fff",
+      "section": "Broadband",
+      "number": "0123456789",
+      "strapline": "Totally unlimited  Superfast fibre for less",
+      "description": "Origin are there to give the best possible experience to every customer. They work hard to give you a service (and a price) you’ll love. Their UK-based teams are full of ‘people people’ who are always looking for ways to make you smile.",
+      "post_description": "",
+      "strip_image": "/images/upload/vitality-family-strip.png",
+      "header_image": "/images/upload/vitality-family.jpg",
+      "strip_content": "<p>Origin know that people come first. You want to speak to someone who’s friendly, knowledgeable and down to earth.</p><p>No jargon. No confusion… just simplicity. An easy to use service that gives you everything you expect - and no surprises!</p><p>Origin offer great value broadband nearly everywhere in the UK. Just click the link to request a callback, and a member of their team will be in touch soon</p><p><strong>Keeping broadband simple.</strong></p>",
+      "icon_1": "/images/transparent.png",
+      "icon_2": "/images/transparent.png",
+      "icon_3": "/images/transparent.png",
+      "stat_title": "Benefits",
+      "stat_1_icon": "/images/transparent.png",
+      "stat_1_text": "Origin supply all of their customers with a fantastic ASUS wireless modem/hub absolutely free of charge.",
+      "stat_2_icon": "/images/transparent.png",
+      "stat_2_text": "They use the best equipment to ensure you always receive a great quality service. Their technical know-how helps to keep you online for longer.",
+      "stat_3_icon": "/images/transparent.png",
+      "stat_3_text": "Once you've confirmed the package that's right for you, Origin's team will arrange everything with your previous supplier, send out a brand new hub, and keep you informed as your order progresses.",
+      "footer_image": "/images/transparent.png"
+    }
+  ]
+}

@@ -28,7 +28,8 @@
                         class="icon-chevron-left"></i>Back</button></div>
             {% endif %}
             {%- assign fieldset_count = fieldset_count | plus: 1-%}
-            <div class="form__proceed"><button type="button" class="form__proceed-button" id="{{form.title | slugify}}_proceed_button_{{-fieldset_count-}}">Step {{fieldset_count}}</button>
+            <div class="form__proceed"><button type="button" class="form__proceed-button"
+                    id="{{form.title | slugify}}_proceed_button_{{-fieldset_count-}}">Step {{fieldset_count}}</button>
             </div>
         </div>
     </fieldset>
@@ -53,7 +54,8 @@
                 <button type="button" class="form__back-button"><i class="icon-chevron-left"></i>Back</button>
             </div>
             {% endif %}
-            <div class="form__submit"><button type="button" class="form__submit-button" id="{{form.title | slugify}}_submit_button">{{form.submit_text}}</button>
+            <div class="form__submit"><button type="button" class="form__submit-button"
+                    id="{{form.title | slugify}}_submit_button">{{form.submit_text}}</button>
             </div>
     </fieldset>
     {%-endif -%}
@@ -80,62 +82,26 @@
     </div>
 </div>
 <div class="modal-shroud"></div>
-
-{%- assign buyer_data = site.data.buyers.items | where: "section", include.section.title -%}
-<div class="buyer-panel" style="display:none;">
-    {%assign count = buyer_data.size |plus:0%}
-    <h3 class="buyer-panel__main-title">We have successfully found you {{count | pluralize: 'partner', 'partners'}}!
-    </h3>
-    <p class="buyer-panel__intro-text">We have found you a match to {{count | pluralize: 'one', 'some', false}} of our
-        trusted
-        partners who may be able to help. Details can be found below:</p>
-    <div class="buyer-panel__inner">
-        <div class="buyer-panel__wrapper">
-            {% for buyer in buyer_data %}
-            <div class="buyer-panel__item-wrap">
-                {%-assign image_type_logo = buyer.logo | slice: -3, 3-%}
-                <div class="buyer-panel__left">
-
-                    <h4 class="buyer-panel__title">
-                        {%-include picture.html type=image_type_logo url=buyer.logo  alt=buyer.title class="buyer-panel__logo"-%}{{buyer.title}}
-                    </h4>
-                    {{-buyer.description | markdownify-}}
-                    {% if buyer.external_url %}
-                    <a style="background:#{{buyer.colour}}" rel="external noopener" target="_blank"
-                        href="{{buyer.external_url}}" class="button" data-ajax-buyer="{{buyer.title}}">Visit site</a>
-                    {%else%}
-                    <button style="background:#{{buyer.colour}}" type="button" class="button request_callback_button"
-                        data-ajax-buyer="{{buyer.title}}">Request a callback</button>
-                    {%endif%}
-
-                </div>
-                <div class="buyer-panel__right">
-                    {%-assign image_type = buyer.image | slice: -3, 3-%}
-                    <div class="buyer-panel__overlay" style="background:#{{buyer.colour}}"></div>
-                    {%-include picture.html type=image_type url=buyer.image  alt=buyer.title class="buyer-panel__image"-%}
-                </div>
-            </div>
-            {% endfor %}
-
-        </div>
-    </div>
-</div>
+{%- assign buyer_data = site.data.buyers.items | where: "title", include.buyer -%}
+<script>
+    window.buyer = "{{buyer_data[0].id}}";
+</script>
 <form class="form form--personal-info" style="display:none;">
     <h3>Personal information</h3>
     <p>We need some details about you</p>
     <input type="hidden" value="{{include.section.campaign_key}}" name="lp_campaign_key">
     <input type="hidden" value="{{include.section.campaign_id}}" name="lp_campaign_id">
     <div class="form__field">
-        {%- include field_string.html form_name=form.title name="First name" slug="first_name" required=true placeholder="John" fieldset="first" -%}
+        {%- include field_string.html form_name=form.title name="First name" slug="first_name" required=true placeholder="John" fieldset="first" unique_name=false -%}
     </div>
     <div class="form__field">
-        {%- include field_string.html form_name=form.title name="Surname" slug="last_name" required=true placeholder="Smith" fieldset="first" -%}
+        {%- include field_string.html form_name=form.title name="Surname" slug="last_name" required=true placeholder="Smith" fieldset="first" unique_name=false -%}
     </div>
     <div class="form__field">
-        {%- include field_string.html form_name=form.title name="Telephone" slug="phone_mobile" type="telephone" required=true placeholder="07000000000" fieldset="first" -%}
+        {%- include field_string.html form_name=form.title name="Telephone" slug="phone_mobile" type="telephone" required=true placeholder="07000000000" fieldset="first" unique_name=false -%}
     </div>
     <div class="form__field">
-        {%- include field_string.html form_name=form.title name="Email address" slug="email_address" type="email" required=true placeholder="john.smith@email.com" fieldset="first" -%}
+        {%- include field_string.html form_name=form.title name="Email address" slug="email_address" type="email" required=true placeholder="john.smith@email.com" fieldset="first" unique_name=false -%}
     </div>
     {% if postcode_lookup == 'false' %}
     <div class="form__field">
@@ -145,10 +111,5 @@
     <div class="form__submit"><button type="button" class="form__submit-button">Submit application</button></div>
     <p class="form__post-text">{{-form.data_capture_post_text -}}</p>
 </form>
-
-<script>
-    sessionStorage.setItem("contact-name", {{buyer.title}})
-    sessionStorage.setItem("contact-number", {{buyer.number}})
-</script>
 
 {%- endif -%}

@@ -4,6 +4,7 @@
 
 <body class="body--form">
     {%- include_cached header.html -%}
+    
     {% assign section_obj = site.data.sections.items | where: "title", page.section %}
     {% if section_obj.size == 0 %}
         {% for section in site.data.sections.items %}
@@ -25,7 +26,13 @@
     {% else %}
         {% assign section_obj = section_obj[0] %}
     {% endif %}
-    {%- include header_image.html layout="form" content=page.header_content page=page.reference section=section_obj image=page.header_image-%}
+    {% if page.buyer.size > 0 %}
+    {%assign buyer = page.buyer%}
+    {%else %}
+    {%assign buyer = section_obj.title%}
+    {%endif%}
+    {%- include header_image.html layout="form" buyer=buyer content=page.header_content page=page.reference section=section_obj image=page.header_image-%}
+    <div id="product_page"></div>
     {%- include featured_strip.html section=section_obj-%}
     <div class="image-strip-wrapper">
         {%- include image-strip.html image_position=page.strip_1.image_position image=page.strip_1.image text=page.strip_1.text-%}

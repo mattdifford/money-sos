@@ -6,9 +6,9 @@
 {%assign slug = include.slug%}
 {%endif%}
 {% if include.unique_name != false%}
-{% capture id%}{{include.form_name | slugify }}_{{slug}}{%endcapture%}
+{% capture slug%}{{include.form_name | slugify }}_{{slug}}{%endcapture%}
 {%endif%}
-<label for={{id}} class="field__label">{{label}}</label>
+<label for={{slug}} class="field__label">{{label}}</label>
 {% if include.type %}
 {%assign field_type = include.type%}
 {%else%}
@@ -17,5 +17,5 @@
 {%- if include.helptext -%}
 <p class="field__helptext">{{-include.helptext-}}</p>
 {%- endif -%}
-<input type="{{field_type}}" id="{{id}}" name="{{slug}}" required="{{-input.required-}}" class="field__input"
+<input type="{{field_type}}" id="{{slug}}" name="{{slug}}" required="{{-input.required-}}" class="field__input"
     placeholder="{{-include.placeholder-}}" data-parsley-group="{{include.fieldset}}">

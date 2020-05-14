@@ -5,12 +5,12 @@
 {%assign label = include.name%}
 {%assign slug = include.slug%}
 {%endif%}
-{% capture id%}{{include.form_name |slugify }}_{{slug}}{%endcapture%}
-<label for={{id}} class="field__label">{{label}}</label>
+{% capture slug%}{{include.form_name |slugify }}_{{slug}}{%endcapture%}
+<label for={{slug}} class="field__label">{{label}}</label>
 {%- if include.helptext -%}
 <p class="field__helptext">{{-include.helptext-}}</p>
 {%- endif -%}
-<input type="text" id="{{id}}" name="{{slug}}" required="{{-input.required-}}"
+<input type="text" id="{{slug}}" name="{{slug}}" required="{{-input.required-}}"
     class="field__input field__input--date" placeholder="{{-include.placeholder-}}" maxlength="10"
     data-parsley-group="{{include.fieldset}}">
 <span class="field__error" style="display: none">Invalid date - must be DD/MM/YYYY</span>

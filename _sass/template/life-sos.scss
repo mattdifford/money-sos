@@ -1,0 +1,82 @@
+$life_sos_primary: #34eba5;
+$life_sos_secondary: #19ba9c;
+
+.life-sos {
+  padding: 50px 0;
+  text-align: center;
+  &__title {
+    margin: 0 0 25px;
+    padding-bottom: 25px;
+    font-size: 40px;
+  }
+  &__wrapper {
+    background: $life_sos_primary;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border-radius: 22px;
+    color: #fff;
+  }
+  &__content {
+    flex: 0 1 60%;
+    padding-left: 70px;
+    text-align: left;
+    font-weight: 600;
+    h4 {
+      font-size: 30px;
+      padding-bottom: 20px;
+      margin: 0 0 20px;
+      border-bottom: 3px solid $life_sos_secondary;
+      display: inline-block;
+    }
+    .button {
+      background: $life_sos_secondary;
+      color: #fff;
+      &:hover {
+        background: #fff;
+        color: $life_sos_secondary;
+      }
+    }
+  }
+  &__image {
+    flex: 0 1 40%;
+    picture,
+    img {
+      max-width: 100%;
+    }
+  }
+  @include in_size($mobile) {
+    &__title {
+      font-size: 30px;
+    }
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+    &__content,
+    &__image {
+      flex: 0 1 100%;
+      padding: 0;
+    }
+    &__content {
+      h4 {
+        font-size: 25px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 300;
+      }
+    }
+    &__image {
+      padding-bottom: 20px;
+      img {
+        width: 420px;
+      }
+    }
+  }
+  @include in_size($xs) {
+    &__wrapper {
+      padding: 20px;
+    }
+  }
+}

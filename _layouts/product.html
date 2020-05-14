@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+{%- include head.html layout=page.layout -%}
+{%- assign buyer_data = site.data.buyers.items | where: "title", "Vitality" -%}
+{%- assign buyer =buyer_data[0]-%}
+
+<body>
+    <div id="content">
+        <div class="product-page-header">
+            <div class="product-page-header__wrapper">
+                <div class="product-page-header__left"
+                    style="background-color:[buyer.colour_primary];border-color:[buyer.colour_secondary]">
+                    <img src="[buyer.site_logo]" alt={{site.title}} />
+                </div>
+                <div class="product-page-header__right">
+                    <img src="[buyer.header_logo]" alt={{site.title}} />
+                </div>
+            </div>
+        </div>
+        <div class="product-header"
+            style="background-image: url([buyer.header_image]);border-color: [buyer.colour_secondary]">
+            <div class="container">
+                <div class="buyer-panel">
+                    <h3 class="buyer-panel__main-title">We have successfully found you a match</h3>
+                    <p class="buyer-panel__intro-text">We have matched you to a company who may be able to help. Details
+                        can be found below:</p>
+                    <div class="buyer-panel__inner">
+                        <div class="buyer-panel__wrapper">
+                            <div class="buyer-panel__item-wrap">
+                                <div class="buyer-panel__logo"><img src="[buyer.logo]" alt="[buyer.title]" /></div>
+                                <h2>[buyer.customer_title]</h2>
+                                <h3>[buyer.strapline]</h3>
+                                <p>[buyer.description]</p>
+                                <div class="buyer-panel__post-description"
+                                    style="border-color: [buyer.colour_secondary]">[buyer.post_description]</div>
+                                [buyer.button]
+                            </div>
+                            <script>
+                                sessionStorage.setItem("contact-name", "[buyer.title]")
+                                sessionStorage.setItem("contact-number", "[ buyer.number ]")
+                            </script>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-strip">
+            <div class="product-strip__bg" style="background-image: url([buyer.strip_image])"></div>
+            <div class="container">
+                <div class="product-strip__wrapper">
+                    <div class="product-strip__content" style="border-color:[buyer.colour_primary];">
+                        [buyer.strip_content]
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-icons"
+            style="background-color: [buyer.colour_primary];border-color: [buyer.colour_secondary]">
+            <div class="container">
+                <div class="product-icons__wrapper">
+                    <div class="product-icons__icon">
+                        <img src="[buyer.icon_1]" alt="[buyer.title]" />
+                    </div>
+                    <div class="product-icons__icon">
+                        <img src="[buyer.icon_2]" alt="[buyer.title]" />
+                    </div>
+                    <div class="product-icons__icon">
+                        <img src="[buyer.icon_3]" alt="[buyer.title]" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-stats" style="border-color: [buyer.colour_secondary]">
+            <div class="container">
+                <h3 style="border-color:[buyer.colour_primary];">[buyer.stat_title]</h3>
+                <div class="product-stats__wrapper">
+                    <div class="product-stats__stat">
+                        <div class="product-stats__stat-icon"><img src="[buyer.stat_1_icon]" /></div>
+                        <p>[buyer.stat_1_text]</p>
+                    </div>
+                    <div class="product-stats__stat">
+                        <div class="product-stats__stat-icon"><img src="[buyer.stat_2_icon]" /></div>
+                        <p>[buyer.stat_2_text]</p>
+                    </div>
+                    <div class="product-stats__stat">
+                        <div class="product-stats__stat-icon"><img src="[buyer.stat_3_icon]" /></div>
+                        <p>[buyer.stat_3_text]</p>
+                    </div>
+                </div>
+                [buyer.button]
+            </div>
+        </div>
+        <div class="product-footer">
+            <img src="[buyer.footer_image]">
+            <div class="container">
+                <div class="product-footer__post-description" 
+                style="border-color: [buyer.colour_secondary]">[buyer.post_description]</div>
+            </div>
+        </div>
+    </div>
+    {%- include foot.html layout=page.layout -%}
+</body>
+
+</html>

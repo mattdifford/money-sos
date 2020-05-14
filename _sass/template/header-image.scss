@@ -358,6 +358,17 @@
       }
     }
   }
+  &--thankyou {
+    @include in_size($mobile) {
+      .header-image {
+        &__content {
+          h2 {
+            flex: 0 1 100%;
+          }
+        }
+      }
+    }
+  }
   @include in_size($sm-only) {
     &--default,
     &--home,

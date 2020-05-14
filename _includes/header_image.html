@@ -26,7 +26,7 @@
                     {{-include.content |markdownify-}}
                 </div>
                 <div class="header-image__right">
-                    {%-include form.html section=include.section -%}
+                    {%-include form.html section=include.section buyer=include.buyer -%}
                 </div>
                 {%- elsif include.layout == 'inner' -%}
                 <div class="header-image__left">
