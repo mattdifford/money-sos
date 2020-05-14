@@ -487,6 +487,12 @@ body.modal-active {
     font-weight: 400;
     margin-top: 0;
   }
+  &__subtitle {
+    color: $modal-title-text;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
   + .modal-shroud {
     position: fixed;
     height: 100%;
